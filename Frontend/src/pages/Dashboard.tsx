@@ -28,7 +28,7 @@ import { Badge } from '@/components/ui/badge'
 import { mockDashboardSummary } from '@/data/mockData'
 import { formatCurrency, formatNumber, getStatusColor, getPriorityColor } from '@/lib/utils'
 import { Link } from 'react-router-dom'
-
+const INR_TO_USD = 83.5
 export default function Dashboard() {
   const [data, setData] = useState(mockDashboardSummary)
 
@@ -41,68 +41,60 @@ export default function Dashboard() {
     <div className="space-y-6">
       {/* Header */}
       <div>
-        <h1 className="text-3xl font-semibold text-gray-900 dark:text-gray-100">
-          DASHBOARD
+        <h1 className="text-3xl font-bold text-gray-800 dark:text-gray-100">
+          Dashboard
         </h1>
         <p className="text-gray-600 dark:text-gray-400 mt-1">
-          Executive overview of freight and vessel operations
+          Chartering & Freight Market Overview
         </p>
       </div>
 
       {/* KPI Cards */}
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4">
         <StatCard
-          title="Current Freight"
+          title="CURRENT FREIGHT RATE"
           value={data.kpis.currentFreight}
           format="currency"
           subtitle="per MT"
-          icon={DollarSign}
         />
         <StatCard
-          title="7-Day Forecast"
+          title="7-DAY FREIGHT FORECAST"
           value={data.kpis.forecastFreight}
           format="currency"
           subtitle="per MT"
           trend={data.kpis.freightTrend}
-          icon={TrendingUp}
         />
         <StatCard
-          title="Available Vessels"
+          title="AVAILABLE VESSELS"
           value={data.kpis.availableVessels}
           format="number"
-          icon={Ship}
         />
         <StatCard
-          title="Estimated Savings"
-          value={data.kpis.estimatedSavings}
+          title="ESTIMATED SAVINGS"
+          value={data.kpis.estimatedSavings / INR_TO_USD}
           format="currency"
-          currency="INR"
-          icon={TrendingUp}
+          currency="USD"
         />
       </div>
 
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4">
         <StatCard
-          title="Active Cargo Enquiries"
+          title="ACTIVE CARGO ENQUIRIES"
           value={data.kpis.activeCargoEnquiries}
-          icon={Package}
         />
         <StatCard
-          title="Active Vessel Enquiries"
+          title="ACTIVE VESSEL ENQUIRIES"
           value={data.kpis.activeVesselEnquiries}
-          icon={Ship}
         />
         <StatCard
-          title="Port Congestion Index"
+          title="PORT CONGESTION INDEX"
           value={data.kpis.portCongestionIndex}
-          icon={Anchor}
         />
         <StatCard
-          title="Freight Trend"
+          title="FREIGHT TREND"
           value={data.kpis.freightTrend}
           format="percentage"
           trend={data.kpis.freightTrend}
-          icon={TrendingUp}
         />
       </div>
 
