@@ -43,13 +43,13 @@ export function StatCard({
     : null
 
   return (
-    <div className="bg-white dark:bg-gray-900 rounded-lg border border-gray-200 dark:border-gray-800 p-6">
+    <div className="bg-white dark:bg-gray-900 rounded-lg border border-gray-200 dark:border-gray-800 p-3">
       <div className="flex items-start justify-between">
         <div className="flex-1">
-          <p className="text-sm font-medium text-gray-600 dark:text-gray-400">
+          <p className="text-sm tracking-normal font-medium text-gray-600 dark:text-gray-400">
             {title}
           </p>
-          <p className="mt-2 text-3xl font-semibold text-gray-900 dark:text-gray-100">
+          <p className="mt-2 text-2xl !font-light text-gray-900 dark:text-gray-100">
             {formattedValue}
           </p>
           {subtitle && (

@@ -72,6 +72,8 @@
   }
   body {
     @apply bg-background text-foreground;
+    font-family: 'Archivo Narrow', sans-serif;
+    font-weight: 300;
   }
 }
 

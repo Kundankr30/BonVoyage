@@ -114,10 +114,10 @@ export function Sidebar({ collapsed, onToggle }: SidebarProps) {
       <div className="h-16 flex items-center justify-between px-4 border-b border-gray-200 dark:border-gray-800">
         {!collapsed && (
           <div className="flex items-center gap-2">
-            <div className="w-8 h-8 bg-gradient-to-br from-blue-500 to-teal-500 rounded-lg flex items-center justify-center">
-              <Ship className="w-5 h-5 text-white" />
+            <div className="w-8 h-8 rounded-lg overflow-hidden flex items-center justify-center">
+              <img src="/ship_icon.png" alt="BonVoyage" className="w-full h-full object-contain"/>
             </div>
-            <span className="font-semibold text-lg">MaritimeOS</span>
+            <span className="font-semibold text-lg">BonVoyage</span>
           </div>
         )}
         <button
