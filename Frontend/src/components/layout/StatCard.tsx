@@ -49,17 +49,18 @@ export function StatCard({
           <p className="text-sm tracking-normal font-medium text-gray-600 dark:text-gray-400">
             {title}
           </p>
-          <p className="mt-2 text-2xl !font-light text-gray-900 dark:text-gray-100">
-            {formattedValue}
-          </p>
-          {subtitle && (
-            <p className="mt-1 text-sm text-gray-500 dark:text-gray-400">
-              {subtitle}
+          <div className="mt-2 flex items-baseline gap-2">
+            <p className="text-3xl font-light text-gray-900 dark:text-gray-100">
+              {formattedValue}
             </p>
-          )}
+            {subtitle && (
+              <span className="text-xs font-light text-gray-500 dark:text-gray-400">
+                {subtitle}
+              </span>
+            )}
+          </div>
           {trend !== undefined && (
             <div className="mt-2 flex items-center gap-1">
-              {TrendIcon && <TrendIcon className={cn('w-4 h-4', getTrendColor(trend))} />}
               <span className={cn('text-sm font-medium', getTrendColor(trend))}>
                 {formatPercentage(trend)}
               </span>

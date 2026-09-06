@@ -52,25 +52,24 @@ export default function Dashboard() {
       {/* KPI Cards */}
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4">
         <StatCard
-          title="CURRENT FREIGHT RATE"
+          title="Current Freight Rate"
           value={data.kpis.currentFreight}
           format="currency"
           subtitle="per MT"
         />
         <StatCard
-          title="7-DAY FREIGHT FORECAST"
+          title="Freight Rate Forecast"
           value={data.kpis.forecastFreight}
           format="currency"
           subtitle="per MT"
-          trend={data.kpis.freightTrend}
         />
         <StatCard
-          title="AVAILABLE VESSELS"
+          title="Available Vessels"
           value={data.kpis.availableVessels}
           format="number"
         />
         <StatCard
-          title="ESTIMATED SAVINGS"
+          title="Estimated Savings"
           value={data.kpis.estimatedSavings / INR_TO_USD}
           format="currency"
           currency="USD"
@@ -79,22 +78,21 @@ export default function Dashboard() {
 
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4">
         <StatCard
-          title="ACTIVE CARGO ENQUIRIES"
+          title="Active Cargo Enquiries"
           value={data.kpis.activeCargoEnquiries}
         />
         <StatCard
-          title="ACTIVE VESSEL ENQUIRIES"
+          title="Active Vessel Enquiries"
           value={data.kpis.activeVesselEnquiries}
         />
         <StatCard
-          title="PORT CONGESTION INDEX"
+          title="Port Congestion Index"
           value={data.kpis.portCongestionIndex}
         />
         <StatCard
-          title="FREIGHT TREND"
+          title="Freight Trend"
           value={data.kpis.freightTrend}
           format="percentage"
-          trend={data.kpis.freightTrend}
         />
       </div>
 
@@ -111,12 +109,10 @@ export default function Dashboard() {
           <CardContent>
             <ResponsiveContainer width="100%" height={300}>
               <AreaChart data={data.charts.freightHistory}>
-                <CartesianGrid strokeDasharray="3 3" />
-                <XAxis
-                  dataKey="date"
-                  tickFormatter={(value) => new Date(value).toLocaleDateString('en-US', { month: 'short', day: 'numeric' })}
-                />
-                <YAxis />
+                <CartesianGrid strokeDasharray="3 3" 
+                stroke="#d1d5db"/>
+                <XAxis dataKey="date" stroke="#6b7280" tickFormatter={(value) => new Date(value).toLocaleDateString('en-US', {month: 'short',day: 'numeric'})}/>
+                <YAxis stroke="#6b7280" />
                 <Tooltip
                   labelFormatter={(value) => new Date(value).toLocaleDateString()}
                   formatter={(value: any) => [`$${value}/MT`, 'Freight']}
@@ -124,9 +120,9 @@ export default function Dashboard() {
                 <Area
                   type="monotone"
                   dataKey="rate"
-                  stroke="#0ea5e9"
-                  fill="#0ea5e9"
-                  fillOpacity={0.2}
+                  stroke="#2563eb"
+                  fill="#2563eb"
+                  fillOpacity={0.08}
                   strokeWidth={2}
                 />
               </AreaChart>
