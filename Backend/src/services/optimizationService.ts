@@ -67,12 +67,18 @@ export async function runOptimization(shipmentId: number) {
   for (const vessel of feasibleVessels) {
     const distanceNm = calculateDistanceNm(shipment.origin_port, shipment.destination_port);
     const voyageDays = calculateVoyageDays(distanceNm, Number(vessel.speed_knots));
-    const mlResponse = await axios.post(`${ML_ENGINE_URL}/predict_freight`, {
-      origin_port: shipment.origin_port.port_name,
-      destination_port: shipment.destination_port.port_name,
-      vessel_class: vessel.vessel_type || ''
-    });
-    const predictedFreightRate = mlResponse.data.predicted_rate;
+    let predictedFreightRate: number;
+    try {
+      const mlResponse = await axios.post(`${ML_ENGINE_URL}/predict_freight`, {
+        origin_port: shipment.origin_port.port_name,
+        destination_port: shipment.destination_port.port_name,
+        vessel_class: vessel.vessel_type || ''
+      });
+      predictedFreightRate = mlResponse.data.predicted_rate;
+    } catch (error) {
+      console.warn(`ML Engine prediction failed, falling back to latest rate: ${(error as any).message}`);
+      predictedFreightRate = latestRate;
+    }
 
     const freightCost = calculateFreightCost(Number(shipment.cargo_quantity_tons), predictedFreightRate);
     const fuelResult = calculateFuelCost(vessel, distanceNm, bunkerPrice);
