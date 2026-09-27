@@ -1,8 +1,9 @@
 import { useState, useEffect } from 'react'
-import { Plus, Download, Filter } from 'lucide-react'
+import { Plus, Download, Filter, Loader2 } from 'lucide-react'
 import { Button } from '@/components/ui/button'
 import { Input } from '@/components/ui/input'
 import { Badge } from '@/components/ui/badge'
+import { Card, CardHeader, CardTitle, CardContent } from '@/components/ui/card'
 import {
   Table,
   TableBody,
@@ -21,6 +22,7 @@ import {
 import { api } from '@/lib/api'
 import { formatNumber, getStatusColor } from '@/lib/utils'
 import type { VesselEnquiry } from '@/types'
+import { VESSEL_TYPES } from '@/lib/constants'
 
 export default function VesselEnquiries() {
   const [enquiries, setEnquiries] = useState<VesselEnquiry[]>([])
@@ -28,19 +30,32 @@ export default function VesselEnquiries() {
   const [searchTerm, setSearchTerm] = useState('')
   const [statusFilter, setStatusFilter] = useState<string>('all')
   const [loading, setLoading] = useState(true)
+  const [showForm, setShowForm] = useState(false)
+  const [submitting, setSubmitting] = useState(false)
+
+  const [formData, setFormData] = useState({
+    vessel_id: '',
+    vessel_name: '',
+    vessel_type: '',
+    dwt: '',
+    speed_knots: '',
+    fuel_consumption_tpd: '',
+  })
+
+  const fetchData = async () => {
+    try {
+      setLoading(true)
+      const data = await api.getVesselEnquiries()
+      setEnquiries(data)
+      setFilteredEnquiries(data)
+    } catch (err) {
+      console.error('Failed to fetch vessel enquiries:', err)
+    } finally {
+      setLoading(false)
+    }
+  }
 
   useEffect(() => {
-    const fetchData = async () => {
-      try {
-        const data = await api.getVesselEnquiries()
-        setEnquiries(data)
-        setFilteredEnquiries(data)
-      } catch (err) {
-        console.error('Failed to fetch vessel enquiries:', err)
-      } finally {
-        setLoading(false)
-      }
-    }
     fetchData()
   }, [])
 
@@ -63,7 +78,30 @@ export default function VesselEnquiries() {
     setFilteredEnquiries(filtered)
   }, [searchTerm, statusFilter, enquiries])
 
-  if (loading) {
+  const handleSubmit = async (e: React.FormEvent) => {
+    e.preventDefault()
+    setSubmitting(true)
+    try {
+      await api.createVesselEnquiry(formData as any)
+      setShowForm(false)
+      setFormData({
+        vessel_id: '',
+        vessel_name: '',
+        vessel_type: '',
+        dwt: '',
+        speed_knots: '',
+        fuel_consumption_tpd: '',
+      })
+      await fetchData()
+    } catch (error) {
+      console.error('Failed to record vessel:', error)
+      alert('Failed to record vessel.')
+    } finally {
+      setSubmitting(false)
+    }
+  }
+
+  if (loading && enquiries.length === 0) {
     return (
       <div className="flex items-center justify-center h-64">
         <div className="animate-spin rounded-full h-8 w-8 border-b-2 border-blue-600" />
@@ -89,12 +127,63 @@ export default function VesselEnquiries() {
             <Plus className="w-4 h-4 mr-2" />
             Paste Circular
           </Button>
-          <Button>
+          <Button onClick={() => setShowForm(!showForm)}>
             <Plus className="w-4 h-4 mr-2" />
-            Record Vessel
+            {showForm ? 'Cancel' : 'Record Vessel'}
           </Button>
         </div>
       </div>
+
+      {/* Create Form */}
+      {showForm && (
+        <Card className="border-blue-200 dark:border-blue-800">
+          <CardHeader>
+            <CardTitle>Record New Vessel</CardTitle>
+          </CardHeader>
+          <CardContent>
+            <form onSubmit={handleSubmit} className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
+              <div>
+                <label className="text-sm font-medium mb-1 block">Vessel ID</label>
+                <Input required value={formData.vessel_id} onChange={e => setFormData({...formData, vessel_id: e.target.value.toUpperCase()})} placeholder="V00X" />
+              </div>
+              <div>
+                <label className="text-sm font-medium mb-1 block">Vessel Name</label>
+                <Input required value={formData.vessel_name} onChange={e => setFormData({...formData, vessel_name: e.target.value})} placeholder="Bon Voyage" />
+              </div>
+              <div>
+                <label className="text-sm font-medium mb-1 block">Vessel Type</label>
+                <Select value={formData.vessel_type} onValueChange={v => setFormData({...formData, vessel_type: v})}>
+                  <SelectTrigger>
+                    <SelectValue placeholder="Select Vessel Class" />
+                  </SelectTrigger>
+                  <SelectContent>
+                    {VESSEL_TYPES.map(v => <SelectItem key={v} value={v}>{v}</SelectItem>)}
+                  </SelectContent>
+                </Select>
+              </div>
+              <div>
+                <label className="text-sm font-medium mb-1 block">DWT (Tons)</label>
+                <Input required type="number" value={formData.dwt} onChange={e => setFormData({...formData, dwt: e.target.value})} placeholder="100000" />
+              </div>
+              <div>
+                <label className="text-sm font-medium mb-1 block">Speed (Knots)</label>
+                <Input required type="number" step="0.1" value={formData.speed_knots} onChange={e => setFormData({...formData, speed_knots: e.target.value})} placeholder="12.5" />
+              </div>
+              <div>
+                <label className="text-sm font-medium mb-1 block">Fuel Consumption (TPD)</label>
+                <Input required type="number" step="0.1" value={formData.fuel_consumption_tpd} onChange={e => setFormData({...formData, fuel_consumption_tpd: e.target.value})} placeholder="35.0" />
+              </div>
+              
+              <div className="md:col-span-2 lg:col-span-3 flex justify-end">
+                <Button type="submit" disabled={submitting}>
+                  {submitting && <Loader2 className="w-4 h-4 mr-2 animate-spin" />}
+                  Submit Vessel
+                </Button>
+              </div>
+            </form>
+          </CardContent>
+        </Card>
+      )}
 
       {/* Filters */}
       <div className="bg-white dark:bg-gray-900 rounded-lg border border-gray-200 dark:border-gray-800 p-4">
@@ -134,7 +223,7 @@ export default function VesselEnquiries() {
       </div>
 
       {/* Table */}
-      <div className="bg-white dark:bg-gray-900 rounded-lg border border-gray-200 dark:border-gray-800">
+      <div className="bg-white dark:bg-gray-900 rounded-lg border border-gray-200 dark:border-gray-800 overflow-hidden">
         <Table>
           <TableHeader>
             <TableRow>
@@ -183,3 +272,4 @@ export default function VesselEnquiries() {
     </div>
   )
 }
+

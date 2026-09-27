@@ -1,6 +1,6 @@
 import { useState, useEffect } from 'react'
 import { Link } from 'react-router-dom'
-import { Plus, Download, Upload, Filter } from 'lucide-react'
+import { Plus, Download, Upload, Filter, Loader2 } from 'lucide-react'
 import { Button } from '@/components/ui/button'
 import { Input } from '@/components/ui/input'
 import { Badge } from '@/components/ui/badge'
@@ -19,30 +19,52 @@ import {
   SelectTrigger,
   SelectValue,
 } from '@/components/ui/select'
+import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card'
 import { api } from '@/lib/api'
 import { formatNumber, getStatusColor, getPriorityColor } from '@/lib/utils'
-import type { CargoEnquiry } from '@/types'
+import type { CargoEnquiry, Port } from '@/types'
+import { CARGO_TYPES, VESSEL_TYPES } from '@/lib/constants'
 
 export default function CargoEnquiries() {
   const [enquiries, setEnquiries] = useState<CargoEnquiry[]>([])
   const [filteredEnquiries, setFilteredEnquiries] = useState<CargoEnquiry[]>([])
+  const [portsList, setPortsList] = useState<Port[]>([])
   const [searchTerm, setSearchTerm] = useState('')
   const [statusFilter, setStatusFilter] = useState<string>('all')
   const [cargoTypeFilter, setCargoTypeFilter] = useState<string>('all')
   const [loading, setLoading] = useState(true)
+  const [showForm, setShowForm] = useState(false)
+  const [submitting, setSubmitting] = useState(false)
+
+  // Form state
+  const [formData, setFormData] = useState({
+    origin_port_id: '',
+    destination_port_id: '',
+    commodity: '',
+    cargo_quantity_tons: '',
+    earliest_charter_date: '',
+    required_arrival_date: '',
+    preferred_vessel_class: ''
+  })
+
+  const fetchData = async () => {
+    try {
+      setLoading(true)
+      const [data, ports] = await Promise.all([
+        api.getCargoEnquiries(),
+        api.getPorts()
+      ])
+      setEnquiries(data)
+      setFilteredEnquiries(data)
+      setPortsList(ports)
+    } catch (err) {
+      console.error('Failed to fetch cargo enquiries:', err)
+    } finally {
+      setLoading(false)
+    }
+  }
 
   useEffect(() => {
-    const fetchData = async () => {
-      try {
-        const data = await api.getCargoEnquiries()
-        setEnquiries(data)
-        setFilteredEnquiries(data)
-      } catch (err) {
-        console.error('Failed to fetch cargo enquiries:', err)
-      } finally {
-        setLoading(false)
-      }
-    }
     fetchData()
   }, [])
 
@@ -69,7 +91,31 @@ export default function CargoEnquiries() {
     setFilteredEnquiries(filtered)
   }, [searchTerm, statusFilter, cargoTypeFilter, enquiries])
 
-  if (loading) {
+  const handleSubmit = async (e: React.FormEvent) => {
+    e.preventDefault()
+    setSubmitting(true)
+    try {
+      await api.createCargoEnquiry(formData as any)
+      setShowForm(false)
+      setFormData({
+        origin_port_id: '',
+        destination_port_id: '',
+        commodity: '',
+        cargo_quantity_tons: '',
+        earliest_charter_date: '',
+        required_arrival_date: '',
+        preferred_vessel_class: ''
+      })
+      await fetchData()
+    } catch (error) {
+      console.error('Failed to create enquiry:', error)
+      alert('Failed to create enquiry. Make sure the port codes are valid (e.g. INPRT).')
+    } finally {
+      setSubmitting(false)
+    }
+  }
+
+  if (loading && enquiries.length === 0) {
     return (
       <div className="flex items-center justify-center h-64">
         <div className="animate-spin rounded-full h-8 w-8 border-b-2 border-blue-600" />
@@ -99,12 +145,80 @@ export default function CargoEnquiries() {
             <Download className="w-4 h-4 mr-2" />
             Export
           </Button>
-          <Button>
+          <Button onClick={() => setShowForm(!showForm)}>
             <Plus className="w-4 h-4 mr-2" />
-            Create Enquiry
+            {showForm ? 'Cancel' : 'Create Enquiry'}
           </Button>
         </div>
       </div>
+
+      {/* Create Form */}
+      {showForm && (
+        <Card className="border-blue-200 dark:border-blue-800">
+          <CardHeader>
+            <CardTitle>New Cargo Enquiry</CardTitle>
+          </CardHeader>
+          <CardContent>
+            <form onSubmit={handleSubmit} className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
+              <div>
+                <label className="text-sm font-medium mb-1 block">Origin Port</label>
+                <Input required list="ports-list" value={formData.origin_port_id} onChange={e => setFormData({...formData, origin_port_id: e.target.value.toUpperCase()})} placeholder="Type to search port..." />
+              </div>
+              <div>
+                <label className="text-sm font-medium mb-1 block">Destination Port</label>
+                <Input required list="ports-list" value={formData.destination_port_id} onChange={e => setFormData({...formData, destination_port_id: e.target.value.toUpperCase()})} placeholder="Type to search port..." />
+              </div>
+              <div>
+                <label className="text-sm font-medium mb-1 block">Commodity</label>
+                <Select value={formData.commodity} onValueChange={v => setFormData({...formData, commodity: v})}>
+                  <SelectTrigger>
+                    <SelectValue placeholder="Select Commodity" />
+                  </SelectTrigger>
+                  <SelectContent>
+                    {CARGO_TYPES.map(c => <SelectItem key={c} value={c}>{c}</SelectItem>)}
+                  </SelectContent>
+                </Select>
+              </div>
+              <div>
+                <label className="text-sm font-medium mb-1 block">Quantity (Tons)</label>
+                <Input required type="number" value={formData.cargo_quantity_tons} onChange={e => setFormData({...formData, cargo_quantity_tons: e.target.value})} placeholder="100000" />
+              </div>
+              <div>
+                <label className="text-sm font-medium mb-1 block">Earliest Charter Date</label>
+                <Input required type="date" value={formData.earliest_charter_date} onChange={e => setFormData({...formData, earliest_charter_date: e.target.value})} />
+              </div>
+              <div>
+                <label className="text-sm font-medium mb-1 block">Required Arrival Date</label>
+                <Input required type="date" value={formData.required_arrival_date} onChange={e => setFormData({...formData, required_arrival_date: e.target.value})} />
+              </div>
+              <div>
+                <label className="text-sm font-medium mb-1 block">Preferred Vessel Class</label>
+                <Select value={formData.preferred_vessel_class} onValueChange={v => setFormData({...formData, preferred_vessel_class: v})}>
+                  <SelectTrigger>
+                    <SelectValue placeholder="Select Vessel Class" />
+                  </SelectTrigger>
+                  <SelectContent>
+                    {VESSEL_TYPES.map(v => <SelectItem key={v} value={v}>{v}</SelectItem>)}
+                  </SelectContent>
+                </Select>
+              </div>
+              
+              <datalist id="ports-list">
+                {portsList.map(p => (
+                  <option key={p.id} value={p.id}>{p.name} ({p.id})</option>
+                ))}
+              </datalist>
+              
+              <div className="md:col-span-2 lg:col-span-3 flex justify-end">
+                <Button type="submit" disabled={submitting}>
+                  {submitting && <Loader2 className="w-4 h-4 mr-2 animate-spin" />}
+                  Submit Enquiry
+                </Button>
+              </div>
+            </form>
+          </CardContent>
+        </Card>
+      )}
 
       {/* Filters */}
       <div className="bg-white dark:bg-gray-900 rounded-lg border border-gray-200 dark:border-gray-800 p-4">
@@ -149,7 +263,7 @@ export default function CargoEnquiries() {
       </div>
 
       {/* Table */}
-      <div className="bg-white dark:bg-gray-900 rounded-lg border border-gray-200 dark:border-gray-800">
+      <div className="bg-white dark:bg-gray-900 rounded-lg border border-gray-200 dark:border-gray-800 overflow-hidden">
         <Table>
           <TableHeader>
             <TableRow>
@@ -168,7 +282,7 @@ export default function CargoEnquiries() {
           <TableBody>
             {filteredEnquiries.map((enquiry) => (
               <TableRow key={enquiry.id}>
-                <TableCell className="font-medium">{enquiry.id.toUpperCase()}</TableCell>
+                <TableCell className="font-medium">{String(enquiry.id).toUpperCase()}</TableCell>
                 <TableCell>{enquiry.cargoType}</TableCell>
                 <TableCell>{enquiry.origin}</TableCell>
                 <TableCell>{enquiry.destination}</TableCell>
@@ -208,3 +322,4 @@ export default function CargoEnquiries() {
     </div>
   )
 }
+

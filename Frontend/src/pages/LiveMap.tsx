@@ -26,11 +26,15 @@ const portIcon = new Icon({
   popupAnchor: [0, -12],
 })
 
-function MapControls() {
-  const [showVessels, setShowVessels] = useState(true)
-  const [showPorts, setShowPorts] = useState(true)
-  const [showRoutes, setShowRoutes] = useState(false)
-
+function MapControls({ 
+  showVessels, setShowVessels, 
+  showPorts, setShowPorts,
+  showRoutes, setShowRoutes
+}: {
+  showVessels: boolean; setShowVessels: (v: boolean) => void;
+  showPorts: boolean; setShowPorts: (v: boolean) => void;
+  showRoutes: boolean; setShowRoutes: (v: boolean) => void;
+}) {
   return (
     <div className="absolute top-4 right-4 z-[1000] space-y-2">
       <Card>
@@ -66,7 +70,10 @@ function MapControls() {
               onChange={(e) => setShowRoutes(e.target.checked)}
               className="rounded"
             />
-            Routes
+            <svg className="w-4 h-4" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
+              <path d="M3 3l7.07 16.97 2.51-7.39 7.39-2.51L3 3z" />
+            </svg>
+            Trade Routes
           </label>
         </CardContent>
       </Card>
@@ -79,6 +86,10 @@ export default function LiveMap() {
   const [ports, setPorts] = useState<Port[]>([])
   const [selectedVessel, setSelectedVessel] = useState<Vessel | null>(null)
   const [selectedPort, setSelectedPort] = useState<Port | null>(null)
+  
+  const [showVessels, setShowVessels] = useState(true)
+  const [showPorts, setShowPorts] = useState(true)
+  const [showRoutes, setShowRoutes] = useState(false)
 
   useEffect(() => {
     const fetchData = async () => {
@@ -93,8 +104,9 @@ export default function LiveMap() {
         const vesselsWithLocation = vesselsData.map((v: any, index: number) => ({
           ...v,
           currentLocation: {
-            lat: 20 + (Math.random() * 20 - 10),
-            lng: 85 + (Math.random() * 20 - 10),
+            // Spawn strictly in the ocean (Bay of Bengal / Andaman Sea)
+            lat: 5 + (Math.random() * 10),    // Lat: 5 to 15
+            lng: 85 + (Math.random() * 10),   // Lng: 85 to 95
             name: 'At Sea'
           }
         }))
@@ -143,7 +155,12 @@ export default function LiveMap() {
       </div>
 
       {/* Map */}
-      <div className="relative h-[700px] rounded-lg overflow-hidden border border-gray-200 dark:border-gray-800">
+      <div className="relative h-[calc(100vh-16rem)] rounded-xl overflow-hidden border border-gray-200 dark:border-gray-800">
+        <MapControls 
+          showVessels={showVessels} setShowVessels={setShowVessels}
+          showPorts={showPorts} setShowPorts={setShowPorts}
+          showRoutes={showRoutes} setShowRoutes={setShowRoutes}
+        />
         <MapContainer
           center={[10, 90]}
           zoom={4}
@@ -151,12 +168,12 @@ export default function LiveMap() {
           className="z-0"
         >
           <TileLayer
-            attribution='&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a>'
-            url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
+            attribution='Tiles &copy; Esri &mdash; Source: Esri, i-cubed, USDA, USGS, AEX, GeoEye, Getmapping, Aerogrid, IGN, IGP, UPR-EGP, and the GIS User Community'
+            url="https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/{z}/{y}/{x}"
           />
 
           {/* Vessels */}
-          {vessels.map((vessel) => (
+          {showVessels && vessels.map((vessel) => (
             vessel.currentLocation && (
               <Marker
                 key={vessel.id}
@@ -167,38 +184,33 @@ export default function LiveMap() {
                 }}
               >
                 <Popup>
-                  <div className="min-w-[200px]">
-                    <div className="font-semibold text-lg mb-2">{vessel.name}</div>
-                    <div className="space-y-1 text-sm">
-                      <div>
-                        <span className="font-medium">Type:</span> {vessel.type}
+                  <div className="p-1 min-w-[200px]">
+                    <div className="font-semibold text-lg flex items-center gap-2">
+                      <Ship className="w-4 h-4" />
+                      {vessel.name}
+                    </div>
+                    <div className="text-sm text-gray-600 mt-1">{vessel.type}</div>
+                    <div className="mt-3 space-y-2 text-sm">
+                      <div className="flex justify-between">
+                        <span className="text-gray-500">Speed:</span>
+                        <span className="font-medium">{vessel.speed} kn</span>
                       </div>
-                      <div>
-                        <span className="font-medium">DWT:</span> {formatNumber(vessel.dwt)}
+                      <div className="flex justify-between">
+                        <span className="text-gray-500">Destination:</span>
+                        <span className="font-medium">{vessel.destination || 'Unknown'}</span>
                       </div>
-                      <div>
-                        <span className="font-medium">Status:</span>{' '}
+                      <div className="flex justify-between items-center">
+                        <span className="text-gray-500">Status:</span>
                         <Badge className={getStatusColor(vessel.status)}>
                           {vessel.status}
                         </Badge>
                       </div>
-                      {vessel.destination && (
-                        <div>
-                          <span className="font-medium">Destination:</span> {vessel.destination}
-                        </div>
-                      )}
                       {vessel.eta && (
-                        <div>
-                          <span className="font-medium">ETA:</span>{' '}
-                          {new Date(vessel.eta).toLocaleDateString()}
-                        </div>
-                      )}
-                      <div>
-                        <span className="font-medium">Speed:</span> {vessel.speed} knots
-                      </div>
-                      {vessel.heading !== undefined && (
-                        <div>
-                          <span className="font-medium">Heading:</span> {vessel.heading}°
+                        <div className="flex justify-between border-t pt-2 mt-2">
+                          <span className="text-gray-500">ETA:</span>
+                          <span className="font-medium">
+                            {new Date(vessel.eta).toLocaleString()}
+                          </span>
                         </div>
                       )}
                     </div>
@@ -209,7 +221,7 @@ export default function LiveMap() {
           ))}
 
           {/* Ports */}
-          {ports.map((port) => (
+          {showPorts && ports.map((port) => (
             <Marker
               key={port.id}
               position={[port.location.lat, port.location.lng]}
@@ -251,18 +263,20 @@ export default function LiveMap() {
           ))}
 
           {/* Sample Route */}
-          <Polyline
-            positions={sampleRoute as [number, number][]}
-            pathOptions={{
-              color: '#0ea5e9',
-              weight: 3,
-              opacity: 0.7,
-              dashArray: '10, 10',
-            }}
-          />
+          {showRoutes && (
+            <Polyline
+              positions={sampleRoute as [number, number][]}
+              pathOptions={{
+                color: '#0ea5e9',
+                weight: 3,
+                opacity: 0.7,
+                dashArray: '10, 10',
+              }}
+            />
+          )}
         </MapContainer>
 
-        <MapControls />
+        
       </div>
 
       {/* Legend */}

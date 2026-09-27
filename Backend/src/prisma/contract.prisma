@@ -1,0 +1,174 @@
+// use prisma-8
+// Contract inferred from the live database schema. Edit as needed, then run `prisma contract emit`.
+
+model Ports {
+  portId                   VarChar(20)     @id(map: "ports_pkey") @map("port_id")
+  portName                 VarChar(150)    @map("port_name")
+  country                  VarChar(100)?
+  region                   VarChar(100)?
+  tradeRole                VarChar(50)?    @map("trade_role")
+  latitude                 Numeric(10, 6)?
+  longitude                Numeric(10, 6)?
+  berth                    VarChar(100)?
+  maxDraftM                Numeric(8, 2)?  @map("max_draft_m")
+  maxLoaM                  Numeric(8, 2)?  @map("max_loa_m")
+  maxBeamM                 Numeric(8, 2)?  @map("max_beam_m")
+  cargoHandlingRateTpd     Numeric(12, 2)? @map("cargo_handling_rate_tpd")
+  avgWaitingTimeHrs        Numeric(10, 2)? @map("avg_waiting_time_hrs")
+  congestionIndex          Numeric(6, 3)?  @map("congestion_index")
+  berthAvailabilityPct     Numeric(6, 2)?  @map("berth_availability_pct")
+  bunkerPrices             BunkerPrices[]
+  weathers                 Weather[]
+  freightRates             FreightRates[]  @relation(name: "freight_rates_destination_port_id_fkey")
+  freightRatesFreightRates FreightRates[]  @relation(name: "freight_rates_origin_port_id_fkey")
+  routes                   Routes[]        @relation(name: "routes_destination_port_id_fkey")
+  routesRoutes             Routes[]        @relation(name: "routes_origin_port_id_fkey")
+  shipments                Shipments[]     @relation(name: "shipments_destination_port_id_fkey")
+  shipmentsShipments       Shipments[]     @relation(name: "shipments_origin_port_id_fkey")
+
+  @@map("ports")
+}
+
+model BunkerPrices {
+  id             BigInt          @id(map: "bunker_prices_pkey") @default(autoincrement())
+  date           Date
+  portId         VarChar(20)     @map("port_id")
+  fuelType       VarChar(50)?    @map("fuel_type")
+  priceUsdPerTon Numeric(12, 2)? @map("price_usd_per_ton")
+  port           Ports           @relation(fields: [portId], references: [portId], map: "bunker_prices_port_id_fkey", index: false)
+
+  @@index([portId, date], map: "idx_bunker_port_date")
+  @@map("bunker_prices")
+}
+
+model CommodityData {
+  id                    BigInt          @id(map: "commodity_data_pkey") @default(autoincrement())
+  date                  Date
+  commodity             VarChar(100)?
+  country               VarChar(100)?
+  flowType              VarChar(50)?    @map("flow_type")
+  priceUsdPerTon        Numeric(12, 2)? @map("price_usd_per_ton")
+  volumeMillionTons     Numeric(14, 4)? @map("volume_million_tons")
+  productionMillionTons Numeric(14, 4)? @map("production_million_tons")
+  demandIndex           Numeric(10, 4)? @map("demand_index")
+
+  @@map("commodity_data")
+}
+
+// WARNING: This table has no primary key in the database
+model DryBulkFreightRates {
+  date                 Date
+  originPort           VarChar(150)   @map("origin_port")
+  destinationPort      VarChar(150)   @map("destination_port")
+  vesselClass          VarChar(50)    @map("vessel_class")
+  freightRateUsdPerTon Numeric(12, 4) @map("freight_rate_usd_per_ton")
+
+  @@index([originPort, destinationPort, vesselClass, date], map: "idx_dry_bulk_freight_route_date")
+  @@map("dry_bulk_freight_rates")
+}
+
+// WARNING: This table has no primary key in the database
+model FreightRates {
+  date              Date
+  recordType        VarChar(50)?    @map("record_type")
+  code              VarChar(50)?
+  name              VarChar(150)?
+  originPortId      VarChar(20)?    @map("origin_port_id")
+  destinationPortId VarChar(20)?    @map("destination_port_id")
+  vesselClass       VarChar(50)?    @map("vessel_class")
+  value             Numeric(12, 4)?
+  unit              VarChar(50)?
+  destinationPort   Ports?          @relation(name: "freight_rates_destination_port_id_fkey", fields: [destinationPortId], references: [portId], map: "freight_rates_destination_port_id_fkey", index: false)
+  originPort        Ports?          @relation(name: "freight_rates_origin_port_id_fkey", fields: [originPortId], references: [portId], map: "freight_rates_origin_port_id_fkey", index: false)
+
+  @@map("freight_rates")
+}
+
+model Routes {
+  routeCode           VarChar(20)           @id(map: "routes_pkey") @map("route_code")
+  routeName           VarChar(200)?         @map("route_name")
+  originPortId        VarChar(20)           @map("origin_port_id")
+  destinationPortId   VarChar(20)           @map("destination_port_id")
+  vesselClass         VarChar(50)?          @map("vessel_class")
+  distanceNm          Numeric(10, 2)?       @map("distance_nm")
+  optimizationResults OptimizationResults[]
+  destinationPort     Ports                 @relation(name: "routes_destination_port_id_fkey", fields: [destinationPortId], references: [portId], map: "routes_destination_port_id_fkey", index: false)
+  originPort          Ports                 @relation(name: "routes_origin_port_id_fkey", fields: [originPortId], references: [portId], map: "routes_origin_port_id_fkey", index: false)
+
+  @@index([originPortId, destinationPortId], map: "idx_routes_origin_destination")
+  @@map("routes")
+}
+
+model Shipments {
+  shipmentId           BigInt                @id(map: "shipments_pkey") @default(autoincrement()) @map("shipment_id")
+  originPortId         VarChar(20)           @map("origin_port_id")
+  destinationPortId    VarChar(20)           @map("destination_port_id")
+  commodity            VarChar(100)?
+  cargoQuantityTons    Numeric(14, 2)        @map("cargo_quantity_tons")
+  earliestCharterDate  Date?                 @map("earliest_charter_date")
+  requiredArrivalDate  Date?                 @map("required_arrival_date")
+  preferredVesselClass VarChar(50)?          @map("preferred_vessel_class")
+  optimizationResults  OptimizationResults[]
+  destinationPort      Ports                 @relation(name: "shipments_destination_port_id_fkey", fields: [destinationPortId], references: [portId], map: "shipments_destination_port_id_fkey", index: false)
+  originPort           Ports                 @relation(name: "shipments_origin_port_id_fkey", fields: [originPortId], references: [portId], map: "shipments_origin_port_id_fkey", index: false)
+
+  @@index([originPortId, destinationPortId], map: "idx_shipments_route")
+  @@map("shipments")
+}
+
+
+
+model Vessels {
+  vesselId            VarChar(20)           @id(map: "vessels_pkey") @map("vessel_id")
+  vesselName          VarChar(150)          @map("vessel_name")
+  vesselType          VarChar(50)?          @map("vessel_type")
+  dwt                 Numeric(12, 2)?
+  loaM                Numeric(8, 2)?        @map("loa_m")
+  beamM               Numeric(8, 2)?        @map("beam_m")
+  draftM              Numeric(8, 2)?        @map("draft_m")
+  fuelConsumptionTpd  Numeric(10, 2)?       @map("fuel_consumption_tpd")
+  speedKnots          Numeric(6, 2)?        @map("speed_knots")
+  availabilityStatus  VarChar(50)?          @map("availability_status")
+  optimizationResults OptimizationResults[]
+
+  @@index([vesselType], map: "idx_vessels_type")
+  @@map("vessels")
+}
+
+model OptimizationResults {
+  resultId                      BigInt          @id(map: "optimization_results_pkey") @default(autoincrement()) @map("result_id")
+  shipmentId                    BigInt          @map("shipment_id")
+  vesselId                      VarChar(20)?    @map("vessel_id")
+  routeCode                     VarChar(20)?    @map("route_code")
+  recommendedCharterDate        Date?           @map("recommended_charter_date")
+  predictedFreightRateUsdPerTon Numeric(12, 4)? @map("predicted_freight_rate_usd_per_ton")
+  freightCostUsd                Numeric(16, 2)? @map("freight_cost_usd")
+  fuelCostUsd                   Numeric(16, 2)? @map("fuel_cost_usd")
+  portCostUsd                   Numeric(16, 2)? @map("port_cost_usd")
+  demurrageCostUsd              Numeric(16, 2)? @map("demurrage_cost_usd")
+  totalCostUsd                  Numeric(16, 2)? @map("total_cost_usd")
+  riskScore                     Numeric(6, 3)?  @map("risk_score")
+  recommendationReason          String?         @map("recommendation_reason")
+  createdAt                     Timestamp?      @default(now()) @map("created_at")
+  routes                        Routes?         @relation(fields: [routeCode], references: [routeCode], map: "optimization_results_route_code_fkey", index: false)
+  shipment                      Shipments       @relation(fields: [shipmentId], references: [shipmentId], map: "optimization_results_shipment_id_fkey")
+  vessel                        Vessels?        @relation(fields: [vesselId], references: [vesselId], map: "optimization_results_vessel_id_fkey", index: false)
+
+  @@index([shipmentId], map: "idx_optimization_shipment")
+  @@map("optimization_results")
+}
+
+model Weather {
+  id             BigInt         @id(map: "weather_pkey") @default(autoincrement())
+  date           Date
+  portId         VarChar(20)    @map("port_id")
+  windSpeedKnots Numeric(8, 2)? @map("wind_speed_knots")
+  waveHeightM    Numeric(8, 2)? @map("wave_height_m")
+  visibilityNm   Numeric(8, 2)? @map("visibility_nm")
+  condition      VarChar(100)?
+  stormWarning   Boolean?       @map("storm_warning")
+  port           Ports          @relation(fields: [portId], references: [portId], map: "weather_port_id_fkey", index: false)
+
+  @@index([portId, date], map: "idx_weather_port_date")
+  @@map("weather")
+}

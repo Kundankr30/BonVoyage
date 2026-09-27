@@ -26,14 +26,42 @@ export default function VoyageDistance() {
       
       const route = routes.find(
         (r: any) => 
-          r.originPort === origin && 
-          r.destinationPort === destination
+          r.origin_port === origin && 
+          r.destination_port === destination
       )
 
-      const distance = route ? route.distanceNm : 4850 // fallback if route not in DB
-      const speed = AVG_VESSEL_SPEED
+      let distance = 4850
+      if (route) {
+        distance = route.distance_nm
+      } else {
+        // Calculate Great Circle Distance if not in DB
+        const port1 = ports.find(p => p.name === origin)
+        const port2 = ports.find(p => p.name === destination)
+        
+        if (port1 && port2) {
+          const R = 6371 // Earth radius in km
+          const dLat = (port2.location.lat - port1.location.lat) * (Math.PI/180)
+          const dLon = (port2.location.lng - port1.location.lng) * (Math.PI/180)
+          const a = 
+            Math.sin(dLat/2) * Math.sin(dLat/2) +
+            Math.cos(port1.location.lat * (Math.PI/180)) * Math.cos(port2.location.lat * (Math.PI/180)) * 
+            Math.sin(dLon/2) * Math.sin(dLon/2)
+          const c = 2 * Math.atan2(Math.sqrt(a), Math.sqrt(1-a))
+          const distanceKm = R * c
+          distance = distanceKm / 1.852 // Convert km to Nautical Miles
+        }
+      }
+      let speed = AVG_VESSEL_SPEED
+      let fuelConsumption = 30 // MT/day
+
+      if (vesselType === 'Capesize') { speed = 13.5; fuelConsumption = 45; }
+      else if (vesselType === 'Panamax') { speed = 14.0; fuelConsumption = 35; }
+      else if (vesselType === 'Supramax') { speed = 14.5; fuelConsumption = 28; }
+      else if (vesselType === 'Handysize') { speed = 13.0; fuelConsumption = 22; }
+      else if (vesselType === 'VLOC') { speed = 13.5; fuelConsumption = 55; }
+      else if (vesselType === 'General Cargo') { speed = 12.0; fuelConsumption = 20; }
+
       const sailingTime = distance / speed / 24 // days
-      const fuelConsumption = 30 // MT/day
       const totalFuel = sailingTime * fuelConsumption
       const fuelPrice = 650 // USD/MT
       const fuelCost = totalFuel * fuelPrice
@@ -84,59 +112,39 @@ export default function VoyageDistance() {
               <label className="text-sm font-medium text-gray-700 dark:text-gray-300 mb-2 block">
                 Origin Port
               </label>
-              <Select value={origin} onValueChange={setOrigin}>
-                <SelectTrigger>
-                  <SelectValue placeholder="Select origin port" />
-                </SelectTrigger>
-                <SelectContent>
-                  {ports.map((port) => (
-                    <SelectItem key={port.id} value={port.name}>
-                      {port.name}
-                    </SelectItem>
-                  ))}
-                </SelectContent>
-              </Select>
+              <input
+                required
+                list="voyage-ports-list"
+                value={origin}
+                onChange={(e) => setOrigin(e.target.value)}
+                placeholder="Type to search origin..."
+                className="flex h-10 w-full rounded-md border border-gray-200 bg-white px-3 py-2 text-sm ring-offset-white file:border-0 file:bg-transparent file:text-sm file:font-medium placeholder:text-gray-500 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-blue-600 focus-visible:ring-offset-2 disabled:cursor-not-allowed disabled:opacity-50 dark:border-gray-800 dark:bg-gray-950 dark:ring-offset-gray-950 dark:placeholder:text-gray-400 dark:focus-visible:ring-blue-600"
+              />
             </div>
 
             <div>
               <label className="text-sm font-medium text-gray-700 dark:text-gray-300 mb-2 block">
                 Destination Port
               </label>
-              <Select value={destination} onValueChange={setDestination}>
-                <SelectTrigger>
-                  <SelectValue placeholder="Select destination port" />
-                </SelectTrigger>
-                <SelectContent>
-                  {ports.map((port) => (
-                    <SelectItem key={port.id} value={port.name}>
-                      {port.name}
-                    </SelectItem>
-                  ))}
-                </SelectContent>
-              </Select>
+              <input
+                required
+                list="voyage-ports-list"
+                value={destination}
+                onChange={(e) => setDestination(e.target.value)}
+                placeholder="Type to search destination..."
+                className="flex h-10 w-full rounded-md border border-gray-200 bg-white px-3 py-2 text-sm ring-offset-white file:border-0 file:bg-transparent file:text-sm file:font-medium placeholder:text-gray-500 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-blue-600 focus-visible:ring-offset-2 disabled:cursor-not-allowed disabled:opacity-50 dark:border-gray-800 dark:bg-gray-950 dark:ring-offset-gray-950 dark:placeholder:text-gray-400 dark:focus-visible:ring-blue-600"
+              />
             </div>
 
-            <div>
-              <label className="text-sm font-medium text-gray-700 dark:text-gray-300 mb-2 block">
-                Vessel Type (Optional)
-              </label>
-              <Select value={vesselType} onValueChange={setVesselType}>
-                <SelectTrigger>
-                  <SelectValue placeholder="Select vessel type" />
-                </SelectTrigger>
-                <SelectContent>
-                  {VESSEL_TYPES.map((type) => (
-                    <SelectItem key={type} value={type}>
-                      {type}
-                    </SelectItem>
-                  ))}
-                </SelectContent>
-              </Select>
-            </div>
+            <datalist id="voyage-ports-list">
+              {ports.map((port) => (
+                <option key={port.id} value={port.name}>{port.name}</option>
+              ))}
+            </datalist>
 
             <Button
               onClick={calculateDistance}
-              disabled={!origin || !destination}
+              disabled={!origin || !destination || !vesselType}
               className="w-full"
             >
               Calculate Distance

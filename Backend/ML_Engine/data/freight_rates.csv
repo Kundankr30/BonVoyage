@@ -1,0 +1,1996 @@
+date,record_type,code,name,origin_port_id,destination_port_id,vessel_class,value,unit
+2023-01-02,baltic_index,BDI,BDI,,,,1254.9,index_points
+2023-01-09,baltic_index,BDI,BDI,,,,1248.9,index_points
+2023-01-16,baltic_index,BDI,BDI,,,,1137.1,index_points
+2023-01-23,baltic_index,BDI,BDI,,,,1142.6,index_points
+2023-01-30,baltic_index,BDI,BDI,,,,1208.2,index_points
+2023-02-06,baltic_index,BDI,BDI,,,,1225.3,index_points
+2023-02-13,baltic_index,BDI,BDI,,,,1234.4,index_points
+2023-02-20,baltic_index,BDI,BDI,,,,1178.7,index_points
+2023-02-27,baltic_index,BDI,BDI,,,,1199.6,index_points
+2023-03-06,baltic_index,BDI,BDI,,,,1278.9,index_points
+2023-03-13,baltic_index,BDI,BDI,,,,1273.5,index_points
+2023-03-20,baltic_index,BDI,BDI,,,,1269.1,index_points
+2023-03-27,baltic_index,BDI,BDI,,,,1247.9,index_points
+2023-04-03,baltic_index,BDI,BDI,,,,1212.9,index_points
+2023-04-10,baltic_index,BDI,BDI,,,,1245.9,index_points
+2023-04-17,baltic_index,BDI,BDI,,,,1343.6,index_points
+2023-04-24,baltic_index,BDI,BDI,,,,1414.2,index_points
+2023-05-01,baltic_index,BDI,BDI,,,,1383.3,index_points
+2023-05-08,baltic_index,BDI,BDI,,,,1308.0,index_points
+2023-05-15,baltic_index,BDI,BDI,,,,1322.6,index_points
+2023-05-22,baltic_index,BDI,BDI,,,,1381.0,index_points
+2023-05-29,baltic_index,BDI,BDI,,,,1415.6,index_points
+2023-06-05,baltic_index,BDI,BDI,,,,1383.6,index_points
+2023-06-12,baltic_index,BDI,BDI,,,,1427.7,index_points
+2023-06-19,baltic_index,BDI,BDI,,,,1334.8,index_points
+2023-06-26,baltic_index,BDI,BDI,,,,1389.5,index_points
+2023-07-03,baltic_index,BDI,BDI,,,,1409.0,index_points
+2023-07-10,baltic_index,BDI,BDI,,,,1464.0,index_points
+2023-07-17,baltic_index,BDI,BDI,,,,1438.7,index_points
+2023-07-24,baltic_index,BDI,BDI,,,,1395.7,index_points
+2023-07-31,baltic_index,BDI,BDI,,,,1290.7,index_points
+2023-08-07,baltic_index,BDI,BDI,,,,1443.6,index_points
+2023-08-14,baltic_index,BDI,BDI,,,,1450.5,index_points
+2023-08-21,baltic_index,BDI,BDI,,,,1471.3,index_points
+2023-08-28,baltic_index,BDI,BDI,,,,1500.4,index_points
+2023-09-04,baltic_index,BDI,BDI,,,,1551.9,index_points
+2023-09-11,baltic_index,BDI,BDI,,,,1567.7,index_points
+2023-09-18,baltic_index,BDI,BDI,,,,1559.6,index_points
+2023-09-25,baltic_index,BDI,BDI,,,,1538.0,index_points
+2023-10-02,baltic_index,BDI,BDI,,,,1554.4,index_points
+2023-10-09,baltic_index,BDI,BDI,,,,1584.5,index_points
+2023-10-16,baltic_index,BDI,BDI,,,,1576.8,index_points
+2023-10-23,baltic_index,BDI,BDI,,,,1579.9,index_points
+2023-10-30,baltic_index,BDI,BDI,,,,1523.5,index_points
+2023-11-06,baltic_index,BDI,BDI,,,,1563.1,index_points
+2023-11-13,baltic_index,BDI,BDI,,,,1559.6,index_points
+2023-11-20,baltic_index,BDI,BDI,,,,1623.6,index_points
+2023-11-27,baltic_index,BDI,BDI,,,,1413.1,index_points
+2023-12-04,baltic_index,BDI,BDI,,,,1304.8,index_points
+2023-12-11,baltic_index,BDI,BDI,,,,1233.7,index_points
+2023-12-18,baltic_index,BDI,BDI,,,,1264.5,index_points
+2023-12-25,baltic_index,BDI,BDI,,,,1267.8,index_points
+2024-01-01,baltic_index,BDI,BDI,,,,1282.6,index_points
+2024-01-08,baltic_index,BDI,BDI,,,,1358.3,index_points
+2024-01-15,baltic_index,BDI,BDI,,,,1347.1,index_points
+2024-01-22,baltic_index,BDI,BDI,,,,1438.4,index_points
+2024-01-29,baltic_index,BDI,BDI,,,,1406.7,index_points
+2024-02-05,baltic_index,BDI,BDI,,,,1433.0,index_points
+2024-02-12,baltic_index,BDI,BDI,,,,1474.5,index_points
+2024-02-19,baltic_index,BDI,BDI,,,,1523.2,index_points
+2024-02-26,baltic_index,BDI,BDI,,,,1493.2,index_points
+2024-03-04,baltic_index,BDI,BDI,,,,1437.1,index_points
+2024-03-11,baltic_index,BDI,BDI,,,,1470.2,index_points
+2024-03-18,baltic_index,BDI,BDI,,,,1412.4,index_points
+2024-03-25,baltic_index,BDI,BDI,,,,1425.1,index_points
+2024-04-01,baltic_index,BDI,BDI,,,,1369.4,index_points
+2024-04-08,baltic_index,BDI,BDI,,,,1423.0,index_points
+2024-04-15,baltic_index,BDI,BDI,,,,1297.3,index_points
+2024-04-22,baltic_index,BDI,BDI,,,,1327.4,index_points
+2024-04-29,baltic_index,BDI,BDI,,,,1331.3,index_points
+2024-05-06,baltic_index,BDI,BDI,,,,1461.3,index_points
+2024-05-13,baltic_index,BDI,BDI,,,,1547.9,index_points
+2024-05-20,baltic_index,BDI,BDI,,,,1471.3,index_points
+2024-05-27,baltic_index,BDI,BDI,,,,1484.1,index_points
+2024-06-03,baltic_index,BDI,BDI,,,,1432.5,index_points
+2024-06-10,baltic_index,BDI,BDI,,,,1436.7,index_points
+2024-06-17,baltic_index,BDI,BDI,,,,1453.9,index_points
+2024-06-24,baltic_index,BDI,BDI,,,,1481.1,index_points
+2024-07-01,baltic_index,BDI,BDI,,,,1665.3,index_points
+2024-07-08,baltic_index,BDI,BDI,,,,1559.6,index_points
+2024-07-15,baltic_index,BDI,BDI,,,,1475.9,index_points
+2024-07-22,baltic_index,BDI,BDI,,,,1546.6,index_points
+2024-07-29,baltic_index,BDI,BDI,,,,1559.0,index_points
+2024-08-05,baltic_index,BDI,BDI,,,,1534.1,index_points
+2024-08-12,baltic_index,BDI,BDI,,,,1676.9,index_points
+2024-08-19,baltic_index,BDI,BDI,,,,1626.2,index_points
+2024-08-26,baltic_index,BDI,BDI,,,,1580.0,index_points
+2024-09-02,baltic_index,BDI,BDI,,,,1598.7,index_points
+2024-09-09,baltic_index,BDI,BDI,,,,1437.2,index_points
+2024-09-16,baltic_index,BDI,BDI,,,,1325.3,index_points
+2024-09-23,baltic_index,BDI,BDI,,,,1269.5,index_points
+2024-09-30,baltic_index,BDI,BDI,,,,1325.9,index_points
+2024-10-07,baltic_index,BDI,BDI,,,,1307.0,index_points
+2024-10-14,baltic_index,BDI,BDI,,,,1259.3,index_points
+2024-10-21,baltic_index,BDI,BDI,,,,1273.4,index_points
+2024-10-28,baltic_index,BDI,BDI,,,,1290.0,index_points
+2024-11-04,baltic_index,BDI,BDI,,,,1309.9,index_points
+2024-11-11,baltic_index,BDI,BDI,,,,1297.3,index_points
+2024-11-18,baltic_index,BDI,BDI,,,,1263.9,index_points
+2024-11-25,baltic_index,BDI,BDI,,,,1270.4,index_points
+2024-12-02,baltic_index,BDI,BDI,,,,1295.6,index_points
+2024-12-09,baltic_index,BDI,BDI,,,,1239.6,index_points
+2024-12-16,baltic_index,BDI,BDI,,,,1334.3,index_points
+2024-12-23,baltic_index,BDI,BDI,,,,1417.6,index_points
+2024-12-30,baltic_index,BDI,BDI,,,,1449.3,index_points
+2023-01-02,baltic_index,BCI,BCI,,,,1907.4,index_points
+2023-01-09,baltic_index,BCI,BCI,,,,1798.6,index_points
+2023-01-16,baltic_index,BCI,BCI,,,,1977.6,index_points
+2023-01-23,baltic_index,BCI,BCI,,,,1986.5,index_points
+2023-01-30,baltic_index,BCI,BCI,,,,2043.8,index_points
+2023-02-06,baltic_index,BCI,BCI,,,,1861.5,index_points
+2023-02-13,baltic_index,BCI,BCI,,,,1881.4,index_points
+2023-02-20,baltic_index,BCI,BCI,,,,1887.4,index_points
+2023-02-27,baltic_index,BCI,BCI,,,,2080.8,index_points
+2023-03-06,baltic_index,BCI,BCI,,,,1958.2,index_points
+2023-03-13,baltic_index,BCI,BCI,,,,1984.3,index_points
+2023-03-20,baltic_index,BCI,BCI,,,,1781.1,index_points
+2023-03-27,baltic_index,BCI,BCI,,,,1788.8,index_points
+2023-04-03,baltic_index,BCI,BCI,,,,1726.7,index_points
+2023-04-10,baltic_index,BCI,BCI,,,,1639.8,index_points
+2023-04-17,baltic_index,BCI,BCI,,,,1409.2,index_points
+2023-04-24,baltic_index,BCI,BCI,,,,1567.1,index_points
+2023-05-01,baltic_index,BCI,BCI,,,,1652.3,index_points
+2023-05-08,baltic_index,BCI,BCI,,,,1611.0,index_points
+2023-05-15,baltic_index,BCI,BCI,,,,1679.0,index_points
+2023-05-22,baltic_index,BCI,BCI,,,,1643.5,index_points
+2023-05-29,baltic_index,BCI,BCI,,,,1530.8,index_points
+2023-06-05,baltic_index,BCI,BCI,,,,1785.2,index_points
+2023-06-12,baltic_index,BCI,BCI,,,,2022.1,index_points
+2023-06-19,baltic_index,BCI,BCI,,,,2122.2,index_points
+2023-06-26,baltic_index,BCI,BCI,,,,2141.5,index_points
+2023-07-03,baltic_index,BCI,BCI,,,,2174.1,index_points
+2023-07-10,baltic_index,BCI,BCI,,,,2277.2,index_points
+2023-07-17,baltic_index,BCI,BCI,,,,2330.9,index_points
+2023-07-24,baltic_index,BCI,BCI,,,,2374.3,index_points
+2023-07-31,baltic_index,BCI,BCI,,,,2358.5,index_points
+2023-08-07,baltic_index,BCI,BCI,,,,2396.9,index_points
+2023-08-14,baltic_index,BCI,BCI,,,,2404.9,index_points
+2023-08-21,baltic_index,BCI,BCI,,,,2465.8,index_points
+2023-08-28,baltic_index,BCI,BCI,,,,2554.4,index_points
+2023-09-04,baltic_index,BCI,BCI,,,,2582.3,index_points
+2023-09-11,baltic_index,BCI,BCI,,,,2549.1,index_points
+2023-09-18,baltic_index,BCI,BCI,,,,2321.8,index_points
+2023-09-25,baltic_index,BCI,BCI,,,,2300.2,index_points
+2023-10-02,baltic_index,BCI,BCI,,,,2228.9,index_points
+2023-10-09,baltic_index,BCI,BCI,,,,2585.5,index_points
+2023-10-16,baltic_index,BCI,BCI,,,,2637.0,index_points
+2023-10-23,baltic_index,BCI,BCI,,,,2664.4,index_points
+2023-10-30,baltic_index,BCI,BCI,,,,2669.0,index_points
+2023-11-06,baltic_index,BCI,BCI,,,,2611.0,index_points
+2023-11-13,baltic_index,BCI,BCI,,,,2578.6,index_points
+2023-11-20,baltic_index,BCI,BCI,,,,2275.2,index_points
+2023-11-27,baltic_index,BCI,BCI,,,,2396.4,index_points
+2023-12-04,baltic_index,BCI,BCI,,,,2331.3,index_points
+2023-12-11,baltic_index,BCI,BCI,,,,2287.8,index_points
+2023-12-18,baltic_index,BCI,BCI,,,,2211.4,index_points
+2023-12-25,baltic_index,BCI,BCI,,,,2135.8,index_points
+2024-01-01,baltic_index,BCI,BCI,,,,2175.2,index_points
+2024-01-08,baltic_index,BCI,BCI,,,,2186.0,index_points
+2024-01-15,baltic_index,BCI,BCI,,,,2036.9,index_points
+2024-01-22,baltic_index,BCI,BCI,,,,2127.4,index_points
+2024-01-29,baltic_index,BCI,BCI,,,,1968.4,index_points
+2024-02-05,baltic_index,BCI,BCI,,,,1938.8,index_points
+2024-02-12,baltic_index,BCI,BCI,,,,1982.7,index_points
+2024-02-19,baltic_index,BCI,BCI,,,,1909.4,index_points
+2024-02-26,baltic_index,BCI,BCI,,,,1922.8,index_points
+2024-03-04,baltic_index,BCI,BCI,,,,1908.1,index_points
+2024-03-11,baltic_index,BCI,BCI,,,,2081.1,index_points
+2024-03-18,baltic_index,BCI,BCI,,,,2047.0,index_points
+2024-03-25,baltic_index,BCI,BCI,,,,2199.0,index_points
+2024-04-01,baltic_index,BCI,BCI,,,,2294.7,index_points
+2024-04-08,baltic_index,BCI,BCI,,,,2191.8,index_points
+2024-04-15,baltic_index,BCI,BCI,,,,2274.4,index_points
+2024-04-22,baltic_index,BCI,BCI,,,,1888.8,index_points
+2024-04-29,baltic_index,BCI,BCI,,,,1744.1,index_points
+2024-05-06,baltic_index,BCI,BCI,,,,1805.8,index_points
+2024-05-13,baltic_index,BCI,BCI,,,,1735.1,index_points
+2024-05-20,baltic_index,BCI,BCI,,,,1648.8,index_points
+2024-05-27,baltic_index,BCI,BCI,,,,1852.2,index_points
+2024-06-03,baltic_index,BCI,BCI,,,,1741.4,index_points
+2024-06-10,baltic_index,BCI,BCI,,,,1902.6,index_points
+2024-06-17,baltic_index,BCI,BCI,,,,1986.0,index_points
+2024-06-24,baltic_index,BCI,BCI,,,,2118.0,index_points
+2024-07-01,baltic_index,BCI,BCI,,,,2176.9,index_points
+2024-07-08,baltic_index,BCI,BCI,,,,1968.9,index_points
+2024-07-15,baltic_index,BCI,BCI,,,,2056.6,index_points
+2024-07-22,baltic_index,BCI,BCI,,,,2031.6,index_points
+2024-07-29,baltic_index,BCI,BCI,,,,2006.7,index_points
+2024-08-05,baltic_index,BCI,BCI,,,,2091.8,index_points
+2024-08-12,baltic_index,BCI,BCI,,,,2377.3,index_points
+2024-08-19,baltic_index,BCI,BCI,,,,2639.3,index_points
+2024-08-26,baltic_index,BCI,BCI,,,,2550.6,index_points
+2024-09-02,baltic_index,BCI,BCI,,,,2617.3,index_points
+2024-09-09,baltic_index,BCI,BCI,,,,2504.2,index_points
+2024-09-16,baltic_index,BCI,BCI,,,,2566.6,index_points
+2024-09-23,baltic_index,BCI,BCI,,,,2569.5,index_points
+2024-09-30,baltic_index,BCI,BCI,,,,2531.1,index_points
+2024-10-07,baltic_index,BCI,BCI,,,,2546.7,index_points
+2024-10-14,baltic_index,BCI,BCI,,,,2540.8,index_points
+2024-10-21,baltic_index,BCI,BCI,,,,2450.6,index_points
+2024-10-28,baltic_index,BCI,BCI,,,,2346.7,index_points
+2024-11-04,baltic_index,BCI,BCI,,,,2550.4,index_points
+2024-11-11,baltic_index,BCI,BCI,,,,2531.2,index_points
+2024-11-18,baltic_index,BCI,BCI,,,,2470.4,index_points
+2024-11-25,baltic_index,BCI,BCI,,,,2509.2,index_points
+2024-12-02,baltic_index,BCI,BCI,,,,2554.2,index_points
+2024-12-09,baltic_index,BCI,BCI,,,,2738.3,index_points
+2024-12-16,baltic_index,BCI,BCI,,,,2707.7,index_points
+2024-12-23,baltic_index,BCI,BCI,,,,2765.2,index_points
+2024-12-30,baltic_index,BCI,BCI,,,,2627.7,index_points
+2023-01-02,baltic_index,BPI,BPI,,,,1305.1,index_points
+2023-01-09,baltic_index,BPI,BPI,,,,1274.4,index_points
+2023-01-16,baltic_index,BPI,BPI,,,,1243.2,index_points
+2023-01-23,baltic_index,BPI,BPI,,,,1234.5,index_points
+2023-01-30,baltic_index,BPI,BPI,,,,1282.3,index_points
+2023-02-06,baltic_index,BPI,BPI,,,,1289.7,index_points
+2023-02-13,baltic_index,BPI,BPI,,,,1317.7,index_points
+2023-02-20,baltic_index,BPI,BPI,,,,1267.8,index_points
+2023-02-27,baltic_index,BPI,BPI,,,,1324.8,index_points
+2023-03-06,baltic_index,BPI,BPI,,,,1405.2,index_points
+2023-03-13,baltic_index,BPI,BPI,,,,1448.2,index_points
+2023-03-20,baltic_index,BPI,BPI,,,,1395.7,index_points
+2023-03-27,baltic_index,BPI,BPI,,,,1405.0,index_points
+2023-04-03,baltic_index,BPI,BPI,,,,1413.3,index_points
+2023-04-10,baltic_index,BPI,BPI,,,,1463.4,index_points
+2023-04-17,baltic_index,BPI,BPI,,,,1472.2,index_points
+2023-04-24,baltic_index,BPI,BPI,,,,1514.4,index_points
+2023-05-01,baltic_index,BPI,BPI,,,,1455.7,index_points
+2023-05-08,baltic_index,BPI,BPI,,,,1413.9,index_points
+2023-05-15,baltic_index,BPI,BPI,,,,1383.3,index_points
+2023-05-22,baltic_index,BPI,BPI,,,,1371.6,index_points
+2023-05-29,baltic_index,BPI,BPI,,,,1469.1,index_points
+2023-06-05,baltic_index,BPI,BPI,,,,1401.0,index_points
+2023-06-12,baltic_index,BPI,BPI,,,,1498.5,index_points
+2023-06-19,baltic_index,BPI,BPI,,,,1412.8,index_points
+2023-06-26,baltic_index,BPI,BPI,,,,1389.9,index_points
+2023-07-03,baltic_index,BPI,BPI,,,,1343.9,index_points
+2023-07-10,baltic_index,BPI,BPI,,,,1278.5,index_points
+2023-07-17,baltic_index,BPI,BPI,,,,1286.4,index_points
+2023-07-24,baltic_index,BPI,BPI,,,,1344.5,index_points
+2023-07-31,baltic_index,BPI,BPI,,,,1278.4,index_points
+2023-08-07,baltic_index,BPI,BPI,,,,1166.3,index_points
+2023-08-14,baltic_index,BPI,BPI,,,,1092.6,index_points
+2023-08-21,baltic_index,BPI,BPI,,,,1056.5,index_points
+2023-08-28,baltic_index,BPI,BPI,,,,1064.8,index_points
+2023-09-04,baltic_index,BPI,BPI,,,,1031.5,index_points
+2023-09-11,baltic_index,BPI,BPI,,,,1107.5,index_points
+2023-09-18,baltic_index,BPI,BPI,,,,1132.3,index_points
+2023-09-25,baltic_index,BPI,BPI,,,,1158.2,index_points
+2023-10-02,baltic_index,BPI,BPI,,,,1109.1,index_points
+2023-10-09,baltic_index,BPI,BPI,,,,1123.8,index_points
+2023-10-16,baltic_index,BPI,BPI,,,,1213.9,index_points
+2023-10-23,baltic_index,BPI,BPI,,,,1239.4,index_points
+2023-10-30,baltic_index,BPI,BPI,,,,1284.3,index_points
+2023-11-06,baltic_index,BPI,BPI,,,,1244.6,index_points
+2023-11-13,baltic_index,BPI,BPI,,,,1230.2,index_points
+2023-11-20,baltic_index,BPI,BPI,,,,1128.3,index_points
+2023-11-27,baltic_index,BPI,BPI,,,,1198.2,index_points
+2023-12-04,baltic_index,BPI,BPI,,,,1219.3,index_points
+2023-12-11,baltic_index,BPI,BPI,,,,1318.9,index_points
+2023-12-18,baltic_index,BPI,BPI,,,,1331.5,index_points
+2023-12-25,baltic_index,BPI,BPI,,,,1192.4,index_points
+2024-01-01,baltic_index,BPI,BPI,,,,1144.5,index_points
+2024-01-08,baltic_index,BPI,BPI,,,,1169.5,index_points
+2024-01-15,baltic_index,BPI,BPI,,,,1178.6,index_points
+2024-01-22,baltic_index,BPI,BPI,,,,1202.8,index_points
+2024-01-29,baltic_index,BPI,BPI,,,,1241.6,index_points
+2024-02-05,baltic_index,BPI,BPI,,,,1105.4,index_points
+2024-02-12,baltic_index,BPI,BPI,,,,1188.6,index_points
+2024-02-19,baltic_index,BPI,BPI,,,,1203.3,index_points
+2024-02-26,baltic_index,BPI,BPI,,,,1153.2,index_points
+2024-03-04,baltic_index,BPI,BPI,,,,1281.8,index_points
+2024-03-11,baltic_index,BPI,BPI,,,,1263.5,index_points
+2024-03-18,baltic_index,BPI,BPI,,,,1313.9,index_points
+2024-03-25,baltic_index,BPI,BPI,,,,1292.9,index_points
+2024-04-01,baltic_index,BPI,BPI,,,,1263.2,index_points
+2024-04-08,baltic_index,BPI,BPI,,,,1251.9,index_points
+2024-04-15,baltic_index,BPI,BPI,,,,1178.2,index_points
+2024-04-22,baltic_index,BPI,BPI,,,,1230.3,index_points
+2024-04-29,baltic_index,BPI,BPI,,,,1177.6,index_points
+2024-05-06,baltic_index,BPI,BPI,,,,1174.6,index_points
+2024-05-13,baltic_index,BPI,BPI,,,,1229.1,index_points
+2024-05-20,baltic_index,BPI,BPI,,,,1226.7,index_points
+2024-05-27,baltic_index,BPI,BPI,,,,1203.8,index_points
+2024-06-03,baltic_index,BPI,BPI,,,,1164.0,index_points
+2024-06-10,baltic_index,BPI,BPI,,,,1129.3,index_points
+2024-06-17,baltic_index,BPI,BPI,,,,1239.3,index_points
+2024-06-24,baltic_index,BPI,BPI,,,,1133.7,index_points
+2024-07-01,baltic_index,BPI,BPI,,,,1089.7,index_points
+2024-07-08,baltic_index,BPI,BPI,,,,1172.7,index_points
+2024-07-15,baltic_index,BPI,BPI,,,,1114.3,index_points
+2024-07-22,baltic_index,BPI,BPI,,,,1158.8,index_points
+2024-07-29,baltic_index,BPI,BPI,,,,1144.9,index_points
+2024-08-05,baltic_index,BPI,BPI,,,,1187.3,index_points
+2024-08-12,baltic_index,BPI,BPI,,,,1190.6,index_points
+2024-08-19,baltic_index,BPI,BPI,,,,1227.0,index_points
+2024-08-26,baltic_index,BPI,BPI,,,,1321.2,index_points
+2024-09-02,baltic_index,BPI,BPI,,,,1183.3,index_points
+2024-09-09,baltic_index,BPI,BPI,,,,1140.9,index_points
+2024-09-16,baltic_index,BPI,BPI,,,,1062.0,index_points
+2024-09-23,baltic_index,BPI,BPI,,,,1102.6,index_points
+2024-09-30,baltic_index,BPI,BPI,,,,1062.3,index_points
+2024-10-07,baltic_index,BPI,BPI,,,,1157.8,index_points
+2024-10-14,baltic_index,BPI,BPI,,,,1139.1,index_points
+2024-10-21,baltic_index,BPI,BPI,,,,1016.4,index_points
+2024-10-28,baltic_index,BPI,BPI,,,,1108.8,index_points
+2024-11-04,baltic_index,BPI,BPI,,,,1199.1,index_points
+2024-11-11,baltic_index,BPI,BPI,,,,1171.2,index_points
+2024-11-18,baltic_index,BPI,BPI,,,,1137.4,index_points
+2024-11-25,baltic_index,BPI,BPI,,,,1103.5,index_points
+2024-12-02,baltic_index,BPI,BPI,,,,1050.1,index_points
+2024-12-09,baltic_index,BPI,BPI,,,,1223.2,index_points
+2024-12-16,baltic_index,BPI,BPI,,,,1231.3,index_points
+2024-12-23,baltic_index,BPI,BPI,,,,1228.9,index_points
+2024-12-30,baltic_index,BPI,BPI,,,,1292.9,index_points
+2023-01-02,baltic_index,BSI,BSI,,,,953.7,index_points
+2023-01-09,baltic_index,BSI,BSI,,,,904.0,index_points
+2023-01-16,baltic_index,BSI,BSI,,,,923.4,index_points
+2023-01-23,baltic_index,BSI,BSI,,,,846.2,index_points
+2023-01-30,baltic_index,BSI,BSI,,,,830.1,index_points
+2023-02-06,baltic_index,BSI,BSI,,,,838.8,index_points
+2023-02-13,baltic_index,BSI,BSI,,,,840.2,index_points
+2023-02-20,baltic_index,BSI,BSI,,,,863.4,index_points
+2023-02-27,baltic_index,BSI,BSI,,,,884.7,index_points
+2023-03-06,baltic_index,BSI,BSI,,,,886.3,index_points
+2023-03-13,baltic_index,BSI,BSI,,,,916.1,index_points
+2023-03-20,baltic_index,BSI,BSI,,,,954.6,index_points
+2023-03-27,baltic_index,BSI,BSI,,,,924.8,index_points
+2023-04-03,baltic_index,BSI,BSI,,,,911.9,index_points
+2023-04-10,baltic_index,BSI,BSI,,,,916.9,index_points
+2023-04-17,baltic_index,BSI,BSI,,,,925.8,index_points
+2023-04-24,baltic_index,BSI,BSI,,,,936.2,index_points
+2023-05-01,baltic_index,BSI,BSI,,,,945.3,index_points
+2023-05-08,baltic_index,BSI,BSI,,,,920.0,index_points
+2023-05-15,baltic_index,BSI,BSI,,,,895.4,index_points
+2023-05-22,baltic_index,BSI,BSI,,,,918.0,index_points
+2023-05-29,baltic_index,BSI,BSI,,,,949.7,index_points
+2023-06-05,baltic_index,BSI,BSI,,,,992.8,index_points
+2023-06-12,baltic_index,BSI,BSI,,,,1071.7,index_points
+2023-06-19,baltic_index,BSI,BSI,,,,1088.7,index_points
+2023-06-26,baltic_index,BSI,BSI,,,,1012.4,index_points
+2023-07-03,baltic_index,BSI,BSI,,,,942.0,index_points
+2023-07-10,baltic_index,BSI,BSI,,,,970.4,index_points
+2023-07-17,baltic_index,BSI,BSI,,,,1034.4,index_points
+2023-07-24,baltic_index,BSI,BSI,,,,1066.2,index_points
+2023-07-31,baltic_index,BSI,BSI,,,,1042.0,index_points
+2023-08-07,baltic_index,BSI,BSI,,,,1030.2,index_points
+2023-08-14,baltic_index,BSI,BSI,,,,1027.4,index_points
+2023-08-21,baltic_index,BSI,BSI,,,,1067.1,index_points
+2023-08-28,baltic_index,BSI,BSI,,,,1040.0,index_points
+2023-09-04,baltic_index,BSI,BSI,,,,1002.6,index_points
+2023-09-11,baltic_index,BSI,BSI,,,,1066.4,index_points
+2023-09-18,baltic_index,BSI,BSI,,,,995.7,index_points
+2023-09-25,baltic_index,BSI,BSI,,,,984.7,index_points
+2023-10-02,baltic_index,BSI,BSI,,,,909.3,index_points
+2023-10-09,baltic_index,BSI,BSI,,,,894.7,index_points
+2023-10-16,baltic_index,BSI,BSI,,,,882.2,index_points
+2023-10-23,baltic_index,BSI,BSI,,,,822.9,index_points
+2023-10-30,baltic_index,BSI,BSI,,,,767.6,index_points
+2023-11-06,baltic_index,BSI,BSI,,,,773.3,index_points
+2023-11-13,baltic_index,BSI,BSI,,,,813.5,index_points
+2023-11-20,baltic_index,BSI,BSI,,,,852.0,index_points
+2023-11-27,baltic_index,BSI,BSI,,,,878.3,index_points
+2023-12-04,baltic_index,BSI,BSI,,,,893.2,index_points
+2023-12-11,baltic_index,BSI,BSI,,,,925.9,index_points
+2023-12-18,baltic_index,BSI,BSI,,,,933.3,index_points
+2023-12-25,baltic_index,BSI,BSI,,,,964.2,index_points
+2024-01-01,baltic_index,BSI,BSI,,,,935.7,index_points
+2024-01-08,baltic_index,BSI,BSI,,,,940.4,index_points
+2024-01-15,baltic_index,BSI,BSI,,,,963.5,index_points
+2024-01-22,baltic_index,BSI,BSI,,,,1017.6,index_points
+2024-01-29,baltic_index,BSI,BSI,,,,1047.3,index_points
+2024-02-05,baltic_index,BSI,BSI,,,,1096.3,index_points
+2024-02-12,baltic_index,BSI,BSI,,,,1126.2,index_points
+2024-02-19,baltic_index,BSI,BSI,,,,1178.7,index_points
+2024-02-26,baltic_index,BSI,BSI,,,,1251.7,index_points
+2024-03-04,baltic_index,BSI,BSI,,,,1183.8,index_points
+2024-03-11,baltic_index,BSI,BSI,,,,1162.7,index_points
+2024-03-18,baltic_index,BSI,BSI,,,,1092.1,index_points
+2024-03-25,baltic_index,BSI,BSI,,,,1016.4,index_points
+2024-04-01,baltic_index,BSI,BSI,,,,1016.2,index_points
+2024-04-08,baltic_index,BSI,BSI,,,,993.7,index_points
+2024-04-15,baltic_index,BSI,BSI,,,,1051.6,index_points
+2024-04-22,baltic_index,BSI,BSI,,,,1088.7,index_points
+2024-04-29,baltic_index,BSI,BSI,,,,1161.7,index_points
+2024-05-06,baltic_index,BSI,BSI,,,,1164.6,index_points
+2024-05-13,baltic_index,BSI,BSI,,,,1120.7,index_points
+2024-05-20,baltic_index,BSI,BSI,,,,1055.1,index_points
+2024-05-27,baltic_index,BSI,BSI,,,,1071.1,index_points
+2024-06-03,baltic_index,BSI,BSI,,,,1057.5,index_points
+2024-06-10,baltic_index,BSI,BSI,,,,1105.1,index_points
+2024-06-17,baltic_index,BSI,BSI,,,,1055.2,index_points
+2024-06-24,baltic_index,BSI,BSI,,,,1024.3,index_points
+2024-07-01,baltic_index,BSI,BSI,,,,1055.1,index_points
+2024-07-08,baltic_index,BSI,BSI,,,,1001.8,index_points
+2024-07-15,baltic_index,BSI,BSI,,,,1099.1,index_points
+2024-07-22,baltic_index,BSI,BSI,,,,1125.4,index_points
+2024-07-29,baltic_index,BSI,BSI,,,,1104.4,index_points
+2024-08-05,baltic_index,BSI,BSI,,,,1121.0,index_points
+2024-08-12,baltic_index,BSI,BSI,,,,1152.3,index_points
+2024-08-19,baltic_index,BSI,BSI,,,,1187.3,index_points
+2024-08-26,baltic_index,BSI,BSI,,,,1187.8,index_points
+2024-09-02,baltic_index,BSI,BSI,,,,1127.7,index_points
+2024-09-09,baltic_index,BSI,BSI,,,,1120.8,index_points
+2024-09-16,baltic_index,BSI,BSI,,,,1138.8,index_points
+2024-09-23,baltic_index,BSI,BSI,,,,1132.0,index_points
+2024-09-30,baltic_index,BSI,BSI,,,,1177.7,index_points
+2024-10-07,baltic_index,BSI,BSI,,,,1164.7,index_points
+2024-10-14,baltic_index,BSI,BSI,,,,1202.9,index_points
+2024-10-21,baltic_index,BSI,BSI,,,,1190.4,index_points
+2024-10-28,baltic_index,BSI,BSI,,,,1158.1,index_points
+2024-11-04,baltic_index,BSI,BSI,,,,1207.7,index_points
+2024-11-11,baltic_index,BSI,BSI,,,,1197.4,index_points
+2024-11-18,baltic_index,BSI,BSI,,,,1146.5,index_points
+2024-11-25,baltic_index,BSI,BSI,,,,1131.6,index_points
+2024-12-02,baltic_index,BSI,BSI,,,,1124.8,index_points
+2024-12-09,baltic_index,BSI,BSI,,,,1113.5,index_points
+2024-12-16,baltic_index,BSI,BSI,,,,1161.1,index_points
+2024-12-23,baltic_index,BSI,BSI,,,,1120.4,index_points
+2024-12-30,baltic_index,BSI,BSI,,,,1139.2,index_points
+2023-01-02,baltic_index,BHSI,BHSI,,,,552.1,index_points
+2023-01-09,baltic_index,BHSI,BHSI,,,,542.9,index_points
+2023-01-16,baltic_index,BHSI,BHSI,,,,546.2,index_points
+2023-01-23,baltic_index,BHSI,BHSI,,,,539.3,index_points
+2023-01-30,baltic_index,BHSI,BHSI,,,,512.2,index_points
+2023-02-06,baltic_index,BHSI,BHSI,,,,532.8,index_points
+2023-02-13,baltic_index,BHSI,BHSI,,,,529.8,index_points
+2023-02-20,baltic_index,BHSI,BHSI,,,,499.2,index_points
+2023-02-27,baltic_index,BHSI,BHSI,,,,477.8,index_points
+2023-03-06,baltic_index,BHSI,BHSI,,,,466.2,index_points
+2023-03-13,baltic_index,BHSI,BHSI,,,,459.9,index_points
+2023-03-20,baltic_index,BHSI,BHSI,,,,459.7,index_points
+2023-03-27,baltic_index,BHSI,BHSI,,,,439.5,index_points
+2023-04-03,baltic_index,BHSI,BHSI,,,,479.7,index_points
+2023-04-10,baltic_index,BHSI,BHSI,,,,458.0,index_points
+2023-04-17,baltic_index,BHSI,BHSI,,,,486.3,index_points
+2023-04-24,baltic_index,BHSI,BHSI,,,,453.2,index_points
+2023-05-01,baltic_index,BHSI,BHSI,,,,464.4,index_points
+2023-05-08,baltic_index,BHSI,BHSI,,,,411.4,index_points
+2023-05-15,baltic_index,BHSI,BHSI,,,,402.0,index_points
+2023-05-22,baltic_index,BHSI,BHSI,,,,433.5,index_points
+2023-05-29,baltic_index,BHSI,BHSI,,,,421.1,index_points
+2023-06-05,baltic_index,BHSI,BHSI,,,,406.9,index_points
+2023-06-12,baltic_index,BHSI,BHSI,,,,401.2,index_points
+2023-06-19,baltic_index,BHSI,BHSI,,,,423.3,index_points
+2023-06-26,baltic_index,BHSI,BHSI,,,,439.9,index_points
+2023-07-03,baltic_index,BHSI,BHSI,,,,457.1,index_points
+2023-07-10,baltic_index,BHSI,BHSI,,,,474.4,index_points
+2023-07-17,baltic_index,BHSI,BHSI,,,,448.6,index_points
+2023-07-24,baltic_index,BHSI,BHSI,,,,444.1,index_points
+2023-07-31,baltic_index,BHSI,BHSI,,,,461.8,index_points
+2023-08-07,baltic_index,BHSI,BHSI,,,,487.0,index_points
+2023-08-14,baltic_index,BHSI,BHSI,,,,515.9,index_points
+2023-08-21,baltic_index,BHSI,BHSI,,,,510.1,index_points
+2023-08-28,baltic_index,BHSI,BHSI,,,,530.1,index_points
+2023-09-04,baltic_index,BHSI,BHSI,,,,549.4,index_points
+2023-09-11,baltic_index,BHSI,BHSI,,,,616.2,index_points
+2023-09-18,baltic_index,BHSI,BHSI,,,,616.7,index_points
+2023-09-25,baltic_index,BHSI,BHSI,,,,631.1,index_points
+2023-10-02,baltic_index,BHSI,BHSI,,,,643.1,index_points
+2023-10-09,baltic_index,BHSI,BHSI,,,,617.0,index_points
+2023-10-16,baltic_index,BHSI,BHSI,,,,610.1,index_points
+2023-10-23,baltic_index,BHSI,BHSI,,,,606.3,index_points
+2023-10-30,baltic_index,BHSI,BHSI,,,,650.8,index_points
+2023-11-06,baltic_index,BHSI,BHSI,,,,651.9,index_points
+2023-11-13,baltic_index,BHSI,BHSI,,,,654.3,index_points
+2023-11-20,baltic_index,BHSI,BHSI,,,,673.3,index_points
+2023-11-27,baltic_index,BHSI,BHSI,,,,640.2,index_points
+2023-12-04,baltic_index,BHSI,BHSI,,,,620.0,index_points
+2023-12-11,baltic_index,BHSI,BHSI,,,,682.7,index_points
+2023-12-18,baltic_index,BHSI,BHSI,,,,663.8,index_points
+2023-12-25,baltic_index,BHSI,BHSI,,,,659.6,index_points
+2024-01-01,baltic_index,BHSI,BHSI,,,,623.5,index_points
+2024-01-08,baltic_index,BHSI,BHSI,,,,618.5,index_points
+2024-01-15,baltic_index,BHSI,BHSI,,,,634.0,index_points
+2024-01-22,baltic_index,BHSI,BHSI,,,,638.7,index_points
+2024-01-29,baltic_index,BHSI,BHSI,,,,601.5,index_points
+2024-02-05,baltic_index,BHSI,BHSI,,,,592.2,index_points
+2024-02-12,baltic_index,BHSI,BHSI,,,,602.7,index_points
+2024-02-19,baltic_index,BHSI,BHSI,,,,582.6,index_points
+2024-02-26,baltic_index,BHSI,BHSI,,,,584.5,index_points
+2024-03-04,baltic_index,BHSI,BHSI,,,,582.5,index_points
+2024-03-11,baltic_index,BHSI,BHSI,,,,561.2,index_points
+2024-03-18,baltic_index,BHSI,BHSI,,,,519.8,index_points
+2024-03-25,baltic_index,BHSI,BHSI,,,,519.9,index_points
+2024-04-01,baltic_index,BHSI,BHSI,,,,471.4,index_points
+2024-04-08,baltic_index,BHSI,BHSI,,,,476.6,index_points
+2024-04-15,baltic_index,BHSI,BHSI,,,,523.8,index_points
+2024-04-22,baltic_index,BHSI,BHSI,,,,544.7,index_points
+2024-04-29,baltic_index,BHSI,BHSI,,,,550.6,index_points
+2024-05-06,baltic_index,BHSI,BHSI,,,,556.4,index_points
+2024-05-13,baltic_index,BHSI,BHSI,,,,551.3,index_points
+2024-05-20,baltic_index,BHSI,BHSI,,,,571.2,index_points
+2024-05-27,baltic_index,BHSI,BHSI,,,,562.6,index_points
+2024-06-03,baltic_index,BHSI,BHSI,,,,546.0,index_points
+2024-06-10,baltic_index,BHSI,BHSI,,,,555.0,index_points
+2024-06-17,baltic_index,BHSI,BHSI,,,,577.0,index_points
+2024-06-24,baltic_index,BHSI,BHSI,,,,557.0,index_points
+2024-07-01,baltic_index,BHSI,BHSI,,,,514.8,index_points
+2024-07-08,baltic_index,BHSI,BHSI,,,,513.9,index_points
+2024-07-15,baltic_index,BHSI,BHSI,,,,521.6,index_points
+2024-07-22,baltic_index,BHSI,BHSI,,,,547.9,index_points
+2024-07-29,baltic_index,BHSI,BHSI,,,,568.6,index_points
+2024-08-05,baltic_index,BHSI,BHSI,,,,561.5,index_points
+2024-08-12,baltic_index,BHSI,BHSI,,,,572.1,index_points
+2024-08-19,baltic_index,BHSI,BHSI,,,,624.4,index_points
+2024-08-26,baltic_index,BHSI,BHSI,,,,609.4,index_points
+2024-09-02,baltic_index,BHSI,BHSI,,,,619.9,index_points
+2024-09-09,baltic_index,BHSI,BHSI,,,,626.8,index_points
+2024-09-16,baltic_index,BHSI,BHSI,,,,596.2,index_points
+2024-09-23,baltic_index,BHSI,BHSI,,,,600.7,index_points
+2024-09-30,baltic_index,BHSI,BHSI,,,,609.1,index_points
+2024-10-07,baltic_index,BHSI,BHSI,,,,619.2,index_points
+2024-10-14,baltic_index,BHSI,BHSI,,,,604.4,index_points
+2024-10-21,baltic_index,BHSI,BHSI,,,,605.7,index_points
+2024-10-28,baltic_index,BHSI,BHSI,,,,636.2,index_points
+2024-11-04,baltic_index,BHSI,BHSI,,,,582.0,index_points
+2024-11-11,baltic_index,BHSI,BHSI,,,,583.5,index_points
+2024-11-18,baltic_index,BHSI,BHSI,,,,606.6,index_points
+2024-11-25,baltic_index,BHSI,BHSI,,,,613.6,index_points
+2024-12-02,baltic_index,BHSI,BHSI,,,,628.1,index_points
+2024-12-09,baltic_index,BHSI,BHSI,,,,617.6,index_points
+2024-12-16,baltic_index,BHSI,BHSI,,,,610.7,index_points
+2024-12-23,baltic_index,BHSI,BHSI,,,,642.5,index_points
+2024-12-30,baltic_index,BHSI,BHSI,,,,634.2,index_points
+2023-01-02,route_rate,C5,W. Australia - Qingdao,PHE,QIN,Capesize,107.28,usd_per_ton
+2023-01-09,route_rate,C5,W. Australia - Qingdao,PHE,QIN,Capesize,110.84,usd_per_ton
+2023-01-16,route_rate,C5,W. Australia - Qingdao,PHE,QIN,Capesize,118.99,usd_per_ton
+2023-01-23,route_rate,C5,W. Australia - Qingdao,PHE,QIN,Capesize,117.15,usd_per_ton
+2023-01-30,route_rate,C5,W. Australia - Qingdao,PHE,QIN,Capesize,120.82,usd_per_ton
+2023-02-06,route_rate,C5,W. Australia - Qingdao,PHE,QIN,Capesize,113.57,usd_per_ton
+2023-02-13,route_rate,C5,W. Australia - Qingdao,PHE,QIN,Capesize,116.65,usd_per_ton
+2023-02-20,route_rate,C5,W. Australia - Qingdao,PHE,QIN,Capesize,111.37,usd_per_ton
+2023-02-27,route_rate,C5,W. Australia - Qingdao,PHE,QIN,Capesize,123.18,usd_per_ton
+2023-03-06,route_rate,C5,W. Australia - Qingdao,PHE,QIN,Capesize,105.28,usd_per_ton
+2023-03-13,route_rate,C5,W. Australia - Qingdao,PHE,QIN,Capesize,122.23,usd_per_ton
+2023-03-20,route_rate,C5,W. Australia - Qingdao,PHE,QIN,Capesize,116.75,usd_per_ton
+2023-03-27,route_rate,C5,W. Australia - Qingdao,PHE,QIN,Capesize,107.27,usd_per_ton
+2023-04-03,route_rate,C5,W. Australia - Qingdao,PHE,QIN,Capesize,97.48,usd_per_ton
+2023-04-10,route_rate,C5,W. Australia - Qingdao,PHE,QIN,Capesize,94.77,usd_per_ton
+2023-04-17,route_rate,C5,W. Australia - Qingdao,PHE,QIN,Capesize,82.76,usd_per_ton
+2023-04-24,route_rate,C5,W. Australia - Qingdao,PHE,QIN,Capesize,96.37,usd_per_ton
+2023-05-01,route_rate,C5,W. Australia - Qingdao,PHE,QIN,Capesize,101.5,usd_per_ton
+2023-05-08,route_rate,C5,W. Australia - Qingdao,PHE,QIN,Capesize,94.38,usd_per_ton
+2023-05-15,route_rate,C5,W. Australia - Qingdao,PHE,QIN,Capesize,102.58,usd_per_ton
+2023-05-22,route_rate,C5,W. Australia - Qingdao,PHE,QIN,Capesize,90.11,usd_per_ton
+2023-05-29,route_rate,C5,W. Australia - Qingdao,PHE,QIN,Capesize,87.73,usd_per_ton
+2023-06-05,route_rate,C5,W. Australia - Qingdao,PHE,QIN,Capesize,112.53,usd_per_ton
+2023-06-12,route_rate,C5,W. Australia - Qingdao,PHE,QIN,Capesize,118.85,usd_per_ton
+2023-06-19,route_rate,C5,W. Australia - Qingdao,PHE,QIN,Capesize,125.36,usd_per_ton
+2023-06-26,route_rate,C5,W. Australia - Qingdao,PHE,QIN,Capesize,124.35,usd_per_ton
+2023-07-03,route_rate,C5,W. Australia - Qingdao,PHE,QIN,Capesize,131.3,usd_per_ton
+2023-07-10,route_rate,C5,W. Australia - Qingdao,PHE,QIN,Capesize,138.43,usd_per_ton
+2023-07-17,route_rate,C5,W. Australia - Qingdao,PHE,QIN,Capesize,140.79,usd_per_ton
+2023-07-24,route_rate,C5,W. Australia - Qingdao,PHE,QIN,Capesize,140.26,usd_per_ton
+2023-07-31,route_rate,C5,W. Australia - Qingdao,PHE,QIN,Capesize,144.1,usd_per_ton
+2023-08-07,route_rate,C5,W. Australia - Qingdao,PHE,QIN,Capesize,145.73,usd_per_ton
+2023-08-14,route_rate,C5,W. Australia - Qingdao,PHE,QIN,Capesize,146.12,usd_per_ton
+2023-08-21,route_rate,C5,W. Australia - Qingdao,PHE,QIN,Capesize,134.84,usd_per_ton
+2023-08-28,route_rate,C5,W. Australia - Qingdao,PHE,QIN,Capesize,154.17,usd_per_ton
+2023-09-04,route_rate,C5,W. Australia - Qingdao,PHE,QIN,Capesize,150.34,usd_per_ton
+2023-09-11,route_rate,C5,W. Australia - Qingdao,PHE,QIN,Capesize,155.94,usd_per_ton
+2023-09-18,route_rate,C5,W. Australia - Qingdao,PHE,QIN,Capesize,143.03,usd_per_ton
+2023-09-25,route_rate,C5,W. Australia - Qingdao,PHE,QIN,Capesize,136.66,usd_per_ton
+2023-10-02,route_rate,C5,W. Australia - Qingdao,PHE,QIN,Capesize,144.97,usd_per_ton
+2023-10-09,route_rate,C5,W. Australia - Qingdao,PHE,QIN,Capesize,149.17,usd_per_ton
+2023-10-16,route_rate,C5,W. Australia - Qingdao,PHE,QIN,Capesize,143.64,usd_per_ton
+2023-10-23,route_rate,C5,W. Australia - Qingdao,PHE,QIN,Capesize,160.42,usd_per_ton
+2023-10-30,route_rate,C5,W. Australia - Qingdao,PHE,QIN,Capesize,154.91,usd_per_ton
+2023-11-06,route_rate,C5,W. Australia - Qingdao,PHE,QIN,Capesize,154.1,usd_per_ton
+2023-11-13,route_rate,C5,W. Australia - Qingdao,PHE,QIN,Capesize,149.43,usd_per_ton
+2023-11-20,route_rate,C5,W. Australia - Qingdao,PHE,QIN,Capesize,138.44,usd_per_ton
+2023-11-27,route_rate,C5,W. Australia - Qingdao,PHE,QIN,Capesize,142.67,usd_per_ton
+2023-12-04,route_rate,C5,W. Australia - Qingdao,PHE,QIN,Capesize,141.9,usd_per_ton
+2023-12-11,route_rate,C5,W. Australia - Qingdao,PHE,QIN,Capesize,127.98,usd_per_ton
+2023-12-18,route_rate,C5,W. Australia - Qingdao,PHE,QIN,Capesize,130.29,usd_per_ton
+2023-12-25,route_rate,C5,W. Australia - Qingdao,PHE,QIN,Capesize,130.41,usd_per_ton
+2024-01-01,route_rate,C5,W. Australia - Qingdao,PHE,QIN,Capesize,122.07,usd_per_ton
+2024-01-08,route_rate,C5,W. Australia - Qingdao,PHE,QIN,Capesize,138.4,usd_per_ton
+2024-01-15,route_rate,C5,W. Australia - Qingdao,PHE,QIN,Capesize,119.43,usd_per_ton
+2024-01-22,route_rate,C5,W. Australia - Qingdao,PHE,QIN,Capesize,121.36,usd_per_ton
+2024-01-29,route_rate,C5,W. Australia - Qingdao,PHE,QIN,Capesize,128.12,usd_per_ton
+2024-02-05,route_rate,C5,W. Australia - Qingdao,PHE,QIN,Capesize,122.28,usd_per_ton
+2024-02-12,route_rate,C5,W. Australia - Qingdao,PHE,QIN,Capesize,125.71,usd_per_ton
+2024-02-19,route_rate,C5,W. Australia - Qingdao,PHE,QIN,Capesize,115.27,usd_per_ton
+2024-02-26,route_rate,C5,W. Australia - Qingdao,PHE,QIN,Capesize,121.41,usd_per_ton
+2024-03-04,route_rate,C5,W. Australia - Qingdao,PHE,QIN,Capesize,113.51,usd_per_ton
+2024-03-11,route_rate,C5,W. Australia - Qingdao,PHE,QIN,Capesize,121.95,usd_per_ton
+2024-03-18,route_rate,C5,W. Australia - Qingdao,PHE,QIN,Capesize,124.71,usd_per_ton
+2024-03-25,route_rate,C5,W. Australia - Qingdao,PHE,QIN,Capesize,134.55,usd_per_ton
+2024-04-01,route_rate,C5,W. Australia - Qingdao,PHE,QIN,Capesize,140.78,usd_per_ton
+2024-04-08,route_rate,C5,W. Australia - Qingdao,PHE,QIN,Capesize,135.26,usd_per_ton
+2024-04-15,route_rate,C5,W. Australia - Qingdao,PHE,QIN,Capesize,135.82,usd_per_ton
+2024-04-22,route_rate,C5,W. Australia - Qingdao,PHE,QIN,Capesize,105.9,usd_per_ton
+2024-04-29,route_rate,C5,W. Australia - Qingdao,PHE,QIN,Capesize,110.63,usd_per_ton
+2024-05-06,route_rate,C5,W. Australia - Qingdao,PHE,QIN,Capesize,112.09,usd_per_ton
+2024-05-13,route_rate,C5,W. Australia - Qingdao,PHE,QIN,Capesize,103.66,usd_per_ton
+2024-05-20,route_rate,C5,W. Australia - Qingdao,PHE,QIN,Capesize,95.06,usd_per_ton
+2024-05-27,route_rate,C5,W. Australia - Qingdao,PHE,QIN,Capesize,111.29,usd_per_ton
+2024-06-03,route_rate,C5,W. Australia - Qingdao,PHE,QIN,Capesize,103.02,usd_per_ton
+2024-06-10,route_rate,C5,W. Australia - Qingdao,PHE,QIN,Capesize,115.84,usd_per_ton
+2024-06-17,route_rate,C5,W. Australia - Qingdao,PHE,QIN,Capesize,123.56,usd_per_ton
+2024-06-24,route_rate,C5,W. Australia - Qingdao,PHE,QIN,Capesize,133.15,usd_per_ton
+2024-07-01,route_rate,C5,W. Australia - Qingdao,PHE,QIN,Capesize,137.08,usd_per_ton
+2024-07-08,route_rate,C5,W. Australia - Qingdao,PHE,QIN,Capesize,116.82,usd_per_ton
+2024-07-15,route_rate,C5,W. Australia - Qingdao,PHE,QIN,Capesize,119.39,usd_per_ton
+2024-07-22,route_rate,C5,W. Australia - Qingdao,PHE,QIN,Capesize,107.36,usd_per_ton
+2024-07-29,route_rate,C5,W. Australia - Qingdao,PHE,QIN,Capesize,116.06,usd_per_ton
+2024-08-05,route_rate,C5,W. Australia - Qingdao,PHE,QIN,Capesize,119.27,usd_per_ton
+2024-08-12,route_rate,C5,W. Australia - Qingdao,PHE,QIN,Capesize,138.92,usd_per_ton
+2024-08-19,route_rate,C5,W. Australia - Qingdao,PHE,QIN,Capesize,153.18,usd_per_ton
+2024-08-26,route_rate,C5,W. Australia - Qingdao,PHE,QIN,Capesize,144.15,usd_per_ton
+2024-09-02,route_rate,C5,W. Australia - Qingdao,PHE,QIN,Capesize,158.62,usd_per_ton
+2024-09-09,route_rate,C5,W. Australia - Qingdao,PHE,QIN,Capesize,150.4,usd_per_ton
+2024-09-16,route_rate,C5,W. Australia - Qingdao,PHE,QIN,Capesize,163.0,usd_per_ton
+2024-09-23,route_rate,C5,W. Australia - Qingdao,PHE,QIN,Capesize,164.35,usd_per_ton
+2024-09-30,route_rate,C5,W. Australia - Qingdao,PHE,QIN,Capesize,144.85,usd_per_ton
+2024-10-07,route_rate,C5,W. Australia - Qingdao,PHE,QIN,Capesize,149.82,usd_per_ton
+2024-10-14,route_rate,C5,W. Australia - Qingdao,PHE,QIN,Capesize,159.93,usd_per_ton
+2024-10-21,route_rate,C5,W. Australia - Qingdao,PHE,QIN,Capesize,152.67,usd_per_ton
+2024-10-28,route_rate,C5,W. Australia - Qingdao,PHE,QIN,Capesize,142.87,usd_per_ton
+2024-11-04,route_rate,C5,W. Australia - Qingdao,PHE,QIN,Capesize,157.07,usd_per_ton
+2024-11-11,route_rate,C5,W. Australia - Qingdao,PHE,QIN,Capesize,157.27,usd_per_ton
+2024-11-18,route_rate,C5,W. Australia - Qingdao,PHE,QIN,Capesize,152.94,usd_per_ton
+2024-11-25,route_rate,C5,W. Australia - Qingdao,PHE,QIN,Capesize,160.74,usd_per_ton
+2024-12-02,route_rate,C5,W. Australia - Qingdao,PHE,QIN,Capesize,161.71,usd_per_ton
+2024-12-09,route_rate,C5,W. Australia - Qingdao,PHE,QIN,Capesize,163.59,usd_per_ton
+2024-12-16,route_rate,C5,W. Australia - Qingdao,PHE,QIN,Capesize,164.03,usd_per_ton
+2024-12-23,route_rate,C5,W. Australia - Qingdao,PHE,QIN,Capesize,157.34,usd_per_ton
+2024-12-30,route_rate,C5,W. Australia - Qingdao,PHE,QIN,Capesize,155.89,usd_per_ton
+2023-01-02,route_rate,C3,Tubarao - Qingdao,TUB,QIN,Capesize,115.31,usd_per_ton
+2023-01-09,route_rate,C3,Tubarao - Qingdao,TUB,QIN,Capesize,104.42,usd_per_ton
+2023-01-16,route_rate,C3,Tubarao - Qingdao,TUB,QIN,Capesize,129.74,usd_per_ton
+2023-01-23,route_rate,C3,Tubarao - Qingdao,TUB,QIN,Capesize,121.86,usd_per_ton
+2023-01-30,route_rate,C3,Tubarao - Qingdao,TUB,QIN,Capesize,123.32,usd_per_ton
+2023-02-06,route_rate,C3,Tubarao - Qingdao,TUB,QIN,Capesize,106.22,usd_per_ton
+2023-02-13,route_rate,C3,Tubarao - Qingdao,TUB,QIN,Capesize,104.57,usd_per_ton
+2023-02-20,route_rate,C3,Tubarao - Qingdao,TUB,QIN,Capesize,100.73,usd_per_ton
+2023-02-27,route_rate,C3,Tubarao - Qingdao,TUB,QIN,Capesize,119.64,usd_per_ton
+2023-03-06,route_rate,C3,Tubarao - Qingdao,TUB,QIN,Capesize,115.9,usd_per_ton
+2023-03-13,route_rate,C3,Tubarao - Qingdao,TUB,QIN,Capesize,114.17,usd_per_ton
+2023-03-20,route_rate,C3,Tubarao - Qingdao,TUB,QIN,Capesize,116.22,usd_per_ton
+2023-03-27,route_rate,C3,Tubarao - Qingdao,TUB,QIN,Capesize,116.72,usd_per_ton
+2023-04-03,route_rate,C3,Tubarao - Qingdao,TUB,QIN,Capesize,100.76,usd_per_ton
+2023-04-10,route_rate,C3,Tubarao - Qingdao,TUB,QIN,Capesize,99.44,usd_per_ton
+2023-04-17,route_rate,C3,Tubarao - Qingdao,TUB,QIN,Capesize,80.81,usd_per_ton
+2023-04-24,route_rate,C3,Tubarao - Qingdao,TUB,QIN,Capesize,87.8,usd_per_ton
+2023-05-01,route_rate,C3,Tubarao - Qingdao,TUB,QIN,Capesize,99.08,usd_per_ton
+2023-05-08,route_rate,C3,Tubarao - Qingdao,TUB,QIN,Capesize,90.36,usd_per_ton
+2023-05-15,route_rate,C3,Tubarao - Qingdao,TUB,QIN,Capesize,97.92,usd_per_ton
+2023-05-22,route_rate,C3,Tubarao - Qingdao,TUB,QIN,Capesize,103.2,usd_per_ton
+2023-05-29,route_rate,C3,Tubarao - Qingdao,TUB,QIN,Capesize,94.79,usd_per_ton
+2023-06-05,route_rate,C3,Tubarao - Qingdao,TUB,QIN,Capesize,110.81,usd_per_ton
+2023-06-12,route_rate,C3,Tubarao - Qingdao,TUB,QIN,Capesize,122.36,usd_per_ton
+2023-06-19,route_rate,C3,Tubarao - Qingdao,TUB,QIN,Capesize,133.95,usd_per_ton
+2023-06-26,route_rate,C3,Tubarao - Qingdao,TUB,QIN,Capesize,129.8,usd_per_ton
+2023-07-03,route_rate,C3,Tubarao - Qingdao,TUB,QIN,Capesize,135.01,usd_per_ton
+2023-07-10,route_rate,C3,Tubarao - Qingdao,TUB,QIN,Capesize,137.43,usd_per_ton
+2023-07-17,route_rate,C3,Tubarao - Qingdao,TUB,QIN,Capesize,146.05,usd_per_ton
+2023-07-24,route_rate,C3,Tubarao - Qingdao,TUB,QIN,Capesize,152.39,usd_per_ton
+2023-07-31,route_rate,C3,Tubarao - Qingdao,TUB,QIN,Capesize,140.63,usd_per_ton
+2023-08-07,route_rate,C3,Tubarao - Qingdao,TUB,QIN,Capesize,151.89,usd_per_ton
+2023-08-14,route_rate,C3,Tubarao - Qingdao,TUB,QIN,Capesize,140.99,usd_per_ton
+2023-08-21,route_rate,C3,Tubarao - Qingdao,TUB,QIN,Capesize,153.72,usd_per_ton
+2023-08-28,route_rate,C3,Tubarao - Qingdao,TUB,QIN,Capesize,150.6,usd_per_ton
+2023-09-04,route_rate,C3,Tubarao - Qingdao,TUB,QIN,Capesize,151.58,usd_per_ton
+2023-09-11,route_rate,C3,Tubarao - Qingdao,TUB,QIN,Capesize,152.32,usd_per_ton
+2023-09-18,route_rate,C3,Tubarao - Qingdao,TUB,QIN,Capesize,142.13,usd_per_ton
+2023-09-25,route_rate,C3,Tubarao - Qingdao,TUB,QIN,Capesize,140.63,usd_per_ton
+2023-10-02,route_rate,C3,Tubarao - Qingdao,TUB,QIN,Capesize,135.22,usd_per_ton
+2023-10-09,route_rate,C3,Tubarao - Qingdao,TUB,QIN,Capesize,168.93,usd_per_ton
+2023-10-16,route_rate,C3,Tubarao - Qingdao,TUB,QIN,Capesize,149.31,usd_per_ton
+2023-10-23,route_rate,C3,Tubarao - Qingdao,TUB,QIN,Capesize,164.53,usd_per_ton
+2023-10-30,route_rate,C3,Tubarao - Qingdao,TUB,QIN,Capesize,153.84,usd_per_ton
+2023-11-06,route_rate,C3,Tubarao - Qingdao,TUB,QIN,Capesize,154.79,usd_per_ton
+2023-11-13,route_rate,C3,Tubarao - Qingdao,TUB,QIN,Capesize,151.96,usd_per_ton
+2023-11-20,route_rate,C3,Tubarao - Qingdao,TUB,QIN,Capesize,144.17,usd_per_ton
+2023-11-27,route_rate,C3,Tubarao - Qingdao,TUB,QIN,Capesize,141.08,usd_per_ton
+2023-12-04,route_rate,C3,Tubarao - Qingdao,TUB,QIN,Capesize,139.2,usd_per_ton
+2023-12-11,route_rate,C3,Tubarao - Qingdao,TUB,QIN,Capesize,134.09,usd_per_ton
+2023-12-18,route_rate,C3,Tubarao - Qingdao,TUB,QIN,Capesize,129.05,usd_per_ton
+2023-12-25,route_rate,C3,Tubarao - Qingdao,TUB,QIN,Capesize,125.26,usd_per_ton
+2024-01-01,route_rate,C3,Tubarao - Qingdao,TUB,QIN,Capesize,130.55,usd_per_ton
+2024-01-08,route_rate,C3,Tubarao - Qingdao,TUB,QIN,Capesize,128.57,usd_per_ton
+2024-01-15,route_rate,C3,Tubarao - Qingdao,TUB,QIN,Capesize,124.53,usd_per_ton
+2024-01-22,route_rate,C3,Tubarao - Qingdao,TUB,QIN,Capesize,132.15,usd_per_ton
+2024-01-29,route_rate,C3,Tubarao - Qingdao,TUB,QIN,Capesize,116.17,usd_per_ton
+2024-02-05,route_rate,C3,Tubarao - Qingdao,TUB,QIN,Capesize,116.53,usd_per_ton
+2024-02-12,route_rate,C3,Tubarao - Qingdao,TUB,QIN,Capesize,124.27,usd_per_ton
+2024-02-19,route_rate,C3,Tubarao - Qingdao,TUB,QIN,Capesize,115.53,usd_per_ton
+2024-02-26,route_rate,C3,Tubarao - Qingdao,TUB,QIN,Capesize,118.87,usd_per_ton
+2024-03-04,route_rate,C3,Tubarao - Qingdao,TUB,QIN,Capesize,122.0,usd_per_ton
+2024-03-11,route_rate,C3,Tubarao - Qingdao,TUB,QIN,Capesize,124.02,usd_per_ton
+2024-03-18,route_rate,C3,Tubarao - Qingdao,TUB,QIN,Capesize,130.02,usd_per_ton
+2024-03-25,route_rate,C3,Tubarao - Qingdao,TUB,QIN,Capesize,127.88,usd_per_ton
+2024-04-01,route_rate,C3,Tubarao - Qingdao,TUB,QIN,Capesize,130.95,usd_per_ton
+2024-04-08,route_rate,C3,Tubarao - Qingdao,TUB,QIN,Capesize,130.04,usd_per_ton
+2024-04-15,route_rate,C3,Tubarao - Qingdao,TUB,QIN,Capesize,134.49,usd_per_ton
+2024-04-22,route_rate,C3,Tubarao - Qingdao,TUB,QIN,Capesize,117.84,usd_per_ton
+2024-04-29,route_rate,C3,Tubarao - Qingdao,TUB,QIN,Capesize,105.13,usd_per_ton
+2024-05-06,route_rate,C3,Tubarao - Qingdao,TUB,QIN,Capesize,113.56,usd_per_ton
+2024-05-13,route_rate,C3,Tubarao - Qingdao,TUB,QIN,Capesize,98.69,usd_per_ton
+2024-05-20,route_rate,C3,Tubarao - Qingdao,TUB,QIN,Capesize,90.17,usd_per_ton
+2024-05-27,route_rate,C3,Tubarao - Qingdao,TUB,QIN,Capesize,111.04,usd_per_ton
+2024-06-03,route_rate,C3,Tubarao - Qingdao,TUB,QIN,Capesize,105.56,usd_per_ton
+2024-06-10,route_rate,C3,Tubarao - Qingdao,TUB,QIN,Capesize,117.05,usd_per_ton
+2024-06-17,route_rate,C3,Tubarao - Qingdao,TUB,QIN,Capesize,114.06,usd_per_ton
+2024-06-24,route_rate,C3,Tubarao - Qingdao,TUB,QIN,Capesize,134.21,usd_per_ton
+2024-07-01,route_rate,C3,Tubarao - Qingdao,TUB,QIN,Capesize,128.18,usd_per_ton
+2024-07-08,route_rate,C3,Tubarao - Qingdao,TUB,QIN,Capesize,104.94,usd_per_ton
+2024-07-15,route_rate,C3,Tubarao - Qingdao,TUB,QIN,Capesize,121.19,usd_per_ton
+2024-07-22,route_rate,C3,Tubarao - Qingdao,TUB,QIN,Capesize,121.29,usd_per_ton
+2024-07-29,route_rate,C3,Tubarao - Qingdao,TUB,QIN,Capesize,116.57,usd_per_ton
+2024-08-05,route_rate,C3,Tubarao - Qingdao,TUB,QIN,Capesize,130.86,usd_per_ton
+2024-08-12,route_rate,C3,Tubarao - Qingdao,TUB,QIN,Capesize,140.2,usd_per_ton
+2024-08-19,route_rate,C3,Tubarao - Qingdao,TUB,QIN,Capesize,162.19,usd_per_ton
+2024-08-26,route_rate,C3,Tubarao - Qingdao,TUB,QIN,Capesize,165.56,usd_per_ton
+2024-09-02,route_rate,C3,Tubarao - Qingdao,TUB,QIN,Capesize,147.72,usd_per_ton
+2024-09-09,route_rate,C3,Tubarao - Qingdao,TUB,QIN,Capesize,136.55,usd_per_ton
+2024-09-16,route_rate,C3,Tubarao - Qingdao,TUB,QIN,Capesize,146.51,usd_per_ton
+2024-09-23,route_rate,C3,Tubarao - Qingdao,TUB,QIN,Capesize,158.6,usd_per_ton
+2024-09-30,route_rate,C3,Tubarao - Qingdao,TUB,QIN,Capesize,147.66,usd_per_ton
+2024-10-07,route_rate,C3,Tubarao - Qingdao,TUB,QIN,Capesize,151.8,usd_per_ton
+2024-10-14,route_rate,C3,Tubarao - Qingdao,TUB,QIN,Capesize,159.41,usd_per_ton
+2024-10-21,route_rate,C3,Tubarao - Qingdao,TUB,QIN,Capesize,148.56,usd_per_ton
+2024-10-28,route_rate,C3,Tubarao - Qingdao,TUB,QIN,Capesize,146.98,usd_per_ton
+2024-11-04,route_rate,C3,Tubarao - Qingdao,TUB,QIN,Capesize,149.81,usd_per_ton
+2024-11-11,route_rate,C3,Tubarao - Qingdao,TUB,QIN,Capesize,158.58,usd_per_ton
+2024-11-18,route_rate,C3,Tubarao - Qingdao,TUB,QIN,Capesize,152.31,usd_per_ton
+2024-11-25,route_rate,C3,Tubarao - Qingdao,TUB,QIN,Capesize,148.79,usd_per_ton
+2024-12-02,route_rate,C3,Tubarao - Qingdao,TUB,QIN,Capesize,148.13,usd_per_ton
+2024-12-09,route_rate,C3,Tubarao - Qingdao,TUB,QIN,Capesize,162.24,usd_per_ton
+2024-12-16,route_rate,C3,Tubarao - Qingdao,TUB,QIN,Capesize,164.98,usd_per_ton
+2024-12-23,route_rate,C3,Tubarao - Qingdao,TUB,QIN,Capesize,164.57,usd_per_ton
+2024-12-30,route_rate,C3,Tubarao - Qingdao,TUB,QIN,Capesize,164.44,usd_per_ton
+2023-01-02,route_rate,C10,Pacific RV (Newcastle-Qingdao),NEW,QIN,Capesize,122.1,usd_per_ton
+2023-01-09,route_rate,C10,Pacific RV (Newcastle-Qingdao),NEW,QIN,Capesize,107.53,usd_per_ton
+2023-01-16,route_rate,C10,Pacific RV (Newcastle-Qingdao),NEW,QIN,Capesize,115.19,usd_per_ton
+2023-01-23,route_rate,C10,Pacific RV (Newcastle-Qingdao),NEW,QIN,Capesize,124.0,usd_per_ton
+2023-01-30,route_rate,C10,Pacific RV (Newcastle-Qingdao),NEW,QIN,Capesize,120.32,usd_per_ton
+2023-02-06,route_rate,C10,Pacific RV (Newcastle-Qingdao),NEW,QIN,Capesize,107.22,usd_per_ton
+2023-02-13,route_rate,C10,Pacific RV (Newcastle-Qingdao),NEW,QIN,Capesize,117.7,usd_per_ton
+2023-02-20,route_rate,C10,Pacific RV (Newcastle-Qingdao),NEW,QIN,Capesize,117.08,usd_per_ton
+2023-02-27,route_rate,C10,Pacific RV (Newcastle-Qingdao),NEW,QIN,Capesize,129.57,usd_per_ton
+2023-03-06,route_rate,C10,Pacific RV (Newcastle-Qingdao),NEW,QIN,Capesize,121.48,usd_per_ton
+2023-03-13,route_rate,C10,Pacific RV (Newcastle-Qingdao),NEW,QIN,Capesize,122.15,usd_per_ton
+2023-03-20,route_rate,C10,Pacific RV (Newcastle-Qingdao),NEW,QIN,Capesize,108.61,usd_per_ton
+2023-03-27,route_rate,C10,Pacific RV (Newcastle-Qingdao),NEW,QIN,Capesize,102.43,usd_per_ton
+2023-04-03,route_rate,C10,Pacific RV (Newcastle-Qingdao),NEW,QIN,Capesize,107.05,usd_per_ton
+2023-04-10,route_rate,C10,Pacific RV (Newcastle-Qingdao),NEW,QIN,Capesize,102.37,usd_per_ton
+2023-04-17,route_rate,C10,Pacific RV (Newcastle-Qingdao),NEW,QIN,Capesize,88.52,usd_per_ton
+2023-04-24,route_rate,C10,Pacific RV (Newcastle-Qingdao),NEW,QIN,Capesize,91.55,usd_per_ton
+2023-05-01,route_rate,C10,Pacific RV (Newcastle-Qingdao),NEW,QIN,Capesize,99.27,usd_per_ton
+2023-05-08,route_rate,C10,Pacific RV (Newcastle-Qingdao),NEW,QIN,Capesize,91.96,usd_per_ton
+2023-05-15,route_rate,C10,Pacific RV (Newcastle-Qingdao),NEW,QIN,Capesize,100.96,usd_per_ton
+2023-05-22,route_rate,C10,Pacific RV (Newcastle-Qingdao),NEW,QIN,Capesize,94.89,usd_per_ton
+2023-05-29,route_rate,C10,Pacific RV (Newcastle-Qingdao),NEW,QIN,Capesize,95.66,usd_per_ton
+2023-06-05,route_rate,C10,Pacific RV (Newcastle-Qingdao),NEW,QIN,Capesize,109.43,usd_per_ton
+2023-06-12,route_rate,C10,Pacific RV (Newcastle-Qingdao),NEW,QIN,Capesize,114.16,usd_per_ton
+2023-06-19,route_rate,C10,Pacific RV (Newcastle-Qingdao),NEW,QIN,Capesize,129.82,usd_per_ton
+2023-06-26,route_rate,C10,Pacific RV (Newcastle-Qingdao),NEW,QIN,Capesize,129.3,usd_per_ton
+2023-07-03,route_rate,C10,Pacific RV (Newcastle-Qingdao),NEW,QIN,Capesize,132.23,usd_per_ton
+2023-07-10,route_rate,C10,Pacific RV (Newcastle-Qingdao),NEW,QIN,Capesize,135.56,usd_per_ton
+2023-07-17,route_rate,C10,Pacific RV (Newcastle-Qingdao),NEW,QIN,Capesize,136.43,usd_per_ton
+2023-07-24,route_rate,C10,Pacific RV (Newcastle-Qingdao),NEW,QIN,Capesize,138.55,usd_per_ton
+2023-07-31,route_rate,C10,Pacific RV (Newcastle-Qingdao),NEW,QIN,Capesize,143.7,usd_per_ton
+2023-08-07,route_rate,C10,Pacific RV (Newcastle-Qingdao),NEW,QIN,Capesize,147.92,usd_per_ton
+2023-08-14,route_rate,C10,Pacific RV (Newcastle-Qingdao),NEW,QIN,Capesize,145.81,usd_per_ton
+2023-08-21,route_rate,C10,Pacific RV (Newcastle-Qingdao),NEW,QIN,Capesize,142.7,usd_per_ton
+2023-08-28,route_rate,C10,Pacific RV (Newcastle-Qingdao),NEW,QIN,Capesize,154.27,usd_per_ton
+2023-09-04,route_rate,C10,Pacific RV (Newcastle-Qingdao),NEW,QIN,Capesize,162.36,usd_per_ton
+2023-09-11,route_rate,C10,Pacific RV (Newcastle-Qingdao),NEW,QIN,Capesize,150.49,usd_per_ton
+2023-09-18,route_rate,C10,Pacific RV (Newcastle-Qingdao),NEW,QIN,Capesize,136.05,usd_per_ton
+2023-09-25,route_rate,C10,Pacific RV (Newcastle-Qingdao),NEW,QIN,Capesize,137.98,usd_per_ton
+2023-10-02,route_rate,C10,Pacific RV (Newcastle-Qingdao),NEW,QIN,Capesize,138.59,usd_per_ton
+2023-10-09,route_rate,C10,Pacific RV (Newcastle-Qingdao),NEW,QIN,Capesize,152.96,usd_per_ton
+2023-10-16,route_rate,C10,Pacific RV (Newcastle-Qingdao),NEW,QIN,Capesize,156.08,usd_per_ton
+2023-10-23,route_rate,C10,Pacific RV (Newcastle-Qingdao),NEW,QIN,Capesize,162.51,usd_per_ton
+2023-10-30,route_rate,C10,Pacific RV (Newcastle-Qingdao),NEW,QIN,Capesize,152.78,usd_per_ton
+2023-11-06,route_rate,C10,Pacific RV (Newcastle-Qingdao),NEW,QIN,Capesize,146.57,usd_per_ton
+2023-11-13,route_rate,C10,Pacific RV (Newcastle-Qingdao),NEW,QIN,Capesize,164.98,usd_per_ton
+2023-11-20,route_rate,C10,Pacific RV (Newcastle-Qingdao),NEW,QIN,Capesize,144.29,usd_per_ton
+2023-11-27,route_rate,C10,Pacific RV (Newcastle-Qingdao),NEW,QIN,Capesize,144.27,usd_per_ton
+2023-12-04,route_rate,C10,Pacific RV (Newcastle-Qingdao),NEW,QIN,Capesize,144.02,usd_per_ton
+2023-12-11,route_rate,C10,Pacific RV (Newcastle-Qingdao),NEW,QIN,Capesize,136.09,usd_per_ton
+2023-12-18,route_rate,C10,Pacific RV (Newcastle-Qingdao),NEW,QIN,Capesize,128.61,usd_per_ton
+2023-12-25,route_rate,C10,Pacific RV (Newcastle-Qingdao),NEW,QIN,Capesize,131.0,usd_per_ton
+2024-01-01,route_rate,C10,Pacific RV (Newcastle-Qingdao),NEW,QIN,Capesize,129.88,usd_per_ton
+2024-01-08,route_rate,C10,Pacific RV (Newcastle-Qingdao),NEW,QIN,Capesize,130.29,usd_per_ton
+2024-01-15,route_rate,C10,Pacific RV (Newcastle-Qingdao),NEW,QIN,Capesize,116.64,usd_per_ton
+2024-01-22,route_rate,C10,Pacific RV (Newcastle-Qingdao),NEW,QIN,Capesize,120.31,usd_per_ton
+2024-01-29,route_rate,C10,Pacific RV (Newcastle-Qingdao),NEW,QIN,Capesize,115.24,usd_per_ton
+2024-02-05,route_rate,C10,Pacific RV (Newcastle-Qingdao),NEW,QIN,Capesize,121.46,usd_per_ton
+2024-02-12,route_rate,C10,Pacific RV (Newcastle-Qingdao),NEW,QIN,Capesize,126.65,usd_per_ton
+2024-02-19,route_rate,C10,Pacific RV (Newcastle-Qingdao),NEW,QIN,Capesize,115.71,usd_per_ton
+2024-02-26,route_rate,C10,Pacific RV (Newcastle-Qingdao),NEW,QIN,Capesize,109.23,usd_per_ton
+2024-03-04,route_rate,C10,Pacific RV (Newcastle-Qingdao),NEW,QIN,Capesize,113.17,usd_per_ton
+2024-03-11,route_rate,C10,Pacific RV (Newcastle-Qingdao),NEW,QIN,Capesize,123.43,usd_per_ton
+2024-03-18,route_rate,C10,Pacific RV (Newcastle-Qingdao),NEW,QIN,Capesize,131.2,usd_per_ton
+2024-03-25,route_rate,C10,Pacific RV (Newcastle-Qingdao),NEW,QIN,Capesize,118.62,usd_per_ton
+2024-04-01,route_rate,C10,Pacific RV (Newcastle-Qingdao),NEW,QIN,Capesize,139.37,usd_per_ton
+2024-04-08,route_rate,C10,Pacific RV (Newcastle-Qingdao),NEW,QIN,Capesize,125.0,usd_per_ton
+2024-04-15,route_rate,C10,Pacific RV (Newcastle-Qingdao),NEW,QIN,Capesize,124.52,usd_per_ton
+2024-04-22,route_rate,C10,Pacific RV (Newcastle-Qingdao),NEW,QIN,Capesize,118.77,usd_per_ton
+2024-04-29,route_rate,C10,Pacific RV (Newcastle-Qingdao),NEW,QIN,Capesize,112.01,usd_per_ton
+2024-05-06,route_rate,C10,Pacific RV (Newcastle-Qingdao),NEW,QIN,Capesize,102.22,usd_per_ton
+2024-05-13,route_rate,C10,Pacific RV (Newcastle-Qingdao),NEW,QIN,Capesize,100.49,usd_per_ton
+2024-05-20,route_rate,C10,Pacific RV (Newcastle-Qingdao),NEW,QIN,Capesize,97.82,usd_per_ton
+2024-05-27,route_rate,C10,Pacific RV (Newcastle-Qingdao),NEW,QIN,Capesize,110.53,usd_per_ton
+2024-06-03,route_rate,C10,Pacific RV (Newcastle-Qingdao),NEW,QIN,Capesize,103.74,usd_per_ton
+2024-06-10,route_rate,C10,Pacific RV (Newcastle-Qingdao),NEW,QIN,Capesize,112.26,usd_per_ton
+2024-06-17,route_rate,C10,Pacific RV (Newcastle-Qingdao),NEW,QIN,Capesize,123.36,usd_per_ton
+2024-06-24,route_rate,C10,Pacific RV (Newcastle-Qingdao),NEW,QIN,Capesize,136.26,usd_per_ton
+2024-07-01,route_rate,C10,Pacific RV (Newcastle-Qingdao),NEW,QIN,Capesize,128.09,usd_per_ton
+2024-07-08,route_rate,C10,Pacific RV (Newcastle-Qingdao),NEW,QIN,Capesize,114.94,usd_per_ton
+2024-07-15,route_rate,C10,Pacific RV (Newcastle-Qingdao),NEW,QIN,Capesize,116.89,usd_per_ton
+2024-07-22,route_rate,C10,Pacific RV (Newcastle-Qingdao),NEW,QIN,Capesize,125.6,usd_per_ton
+2024-07-29,route_rate,C10,Pacific RV (Newcastle-Qingdao),NEW,QIN,Capesize,124.44,usd_per_ton
+2024-08-05,route_rate,C10,Pacific RV (Newcastle-Qingdao),NEW,QIN,Capesize,120.78,usd_per_ton
+2024-08-12,route_rate,C10,Pacific RV (Newcastle-Qingdao),NEW,QIN,Capesize,140.66,usd_per_ton
+2024-08-19,route_rate,C10,Pacific RV (Newcastle-Qingdao),NEW,QIN,Capesize,162.19,usd_per_ton
+2024-08-26,route_rate,C10,Pacific RV (Newcastle-Qingdao),NEW,QIN,Capesize,161.24,usd_per_ton
+2024-09-02,route_rate,C10,Pacific RV (Newcastle-Qingdao),NEW,QIN,Capesize,157.15,usd_per_ton
+2024-09-09,route_rate,C10,Pacific RV (Newcastle-Qingdao),NEW,QIN,Capesize,154.26,usd_per_ton
+2024-09-16,route_rate,C10,Pacific RV (Newcastle-Qingdao),NEW,QIN,Capesize,155.85,usd_per_ton
+2024-09-23,route_rate,C10,Pacific RV (Newcastle-Qingdao),NEW,QIN,Capesize,151.01,usd_per_ton
+2024-09-30,route_rate,C10,Pacific RV (Newcastle-Qingdao),NEW,QIN,Capesize,152.92,usd_per_ton
+2024-10-07,route_rate,C10,Pacific RV (Newcastle-Qingdao),NEW,QIN,Capesize,154.63,usd_per_ton
+2024-10-14,route_rate,C10,Pacific RV (Newcastle-Qingdao),NEW,QIN,Capesize,156.43,usd_per_ton
+2024-10-21,route_rate,C10,Pacific RV (Newcastle-Qingdao),NEW,QIN,Capesize,142.33,usd_per_ton
+2024-10-28,route_rate,C10,Pacific RV (Newcastle-Qingdao),NEW,QIN,Capesize,142.4,usd_per_ton
+2024-11-04,route_rate,C10,Pacific RV (Newcastle-Qingdao),NEW,QIN,Capesize,141.69,usd_per_ton
+2024-11-11,route_rate,C10,Pacific RV (Newcastle-Qingdao),NEW,QIN,Capesize,143.63,usd_per_ton
+2024-11-18,route_rate,C10,Pacific RV (Newcastle-Qingdao),NEW,QIN,Capesize,143.75,usd_per_ton
+2024-11-25,route_rate,C10,Pacific RV (Newcastle-Qingdao),NEW,QIN,Capesize,152.59,usd_per_ton
+2024-12-02,route_rate,C10,Pacific RV (Newcastle-Qingdao),NEW,QIN,Capesize,153.09,usd_per_ton
+2024-12-09,route_rate,C10,Pacific RV (Newcastle-Qingdao),NEW,QIN,Capesize,156.75,usd_per_ton
+2024-12-16,route_rate,C10,Pacific RV (Newcastle-Qingdao),NEW,QIN,Capesize,161.44,usd_per_ton
+2024-12-23,route_rate,C10,Pacific RV (Newcastle-Qingdao),NEW,QIN,Capesize,166.47,usd_per_ton
+2024-12-30,route_rate,C10,Pacific RV (Newcastle-Qingdao),NEW,QIN,Capesize,164.56,usd_per_ton
+2023-01-02,route_rate,P1A,Transatlantic RV,VAN,ROT,Panamax,124.32,usd_per_ton
+2023-01-09,route_rate,P1A,Transatlantic RV,VAN,ROT,Panamax,125.38,usd_per_ton
+2023-01-16,route_rate,P1A,Transatlantic RV,VAN,ROT,Panamax,120.1,usd_per_ton
+2023-01-23,route_rate,P1A,Transatlantic RV,VAN,ROT,Panamax,124.86,usd_per_ton
+2023-01-30,route_rate,P1A,Transatlantic RV,VAN,ROT,Panamax,117.94,usd_per_ton
+2023-02-06,route_rate,P1A,Transatlantic RV,VAN,ROT,Panamax,112.8,usd_per_ton
+2023-02-13,route_rate,P1A,Transatlantic RV,VAN,ROT,Panamax,128.96,usd_per_ton
+2023-02-20,route_rate,P1A,Transatlantic RV,VAN,ROT,Panamax,125.96,usd_per_ton
+2023-02-27,route_rate,P1A,Transatlantic RV,VAN,ROT,Panamax,129.42,usd_per_ton
+2023-03-06,route_rate,P1A,Transatlantic RV,VAN,ROT,Panamax,138.38,usd_per_ton
+2023-03-13,route_rate,P1A,Transatlantic RV,VAN,ROT,Panamax,127.17,usd_per_ton
+2023-03-20,route_rate,P1A,Transatlantic RV,VAN,ROT,Panamax,122.53,usd_per_ton
+2023-03-27,route_rate,P1A,Transatlantic RV,VAN,ROT,Panamax,136.41,usd_per_ton
+2023-04-03,route_rate,P1A,Transatlantic RV,VAN,ROT,Panamax,139.25,usd_per_ton
+2023-04-10,route_rate,P1A,Transatlantic RV,VAN,ROT,Panamax,138.82,usd_per_ton
+2023-04-17,route_rate,P1A,Transatlantic RV,VAN,ROT,Panamax,141.13,usd_per_ton
+2023-04-24,route_rate,P1A,Transatlantic RV,VAN,ROT,Panamax,140.61,usd_per_ton
+2023-05-01,route_rate,P1A,Transatlantic RV,VAN,ROT,Panamax,130.87,usd_per_ton
+2023-05-08,route_rate,P1A,Transatlantic RV,VAN,ROT,Panamax,132.58,usd_per_ton
+2023-05-15,route_rate,P1A,Transatlantic RV,VAN,ROT,Panamax,136.21,usd_per_ton
+2023-05-22,route_rate,P1A,Transatlantic RV,VAN,ROT,Panamax,125.32,usd_per_ton
+2023-05-29,route_rate,P1A,Transatlantic RV,VAN,ROT,Panamax,141.21,usd_per_ton
+2023-06-05,route_rate,P1A,Transatlantic RV,VAN,ROT,Panamax,129.41,usd_per_ton
+2023-06-12,route_rate,P1A,Transatlantic RV,VAN,ROT,Panamax,146.07,usd_per_ton
+2023-06-19,route_rate,P1A,Transatlantic RV,VAN,ROT,Panamax,137.94,usd_per_ton
+2023-06-26,route_rate,P1A,Transatlantic RV,VAN,ROT,Panamax,127.44,usd_per_ton
+2023-07-03,route_rate,P1A,Transatlantic RV,VAN,ROT,Panamax,123.15,usd_per_ton
+2023-07-10,route_rate,P1A,Transatlantic RV,VAN,ROT,Panamax,118.94,usd_per_ton
+2023-07-17,route_rate,P1A,Transatlantic RV,VAN,ROT,Panamax,122.89,usd_per_ton
+2023-07-24,route_rate,P1A,Transatlantic RV,VAN,ROT,Panamax,129.4,usd_per_ton
+2023-07-31,route_rate,P1A,Transatlantic RV,VAN,ROT,Panamax,127.6,usd_per_ton
+2023-08-07,route_rate,P1A,Transatlantic RV,VAN,ROT,Panamax,116.3,usd_per_ton
+2023-08-14,route_rate,P1A,Transatlantic RV,VAN,ROT,Panamax,107.61,usd_per_ton
+2023-08-21,route_rate,P1A,Transatlantic RV,VAN,ROT,Panamax,103.31,usd_per_ton
+2023-08-28,route_rate,P1A,Transatlantic RV,VAN,ROT,Panamax,103.36,usd_per_ton
+2023-09-04,route_rate,P1A,Transatlantic RV,VAN,ROT,Panamax,98.74,usd_per_ton
+2023-09-11,route_rate,P1A,Transatlantic RV,VAN,ROT,Panamax,103.72,usd_per_ton
+2023-09-18,route_rate,P1A,Transatlantic RV,VAN,ROT,Panamax,108.52,usd_per_ton
+2023-09-25,route_rate,P1A,Transatlantic RV,VAN,ROT,Panamax,117.9,usd_per_ton
+2023-10-02,route_rate,P1A,Transatlantic RV,VAN,ROT,Panamax,100.19,usd_per_ton
+2023-10-09,route_rate,P1A,Transatlantic RV,VAN,ROT,Panamax,102.41,usd_per_ton
+2023-10-16,route_rate,P1A,Transatlantic RV,VAN,ROT,Panamax,111.71,usd_per_ton
+2023-10-23,route_rate,P1A,Transatlantic RV,VAN,ROT,Panamax,121.21,usd_per_ton
+2023-10-30,route_rate,P1A,Transatlantic RV,VAN,ROT,Panamax,106.65,usd_per_ton
+2023-11-06,route_rate,P1A,Transatlantic RV,VAN,ROT,Panamax,118.25,usd_per_ton
+2023-11-13,route_rate,P1A,Transatlantic RV,VAN,ROT,Panamax,117.73,usd_per_ton
+2023-11-20,route_rate,P1A,Transatlantic RV,VAN,ROT,Panamax,111.77,usd_per_ton
+2023-11-27,route_rate,P1A,Transatlantic RV,VAN,ROT,Panamax,117.51,usd_per_ton
+2023-12-04,route_rate,P1A,Transatlantic RV,VAN,ROT,Panamax,121.08,usd_per_ton
+2023-12-11,route_rate,P1A,Transatlantic RV,VAN,ROT,Panamax,124.58,usd_per_ton
+2023-12-18,route_rate,P1A,Transatlantic RV,VAN,ROT,Panamax,122.18,usd_per_ton
+2023-12-25,route_rate,P1A,Transatlantic RV,VAN,ROT,Panamax,103.8,usd_per_ton
+2024-01-01,route_rate,P1A,Transatlantic RV,VAN,ROT,Panamax,103.95,usd_per_ton
+2024-01-08,route_rate,P1A,Transatlantic RV,VAN,ROT,Panamax,109.77,usd_per_ton
+2024-01-15,route_rate,P1A,Transatlantic RV,VAN,ROT,Panamax,121.89,usd_per_ton
+2024-01-22,route_rate,P1A,Transatlantic RV,VAN,ROT,Panamax,110.88,usd_per_ton
+2024-01-29,route_rate,P1A,Transatlantic RV,VAN,ROT,Panamax,115.85,usd_per_ton
+2024-02-05,route_rate,P1A,Transatlantic RV,VAN,ROT,Panamax,101.96,usd_per_ton
+2024-02-12,route_rate,P1A,Transatlantic RV,VAN,ROT,Panamax,111.88,usd_per_ton
+2024-02-19,route_rate,P1A,Transatlantic RV,VAN,ROT,Panamax,108.92,usd_per_ton
+2024-02-26,route_rate,P1A,Transatlantic RV,VAN,ROT,Panamax,110.87,usd_per_ton
+2024-03-04,route_rate,P1A,Transatlantic RV,VAN,ROT,Panamax,112.69,usd_per_ton
+2024-03-11,route_rate,P1A,Transatlantic RV,VAN,ROT,Panamax,119.94,usd_per_ton
+2024-03-18,route_rate,P1A,Transatlantic RV,VAN,ROT,Panamax,121.11,usd_per_ton
+2024-03-25,route_rate,P1A,Transatlantic RV,VAN,ROT,Panamax,123.87,usd_per_ton
+2024-04-01,route_rate,P1A,Transatlantic RV,VAN,ROT,Panamax,117.15,usd_per_ton
+2024-04-08,route_rate,P1A,Transatlantic RV,VAN,ROT,Panamax,118.05,usd_per_ton
+2024-04-15,route_rate,P1A,Transatlantic RV,VAN,ROT,Panamax,109.5,usd_per_ton
+2024-04-22,route_rate,P1A,Transatlantic RV,VAN,ROT,Panamax,119.6,usd_per_ton
+2024-04-29,route_rate,P1A,Transatlantic RV,VAN,ROT,Panamax,121.44,usd_per_ton
+2024-05-06,route_rate,P1A,Transatlantic RV,VAN,ROT,Panamax,106.69,usd_per_ton
+2024-05-13,route_rate,P1A,Transatlantic RV,VAN,ROT,Panamax,118.81,usd_per_ton
+2024-05-20,route_rate,P1A,Transatlantic RV,VAN,ROT,Panamax,118.85,usd_per_ton
+2024-05-27,route_rate,P1A,Transatlantic RV,VAN,ROT,Panamax,123.75,usd_per_ton
+2024-06-03,route_rate,P1A,Transatlantic RV,VAN,ROT,Panamax,101.49,usd_per_ton
+2024-06-10,route_rate,P1A,Transatlantic RV,VAN,ROT,Panamax,100.79,usd_per_ton
+2024-06-17,route_rate,P1A,Transatlantic RV,VAN,ROT,Panamax,114.98,usd_per_ton
+2024-06-24,route_rate,P1A,Transatlantic RV,VAN,ROT,Panamax,110.91,usd_per_ton
+2024-07-01,route_rate,P1A,Transatlantic RV,VAN,ROT,Panamax,106.58,usd_per_ton
+2024-07-08,route_rate,P1A,Transatlantic RV,VAN,ROT,Panamax,111.77,usd_per_ton
+2024-07-15,route_rate,P1A,Transatlantic RV,VAN,ROT,Panamax,106.66,usd_per_ton
+2024-07-22,route_rate,P1A,Transatlantic RV,VAN,ROT,Panamax,110.32,usd_per_ton
+2024-07-29,route_rate,P1A,Transatlantic RV,VAN,ROT,Panamax,101.45,usd_per_ton
+2024-08-05,route_rate,P1A,Transatlantic RV,VAN,ROT,Panamax,117.65,usd_per_ton
+2024-08-12,route_rate,P1A,Transatlantic RV,VAN,ROT,Panamax,109.36,usd_per_ton
+2024-08-19,route_rate,P1A,Transatlantic RV,VAN,ROT,Panamax,115.17,usd_per_ton
+2024-08-26,route_rate,P1A,Transatlantic RV,VAN,ROT,Panamax,122.75,usd_per_ton
+2024-09-02,route_rate,P1A,Transatlantic RV,VAN,ROT,Panamax,112.47,usd_per_ton
+2024-09-09,route_rate,P1A,Transatlantic RV,VAN,ROT,Panamax,106.64,usd_per_ton
+2024-09-16,route_rate,P1A,Transatlantic RV,VAN,ROT,Panamax,101.15,usd_per_ton
+2024-09-23,route_rate,P1A,Transatlantic RV,VAN,ROT,Panamax,98.84,usd_per_ton
+2024-09-30,route_rate,P1A,Transatlantic RV,VAN,ROT,Panamax,98.79,usd_per_ton
+2024-10-07,route_rate,P1A,Transatlantic RV,VAN,ROT,Panamax,108.74,usd_per_ton
+2024-10-14,route_rate,P1A,Transatlantic RV,VAN,ROT,Panamax,114.12,usd_per_ton
+2024-10-21,route_rate,P1A,Transatlantic RV,VAN,ROT,Panamax,96.03,usd_per_ton
+2024-10-28,route_rate,P1A,Transatlantic RV,VAN,ROT,Panamax,111.92,usd_per_ton
+2024-11-04,route_rate,P1A,Transatlantic RV,VAN,ROT,Panamax,115.79,usd_per_ton
+2024-11-11,route_rate,P1A,Transatlantic RV,VAN,ROT,Panamax,110.82,usd_per_ton
+2024-11-18,route_rate,P1A,Transatlantic RV,VAN,ROT,Panamax,106.46,usd_per_ton
+2024-11-25,route_rate,P1A,Transatlantic RV,VAN,ROT,Panamax,106.0,usd_per_ton
+2024-12-02,route_rate,P1A,Transatlantic RV,VAN,ROT,Panamax,106.97,usd_per_ton
+2024-12-09,route_rate,P1A,Transatlantic RV,VAN,ROT,Panamax,117.56,usd_per_ton
+2024-12-16,route_rate,P1A,Transatlantic RV,VAN,ROT,Panamax,111.85,usd_per_ton
+2024-12-23,route_rate,P1A,Transatlantic RV,VAN,ROT,Panamax,118.48,usd_per_ton
+2024-12-30,route_rate,P1A,Transatlantic RV,VAN,ROT,Panamax,119.87,usd_per_ton
+2023-01-02,route_rate,P3A,Australia - Japan/China RV,NEW,RIZ,Panamax,114.14,usd_per_ton
+2023-01-09,route_rate,P3A,Australia - Japan/China RV,NEW,RIZ,Panamax,115.57,usd_per_ton
+2023-01-16,route_rate,P3A,Australia - Japan/China RV,NEW,RIZ,Panamax,112.76,usd_per_ton
+2023-01-23,route_rate,P3A,Australia - Japan/China RV,NEW,RIZ,Panamax,123.23,usd_per_ton
+2023-01-30,route_rate,P3A,Australia - Japan/China RV,NEW,RIZ,Panamax,113.76,usd_per_ton
+2023-02-06,route_rate,P3A,Australia - Japan/China RV,NEW,RIZ,Panamax,127.46,usd_per_ton
+2023-02-13,route_rate,P3A,Australia - Japan/China RV,NEW,RIZ,Panamax,125.84,usd_per_ton
+2023-02-20,route_rate,P3A,Australia - Japan/China RV,NEW,RIZ,Panamax,119.47,usd_per_ton
+2023-02-27,route_rate,P3A,Australia - Japan/China RV,NEW,RIZ,Panamax,128.19,usd_per_ton
+2023-03-06,route_rate,P3A,Australia - Japan/China RV,NEW,RIZ,Panamax,124.51,usd_per_ton
+2023-03-13,route_rate,P3A,Australia - Japan/China RV,NEW,RIZ,Panamax,138.35,usd_per_ton
+2023-03-20,route_rate,P3A,Australia - Japan/China RV,NEW,RIZ,Panamax,138.24,usd_per_ton
+2023-03-27,route_rate,P3A,Australia - Japan/China RV,NEW,RIZ,Panamax,139.72,usd_per_ton
+2023-04-03,route_rate,P3A,Australia - Japan/China RV,NEW,RIZ,Panamax,131.52,usd_per_ton
+2023-04-10,route_rate,P3A,Australia - Japan/China RV,NEW,RIZ,Panamax,142.79,usd_per_ton
+2023-04-17,route_rate,P3A,Australia - Japan/China RV,NEW,RIZ,Panamax,144.3,usd_per_ton
+2023-04-24,route_rate,P3A,Australia - Japan/China RV,NEW,RIZ,Panamax,141.42,usd_per_ton
+2023-05-01,route_rate,P3A,Australia - Japan/China RV,NEW,RIZ,Panamax,140.12,usd_per_ton
+2023-05-08,route_rate,P3A,Australia - Japan/China RV,NEW,RIZ,Panamax,136.76,usd_per_ton
+2023-05-15,route_rate,P3A,Australia - Japan/China RV,NEW,RIZ,Panamax,140.11,usd_per_ton
+2023-05-22,route_rate,P3A,Australia - Japan/China RV,NEW,RIZ,Panamax,135.78,usd_per_ton
+2023-05-29,route_rate,P3A,Australia - Japan/China RV,NEW,RIZ,Panamax,135.17,usd_per_ton
+2023-06-05,route_rate,P3A,Australia - Japan/China RV,NEW,RIZ,Panamax,131.63,usd_per_ton
+2023-06-12,route_rate,P3A,Australia - Japan/China RV,NEW,RIZ,Panamax,147.9,usd_per_ton
+2023-06-19,route_rate,P3A,Australia - Japan/China RV,NEW,RIZ,Panamax,136.86,usd_per_ton
+2023-06-26,route_rate,P3A,Australia - Japan/China RV,NEW,RIZ,Panamax,133.65,usd_per_ton
+2023-07-03,route_rate,P3A,Australia - Japan/China RV,NEW,RIZ,Panamax,129.31,usd_per_ton
+2023-07-10,route_rate,P3A,Australia - Japan/China RV,NEW,RIZ,Panamax,118.05,usd_per_ton
+2023-07-17,route_rate,P3A,Australia - Japan/China RV,NEW,RIZ,Panamax,116.81,usd_per_ton
+2023-07-24,route_rate,P3A,Australia - Japan/China RV,NEW,RIZ,Panamax,126.77,usd_per_ton
+2023-07-31,route_rate,P3A,Australia - Japan/China RV,NEW,RIZ,Panamax,121.67,usd_per_ton
+2023-08-07,route_rate,P3A,Australia - Japan/China RV,NEW,RIZ,Panamax,111.95,usd_per_ton
+2023-08-14,route_rate,P3A,Australia - Japan/China RV,NEW,RIZ,Panamax,99.65,usd_per_ton
+2023-08-21,route_rate,P3A,Australia - Japan/China RV,NEW,RIZ,Panamax,103.13,usd_per_ton
+2023-08-28,route_rate,P3A,Australia - Japan/China RV,NEW,RIZ,Panamax,97.5,usd_per_ton
+2023-09-04,route_rate,P3A,Australia - Japan/China RV,NEW,RIZ,Panamax,95.1,usd_per_ton
+2023-09-11,route_rate,P3A,Australia - Japan/China RV,NEW,RIZ,Panamax,102.09,usd_per_ton
+2023-09-18,route_rate,P3A,Australia - Japan/China RV,NEW,RIZ,Panamax,104.11,usd_per_ton
+2023-09-25,route_rate,P3A,Australia - Japan/China RV,NEW,RIZ,Panamax,107.95,usd_per_ton
+2023-10-02,route_rate,P3A,Australia - Japan/China RV,NEW,RIZ,Panamax,107.23,usd_per_ton
+2023-10-09,route_rate,P3A,Australia - Japan/China RV,NEW,RIZ,Panamax,97.6,usd_per_ton
+2023-10-16,route_rate,P3A,Australia - Japan/China RV,NEW,RIZ,Panamax,116.47,usd_per_ton
+2023-10-23,route_rate,P3A,Australia - Japan/China RV,NEW,RIZ,Panamax,115.67,usd_per_ton
+2023-10-30,route_rate,P3A,Australia - Japan/China RV,NEW,RIZ,Panamax,119.14,usd_per_ton
+2023-11-06,route_rate,P3A,Australia - Japan/China RV,NEW,RIZ,Panamax,115.36,usd_per_ton
+2023-11-13,route_rate,P3A,Australia - Japan/China RV,NEW,RIZ,Panamax,109.51,usd_per_ton
+2023-11-20,route_rate,P3A,Australia - Japan/China RV,NEW,RIZ,Panamax,99.63,usd_per_ton
+2023-11-27,route_rate,P3A,Australia - Japan/China RV,NEW,RIZ,Panamax,113.13,usd_per_ton
+2023-12-04,route_rate,P3A,Australia - Japan/China RV,NEW,RIZ,Panamax,117.91,usd_per_ton
+2023-12-11,route_rate,P3A,Australia - Japan/China RV,NEW,RIZ,Panamax,126.66,usd_per_ton
+2023-12-18,route_rate,P3A,Australia - Japan/China RV,NEW,RIZ,Panamax,117.89,usd_per_ton
+2023-12-25,route_rate,P3A,Australia - Japan/China RV,NEW,RIZ,Panamax,101.66,usd_per_ton
+2024-01-01,route_rate,P3A,Australia - Japan/China RV,NEW,RIZ,Panamax,102.83,usd_per_ton
+2024-01-08,route_rate,P3A,Australia - Japan/China RV,NEW,RIZ,Panamax,113.68,usd_per_ton
+2024-01-15,route_rate,P3A,Australia - Japan/China RV,NEW,RIZ,Panamax,113.86,usd_per_ton
+2024-01-22,route_rate,P3A,Australia - Japan/China RV,NEW,RIZ,Panamax,115.52,usd_per_ton
+2024-01-29,route_rate,P3A,Australia - Japan/China RV,NEW,RIZ,Panamax,123.39,usd_per_ton
+2024-02-05,route_rate,P3A,Australia - Japan/China RV,NEW,RIZ,Panamax,106.64,usd_per_ton
+2024-02-12,route_rate,P3A,Australia - Japan/China RV,NEW,RIZ,Panamax,119.74,usd_per_ton
+2024-02-19,route_rate,P3A,Australia - Japan/China RV,NEW,RIZ,Panamax,109.54,usd_per_ton
+2024-02-26,route_rate,P3A,Australia - Japan/China RV,NEW,RIZ,Panamax,110.21,usd_per_ton
+2024-03-04,route_rate,P3A,Australia - Japan/China RV,NEW,RIZ,Panamax,120.24,usd_per_ton
+2024-03-11,route_rate,P3A,Australia - Japan/China RV,NEW,RIZ,Panamax,113.08,usd_per_ton
+2024-03-18,route_rate,P3A,Australia - Japan/China RV,NEW,RIZ,Panamax,125.76,usd_per_ton
+2024-03-25,route_rate,P3A,Australia - Japan/China RV,NEW,RIZ,Panamax,122.38,usd_per_ton
+2024-04-01,route_rate,P3A,Australia - Japan/China RV,NEW,RIZ,Panamax,112.8,usd_per_ton
+2024-04-08,route_rate,P3A,Australia - Japan/China RV,NEW,RIZ,Panamax,115.43,usd_per_ton
+2024-04-15,route_rate,P3A,Australia - Japan/China RV,NEW,RIZ,Panamax,109.08,usd_per_ton
+2024-04-22,route_rate,P3A,Australia - Japan/China RV,NEW,RIZ,Panamax,116.45,usd_per_ton
+2024-04-29,route_rate,P3A,Australia - Japan/China RV,NEW,RIZ,Panamax,117.39,usd_per_ton
+2024-05-06,route_rate,P3A,Australia - Japan/China RV,NEW,RIZ,Panamax,113.64,usd_per_ton
+2024-05-13,route_rate,P3A,Australia - Japan/China RV,NEW,RIZ,Panamax,119.38,usd_per_ton
+2024-05-20,route_rate,P3A,Australia - Japan/China RV,NEW,RIZ,Panamax,114.0,usd_per_ton
+2024-05-27,route_rate,P3A,Australia - Japan/China RV,NEW,RIZ,Panamax,115.05,usd_per_ton
+2024-06-03,route_rate,P3A,Australia - Japan/China RV,NEW,RIZ,Panamax,107.85,usd_per_ton
+2024-06-10,route_rate,P3A,Australia - Japan/China RV,NEW,RIZ,Panamax,110.88,usd_per_ton
+2024-06-17,route_rate,P3A,Australia - Japan/China RV,NEW,RIZ,Panamax,111.68,usd_per_ton
+2024-06-24,route_rate,P3A,Australia - Japan/China RV,NEW,RIZ,Panamax,103.86,usd_per_ton
+2024-07-01,route_rate,P3A,Australia - Japan/China RV,NEW,RIZ,Panamax,115.76,usd_per_ton
+2024-07-08,route_rate,P3A,Australia - Japan/China RV,NEW,RIZ,Panamax,108.92,usd_per_ton
+2024-07-15,route_rate,P3A,Australia - Japan/China RV,NEW,RIZ,Panamax,105.91,usd_per_ton
+2024-07-22,route_rate,P3A,Australia - Japan/China RV,NEW,RIZ,Panamax,107.9,usd_per_ton
+2024-07-29,route_rate,P3A,Australia - Japan/China RV,NEW,RIZ,Panamax,113.18,usd_per_ton
+2024-08-05,route_rate,P3A,Australia - Japan/China RV,NEW,RIZ,Panamax,120.53,usd_per_ton
+2024-08-12,route_rate,P3A,Australia - Japan/China RV,NEW,RIZ,Panamax,103.26,usd_per_ton
+2024-08-19,route_rate,P3A,Australia - Japan/China RV,NEW,RIZ,Panamax,126.34,usd_per_ton
+2024-08-26,route_rate,P3A,Australia - Japan/China RV,NEW,RIZ,Panamax,130.18,usd_per_ton
+2024-09-02,route_rate,P3A,Australia - Japan/China RV,NEW,RIZ,Panamax,117.33,usd_per_ton
+2024-09-09,route_rate,P3A,Australia - Japan/China RV,NEW,RIZ,Panamax,107.55,usd_per_ton
+2024-09-16,route_rate,P3A,Australia - Japan/China RV,NEW,RIZ,Panamax,98.96,usd_per_ton
+2024-09-23,route_rate,P3A,Australia - Japan/China RV,NEW,RIZ,Panamax,109.64,usd_per_ton
+2024-09-30,route_rate,P3A,Australia - Japan/China RV,NEW,RIZ,Panamax,95.15,usd_per_ton
+2024-10-07,route_rate,P3A,Australia - Japan/China RV,NEW,RIZ,Panamax,106.32,usd_per_ton
+2024-10-14,route_rate,P3A,Australia - Japan/China RV,NEW,RIZ,Panamax,104.14,usd_per_ton
+2024-10-21,route_rate,P3A,Australia - Japan/China RV,NEW,RIZ,Panamax,94.88,usd_per_ton
+2024-10-28,route_rate,P3A,Australia - Japan/China RV,NEW,RIZ,Panamax,107.36,usd_per_ton
+2024-11-04,route_rate,P3A,Australia - Japan/China RV,NEW,RIZ,Panamax,109.24,usd_per_ton
+2024-11-11,route_rate,P3A,Australia - Japan/China RV,NEW,RIZ,Panamax,116.56,usd_per_ton
+2024-11-18,route_rate,P3A,Australia - Japan/China RV,NEW,RIZ,Panamax,108.46,usd_per_ton
+2024-11-25,route_rate,P3A,Australia - Japan/China RV,NEW,RIZ,Panamax,108.42,usd_per_ton
+2024-12-02,route_rate,P3A,Australia - Japan/China RV,NEW,RIZ,Panamax,102.33,usd_per_ton
+2024-12-09,route_rate,P3A,Australia - Japan/China RV,NEW,RIZ,Panamax,120.35,usd_per_ton
+2024-12-16,route_rate,P3A,Australia - Japan/China RV,NEW,RIZ,Panamax,117.15,usd_per_ton
+2024-12-23,route_rate,P3A,Australia - Japan/China RV,NEW,RIZ,Panamax,113.89,usd_per_ton
+2024-12-30,route_rate,P3A,Australia - Japan/China RV,NEW,RIZ,Panamax,123.63,usd_per_ton
+2023-01-02,route_rate,S1B,S.Africa - China,RIB,NIN,Supramax,119.18,usd_per_ton
+2023-01-09,route_rate,S1B,S.Africa - China,RIB,NIN,Supramax,117.29,usd_per_ton
+2023-01-16,route_rate,S1B,S.Africa - China,RIB,NIN,Supramax,116.28,usd_per_ton
+2023-01-23,route_rate,S1B,S.Africa - China,RIB,NIN,Supramax,110.63,usd_per_ton
+2023-01-30,route_rate,S1B,S.Africa - China,RIB,NIN,Supramax,105.2,usd_per_ton
+2023-02-06,route_rate,S1B,S.Africa - China,RIB,NIN,Supramax,110.86,usd_per_ton
+2023-02-13,route_rate,S1B,S.Africa - China,RIB,NIN,Supramax,108.1,usd_per_ton
+2023-02-20,route_rate,S1B,S.Africa - China,RIB,NIN,Supramax,99.99,usd_per_ton
+2023-02-27,route_rate,S1B,S.Africa - China,RIB,NIN,Supramax,116.23,usd_per_ton
+2023-03-06,route_rate,S1B,S.Africa - China,RIB,NIN,Supramax,117.57,usd_per_ton
+2023-03-13,route_rate,S1B,S.Africa - China,RIB,NIN,Supramax,120.71,usd_per_ton
+2023-03-20,route_rate,S1B,S.Africa - China,RIB,NIN,Supramax,124.88,usd_per_ton
+2023-03-27,route_rate,S1B,S.Africa - China,RIB,NIN,Supramax,121.89,usd_per_ton
+2023-04-03,route_rate,S1B,S.Africa - China,RIB,NIN,Supramax,124.29,usd_per_ton
+2023-04-10,route_rate,S1B,S.Africa - China,RIB,NIN,Supramax,116.98,usd_per_ton
+2023-04-17,route_rate,S1B,S.Africa - China,RIB,NIN,Supramax,116.38,usd_per_ton
+2023-04-24,route_rate,S1B,S.Africa - China,RIB,NIN,Supramax,118.22,usd_per_ton
+2023-05-01,route_rate,S1B,S.Africa - China,RIB,NIN,Supramax,120.98,usd_per_ton
+2023-05-08,route_rate,S1B,S.Africa - China,RIB,NIN,Supramax,116.21,usd_per_ton
+2023-05-15,route_rate,S1B,S.Africa - China,RIB,NIN,Supramax,119.76,usd_per_ton
+2023-05-22,route_rate,S1B,S.Africa - China,RIB,NIN,Supramax,113.3,usd_per_ton
+2023-05-29,route_rate,S1B,S.Africa - China,RIB,NIN,Supramax,126.12,usd_per_ton
+2023-06-05,route_rate,S1B,S.Africa - China,RIB,NIN,Supramax,126.28,usd_per_ton
+2023-06-12,route_rate,S1B,S.Africa - China,RIB,NIN,Supramax,142.77,usd_per_ton
+2023-06-19,route_rate,S1B,S.Africa - China,RIB,NIN,Supramax,142.14,usd_per_ton
+2023-06-26,route_rate,S1B,S.Africa - China,RIB,NIN,Supramax,133.48,usd_per_ton
+2023-07-03,route_rate,S1B,S.Africa - China,RIB,NIN,Supramax,128.81,usd_per_ton
+2023-07-10,route_rate,S1B,S.Africa - China,RIB,NIN,Supramax,127.68,usd_per_ton
+2023-07-17,route_rate,S1B,S.Africa - China,RIB,NIN,Supramax,134.75,usd_per_ton
+2023-07-24,route_rate,S1B,S.Africa - China,RIB,NIN,Supramax,134.37,usd_per_ton
+2023-07-31,route_rate,S1B,S.Africa - China,RIB,NIN,Supramax,130.23,usd_per_ton
+2023-08-07,route_rate,S1B,S.Africa - China,RIB,NIN,Supramax,128.3,usd_per_ton
+2023-08-14,route_rate,S1B,S.Africa - China,RIB,NIN,Supramax,123.33,usd_per_ton
+2023-08-21,route_rate,S1B,S.Africa - China,RIB,NIN,Supramax,131.81,usd_per_ton
+2023-08-28,route_rate,S1B,S.Africa - China,RIB,NIN,Supramax,136.3,usd_per_ton
+2023-09-04,route_rate,S1B,S.Africa - China,RIB,NIN,Supramax,127.81,usd_per_ton
+2023-09-11,route_rate,S1B,S.Africa - China,RIB,NIN,Supramax,134.92,usd_per_ton
+2023-09-18,route_rate,S1B,S.Africa - China,RIB,NIN,Supramax,123.92,usd_per_ton
+2023-09-25,route_rate,S1B,S.Africa - China,RIB,NIN,Supramax,129.78,usd_per_ton
+2023-10-02,route_rate,S1B,S.Africa - China,RIB,NIN,Supramax,123.23,usd_per_ton
+2023-10-09,route_rate,S1B,S.Africa - China,RIB,NIN,Supramax,115.69,usd_per_ton
+2023-10-16,route_rate,S1B,S.Africa - China,RIB,NIN,Supramax,123.79,usd_per_ton
+2023-10-23,route_rate,S1B,S.Africa - China,RIB,NIN,Supramax,104.88,usd_per_ton
+2023-10-30,route_rate,S1B,S.Africa - China,RIB,NIN,Supramax,95.05,usd_per_ton
+2023-11-06,route_rate,S1B,S.Africa - China,RIB,NIN,Supramax,103.08,usd_per_ton
+2023-11-13,route_rate,S1B,S.Africa - China,RIB,NIN,Supramax,98.1,usd_per_ton
+2023-11-20,route_rate,S1B,S.Africa - China,RIB,NIN,Supramax,107.7,usd_per_ton
+2023-11-27,route_rate,S1B,S.Africa - China,RIB,NIN,Supramax,106.73,usd_per_ton
+2023-12-04,route_rate,S1B,S.Africa - China,RIB,NIN,Supramax,114.19,usd_per_ton
+2023-12-11,route_rate,S1B,S.Africa - China,RIB,NIN,Supramax,124.06,usd_per_ton
+2023-12-18,route_rate,S1B,S.Africa - China,RIB,NIN,Supramax,116.64,usd_per_ton
+2023-12-25,route_rate,S1B,S.Africa - China,RIB,NIN,Supramax,123.62,usd_per_ton
+2024-01-01,route_rate,S1B,S.Africa - China,RIB,NIN,Supramax,124.78,usd_per_ton
+2024-01-08,route_rate,S1B,S.Africa - China,RIB,NIN,Supramax,123.76,usd_per_ton
+2024-01-15,route_rate,S1B,S.Africa - China,RIB,NIN,Supramax,123.73,usd_per_ton
+2024-01-22,route_rate,S1B,S.Africa - China,RIB,NIN,Supramax,132.77,usd_per_ton
+2024-01-29,route_rate,S1B,S.Africa - China,RIB,NIN,Supramax,135.01,usd_per_ton
+2024-02-05,route_rate,S1B,S.Africa - China,RIB,NIN,Supramax,146.36,usd_per_ton
+2024-02-12,route_rate,S1B,S.Africa - China,RIB,NIN,Supramax,155.97,usd_per_ton
+2024-02-19,route_rate,S1B,S.Africa - China,RIB,NIN,Supramax,161.07,usd_per_ton
+2024-02-26,route_rate,S1B,S.Africa - China,RIB,NIN,Supramax,157.16,usd_per_ton
+2024-03-04,route_rate,S1B,S.Africa - China,RIB,NIN,Supramax,148.17,usd_per_ton
+2024-03-11,route_rate,S1B,S.Africa - China,RIB,NIN,Supramax,158.85,usd_per_ton
+2024-03-18,route_rate,S1B,S.Africa - China,RIB,NIN,Supramax,142.66,usd_per_ton
+2024-03-25,route_rate,S1B,S.Africa - China,RIB,NIN,Supramax,134.53,usd_per_ton
+2024-04-01,route_rate,S1B,S.Africa - China,RIB,NIN,Supramax,132.36,usd_per_ton
+2024-04-08,route_rate,S1B,S.Africa - China,RIB,NIN,Supramax,123.58,usd_per_ton
+2024-04-15,route_rate,S1B,S.Africa - China,RIB,NIN,Supramax,137.17,usd_per_ton
+2024-04-22,route_rate,S1B,S.Africa - China,RIB,NIN,Supramax,133.84,usd_per_ton
+2024-04-29,route_rate,S1B,S.Africa - China,RIB,NIN,Supramax,137.12,usd_per_ton
+2024-05-06,route_rate,S1B,S.Africa - China,RIB,NIN,Supramax,136.47,usd_per_ton
+2024-05-13,route_rate,S1B,S.Africa - China,RIB,NIN,Supramax,133.76,usd_per_ton
+2024-05-20,route_rate,S1B,S.Africa - China,RIB,NIN,Supramax,142.87,usd_per_ton
+2024-05-27,route_rate,S1B,S.Africa - China,RIB,NIN,Supramax,138.35,usd_per_ton
+2024-06-03,route_rate,S1B,S.Africa - China,RIB,NIN,Supramax,136.83,usd_per_ton
+2024-06-10,route_rate,S1B,S.Africa - China,RIB,NIN,Supramax,141.2,usd_per_ton
+2024-06-17,route_rate,S1B,S.Africa - China,RIB,NIN,Supramax,133.72,usd_per_ton
+2024-06-24,route_rate,S1B,S.Africa - China,RIB,NIN,Supramax,133.06,usd_per_ton
+2024-07-01,route_rate,S1B,S.Africa - China,RIB,NIN,Supramax,137.6,usd_per_ton
+2024-07-08,route_rate,S1B,S.Africa - China,RIB,NIN,Supramax,137.89,usd_per_ton
+2024-07-15,route_rate,S1B,S.Africa - China,RIB,NIN,Supramax,140.88,usd_per_ton
+2024-07-22,route_rate,S1B,S.Africa - China,RIB,NIN,Supramax,139.85,usd_per_ton
+2024-07-29,route_rate,S1B,S.Africa - China,RIB,NIN,Supramax,133.13,usd_per_ton
+2024-08-05,route_rate,S1B,S.Africa - China,RIB,NIN,Supramax,146.33,usd_per_ton
+2024-08-12,route_rate,S1B,S.Africa - China,RIB,NIN,Supramax,144.58,usd_per_ton
+2024-08-19,route_rate,S1B,S.Africa - China,RIB,NIN,Supramax,151.74,usd_per_ton
+2024-08-26,route_rate,S1B,S.Africa - China,RIB,NIN,Supramax,157.78,usd_per_ton
+2024-09-02,route_rate,S1B,S.Africa - China,RIB,NIN,Supramax,146.01,usd_per_ton
+2024-09-09,route_rate,S1B,S.Africa - China,RIB,NIN,Supramax,141.15,usd_per_ton
+2024-09-16,route_rate,S1B,S.Africa - China,RIB,NIN,Supramax,146.57,usd_per_ton
+2024-09-23,route_rate,S1B,S.Africa - China,RIB,NIN,Supramax,145.36,usd_per_ton
+2024-09-30,route_rate,S1B,S.Africa - China,RIB,NIN,Supramax,161.74,usd_per_ton
+2024-10-07,route_rate,S1B,S.Africa - China,RIB,NIN,Supramax,151.89,usd_per_ton
+2024-10-14,route_rate,S1B,S.Africa - China,RIB,NIN,Supramax,158.03,usd_per_ton
+2024-10-21,route_rate,S1B,S.Africa - China,RIB,NIN,Supramax,150.96,usd_per_ton
+2024-10-28,route_rate,S1B,S.Africa - China,RIB,NIN,Supramax,138.18,usd_per_ton
+2024-11-04,route_rate,S1B,S.Africa - China,RIB,NIN,Supramax,153.3,usd_per_ton
+2024-11-11,route_rate,S1B,S.Africa - China,RIB,NIN,Supramax,158.12,usd_per_ton
+2024-11-18,route_rate,S1B,S.Africa - China,RIB,NIN,Supramax,144.81,usd_per_ton
+2024-11-25,route_rate,S1B,S.Africa - China,RIB,NIN,Supramax,149.07,usd_per_ton
+2024-12-02,route_rate,S1B,S.Africa - China,RIB,NIN,Supramax,150.98,usd_per_ton
+2024-12-09,route_rate,S1B,S.Africa - China,RIB,NIN,Supramax,137.35,usd_per_ton
+2024-12-16,route_rate,S1B,S.Africa - China,RIB,NIN,Supramax,143.06,usd_per_ton
+2024-12-23,route_rate,S1B,S.Africa - China,RIB,NIN,Supramax,138.89,usd_per_ton
+2024-12-30,route_rate,S1B,S.Africa - China,RIB,NIN,Supramax,146.65,usd_per_ton
+2023-01-02,route_rate,S4A,US Gulf/Baltimore - China,BAL,QIN,Supramax,131.21,usd_per_ton
+2023-01-09,route_rate,S4A,US Gulf/Baltimore - China,BAL,QIN,Supramax,119.6,usd_per_ton
+2023-01-16,route_rate,S4A,US Gulf/Baltimore - China,BAL,QIN,Supramax,123.18,usd_per_ton
+2023-01-23,route_rate,S4A,US Gulf/Baltimore - China,BAL,QIN,Supramax,113.25,usd_per_ton
+2023-01-30,route_rate,S4A,US Gulf/Baltimore - China,BAL,QIN,Supramax,108.19,usd_per_ton
+2023-02-06,route_rate,S4A,US Gulf/Baltimore - China,BAL,QIN,Supramax,104.37,usd_per_ton
+2023-02-13,route_rate,S4A,US Gulf/Baltimore - China,BAL,QIN,Supramax,109.78,usd_per_ton
+2023-02-20,route_rate,S4A,US Gulf/Baltimore - China,BAL,QIN,Supramax,117.27,usd_per_ton
+2023-02-27,route_rate,S4A,US Gulf/Baltimore - China,BAL,QIN,Supramax,112.15,usd_per_ton
+2023-03-06,route_rate,S4A,US Gulf/Baltimore - China,BAL,QIN,Supramax,115.86,usd_per_ton
+2023-03-13,route_rate,S4A,US Gulf/Baltimore - China,BAL,QIN,Supramax,121.84,usd_per_ton
+2023-03-20,route_rate,S4A,US Gulf/Baltimore - China,BAL,QIN,Supramax,120.42,usd_per_ton
+2023-03-27,route_rate,S4A,US Gulf/Baltimore - China,BAL,QIN,Supramax,124.47,usd_per_ton
+2023-04-03,route_rate,S4A,US Gulf/Baltimore - China,BAL,QIN,Supramax,115.11,usd_per_ton
+2023-04-10,route_rate,S4A,US Gulf/Baltimore - China,BAL,QIN,Supramax,118.88,usd_per_ton
+2023-04-17,route_rate,S4A,US Gulf/Baltimore - China,BAL,QIN,Supramax,115.24,usd_per_ton
+2023-04-24,route_rate,S4A,US Gulf/Baltimore - China,BAL,QIN,Supramax,122.27,usd_per_ton
+2023-05-01,route_rate,S4A,US Gulf/Baltimore - China,BAL,QIN,Supramax,115.73,usd_per_ton
+2023-05-08,route_rate,S4A,US Gulf/Baltimore - China,BAL,QIN,Supramax,120.36,usd_per_ton
+2023-05-15,route_rate,S4A,US Gulf/Baltimore - China,BAL,QIN,Supramax,109.51,usd_per_ton
+2023-05-22,route_rate,S4A,US Gulf/Baltimore - China,BAL,QIN,Supramax,116.8,usd_per_ton
+2023-05-29,route_rate,S4A,US Gulf/Baltimore - China,BAL,QIN,Supramax,132.54,usd_per_ton
+2023-06-05,route_rate,S4A,US Gulf/Baltimore - China,BAL,QIN,Supramax,121.97,usd_per_ton
+2023-06-12,route_rate,S4A,US Gulf/Baltimore - China,BAL,QIN,Supramax,137.62,usd_per_ton
+2023-06-19,route_rate,S4A,US Gulf/Baltimore - China,BAL,QIN,Supramax,139.51,usd_per_ton
+2023-06-26,route_rate,S4A,US Gulf/Baltimore - China,BAL,QIN,Supramax,134.66,usd_per_ton
+2023-07-03,route_rate,S4A,US Gulf/Baltimore - China,BAL,QIN,Supramax,121.32,usd_per_ton
+2023-07-10,route_rate,S4A,US Gulf/Baltimore - China,BAL,QIN,Supramax,115.51,usd_per_ton
+2023-07-17,route_rate,S4A,US Gulf/Baltimore - China,BAL,QIN,Supramax,133.31,usd_per_ton
+2023-07-24,route_rate,S4A,US Gulf/Baltimore - China,BAL,QIN,Supramax,129.64,usd_per_ton
+2023-07-31,route_rate,S4A,US Gulf/Baltimore - China,BAL,QIN,Supramax,125.01,usd_per_ton
+2023-08-07,route_rate,S4A,US Gulf/Baltimore - China,BAL,QIN,Supramax,130.08,usd_per_ton
+2023-08-14,route_rate,S4A,US Gulf/Baltimore - China,BAL,QIN,Supramax,129.78,usd_per_ton
+2023-08-21,route_rate,S4A,US Gulf/Baltimore - China,BAL,QIN,Supramax,131.86,usd_per_ton
+2023-08-28,route_rate,S4A,US Gulf/Baltimore - China,BAL,QIN,Supramax,138.72,usd_per_ton
+2023-09-04,route_rate,S4A,US Gulf/Baltimore - China,BAL,QIN,Supramax,138.76,usd_per_ton
+2023-09-11,route_rate,S4A,US Gulf/Baltimore - China,BAL,QIN,Supramax,132.57,usd_per_ton
+2023-09-18,route_rate,S4A,US Gulf/Baltimore - China,BAL,QIN,Supramax,134.26,usd_per_ton
+2023-09-25,route_rate,S4A,US Gulf/Baltimore - China,BAL,QIN,Supramax,134.26,usd_per_ton
+2023-10-02,route_rate,S4A,US Gulf/Baltimore - China,BAL,QIN,Supramax,114.3,usd_per_ton
+2023-10-09,route_rate,S4A,US Gulf/Baltimore - China,BAL,QIN,Supramax,114.34,usd_per_ton
+2023-10-16,route_rate,S4A,US Gulf/Baltimore - China,BAL,QIN,Supramax,119.36,usd_per_ton
+2023-10-23,route_rate,S4A,US Gulf/Baltimore - China,BAL,QIN,Supramax,111.81,usd_per_ton
+2023-10-30,route_rate,S4A,US Gulf/Baltimore - China,BAL,QIN,Supramax,95.7,usd_per_ton
+2023-11-06,route_rate,S4A,US Gulf/Baltimore - China,BAL,QIN,Supramax,98.8,usd_per_ton
+2023-11-13,route_rate,S4A,US Gulf/Baltimore - China,BAL,QIN,Supramax,101.62,usd_per_ton
+2023-11-20,route_rate,S4A,US Gulf/Baltimore - China,BAL,QIN,Supramax,113.46,usd_per_ton
+2023-11-27,route_rate,S4A,US Gulf/Baltimore - China,BAL,QIN,Supramax,111.64,usd_per_ton
+2023-12-04,route_rate,S4A,US Gulf/Baltimore - China,BAL,QIN,Supramax,118.98,usd_per_ton
+2023-12-11,route_rate,S4A,US Gulf/Baltimore - China,BAL,QIN,Supramax,119.27,usd_per_ton
+2023-12-18,route_rate,S4A,US Gulf/Baltimore - China,BAL,QIN,Supramax,120.6,usd_per_ton
+2023-12-25,route_rate,S4A,US Gulf/Baltimore - China,BAL,QIN,Supramax,117.87,usd_per_ton
+2024-01-01,route_rate,S4A,US Gulf/Baltimore - China,BAL,QIN,Supramax,126.96,usd_per_ton
+2024-01-08,route_rate,S4A,US Gulf/Baltimore - China,BAL,QIN,Supramax,110.32,usd_per_ton
+2024-01-15,route_rate,S4A,US Gulf/Baltimore - China,BAL,QIN,Supramax,124.97,usd_per_ton
+2024-01-22,route_rate,S4A,US Gulf/Baltimore - China,BAL,QIN,Supramax,131.04,usd_per_ton
+2024-01-29,route_rate,S4A,US Gulf/Baltimore - China,BAL,QIN,Supramax,141.22,usd_per_ton
+2024-02-05,route_rate,S4A,US Gulf/Baltimore - China,BAL,QIN,Supramax,148.98,usd_per_ton
+2024-02-12,route_rate,S4A,US Gulf/Baltimore - China,BAL,QIN,Supramax,145.24,usd_per_ton
+2024-02-19,route_rate,S4A,US Gulf/Baltimore - China,BAL,QIN,Supramax,155.52,usd_per_ton
+2024-02-26,route_rate,S4A,US Gulf/Baltimore - China,BAL,QIN,Supramax,161.86,usd_per_ton
+2024-03-04,route_rate,S4A,US Gulf/Baltimore - China,BAL,QIN,Supramax,161.16,usd_per_ton
+2024-03-11,route_rate,S4A,US Gulf/Baltimore - China,BAL,QIN,Supramax,155.12,usd_per_ton
+2024-03-18,route_rate,S4A,US Gulf/Baltimore - China,BAL,QIN,Supramax,135.82,usd_per_ton
+2024-03-25,route_rate,S4A,US Gulf/Baltimore - China,BAL,QIN,Supramax,126.3,usd_per_ton
+2024-04-01,route_rate,S4A,US Gulf/Baltimore - China,BAL,QIN,Supramax,129.92,usd_per_ton
+2024-04-08,route_rate,S4A,US Gulf/Baltimore - China,BAL,QIN,Supramax,135.49,usd_per_ton
+2024-04-15,route_rate,S4A,US Gulf/Baltimore - China,BAL,QIN,Supramax,133.28,usd_per_ton
+2024-04-22,route_rate,S4A,US Gulf/Baltimore - China,BAL,QIN,Supramax,141.1,usd_per_ton
+2024-04-29,route_rate,S4A,US Gulf/Baltimore - China,BAL,QIN,Supramax,151.57,usd_per_ton
+2024-05-06,route_rate,S4A,US Gulf/Baltimore - China,BAL,QIN,Supramax,142.59,usd_per_ton
+2024-05-13,route_rate,S4A,US Gulf/Baltimore - China,BAL,QIN,Supramax,158.72,usd_per_ton
+2024-05-20,route_rate,S4A,US Gulf/Baltimore - China,BAL,QIN,Supramax,133.38,usd_per_ton
+2024-05-27,route_rate,S4A,US Gulf/Baltimore - China,BAL,QIN,Supramax,138.88,usd_per_ton
+2024-06-03,route_rate,S4A,US Gulf/Baltimore - China,BAL,QIN,Supramax,142.47,usd_per_ton
+2024-06-10,route_rate,S4A,US Gulf/Baltimore - China,BAL,QIN,Supramax,151.39,usd_per_ton
+2024-06-17,route_rate,S4A,US Gulf/Baltimore - China,BAL,QIN,Supramax,135.66,usd_per_ton
+2024-06-24,route_rate,S4A,US Gulf/Baltimore - China,BAL,QIN,Supramax,144.26,usd_per_ton
+2024-07-01,route_rate,S4A,US Gulf/Baltimore - China,BAL,QIN,Supramax,133.75,usd_per_ton
+2024-07-08,route_rate,S4A,US Gulf/Baltimore - China,BAL,QIN,Supramax,140.1,usd_per_ton
+2024-07-15,route_rate,S4A,US Gulf/Baltimore - China,BAL,QIN,Supramax,143.12,usd_per_ton
+2024-07-22,route_rate,S4A,US Gulf/Baltimore - China,BAL,QIN,Supramax,153.05,usd_per_ton
+2024-07-29,route_rate,S4A,US Gulf/Baltimore - China,BAL,QIN,Supramax,141.36,usd_per_ton
+2024-08-05,route_rate,S4A,US Gulf/Baltimore - China,BAL,QIN,Supramax,137.49,usd_per_ton
+2024-08-12,route_rate,S4A,US Gulf/Baltimore - China,BAL,QIN,Supramax,145.34,usd_per_ton
+2024-08-19,route_rate,S4A,US Gulf/Baltimore - China,BAL,QIN,Supramax,153.85,usd_per_ton
+2024-08-26,route_rate,S4A,US Gulf/Baltimore - China,BAL,QIN,Supramax,155.03,usd_per_ton
+2024-09-02,route_rate,S4A,US Gulf/Baltimore - China,BAL,QIN,Supramax,145.52,usd_per_ton
+2024-09-09,route_rate,S4A,US Gulf/Baltimore - China,BAL,QIN,Supramax,154.56,usd_per_ton
+2024-09-16,route_rate,S4A,US Gulf/Baltimore - China,BAL,QIN,Supramax,148.88,usd_per_ton
+2024-09-23,route_rate,S4A,US Gulf/Baltimore - China,BAL,QIN,Supramax,143.03,usd_per_ton
+2024-09-30,route_rate,S4A,US Gulf/Baltimore - China,BAL,QIN,Supramax,151.04,usd_per_ton
+2024-10-07,route_rate,S4A,US Gulf/Baltimore - China,BAL,QIN,Supramax,156.05,usd_per_ton
+2024-10-14,route_rate,S4A,US Gulf/Baltimore - China,BAL,QIN,Supramax,151.18,usd_per_ton
+2024-10-21,route_rate,S4A,US Gulf/Baltimore - China,BAL,QIN,Supramax,153.59,usd_per_ton
+2024-10-28,route_rate,S4A,US Gulf/Baltimore - China,BAL,QIN,Supramax,151.17,usd_per_ton
+2024-11-04,route_rate,S4A,US Gulf/Baltimore - China,BAL,QIN,Supramax,153.31,usd_per_ton
+2024-11-11,route_rate,S4A,US Gulf/Baltimore - China,BAL,QIN,Supramax,156.71,usd_per_ton
+2024-11-18,route_rate,S4A,US Gulf/Baltimore - China,BAL,QIN,Supramax,148.78,usd_per_ton
+2024-11-25,route_rate,S4A,US Gulf/Baltimore - China,BAL,QIN,Supramax,138.08,usd_per_ton
+2024-12-02,route_rate,S4A,US Gulf/Baltimore - China,BAL,QIN,Supramax,154.0,usd_per_ton
+2024-12-09,route_rate,S4A,US Gulf/Baltimore - China,BAL,QIN,Supramax,139.92,usd_per_ton
+2024-12-16,route_rate,S4A,US Gulf/Baltimore - China,BAL,QIN,Supramax,143.7,usd_per_ton
+2024-12-23,route_rate,S4A,US Gulf/Baltimore - China,BAL,QIN,Supramax,146.15,usd_per_ton
+2024-12-30,route_rate,S4A,US Gulf/Baltimore - China,BAL,QIN,Supramax,146.37,usd_per_ton
+2023-01-02,route_rate,HS1,Indonesia - India,TAB,PAR,Handysize,97.24,usd_per_ton
+2023-01-09,route_rate,HS1,Indonesia - India,TAB,PAR,Handysize,90.81,usd_per_ton
+2023-01-16,route_rate,HS1,Indonesia - India,TAB,PAR,Handysize,93.53,usd_per_ton
+2023-01-23,route_rate,HS1,Indonesia - India,TAB,PAR,Handysize,86.13,usd_per_ton
+2023-01-30,route_rate,HS1,Indonesia - India,TAB,PAR,Handysize,88.68,usd_per_ton
+2023-02-06,route_rate,HS1,Indonesia - India,TAB,PAR,Handysize,88.12,usd_per_ton
+2023-02-13,route_rate,HS1,Indonesia - India,TAB,PAR,Handysize,88.89,usd_per_ton
+2023-02-20,route_rate,HS1,Indonesia - India,TAB,PAR,Handysize,84.88,usd_per_ton
+2023-02-27,route_rate,HS1,Indonesia - India,TAB,PAR,Handysize,80.04,usd_per_ton
+2023-03-06,route_rate,HS1,Indonesia - India,TAB,PAR,Handysize,81.79,usd_per_ton
+2023-03-13,route_rate,HS1,Indonesia - India,TAB,PAR,Handysize,79.96,usd_per_ton
+2023-03-20,route_rate,HS1,Indonesia - India,TAB,PAR,Handysize,76.74,usd_per_ton
+2023-03-27,route_rate,HS1,Indonesia - India,TAB,PAR,Handysize,71.08,usd_per_ton
+2023-04-03,route_rate,HS1,Indonesia - India,TAB,PAR,Handysize,85.51,usd_per_ton
+2023-04-10,route_rate,HS1,Indonesia - India,TAB,PAR,Handysize,77.88,usd_per_ton
+2023-04-17,route_rate,HS1,Indonesia - India,TAB,PAR,Handysize,84.2,usd_per_ton
+2023-04-24,route_rate,HS1,Indonesia - India,TAB,PAR,Handysize,72.14,usd_per_ton
+2023-05-01,route_rate,HS1,Indonesia - India,TAB,PAR,Handysize,73.32,usd_per_ton
+2023-05-08,route_rate,HS1,Indonesia - India,TAB,PAR,Handysize,72.18,usd_per_ton
+2023-05-15,route_rate,HS1,Indonesia - India,TAB,PAR,Handysize,68.6,usd_per_ton
+2023-05-22,route_rate,HS1,Indonesia - India,TAB,PAR,Handysize,74.06,usd_per_ton
+2023-05-29,route_rate,HS1,Indonesia - India,TAB,PAR,Handysize,74.03,usd_per_ton
+2023-06-05,route_rate,HS1,Indonesia - India,TAB,PAR,Handysize,67.36,usd_per_ton
+2023-06-12,route_rate,HS1,Indonesia - India,TAB,PAR,Handysize,65.55,usd_per_ton
+2023-06-19,route_rate,HS1,Indonesia - India,TAB,PAR,Handysize,67.8,usd_per_ton
+2023-06-26,route_rate,HS1,Indonesia - India,TAB,PAR,Handysize,71.99,usd_per_ton
+2023-07-03,route_rate,HS1,Indonesia - India,TAB,PAR,Handysize,79.91,usd_per_ton
+2023-07-10,route_rate,HS1,Indonesia - India,TAB,PAR,Handysize,82.23,usd_per_ton
+2023-07-17,route_rate,HS1,Indonesia - India,TAB,PAR,Handysize,73.99,usd_per_ton
+2023-07-24,route_rate,HS1,Indonesia - India,TAB,PAR,Handysize,81.73,usd_per_ton
+2023-07-31,route_rate,HS1,Indonesia - India,TAB,PAR,Handysize,80.49,usd_per_ton
+2023-08-07,route_rate,HS1,Indonesia - India,TAB,PAR,Handysize,85.72,usd_per_ton
+2023-08-14,route_rate,HS1,Indonesia - India,TAB,PAR,Handysize,93.13,usd_per_ton
+2023-08-21,route_rate,HS1,Indonesia - India,TAB,PAR,Handysize,84.48,usd_per_ton
+2023-08-28,route_rate,HS1,Indonesia - India,TAB,PAR,Handysize,90.47,usd_per_ton
+2023-09-04,route_rate,HS1,Indonesia - India,TAB,PAR,Handysize,88.64,usd_per_ton
+2023-09-11,route_rate,HS1,Indonesia - India,TAB,PAR,Handysize,104.97,usd_per_ton
+2023-09-18,route_rate,HS1,Indonesia - India,TAB,PAR,Handysize,99.77,usd_per_ton
+2023-09-25,route_rate,HS1,Indonesia - India,TAB,PAR,Handysize,107.6,usd_per_ton
+2023-10-02,route_rate,HS1,Indonesia - India,TAB,PAR,Handysize,111.06,usd_per_ton
+2023-10-09,route_rate,HS1,Indonesia - India,TAB,PAR,Handysize,108.3,usd_per_ton
+2023-10-16,route_rate,HS1,Indonesia - India,TAB,PAR,Handysize,109.05,usd_per_ton
+2023-10-23,route_rate,HS1,Indonesia - India,TAB,PAR,Handysize,99.73,usd_per_ton
+2023-10-30,route_rate,HS1,Indonesia - India,TAB,PAR,Handysize,110.47,usd_per_ton
+2023-11-06,route_rate,HS1,Indonesia - India,TAB,PAR,Handysize,104.7,usd_per_ton
+2023-11-13,route_rate,HS1,Indonesia - India,TAB,PAR,Handysize,105.24,usd_per_ton
+2023-11-20,route_rate,HS1,Indonesia - India,TAB,PAR,Handysize,110.77,usd_per_ton
+2023-11-27,route_rate,HS1,Indonesia - India,TAB,PAR,Handysize,119.63,usd_per_ton
+2023-12-04,route_rate,HS1,Indonesia - India,TAB,PAR,Handysize,102.65,usd_per_ton
+2023-12-11,route_rate,HS1,Indonesia - India,TAB,PAR,Handysize,120.33,usd_per_ton
+2023-12-18,route_rate,HS1,Indonesia - India,TAB,PAR,Handysize,113.87,usd_per_ton
+2023-12-25,route_rate,HS1,Indonesia - India,TAB,PAR,Handysize,108.72,usd_per_ton
+2024-01-01,route_rate,HS1,Indonesia - India,TAB,PAR,Handysize,104.3,usd_per_ton
+2024-01-08,route_rate,HS1,Indonesia - India,TAB,PAR,Handysize,99.28,usd_per_ton
+2024-01-15,route_rate,HS1,Indonesia - India,TAB,PAR,Handysize,104.41,usd_per_ton
+2024-01-22,route_rate,HS1,Indonesia - India,TAB,PAR,Handysize,117.66,usd_per_ton
+2024-01-29,route_rate,HS1,Indonesia - India,TAB,PAR,Handysize,98.68,usd_per_ton
+2024-02-05,route_rate,HS1,Indonesia - India,TAB,PAR,Handysize,98.7,usd_per_ton
+2024-02-12,route_rate,HS1,Indonesia - India,TAB,PAR,Handysize,104.45,usd_per_ton
+2024-02-19,route_rate,HS1,Indonesia - India,TAB,PAR,Handysize,96.41,usd_per_ton
+2024-02-26,route_rate,HS1,Indonesia - India,TAB,PAR,Handysize,104.24,usd_per_ton
+2024-03-04,route_rate,HS1,Indonesia - India,TAB,PAR,Handysize,94.05,usd_per_ton
+2024-03-11,route_rate,HS1,Indonesia - India,TAB,PAR,Handysize,95.63,usd_per_ton
+2024-03-18,route_rate,HS1,Indonesia - India,TAB,PAR,Handysize,88.32,usd_per_ton
+2024-03-25,route_rate,HS1,Indonesia - India,TAB,PAR,Handysize,86.13,usd_per_ton
+2024-04-01,route_rate,HS1,Indonesia - India,TAB,PAR,Handysize,74.41,usd_per_ton
+2024-04-08,route_rate,HS1,Indonesia - India,TAB,PAR,Handysize,78.93,usd_per_ton
+2024-04-15,route_rate,HS1,Indonesia - India,TAB,PAR,Handysize,90.51,usd_per_ton
+2024-04-22,route_rate,HS1,Indonesia - India,TAB,PAR,Handysize,90.79,usd_per_ton
+2024-04-29,route_rate,HS1,Indonesia - India,TAB,PAR,Handysize,94.38,usd_per_ton
+2024-05-06,route_rate,HS1,Indonesia - India,TAB,PAR,Handysize,98.11,usd_per_ton
+2024-05-13,route_rate,HS1,Indonesia - India,TAB,PAR,Handysize,94.4,usd_per_ton
+2024-05-20,route_rate,HS1,Indonesia - India,TAB,PAR,Handysize,98.33,usd_per_ton
+2024-05-27,route_rate,HS1,Indonesia - India,TAB,PAR,Handysize,95.57,usd_per_ton
+2024-06-03,route_rate,HS1,Indonesia - India,TAB,PAR,Handysize,91.8,usd_per_ton
+2024-06-10,route_rate,HS1,Indonesia - India,TAB,PAR,Handysize,95.44,usd_per_ton
+2024-06-17,route_rate,HS1,Indonesia - India,TAB,PAR,Handysize,97.62,usd_per_ton
+2024-06-24,route_rate,HS1,Indonesia - India,TAB,PAR,Handysize,100.21,usd_per_ton
+2024-07-01,route_rate,HS1,Indonesia - India,TAB,PAR,Handysize,88.62,usd_per_ton
+2024-07-08,route_rate,HS1,Indonesia - India,TAB,PAR,Handysize,83.98,usd_per_ton
+2024-07-15,route_rate,HS1,Indonesia - India,TAB,PAR,Handysize,92.37,usd_per_ton
+2024-07-22,route_rate,HS1,Indonesia - India,TAB,PAR,Handysize,98.0,usd_per_ton
+2024-07-29,route_rate,HS1,Indonesia - India,TAB,PAR,Handysize,92.0,usd_per_ton
+2024-08-05,route_rate,HS1,Indonesia - India,TAB,PAR,Handysize,96.61,usd_per_ton
+2024-08-12,route_rate,HS1,Indonesia - India,TAB,PAR,Handysize,101.45,usd_per_ton
+2024-08-19,route_rate,HS1,Indonesia - India,TAB,PAR,Handysize,101.47,usd_per_ton
+2024-08-26,route_rate,HS1,Indonesia - India,TAB,PAR,Handysize,102.54,usd_per_ton
+2024-09-02,route_rate,HS1,Indonesia - India,TAB,PAR,Handysize,113.46,usd_per_ton
+2024-09-09,route_rate,HS1,Indonesia - India,TAB,PAR,Handysize,106.22,usd_per_ton
+2024-09-16,route_rate,HS1,Indonesia - India,TAB,PAR,Handysize,101.94,usd_per_ton
+2024-09-23,route_rate,HS1,Indonesia - India,TAB,PAR,Handysize,105.89,usd_per_ton
+2024-09-30,route_rate,HS1,Indonesia - India,TAB,PAR,Handysize,103.64,usd_per_ton
+2024-10-07,route_rate,HS1,Indonesia - India,TAB,PAR,Handysize,102.52,usd_per_ton
+2024-10-14,route_rate,HS1,Indonesia - India,TAB,PAR,Handysize,94.4,usd_per_ton
+2024-10-21,route_rate,HS1,Indonesia - India,TAB,PAR,Handysize,101.77,usd_per_ton
+2024-10-28,route_rate,HS1,Indonesia - India,TAB,PAR,Handysize,107.17,usd_per_ton
+2024-11-04,route_rate,HS1,Indonesia - India,TAB,PAR,Handysize,101.69,usd_per_ton
+2024-11-11,route_rate,HS1,Indonesia - India,TAB,PAR,Handysize,89.66,usd_per_ton
+2024-11-18,route_rate,HS1,Indonesia - India,TAB,PAR,Handysize,104.44,usd_per_ton
+2024-11-25,route_rate,HS1,Indonesia - India,TAB,PAR,Handysize,107.42,usd_per_ton
+2024-12-02,route_rate,HS1,Indonesia - India,TAB,PAR,Handysize,102.96,usd_per_ton
+2024-12-09,route_rate,HS1,Indonesia - India,TAB,PAR,Handysize,99.37,usd_per_ton
+2024-12-16,route_rate,HS1,Indonesia - India,TAB,PAR,Handysize,103.46,usd_per_ton
+2024-12-23,route_rate,HS1,Indonesia - India,TAB,PAR,Handysize,111.02,usd_per_ton
+2024-12-30,route_rate,HS1,Indonesia - India,TAB,PAR,Handysize,104.29,usd_per_ton
+2023-01-02,route_rate,HS2,Indonesia - China,SAM,RIZ,Handysize,95.42,usd_per_ton
+2023-01-09,route_rate,HS2,Indonesia - China,SAM,RIZ,Handysize,87.16,usd_per_ton
+2023-01-16,route_rate,HS2,Indonesia - China,SAM,RIZ,Handysize,91.31,usd_per_ton
+2023-01-23,route_rate,HS2,Indonesia - China,SAM,RIZ,Handysize,92.07,usd_per_ton
+2023-01-30,route_rate,HS2,Indonesia - China,SAM,RIZ,Handysize,93.41,usd_per_ton
+2023-02-06,route_rate,HS2,Indonesia - China,SAM,RIZ,Handysize,80.63,usd_per_ton
+2023-02-13,route_rate,HS2,Indonesia - China,SAM,RIZ,Handysize,92.94,usd_per_ton
+2023-02-20,route_rate,HS2,Indonesia - China,SAM,RIZ,Handysize,87.81,usd_per_ton
+2023-02-27,route_rate,HS2,Indonesia - China,SAM,RIZ,Handysize,84.4,usd_per_ton
+2023-03-06,route_rate,HS2,Indonesia - China,SAM,RIZ,Handysize,76.34,usd_per_ton
+2023-03-13,route_rate,HS2,Indonesia - China,SAM,RIZ,Handysize,76.91,usd_per_ton
+2023-03-20,route_rate,HS2,Indonesia - China,SAM,RIZ,Handysize,77.83,usd_per_ton
+2023-03-27,route_rate,HS2,Indonesia - China,SAM,RIZ,Handysize,69.93,usd_per_ton
+2023-04-03,route_rate,HS2,Indonesia - China,SAM,RIZ,Handysize,79.47,usd_per_ton
+2023-04-10,route_rate,HS2,Indonesia - China,SAM,RIZ,Handysize,79.55,usd_per_ton
+2023-04-17,route_rate,HS2,Indonesia - China,SAM,RIZ,Handysize,85.23,usd_per_ton
+2023-04-24,route_rate,HS2,Indonesia - China,SAM,RIZ,Handysize,71.41,usd_per_ton
+2023-05-01,route_rate,HS2,Indonesia - China,SAM,RIZ,Handysize,78.17,usd_per_ton
+2023-05-08,route_rate,HS2,Indonesia - China,SAM,RIZ,Handysize,70.45,usd_per_ton
+2023-05-15,route_rate,HS2,Indonesia - China,SAM,RIZ,Handysize,69.48,usd_per_ton
+2023-05-22,route_rate,HS2,Indonesia - China,SAM,RIZ,Handysize,71.86,usd_per_ton
+2023-05-29,route_rate,HS2,Indonesia - China,SAM,RIZ,Handysize,75.33,usd_per_ton
+2023-06-05,route_rate,HS2,Indonesia - China,SAM,RIZ,Handysize,66.1,usd_per_ton
+2023-06-12,route_rate,HS2,Indonesia - China,SAM,RIZ,Handysize,66.71,usd_per_ton
+2023-06-19,route_rate,HS2,Indonesia - China,SAM,RIZ,Handysize,73.52,usd_per_ton
+2023-06-26,route_rate,HS2,Indonesia - China,SAM,RIZ,Handysize,81.64,usd_per_ton
+2023-07-03,route_rate,HS2,Indonesia - China,SAM,RIZ,Handysize,74.29,usd_per_ton
+2023-07-10,route_rate,HS2,Indonesia - China,SAM,RIZ,Handysize,75.89,usd_per_ton
+2023-07-17,route_rate,HS2,Indonesia - China,SAM,RIZ,Handysize,71.9,usd_per_ton
+2023-07-24,route_rate,HS2,Indonesia - China,SAM,RIZ,Handysize,73.17,usd_per_ton
+2023-07-31,route_rate,HS2,Indonesia - China,SAM,RIZ,Handysize,80.64,usd_per_ton
+2023-08-07,route_rate,HS2,Indonesia - China,SAM,RIZ,Handysize,79.74,usd_per_ton
+2023-08-14,route_rate,HS2,Indonesia - China,SAM,RIZ,Handysize,82.62,usd_per_ton
+2023-08-21,route_rate,HS2,Indonesia - China,SAM,RIZ,Handysize,81.71,usd_per_ton
+2023-08-28,route_rate,HS2,Indonesia - China,SAM,RIZ,Handysize,90.58,usd_per_ton
+2023-09-04,route_rate,HS2,Indonesia - China,SAM,RIZ,Handysize,89.91,usd_per_ton
+2023-09-11,route_rate,HS2,Indonesia - China,SAM,RIZ,Handysize,109.45,usd_per_ton
+2023-09-18,route_rate,HS2,Indonesia - China,SAM,RIZ,Handysize,100.87,usd_per_ton
+2023-09-25,route_rate,HS2,Indonesia - China,SAM,RIZ,Handysize,104.5,usd_per_ton
+2023-10-02,route_rate,HS2,Indonesia - China,SAM,RIZ,Handysize,105.85,usd_per_ton
+2023-10-09,route_rate,HS2,Indonesia - China,SAM,RIZ,Handysize,103.27,usd_per_ton
+2023-10-16,route_rate,HS2,Indonesia - China,SAM,RIZ,Handysize,97.12,usd_per_ton
+2023-10-23,route_rate,HS2,Indonesia - China,SAM,RIZ,Handysize,103.26,usd_per_ton
+2023-10-30,route_rate,HS2,Indonesia - China,SAM,RIZ,Handysize,110.99,usd_per_ton
+2023-11-06,route_rate,HS2,Indonesia - China,SAM,RIZ,Handysize,107.09,usd_per_ton
+2023-11-13,route_rate,HS2,Indonesia - China,SAM,RIZ,Handysize,112.79,usd_per_ton
+2023-11-20,route_rate,HS2,Indonesia - China,SAM,RIZ,Handysize,109.47,usd_per_ton
+2023-11-27,route_rate,HS2,Indonesia - China,SAM,RIZ,Handysize,101.42,usd_per_ton
+2023-12-04,route_rate,HS2,Indonesia - China,SAM,RIZ,Handysize,100.97,usd_per_ton
+2023-12-11,route_rate,HS2,Indonesia - China,SAM,RIZ,Handysize,121.14,usd_per_ton
+2023-12-18,route_rate,HS2,Indonesia - China,SAM,RIZ,Handysize,116.04,usd_per_ton
+2023-12-25,route_rate,HS2,Indonesia - China,SAM,RIZ,Handysize,104.53,usd_per_ton
+2024-01-01,route_rate,HS2,Indonesia - China,SAM,RIZ,Handysize,107.58,usd_per_ton
+2024-01-08,route_rate,HS2,Indonesia - China,SAM,RIZ,Handysize,94.71,usd_per_ton
+2024-01-15,route_rate,HS2,Indonesia - China,SAM,RIZ,Handysize,100.48,usd_per_ton
+2024-01-22,route_rate,HS2,Indonesia - China,SAM,RIZ,Handysize,102.7,usd_per_ton
+2024-01-29,route_rate,HS2,Indonesia - China,SAM,RIZ,Handysize,101.25,usd_per_ton
+2024-02-05,route_rate,HS2,Indonesia - China,SAM,RIZ,Handysize,106.46,usd_per_ton
+2024-02-12,route_rate,HS2,Indonesia - China,SAM,RIZ,Handysize,102.03,usd_per_ton
+2024-02-19,route_rate,HS2,Indonesia - China,SAM,RIZ,Handysize,91.59,usd_per_ton
+2024-02-26,route_rate,HS2,Indonesia - China,SAM,RIZ,Handysize,96.03,usd_per_ton
+2024-03-04,route_rate,HS2,Indonesia - China,SAM,RIZ,Handysize,98.38,usd_per_ton
+2024-03-11,route_rate,HS2,Indonesia - China,SAM,RIZ,Handysize,93.37,usd_per_ton
+2024-03-18,route_rate,HS2,Indonesia - China,SAM,RIZ,Handysize,83.48,usd_per_ton
+2024-03-25,route_rate,HS2,Indonesia - China,SAM,RIZ,Handysize,89.06,usd_per_ton
+2024-04-01,route_rate,HS2,Indonesia - China,SAM,RIZ,Handysize,78.55,usd_per_ton
+2024-04-08,route_rate,HS2,Indonesia - China,SAM,RIZ,Handysize,75.48,usd_per_ton
+2024-04-15,route_rate,HS2,Indonesia - China,SAM,RIZ,Handysize,94.14,usd_per_ton
+2024-04-22,route_rate,HS2,Indonesia - China,SAM,RIZ,Handysize,93.64,usd_per_ton
+2024-04-29,route_rate,HS2,Indonesia - China,SAM,RIZ,Handysize,90.57,usd_per_ton
+2024-05-06,route_rate,HS2,Indonesia - China,SAM,RIZ,Handysize,81.26,usd_per_ton
+2024-05-13,route_rate,HS2,Indonesia - China,SAM,RIZ,Handysize,95.42,usd_per_ton
+2024-05-20,route_rate,HS2,Indonesia - China,SAM,RIZ,Handysize,91.79,usd_per_ton
+2024-05-27,route_rate,HS2,Indonesia - China,SAM,RIZ,Handysize,91.72,usd_per_ton
+2024-06-03,route_rate,HS2,Indonesia - China,SAM,RIZ,Handysize,96.35,usd_per_ton
+2024-06-10,route_rate,HS2,Indonesia - China,SAM,RIZ,Handysize,91.51,usd_per_ton
+2024-06-17,route_rate,HS2,Indonesia - China,SAM,RIZ,Handysize,95.34,usd_per_ton
+2024-06-24,route_rate,HS2,Indonesia - China,SAM,RIZ,Handysize,95.98,usd_per_ton
+2024-07-01,route_rate,HS2,Indonesia - China,SAM,RIZ,Handysize,82.94,usd_per_ton
+2024-07-08,route_rate,HS2,Indonesia - China,SAM,RIZ,Handysize,94.83,usd_per_ton
+2024-07-15,route_rate,HS2,Indonesia - China,SAM,RIZ,Handysize,86.78,usd_per_ton
+2024-07-22,route_rate,HS2,Indonesia - China,SAM,RIZ,Handysize,93.96,usd_per_ton
+2024-07-29,route_rate,HS2,Indonesia - China,SAM,RIZ,Handysize,99.24,usd_per_ton
+2024-08-05,route_rate,HS2,Indonesia - China,SAM,RIZ,Handysize,106.73,usd_per_ton
+2024-08-12,route_rate,HS2,Indonesia - China,SAM,RIZ,Handysize,97.25,usd_per_ton
+2024-08-19,route_rate,HS2,Indonesia - China,SAM,RIZ,Handysize,100.48,usd_per_ton
+2024-08-26,route_rate,HS2,Indonesia - China,SAM,RIZ,Handysize,99.27,usd_per_ton
+2024-09-02,route_rate,HS2,Indonesia - China,SAM,RIZ,Handysize,110.11,usd_per_ton
+2024-09-09,route_rate,HS2,Indonesia - China,SAM,RIZ,Handysize,112.17,usd_per_ton
+2024-09-16,route_rate,HS2,Indonesia - China,SAM,RIZ,Handysize,99.69,usd_per_ton
+2024-09-23,route_rate,HS2,Indonesia - China,SAM,RIZ,Handysize,105.22,usd_per_ton
+2024-09-30,route_rate,HS2,Indonesia - China,SAM,RIZ,Handysize,108.66,usd_per_ton
+2024-10-07,route_rate,HS2,Indonesia - China,SAM,RIZ,Handysize,105.75,usd_per_ton
+2024-10-14,route_rate,HS2,Indonesia - China,SAM,RIZ,Handysize,99.63,usd_per_ton
+2024-10-21,route_rate,HS2,Indonesia - China,SAM,RIZ,Handysize,106.13,usd_per_ton
+2024-10-28,route_rate,HS2,Indonesia - China,SAM,RIZ,Handysize,109.41,usd_per_ton
+2024-11-04,route_rate,HS2,Indonesia - China,SAM,RIZ,Handysize,100.63,usd_per_ton
+2024-11-11,route_rate,HS2,Indonesia - China,SAM,RIZ,Handysize,100.74,usd_per_ton
+2024-11-18,route_rate,HS2,Indonesia - China,SAM,RIZ,Handysize,108.15,usd_per_ton
+2024-11-25,route_rate,HS2,Indonesia - China,SAM,RIZ,Handysize,96.12,usd_per_ton
+2024-12-02,route_rate,HS2,Indonesia - China,SAM,RIZ,Handysize,108.54,usd_per_ton
+2024-12-09,route_rate,HS2,Indonesia - China,SAM,RIZ,Handysize,103.1,usd_per_ton
+2024-12-16,route_rate,HS2,Indonesia - China,SAM,RIZ,Handysize,109.65,usd_per_ton
+2024-12-23,route_rate,HS2,Indonesia - China,SAM,RIZ,Handysize,110.64,usd_per_ton
+2024-12-30,route_rate,HS2,Indonesia - China,SAM,RIZ,Handysize,112.06,usd_per_ton
+2023-01-02,route_rate,P2A,Continent - Far East,ROT,GAN,Panamax,123.0,usd_per_ton
+2023-01-09,route_rate,P2A,Continent - Far East,ROT,GAN,Panamax,121.38,usd_per_ton
+2023-01-16,route_rate,P2A,Continent - Far East,ROT,GAN,Panamax,113.12,usd_per_ton
+2023-01-23,route_rate,P2A,Continent - Far East,ROT,GAN,Panamax,110.32,usd_per_ton
+2023-01-30,route_rate,P2A,Continent - Far East,ROT,GAN,Panamax,121.43,usd_per_ton
+2023-02-06,route_rate,P2A,Continent - Far East,ROT,GAN,Panamax,123.04,usd_per_ton
+2023-02-13,route_rate,P2A,Continent - Far East,ROT,GAN,Panamax,128.28,usd_per_ton
+2023-02-20,route_rate,P2A,Continent - Far East,ROT,GAN,Panamax,128.41,usd_per_ton
+2023-02-27,route_rate,P2A,Continent - Far East,ROT,GAN,Panamax,133.62,usd_per_ton
+2023-03-06,route_rate,P2A,Continent - Far East,ROT,GAN,Panamax,127.09,usd_per_ton
+2023-03-13,route_rate,P2A,Continent - Far East,ROT,GAN,Panamax,130.14,usd_per_ton
+2023-03-20,route_rate,P2A,Continent - Far East,ROT,GAN,Panamax,135.63,usd_per_ton
+2023-03-27,route_rate,P2A,Continent - Far East,ROT,GAN,Panamax,133.37,usd_per_ton
+2023-04-03,route_rate,P2A,Continent - Far East,ROT,GAN,Panamax,126.76,usd_per_ton
+2023-04-10,route_rate,P2A,Continent - Far East,ROT,GAN,Panamax,141.11,usd_per_ton
+2023-04-17,route_rate,P2A,Continent - Far East,ROT,GAN,Panamax,141.45,usd_per_ton
+2023-04-24,route_rate,P2A,Continent - Far East,ROT,GAN,Panamax,144.4,usd_per_ton
+2023-05-01,route_rate,P2A,Continent - Far East,ROT,GAN,Panamax,141.16,usd_per_ton
+2023-05-08,route_rate,P2A,Continent - Far East,ROT,GAN,Panamax,135.7,usd_per_ton
+2023-05-15,route_rate,P2A,Continent - Far East,ROT,GAN,Panamax,129.32,usd_per_ton
+2023-05-22,route_rate,P2A,Continent - Far East,ROT,GAN,Panamax,129.99,usd_per_ton
+2023-05-29,route_rate,P2A,Continent - Far East,ROT,GAN,Panamax,136.68,usd_per_ton
+2023-06-05,route_rate,P2A,Continent - Far East,ROT,GAN,Panamax,137.46,usd_per_ton
+2023-06-12,route_rate,P2A,Continent - Far East,ROT,GAN,Panamax,143.98,usd_per_ton
+2023-06-19,route_rate,P2A,Continent - Far East,ROT,GAN,Panamax,142.43,usd_per_ton
+2023-06-26,route_rate,P2A,Continent - Far East,ROT,GAN,Panamax,131.6,usd_per_ton
+2023-07-03,route_rate,P2A,Continent - Far East,ROT,GAN,Panamax,125.6,usd_per_ton
+2023-07-10,route_rate,P2A,Continent - Far East,ROT,GAN,Panamax,124.57,usd_per_ton
+2023-07-17,route_rate,P2A,Continent - Far East,ROT,GAN,Panamax,120.46,usd_per_ton
+2023-07-24,route_rate,P2A,Continent - Far East,ROT,GAN,Panamax,130.66,usd_per_ton
+2023-07-31,route_rate,P2A,Continent - Far East,ROT,GAN,Panamax,121.3,usd_per_ton
+2023-08-07,route_rate,P2A,Continent - Far East,ROT,GAN,Panamax,113.02,usd_per_ton
+2023-08-14,route_rate,P2A,Continent - Far East,ROT,GAN,Panamax,106.15,usd_per_ton
+2023-08-21,route_rate,P2A,Continent - Far East,ROT,GAN,Panamax,103.16,usd_per_ton
+2023-08-28,route_rate,P2A,Continent - Far East,ROT,GAN,Panamax,105.69,usd_per_ton
+2023-09-04,route_rate,P2A,Continent - Far East,ROT,GAN,Panamax,98.64,usd_per_ton
+2023-09-11,route_rate,P2A,Continent - Far East,ROT,GAN,Panamax,97.23,usd_per_ton
+2023-09-18,route_rate,P2A,Continent - Far East,ROT,GAN,Panamax,108.21,usd_per_ton
+2023-09-25,route_rate,P2A,Continent - Far East,ROT,GAN,Panamax,105.36,usd_per_ton
+2023-10-02,route_rate,P2A,Continent - Far East,ROT,GAN,Panamax,104.16,usd_per_ton
+2023-10-09,route_rate,P2A,Continent - Far East,ROT,GAN,Panamax,103.23,usd_per_ton
+2023-10-16,route_rate,P2A,Continent - Far East,ROT,GAN,Panamax,113.5,usd_per_ton
+2023-10-23,route_rate,P2A,Continent - Far East,ROT,GAN,Panamax,110.86,usd_per_ton
+2023-10-30,route_rate,P2A,Continent - Far East,ROT,GAN,Panamax,122.46,usd_per_ton
+2023-11-06,route_rate,P2A,Continent - Far East,ROT,GAN,Panamax,117.75,usd_per_ton
+2023-11-13,route_rate,P2A,Continent - Far East,ROT,GAN,Panamax,114.69,usd_per_ton
+2023-11-20,route_rate,P2A,Continent - Far East,ROT,GAN,Panamax,106.54,usd_per_ton
+2023-11-27,route_rate,P2A,Continent - Far East,ROT,GAN,Panamax,116.3,usd_per_ton
+2023-12-04,route_rate,P2A,Continent - Far East,ROT,GAN,Panamax,117.94,usd_per_ton
+2023-12-11,route_rate,P2A,Continent - Far East,ROT,GAN,Panamax,127.66,usd_per_ton
+2023-12-18,route_rate,P2A,Continent - Far East,ROT,GAN,Panamax,119.1,usd_per_ton
+2023-12-25,route_rate,P2A,Continent - Far East,ROT,GAN,Panamax,108.03,usd_per_ton
+2024-01-01,route_rate,P2A,Continent - Far East,ROT,GAN,Panamax,100.45,usd_per_ton
+2024-01-08,route_rate,P2A,Continent - Far East,ROT,GAN,Panamax,107.36,usd_per_ton
+2024-01-15,route_rate,P2A,Continent - Far East,ROT,GAN,Panamax,118.23,usd_per_ton
+2024-01-22,route_rate,P2A,Continent - Far East,ROT,GAN,Panamax,124.16,usd_per_ton
+2024-01-29,route_rate,P2A,Continent - Far East,ROT,GAN,Panamax,116.2,usd_per_ton
+2024-02-05,route_rate,P2A,Continent - Far East,ROT,GAN,Panamax,103.68,usd_per_ton
+2024-02-12,route_rate,P2A,Continent - Far East,ROT,GAN,Panamax,111.44,usd_per_ton
+2024-02-19,route_rate,P2A,Continent - Far East,ROT,GAN,Panamax,108.46,usd_per_ton
+2024-02-26,route_rate,P2A,Continent - Far East,ROT,GAN,Panamax,103.02,usd_per_ton
+2024-03-04,route_rate,P2A,Continent - Far East,ROT,GAN,Panamax,120.25,usd_per_ton
+2024-03-11,route_rate,P2A,Continent - Far East,ROT,GAN,Panamax,119.29,usd_per_ton
+2024-03-18,route_rate,P2A,Continent - Far East,ROT,GAN,Panamax,129.49,usd_per_ton
+2024-03-25,route_rate,P2A,Continent - Far East,ROT,GAN,Panamax,121.52,usd_per_ton
+2024-04-01,route_rate,P2A,Continent - Far East,ROT,GAN,Panamax,119.65,usd_per_ton
+2024-04-08,route_rate,P2A,Continent - Far East,ROT,GAN,Panamax,115.36,usd_per_ton
+2024-04-15,route_rate,P2A,Continent - Far East,ROT,GAN,Panamax,108.75,usd_per_ton
+2024-04-22,route_rate,P2A,Continent - Far East,ROT,GAN,Panamax,115.26,usd_per_ton
+2024-04-29,route_rate,P2A,Continent - Far East,ROT,GAN,Panamax,113.71,usd_per_ton
+2024-05-06,route_rate,P2A,Continent - Far East,ROT,GAN,Panamax,111.21,usd_per_ton
+2024-05-13,route_rate,P2A,Continent - Far East,ROT,GAN,Panamax,114.19,usd_per_ton
+2024-05-20,route_rate,P2A,Continent - Far East,ROT,GAN,Panamax,122.79,usd_per_ton
+2024-05-27,route_rate,P2A,Continent - Far East,ROT,GAN,Panamax,114.13,usd_per_ton
+2024-06-03,route_rate,P2A,Continent - Far East,ROT,GAN,Panamax,111.84,usd_per_ton
+2024-06-10,route_rate,P2A,Continent - Far East,ROT,GAN,Panamax,104.04,usd_per_ton
+2024-06-17,route_rate,P2A,Continent - Far East,ROT,GAN,Panamax,118.5,usd_per_ton
+2024-06-24,route_rate,P2A,Continent - Far East,ROT,GAN,Panamax,113.51,usd_per_ton
+2024-07-01,route_rate,P2A,Continent - Far East,ROT,GAN,Panamax,102.67,usd_per_ton
+2024-07-08,route_rate,P2A,Continent - Far East,ROT,GAN,Panamax,116.75,usd_per_ton
+2024-07-15,route_rate,P2A,Continent - Far East,ROT,GAN,Panamax,108.2,usd_per_ton
+2024-07-22,route_rate,P2A,Continent - Far East,ROT,GAN,Panamax,108.72,usd_per_ton
+2024-07-29,route_rate,P2A,Continent - Far East,ROT,GAN,Panamax,101.89,usd_per_ton
+2024-08-05,route_rate,P2A,Continent - Far East,ROT,GAN,Panamax,111.22,usd_per_ton
+2024-08-12,route_rate,P2A,Continent - Far East,ROT,GAN,Panamax,103.54,usd_per_ton
+2024-08-19,route_rate,P2A,Continent - Far East,ROT,GAN,Panamax,107.59,usd_per_ton
+2024-08-26,route_rate,P2A,Continent - Far East,ROT,GAN,Panamax,122.65,usd_per_ton
+2024-09-02,route_rate,P2A,Continent - Far East,ROT,GAN,Panamax,117.05,usd_per_ton
+2024-09-09,route_rate,P2A,Continent - Far East,ROT,GAN,Panamax,113.18,usd_per_ton
+2024-09-16,route_rate,P2A,Continent - Far East,ROT,GAN,Panamax,100.59,usd_per_ton
+2024-09-23,route_rate,P2A,Continent - Far East,ROT,GAN,Panamax,112.56,usd_per_ton
+2024-09-30,route_rate,P2A,Continent - Far East,ROT,GAN,Panamax,101.77,usd_per_ton
+2024-10-07,route_rate,P2A,Continent - Far East,ROT,GAN,Panamax,109.26,usd_per_ton
+2024-10-14,route_rate,P2A,Continent - Far East,ROT,GAN,Panamax,109.29,usd_per_ton
+2024-10-21,route_rate,P2A,Continent - Far East,ROT,GAN,Panamax,96.93,usd_per_ton
+2024-10-28,route_rate,P2A,Continent - Far East,ROT,GAN,Panamax,106.45,usd_per_ton
+2024-11-04,route_rate,P2A,Continent - Far East,ROT,GAN,Panamax,116.91,usd_per_ton
+2024-11-11,route_rate,P2A,Continent - Far East,ROT,GAN,Panamax,114.33,usd_per_ton
+2024-11-18,route_rate,P2A,Continent - Far East,ROT,GAN,Panamax,106.65,usd_per_ton
+2024-11-25,route_rate,P2A,Continent - Far East,ROT,GAN,Panamax,102.68,usd_per_ton
+2024-12-02,route_rate,P2A,Continent - Far East,ROT,GAN,Panamax,99.27,usd_per_ton
+2024-12-09,route_rate,P2A,Continent - Far East,ROT,GAN,Panamax,119.3,usd_per_ton
+2024-12-16,route_rate,P2A,Continent - Far East,ROT,GAN,Panamax,119.12,usd_per_ton
+2024-12-23,route_rate,P2A,Continent - Far East,ROT,GAN,Panamax,117.67,usd_per_ton
+2024-12-30,route_rate,P2A,Continent - Far East,ROT,GAN,Panamax,119.77,usd_per_ton
+2023-01-02,vessel_class_rate,BCI,Capesize Average TCE,,,Capesize,23981.0,usd_per_day
+2023-01-09,vessel_class_rate,BCI,Capesize Average TCE,,,Capesize,21789.0,usd_per_day
+2023-01-16,vessel_class_rate,BCI,Capesize Average TCE,,,Capesize,24529.0,usd_per_day
+2023-01-23,vessel_class_rate,BCI,Capesize Average TCE,,,Capesize,26231.0,usd_per_day
+2023-01-30,vessel_class_rate,BCI,Capesize Average TCE,,,Capesize,25101.0,usd_per_day
+2023-02-06,vessel_class_rate,BCI,Capesize Average TCE,,,Capesize,23156.0,usd_per_day
+2023-02-13,vessel_class_rate,BCI,Capesize Average TCE,,,Capesize,23720.0,usd_per_day
+2023-02-20,vessel_class_rate,BCI,Capesize Average TCE,,,Capesize,23985.0,usd_per_day
+2023-02-27,vessel_class_rate,BCI,Capesize Average TCE,,,Capesize,27007.0,usd_per_day
+2023-03-06,vessel_class_rate,BCI,Capesize Average TCE,,,Capesize,25155.0,usd_per_day
+2023-03-13,vessel_class_rate,BCI,Capesize Average TCE,,,Capesize,23738.0,usd_per_day
+2023-03-20,vessel_class_rate,BCI,Capesize Average TCE,,,Capesize,22704.0,usd_per_day
+2023-03-27,vessel_class_rate,BCI,Capesize Average TCE,,,Capesize,22028.0,usd_per_day
+2023-04-03,vessel_class_rate,BCI,Capesize Average TCE,,,Capesize,22859.0,usd_per_day
+2023-04-10,vessel_class_rate,BCI,Capesize Average TCE,,,Capesize,19097.0,usd_per_day
+2023-04-17,vessel_class_rate,BCI,Capesize Average TCE,,,Capesize,16953.0,usd_per_day
+2023-04-24,vessel_class_rate,BCI,Capesize Average TCE,,,Capesize,18548.0,usd_per_day
+2023-05-01,vessel_class_rate,BCI,Capesize Average TCE,,,Capesize,20967.0,usd_per_day
+2023-05-08,vessel_class_rate,BCI,Capesize Average TCE,,,Capesize,19983.0,usd_per_day
+2023-05-15,vessel_class_rate,BCI,Capesize Average TCE,,,Capesize,20719.0,usd_per_day
+2023-05-22,vessel_class_rate,BCI,Capesize Average TCE,,,Capesize,19875.0,usd_per_day
+2023-05-29,vessel_class_rate,BCI,Capesize Average TCE,,,Capesize,19112.0,usd_per_day
+2023-06-05,vessel_class_rate,BCI,Capesize Average TCE,,,Capesize,22448.0,usd_per_day
+2023-06-12,vessel_class_rate,BCI,Capesize Average TCE,,,Capesize,25161.0,usd_per_day
+2023-06-19,vessel_class_rate,BCI,Capesize Average TCE,,,Capesize,26078.0,usd_per_day
+2023-06-26,vessel_class_rate,BCI,Capesize Average TCE,,,Capesize,25199.0,usd_per_day
+2023-07-03,vessel_class_rate,BCI,Capesize Average TCE,,,Capesize,26264.0,usd_per_day
+2023-07-10,vessel_class_rate,BCI,Capesize Average TCE,,,Capesize,26756.0,usd_per_day
+2023-07-17,vessel_class_rate,BCI,Capesize Average TCE,,,Capesize,28518.0,usd_per_day
+2023-07-24,vessel_class_rate,BCI,Capesize Average TCE,,,Capesize,31306.0,usd_per_day
+2023-07-31,vessel_class_rate,BCI,Capesize Average TCE,,,Capesize,29900.0,usd_per_day
+2023-08-07,vessel_class_rate,BCI,Capesize Average TCE,,,Capesize,29384.0,usd_per_day
+2023-08-14,vessel_class_rate,BCI,Capesize Average TCE,,,Capesize,29527.0,usd_per_day
+2023-08-21,vessel_class_rate,BCI,Capesize Average TCE,,,Capesize,29849.0,usd_per_day
+2023-08-28,vessel_class_rate,BCI,Capesize Average TCE,,,Capesize,30978.0,usd_per_day
+2023-09-04,vessel_class_rate,BCI,Capesize Average TCE,,,Capesize,32623.0,usd_per_day
+2023-09-11,vessel_class_rate,BCI,Capesize Average TCE,,,Capesize,32154.0,usd_per_day
+2023-09-18,vessel_class_rate,BCI,Capesize Average TCE,,,Capesize,30564.0,usd_per_day
+2023-09-25,vessel_class_rate,BCI,Capesize Average TCE,,,Capesize,28560.0,usd_per_day
+2023-10-02,vessel_class_rate,BCI,Capesize Average TCE,,,Capesize,28801.0,usd_per_day
+2023-10-09,vessel_class_rate,BCI,Capesize Average TCE,,,Capesize,31977.0,usd_per_day
+2023-10-16,vessel_class_rate,BCI,Capesize Average TCE,,,Capesize,34514.0,usd_per_day
+2023-10-23,vessel_class_rate,BCI,Capesize Average TCE,,,Capesize,32446.0,usd_per_day
+2023-10-30,vessel_class_rate,BCI,Capesize Average TCE,,,Capesize,32815.0,usd_per_day
+2023-11-06,vessel_class_rate,BCI,Capesize Average TCE,,,Capesize,32644.0,usd_per_day
+2023-11-13,vessel_class_rate,BCI,Capesize Average TCE,,,Capesize,32800.0,usd_per_day
+2023-11-20,vessel_class_rate,BCI,Capesize Average TCE,,,Capesize,29226.0,usd_per_day
+2023-11-27,vessel_class_rate,BCI,Capesize Average TCE,,,Capesize,30839.0,usd_per_day
+2023-12-04,vessel_class_rate,BCI,Capesize Average TCE,,,Capesize,28315.0,usd_per_day
+2023-12-11,vessel_class_rate,BCI,Capesize Average TCE,,,Capesize,29711.0,usd_per_day
+2023-12-18,vessel_class_rate,BCI,Capesize Average TCE,,,Capesize,26475.0,usd_per_day
+2023-12-25,vessel_class_rate,BCI,Capesize Average TCE,,,Capesize,23841.0,usd_per_day
+2024-01-01,vessel_class_rate,BCI,Capesize Average TCE,,,Capesize,26224.0,usd_per_day
+2024-01-08,vessel_class_rate,BCI,Capesize Average TCE,,,Capesize,28670.0,usd_per_day
+2024-01-15,vessel_class_rate,BCI,Capesize Average TCE,,,Capesize,24699.0,usd_per_day
+2024-01-22,vessel_class_rate,BCI,Capesize Average TCE,,,Capesize,25961.0,usd_per_day
+2024-01-29,vessel_class_rate,BCI,Capesize Average TCE,,,Capesize,25264.0,usd_per_day
+2024-02-05,vessel_class_rate,BCI,Capesize Average TCE,,,Capesize,23572.0,usd_per_day
+2024-02-12,vessel_class_rate,BCI,Capesize Average TCE,,,Capesize,25507.0,usd_per_day
+2024-02-19,vessel_class_rate,BCI,Capesize Average TCE,,,Capesize,24903.0,usd_per_day
+2024-02-26,vessel_class_rate,BCI,Capesize Average TCE,,,Capesize,24786.0,usd_per_day
+2024-03-04,vessel_class_rate,BCI,Capesize Average TCE,,,Capesize,24076.0,usd_per_day
+2024-03-11,vessel_class_rate,BCI,Capesize Average TCE,,,Capesize,26212.0,usd_per_day
+2024-03-18,vessel_class_rate,BCI,Capesize Average TCE,,,Capesize,25116.0,usd_per_day
+2024-03-25,vessel_class_rate,BCI,Capesize Average TCE,,,Capesize,26122.0,usd_per_day
+2024-04-01,vessel_class_rate,BCI,Capesize Average TCE,,,Capesize,29124.0,usd_per_day
+2024-04-08,vessel_class_rate,BCI,Capesize Average TCE,,,Capesize,27695.0,usd_per_day
+2024-04-15,vessel_class_rate,BCI,Capesize Average TCE,,,Capesize,28826.0,usd_per_day
+2024-04-22,vessel_class_rate,BCI,Capesize Average TCE,,,Capesize,22957.0,usd_per_day
+2024-04-29,vessel_class_rate,BCI,Capesize Average TCE,,,Capesize,22184.0,usd_per_day
+2024-05-06,vessel_class_rate,BCI,Capesize Average TCE,,,Capesize,22338.0,usd_per_day
+2024-05-13,vessel_class_rate,BCI,Capesize Average TCE,,,Capesize,21643.0,usd_per_day
+2024-05-20,vessel_class_rate,BCI,Capesize Average TCE,,,Capesize,20139.0,usd_per_day
+2024-05-27,vessel_class_rate,BCI,Capesize Average TCE,,,Capesize,22726.0,usd_per_day
+2024-06-03,vessel_class_rate,BCI,Capesize Average TCE,,,Capesize,21428.0,usd_per_day
+2024-06-10,vessel_class_rate,BCI,Capesize Average TCE,,,Capesize,22512.0,usd_per_day
+2024-06-17,vessel_class_rate,BCI,Capesize Average TCE,,,Capesize,23967.0,usd_per_day
+2024-06-24,vessel_class_rate,BCI,Capesize Average TCE,,,Capesize,26420.0,usd_per_day
+2024-07-01,vessel_class_rate,BCI,Capesize Average TCE,,,Capesize,27799.0,usd_per_day
+2024-07-08,vessel_class_rate,BCI,Capesize Average TCE,,,Capesize,24589.0,usd_per_day
+2024-07-15,vessel_class_rate,BCI,Capesize Average TCE,,,Capesize,25532.0,usd_per_day
+2024-07-22,vessel_class_rate,BCI,Capesize Average TCE,,,Capesize,24883.0,usd_per_day
+2024-07-29,vessel_class_rate,BCI,Capesize Average TCE,,,Capesize,25609.0,usd_per_day
+2024-08-05,vessel_class_rate,BCI,Capesize Average TCE,,,Capesize,26677.0,usd_per_day
+2024-08-12,vessel_class_rate,BCI,Capesize Average TCE,,,Capesize,30202.0,usd_per_day
+2024-08-19,vessel_class_rate,BCI,Capesize Average TCE,,,Capesize,31696.0,usd_per_day
+2024-08-26,vessel_class_rate,BCI,Capesize Average TCE,,,Capesize,33128.0,usd_per_day
+2024-09-02,vessel_class_rate,BCI,Capesize Average TCE,,,Capesize,32347.0,usd_per_day
+2024-09-09,vessel_class_rate,BCI,Capesize Average TCE,,,Capesize,31026.0,usd_per_day
+2024-09-16,vessel_class_rate,BCI,Capesize Average TCE,,,Capesize,32108.0,usd_per_day
+2024-09-23,vessel_class_rate,BCI,Capesize Average TCE,,,Capesize,32564.0,usd_per_day
+2024-09-30,vessel_class_rate,BCI,Capesize Average TCE,,,Capesize,30728.0,usd_per_day
+2024-10-07,vessel_class_rate,BCI,Capesize Average TCE,,,Capesize,31749.0,usd_per_day
+2024-10-14,vessel_class_rate,BCI,Capesize Average TCE,,,Capesize,30057.0,usd_per_day
+2024-10-21,vessel_class_rate,BCI,Capesize Average TCE,,,Capesize,31126.0,usd_per_day
+2024-10-28,vessel_class_rate,BCI,Capesize Average TCE,,,Capesize,29308.0,usd_per_day
+2024-11-04,vessel_class_rate,BCI,Capesize Average TCE,,,Capesize,30687.0,usd_per_day
+2024-11-11,vessel_class_rate,BCI,Capesize Average TCE,,,Capesize,32517.0,usd_per_day
+2024-11-18,vessel_class_rate,BCI,Capesize Average TCE,,,Capesize,31121.0,usd_per_day
+2024-11-25,vessel_class_rate,BCI,Capesize Average TCE,,,Capesize,30587.0,usd_per_day
+2024-12-02,vessel_class_rate,BCI,Capesize Average TCE,,,Capesize,33030.0,usd_per_day
+2024-12-09,vessel_class_rate,BCI,Capesize Average TCE,,,Capesize,33060.0,usd_per_day
+2024-12-16,vessel_class_rate,BCI,Capesize Average TCE,,,Capesize,32738.0,usd_per_day
+2024-12-23,vessel_class_rate,BCI,Capesize Average TCE,,,Capesize,34833.0,usd_per_day
+2024-12-30,vessel_class_rate,BCI,Capesize Average TCE,,,Capesize,33150.0,usd_per_day
+2023-01-02,vessel_class_rate,BPI,Panamax Average TCE,,,Panamax,12536.0,usd_per_day
+2023-01-09,vessel_class_rate,BPI,Panamax Average TCE,,,Panamax,11595.0,usd_per_day
+2023-01-16,vessel_class_rate,BPI,Panamax Average TCE,,,Panamax,10705.0,usd_per_day
+2023-01-23,vessel_class_rate,BPI,Panamax Average TCE,,,Panamax,10821.0,usd_per_day
+2023-01-30,vessel_class_rate,BPI,Panamax Average TCE,,,Panamax,11870.0,usd_per_day
+2023-02-06,vessel_class_rate,BPI,Panamax Average TCE,,,Panamax,10482.0,usd_per_day
+2023-02-13,vessel_class_rate,BPI,Panamax Average TCE,,,Panamax,12309.0,usd_per_day
+2023-02-20,vessel_class_rate,BPI,Panamax Average TCE,,,Panamax,11130.0,usd_per_day
+2023-02-27,vessel_class_rate,BPI,Panamax Average TCE,,,Panamax,11987.0,usd_per_day
+2023-03-06,vessel_class_rate,BPI,Panamax Average TCE,,,Panamax,12065.0,usd_per_day
+2023-03-13,vessel_class_rate,BPI,Panamax Average TCE,,,Panamax,13069.0,usd_per_day
+2023-03-20,vessel_class_rate,BPI,Panamax Average TCE,,,Panamax,11795.0,usd_per_day
+2023-03-27,vessel_class_rate,BPI,Panamax Average TCE,,,Panamax,12706.0,usd_per_day
+2023-04-03,vessel_class_rate,BPI,Panamax Average TCE,,,Panamax,12333.0,usd_per_day
+2023-04-10,vessel_class_rate,BPI,Panamax Average TCE,,,Panamax,13146.0,usd_per_day
+2023-04-17,vessel_class_rate,BPI,Panamax Average TCE,,,Panamax,13775.0,usd_per_day
+2023-04-24,vessel_class_rate,BPI,Panamax Average TCE,,,Panamax,12911.0,usd_per_day
+2023-05-01,vessel_class_rate,BPI,Panamax Average TCE,,,Panamax,13602.0,usd_per_day
+2023-05-08,vessel_class_rate,BPI,Panamax Average TCE,,,Panamax,12590.0,usd_per_day
+2023-05-15,vessel_class_rate,BPI,Panamax Average TCE,,,Panamax,12257.0,usd_per_day
+2023-05-22,vessel_class_rate,BPI,Panamax Average TCE,,,Panamax,12855.0,usd_per_day
+2023-05-29,vessel_class_rate,BPI,Panamax Average TCE,,,Panamax,12472.0,usd_per_day
+2023-06-05,vessel_class_rate,BPI,Panamax Average TCE,,,Panamax,13192.0,usd_per_day
+2023-06-12,vessel_class_rate,BPI,Panamax Average TCE,,,Panamax,13373.0,usd_per_day
+2023-06-19,vessel_class_rate,BPI,Panamax Average TCE,,,Panamax,12193.0,usd_per_day
+2023-06-26,vessel_class_rate,BPI,Panamax Average TCE,,,Panamax,12246.0,usd_per_day
+2023-07-03,vessel_class_rate,BPI,Panamax Average TCE,,,Panamax,11670.0,usd_per_day
+2023-07-10,vessel_class_rate,BPI,Panamax Average TCE,,,Panamax,11038.0,usd_per_day
+2023-07-17,vessel_class_rate,BPI,Panamax Average TCE,,,Panamax,11688.0,usd_per_day
+2023-07-24,vessel_class_rate,BPI,Panamax Average TCE,,,Panamax,12217.0,usd_per_day
+2023-07-31,vessel_class_rate,BPI,Panamax Average TCE,,,Panamax,11532.0,usd_per_day
+2023-08-07,vessel_class_rate,BPI,Panamax Average TCE,,,Panamax,9959.0,usd_per_day
+2023-08-14,vessel_class_rate,BPI,Panamax Average TCE,,,Panamax,9960.0,usd_per_day
+2023-08-21,vessel_class_rate,BPI,Panamax Average TCE,,,Panamax,9714.0,usd_per_day
+2023-08-28,vessel_class_rate,BPI,Panamax Average TCE,,,Panamax,10128.0,usd_per_day
+2023-09-04,vessel_class_rate,BPI,Panamax Average TCE,,,Panamax,8906.0,usd_per_day
+2023-09-11,vessel_class_rate,BPI,Panamax Average TCE,,,Panamax,10265.0,usd_per_day
+2023-09-18,vessel_class_rate,BPI,Panamax Average TCE,,,Panamax,10667.0,usd_per_day
+2023-09-25,vessel_class_rate,BPI,Panamax Average TCE,,,Panamax,10149.0,usd_per_day
+2023-10-02,vessel_class_rate,BPI,Panamax Average TCE,,,Panamax,9940.0,usd_per_day
+2023-10-09,vessel_class_rate,BPI,Panamax Average TCE,,,Panamax,10053.0,usd_per_day
+2023-10-16,vessel_class_rate,BPI,Panamax Average TCE,,,Panamax,10499.0,usd_per_day
+2023-10-23,vessel_class_rate,BPI,Panamax Average TCE,,,Panamax,10930.0,usd_per_day
+2023-10-30,vessel_class_rate,BPI,Panamax Average TCE,,,Panamax,11452.0,usd_per_day
+2023-11-06,vessel_class_rate,BPI,Panamax Average TCE,,,Panamax,11493.0,usd_per_day
+2023-11-13,vessel_class_rate,BPI,Panamax Average TCE,,,Panamax,11486.0,usd_per_day
+2023-11-20,vessel_class_rate,BPI,Panamax Average TCE,,,Panamax,10253.0,usd_per_day
+2023-11-27,vessel_class_rate,BPI,Panamax Average TCE,,,Panamax,10886.0,usd_per_day
+2023-12-04,vessel_class_rate,BPI,Panamax Average TCE,,,Panamax,11312.0,usd_per_day
+2023-12-11,vessel_class_rate,BPI,Panamax Average TCE,,,Panamax,11968.0,usd_per_day
+2023-12-18,vessel_class_rate,BPI,Panamax Average TCE,,,Panamax,12680.0,usd_per_day
+2023-12-25,vessel_class_rate,BPI,Panamax Average TCE,,,Panamax,10571.0,usd_per_day
+2024-01-01,vessel_class_rate,BPI,Panamax Average TCE,,,Panamax,9967.0,usd_per_day
+2024-01-08,vessel_class_rate,BPI,Panamax Average TCE,,,Panamax,10831.0,usd_per_day
+2024-01-15,vessel_class_rate,BPI,Panamax Average TCE,,,Panamax,9953.0,usd_per_day
+2024-01-22,vessel_class_rate,BPI,Panamax Average TCE,,,Panamax,10936.0,usd_per_day
+2024-01-29,vessel_class_rate,BPI,Panamax Average TCE,,,Panamax,10320.0,usd_per_day
+2024-02-05,vessel_class_rate,BPI,Panamax Average TCE,,,Panamax,9348.0,usd_per_day
+2024-02-12,vessel_class_rate,BPI,Panamax Average TCE,,,Panamax,10234.0,usd_per_day
+2024-02-19,vessel_class_rate,BPI,Panamax Average TCE,,,Panamax,10972.0,usd_per_day
+2024-02-26,vessel_class_rate,BPI,Panamax Average TCE,,,Panamax,10215.0,usd_per_day
+2024-03-04,vessel_class_rate,BPI,Panamax Average TCE,,,Panamax,11790.0,usd_per_day
+2024-03-11,vessel_class_rate,BPI,Panamax Average TCE,,,Panamax,11137.0,usd_per_day
+2024-03-18,vessel_class_rate,BPI,Panamax Average TCE,,,Panamax,11903.0,usd_per_day
+2024-03-25,vessel_class_rate,BPI,Panamax Average TCE,,,Panamax,11593.0,usd_per_day
+2024-04-01,vessel_class_rate,BPI,Panamax Average TCE,,,Panamax,11938.0,usd_per_day
+2024-04-08,vessel_class_rate,BPI,Panamax Average TCE,,,Panamax,11488.0,usd_per_day
+2024-04-15,vessel_class_rate,BPI,Panamax Average TCE,,,Panamax,9785.0,usd_per_day
+2024-04-22,vessel_class_rate,BPI,Panamax Average TCE,,,Panamax,11481.0,usd_per_day
+2024-04-29,vessel_class_rate,BPI,Panamax Average TCE,,,Panamax,10442.0,usd_per_day
+2024-05-06,vessel_class_rate,BPI,Panamax Average TCE,,,Panamax,10694.0,usd_per_day
+2024-05-13,vessel_class_rate,BPI,Panamax Average TCE,,,Panamax,11250.0,usd_per_day
+2024-05-20,vessel_class_rate,BPI,Panamax Average TCE,,,Panamax,10576.0,usd_per_day
+2024-05-27,vessel_class_rate,BPI,Panamax Average TCE,,,Panamax,11281.0,usd_per_day
+2024-06-03,vessel_class_rate,BPI,Panamax Average TCE,,,Panamax,10946.0,usd_per_day
+2024-06-10,vessel_class_rate,BPI,Panamax Average TCE,,,Panamax,9993.0,usd_per_day
+2024-06-17,vessel_class_rate,BPI,Panamax Average TCE,,,Panamax,10690.0,usd_per_day
+2024-06-24,vessel_class_rate,BPI,Panamax Average TCE,,,Panamax,10111.0,usd_per_day
+2024-07-01,vessel_class_rate,BPI,Panamax Average TCE,,,Panamax,9697.0,usd_per_day
+2024-07-08,vessel_class_rate,BPI,Panamax Average TCE,,,Panamax,10408.0,usd_per_day
+2024-07-15,vessel_class_rate,BPI,Panamax Average TCE,,,Panamax,10634.0,usd_per_day
+2024-07-22,vessel_class_rate,BPI,Panamax Average TCE,,,Panamax,10497.0,usd_per_day
+2024-07-29,vessel_class_rate,BPI,Panamax Average TCE,,,Panamax,9671.0,usd_per_day
+2024-08-05,vessel_class_rate,BPI,Panamax Average TCE,,,Panamax,11412.0,usd_per_day
+2024-08-12,vessel_class_rate,BPI,Panamax Average TCE,,,Panamax,11040.0,usd_per_day
+2024-08-19,vessel_class_rate,BPI,Panamax Average TCE,,,Panamax,10179.0,usd_per_day
+2024-08-26,vessel_class_rate,BPI,Panamax Average TCE,,,Panamax,11887.0,usd_per_day
+2024-09-02,vessel_class_rate,BPI,Panamax Average TCE,,,Panamax,10613.0,usd_per_day
+2024-09-09,vessel_class_rate,BPI,Panamax Average TCE,,,Panamax,10259.0,usd_per_day
+2024-09-16,vessel_class_rate,BPI,Panamax Average TCE,,,Panamax,9456.0,usd_per_day
+2024-09-23,vessel_class_rate,BPI,Panamax Average TCE,,,Panamax,10228.0,usd_per_day
+2024-09-30,vessel_class_rate,BPI,Panamax Average TCE,,,Panamax,9621.0,usd_per_day
+2024-10-07,vessel_class_rate,BPI,Panamax Average TCE,,,Panamax,10493.0,usd_per_day
+2024-10-14,vessel_class_rate,BPI,Panamax Average TCE,,,Panamax,10167.0,usd_per_day
+2024-10-21,vessel_class_rate,BPI,Panamax Average TCE,,,Panamax,9360.0,usd_per_day
+2024-10-28,vessel_class_rate,BPI,Panamax Average TCE,,,Panamax,10648.0,usd_per_day
+2024-11-04,vessel_class_rate,BPI,Panamax Average TCE,,,Panamax,10643.0,usd_per_day
+2024-11-11,vessel_class_rate,BPI,Panamax Average TCE,,,Panamax,10563.0,usd_per_day
+2024-11-18,vessel_class_rate,BPI,Panamax Average TCE,,,Panamax,10347.0,usd_per_day
+2024-11-25,vessel_class_rate,BPI,Panamax Average TCE,,,Panamax,9719.0,usd_per_day
+2024-12-02,vessel_class_rate,BPI,Panamax Average TCE,,,Panamax,9360.0,usd_per_day
+2024-12-09,vessel_class_rate,BPI,Panamax Average TCE,,,Panamax,10929.0,usd_per_day
+2024-12-16,vessel_class_rate,BPI,Panamax Average TCE,,,Panamax,10770.0,usd_per_day
+2024-12-23,vessel_class_rate,BPI,Panamax Average TCE,,,Panamax,10816.0,usd_per_day
+2024-12-30,vessel_class_rate,BPI,Panamax Average TCE,,,Panamax,11663.0,usd_per_day
+2023-01-02,vessel_class_rate,BSI,Supramax Average TCE,,,Supramax,7007.0,usd_per_day
+2023-01-09,vessel_class_rate,BSI,Supramax Average TCE,,,Supramax,6538.0,usd_per_day
+2023-01-16,vessel_class_rate,BSI,Supramax Average TCE,,,Supramax,7087.0,usd_per_day
+2023-01-23,vessel_class_rate,BSI,Supramax Average TCE,,,Supramax,6294.0,usd_per_day
+2023-01-30,vessel_class_rate,BSI,Supramax Average TCE,,,Supramax,6414.0,usd_per_day
+2023-02-06,vessel_class_rate,BSI,Supramax Average TCE,,,Supramax,6314.0,usd_per_day
+2023-02-13,vessel_class_rate,BSI,Supramax Average TCE,,,Supramax,6205.0,usd_per_day
+2023-02-20,vessel_class_rate,BSI,Supramax Average TCE,,,Supramax,6515.0,usd_per_day
+2023-02-27,vessel_class_rate,BSI,Supramax Average TCE,,,Supramax,6831.0,usd_per_day
+2023-03-06,vessel_class_rate,BSI,Supramax Average TCE,,,Supramax,6412.0,usd_per_day
+2023-03-13,vessel_class_rate,BSI,Supramax Average TCE,,,Supramax,6849.0,usd_per_day
+2023-03-20,vessel_class_rate,BSI,Supramax Average TCE,,,Supramax,6760.0,usd_per_day
+2023-03-27,vessel_class_rate,BSI,Supramax Average TCE,,,Supramax,6843.0,usd_per_day
+2023-04-03,vessel_class_rate,BSI,Supramax Average TCE,,,Supramax,6752.0,usd_per_day
+2023-04-10,vessel_class_rate,BSI,Supramax Average TCE,,,Supramax,6637.0,usd_per_day
+2023-04-17,vessel_class_rate,BSI,Supramax Average TCE,,,Supramax,7231.0,usd_per_day
+2023-04-24,vessel_class_rate,BSI,Supramax Average TCE,,,Supramax,7285.0,usd_per_day
+2023-05-01,vessel_class_rate,BSI,Supramax Average TCE,,,Supramax,7072.0,usd_per_day
+2023-05-08,vessel_class_rate,BSI,Supramax Average TCE,,,Supramax,6876.0,usd_per_day
+2023-05-15,vessel_class_rate,BSI,Supramax Average TCE,,,Supramax,6784.0,usd_per_day
+2023-05-22,vessel_class_rate,BSI,Supramax Average TCE,,,Supramax,6644.0,usd_per_day
+2023-05-29,vessel_class_rate,BSI,Supramax Average TCE,,,Supramax,7378.0,usd_per_day
+2023-06-05,vessel_class_rate,BSI,Supramax Average TCE,,,Supramax,7254.0,usd_per_day
+2023-06-12,vessel_class_rate,BSI,Supramax Average TCE,,,Supramax,7678.0,usd_per_day
+2023-06-19,vessel_class_rate,BSI,Supramax Average TCE,,,Supramax,8188.0,usd_per_day
+2023-06-26,vessel_class_rate,BSI,Supramax Average TCE,,,Supramax,7904.0,usd_per_day
+2023-07-03,vessel_class_rate,BSI,Supramax Average TCE,,,Supramax,6902.0,usd_per_day
+2023-07-10,vessel_class_rate,BSI,Supramax Average TCE,,,Supramax,7474.0,usd_per_day
+2023-07-17,vessel_class_rate,BSI,Supramax Average TCE,,,Supramax,7640.0,usd_per_day
+2023-07-24,vessel_class_rate,BSI,Supramax Average TCE,,,Supramax,7830.0,usd_per_day
+2023-07-31,vessel_class_rate,BSI,Supramax Average TCE,,,Supramax,7880.0,usd_per_day
+2023-08-07,vessel_class_rate,BSI,Supramax Average TCE,,,Supramax,7931.0,usd_per_day
+2023-08-14,vessel_class_rate,BSI,Supramax Average TCE,,,Supramax,7692.0,usd_per_day
+2023-08-21,vessel_class_rate,BSI,Supramax Average TCE,,,Supramax,8026.0,usd_per_day
+2023-08-28,vessel_class_rate,BSI,Supramax Average TCE,,,Supramax,7664.0,usd_per_day
+2023-09-04,vessel_class_rate,BSI,Supramax Average TCE,,,Supramax,7608.0,usd_per_day
+2023-09-11,vessel_class_rate,BSI,Supramax Average TCE,,,Supramax,7918.0,usd_per_day
+2023-09-18,vessel_class_rate,BSI,Supramax Average TCE,,,Supramax,7587.0,usd_per_day
+2023-09-25,vessel_class_rate,BSI,Supramax Average TCE,,,Supramax,7440.0,usd_per_day
+2023-10-02,vessel_class_rate,BSI,Supramax Average TCE,,,Supramax,6872.0,usd_per_day
+2023-10-09,vessel_class_rate,BSI,Supramax Average TCE,,,Supramax,6730.0,usd_per_day
+2023-10-16,vessel_class_rate,BSI,Supramax Average TCE,,,Supramax,6816.0,usd_per_day
+2023-10-23,vessel_class_rate,BSI,Supramax Average TCE,,,Supramax,6224.0,usd_per_day
+2023-10-30,vessel_class_rate,BSI,Supramax Average TCE,,,Supramax,5924.0,usd_per_day
+2023-11-06,vessel_class_rate,BSI,Supramax Average TCE,,,Supramax,6190.0,usd_per_day
+2023-11-13,vessel_class_rate,BSI,Supramax Average TCE,,,Supramax,6003.0,usd_per_day
+2023-11-20,vessel_class_rate,BSI,Supramax Average TCE,,,Supramax,6395.0,usd_per_day
+2023-11-27,vessel_class_rate,BSI,Supramax Average TCE,,,Supramax,6544.0,usd_per_day
+2023-12-04,vessel_class_rate,BSI,Supramax Average TCE,,,Supramax,6771.0,usd_per_day
+2023-12-11,vessel_class_rate,BSI,Supramax Average TCE,,,Supramax,7130.0,usd_per_day
+2023-12-18,vessel_class_rate,BSI,Supramax Average TCE,,,Supramax,7058.0,usd_per_day
+2023-12-25,vessel_class_rate,BSI,Supramax Average TCE,,,Supramax,7386.0,usd_per_day
+2024-01-01,vessel_class_rate,BSI,Supramax Average TCE,,,Supramax,7142.0,usd_per_day
+2024-01-08,vessel_class_rate,BSI,Supramax Average TCE,,,Supramax,7230.0,usd_per_day
+2024-01-15,vessel_class_rate,BSI,Supramax Average TCE,,,Supramax,7206.0,usd_per_day
+2024-01-22,vessel_class_rate,BSI,Supramax Average TCE,,,Supramax,7892.0,usd_per_day
+2024-01-29,vessel_class_rate,BSI,Supramax Average TCE,,,Supramax,8072.0,usd_per_day
+2024-02-05,vessel_class_rate,BSI,Supramax Average TCE,,,Supramax,8011.0,usd_per_day
+2024-02-12,vessel_class_rate,BSI,Supramax Average TCE,,,Supramax,8441.0,usd_per_day
+2024-02-19,vessel_class_rate,BSI,Supramax Average TCE,,,Supramax,8915.0,usd_per_day
+2024-02-26,vessel_class_rate,BSI,Supramax Average TCE,,,Supramax,9085.0,usd_per_day
+2024-03-04,vessel_class_rate,BSI,Supramax Average TCE,,,Supramax,8622.0,usd_per_day
+2024-03-11,vessel_class_rate,BSI,Supramax Average TCE,,,Supramax,8779.0,usd_per_day
+2024-03-18,vessel_class_rate,BSI,Supramax Average TCE,,,Supramax,8632.0,usd_per_day
+2024-03-25,vessel_class_rate,BSI,Supramax Average TCE,,,Supramax,7318.0,usd_per_day
+2024-04-01,vessel_class_rate,BSI,Supramax Average TCE,,,Supramax,7662.0,usd_per_day
+2024-04-08,vessel_class_rate,BSI,Supramax Average TCE,,,Supramax,7350.0,usd_per_day
+2024-04-15,vessel_class_rate,BSI,Supramax Average TCE,,,Supramax,7719.0,usd_per_day
+2024-04-22,vessel_class_rate,BSI,Supramax Average TCE,,,Supramax,8223.0,usd_per_day
+2024-04-29,vessel_class_rate,BSI,Supramax Average TCE,,,Supramax,8151.0,usd_per_day
+2024-05-06,vessel_class_rate,BSI,Supramax Average TCE,,,Supramax,9022.0,usd_per_day
+2024-05-13,vessel_class_rate,BSI,Supramax Average TCE,,,Supramax,8332.0,usd_per_day
+2024-05-20,vessel_class_rate,BSI,Supramax Average TCE,,,Supramax,8015.0,usd_per_day
+2024-05-27,vessel_class_rate,BSI,Supramax Average TCE,,,Supramax,7767.0,usd_per_day
+2024-06-03,vessel_class_rate,BSI,Supramax Average TCE,,,Supramax,7869.0,usd_per_day
+2024-06-10,vessel_class_rate,BSI,Supramax Average TCE,,,Supramax,7939.0,usd_per_day
+2024-06-17,vessel_class_rate,BSI,Supramax Average TCE,,,Supramax,7749.0,usd_per_day
+2024-06-24,vessel_class_rate,BSI,Supramax Average TCE,,,Supramax,7573.0,usd_per_day
+2024-07-01,vessel_class_rate,BSI,Supramax Average TCE,,,Supramax,7880.0,usd_per_day
+2024-07-08,vessel_class_rate,BSI,Supramax Average TCE,,,Supramax,7798.0,usd_per_day
+2024-07-15,vessel_class_rate,BSI,Supramax Average TCE,,,Supramax,8288.0,usd_per_day
+2024-07-22,vessel_class_rate,BSI,Supramax Average TCE,,,Supramax,8078.0,usd_per_day
+2024-07-29,vessel_class_rate,BSI,Supramax Average TCE,,,Supramax,8389.0,usd_per_day
+2024-08-05,vessel_class_rate,BSI,Supramax Average TCE,,,Supramax,8464.0,usd_per_day
+2024-08-12,vessel_class_rate,BSI,Supramax Average TCE,,,Supramax,9087.0,usd_per_day
+2024-08-19,vessel_class_rate,BSI,Supramax Average TCE,,,Supramax,9138.0,usd_per_day
+2024-08-26,vessel_class_rate,BSI,Supramax Average TCE,,,Supramax,8351.0,usd_per_day
+2024-09-02,vessel_class_rate,BSI,Supramax Average TCE,,,Supramax,8548.0,usd_per_day
+2024-09-09,vessel_class_rate,BSI,Supramax Average TCE,,,Supramax,8458.0,usd_per_day
+2024-09-16,vessel_class_rate,BSI,Supramax Average TCE,,,Supramax,8219.0,usd_per_day
+2024-09-23,vessel_class_rate,BSI,Supramax Average TCE,,,Supramax,8480.0,usd_per_day
+2024-09-30,vessel_class_rate,BSI,Supramax Average TCE,,,Supramax,8715.0,usd_per_day
+2024-10-07,vessel_class_rate,BSI,Supramax Average TCE,,,Supramax,8413.0,usd_per_day
+2024-10-14,vessel_class_rate,BSI,Supramax Average TCE,,,Supramax,8673.0,usd_per_day
+2024-10-21,vessel_class_rate,BSI,Supramax Average TCE,,,Supramax,9099.0,usd_per_day
+2024-10-28,vessel_class_rate,BSI,Supramax Average TCE,,,Supramax,8428.0,usd_per_day
+2024-11-04,vessel_class_rate,BSI,Supramax Average TCE,,,Supramax,8958.0,usd_per_day
+2024-11-11,vessel_class_rate,BSI,Supramax Average TCE,,,Supramax,9073.0,usd_per_day
+2024-11-18,vessel_class_rate,BSI,Supramax Average TCE,,,Supramax,8639.0,usd_per_day
+2024-11-25,vessel_class_rate,BSI,Supramax Average TCE,,,Supramax,8497.0,usd_per_day
+2024-12-02,vessel_class_rate,BSI,Supramax Average TCE,,,Supramax,8423.0,usd_per_day
+2024-12-09,vessel_class_rate,BSI,Supramax Average TCE,,,Supramax,8080.0,usd_per_day
+2024-12-16,vessel_class_rate,BSI,Supramax Average TCE,,,Supramax,8412.0,usd_per_day
+2024-12-23,vessel_class_rate,BSI,Supramax Average TCE,,,Supramax,8178.0,usd_per_day
+2024-12-30,vessel_class_rate,BSI,Supramax Average TCE,,,Supramax,8606.0,usd_per_day
+2023-01-02,vessel_class_rate,BHSI,Handysize Average TCE,,,Handysize,2912.0,usd_per_day
+2023-01-09,vessel_class_rate,BHSI,Handysize Average TCE,,,Handysize,3021.0,usd_per_day
+2023-01-16,vessel_class_rate,BHSI,Handysize Average TCE,,,Handysize,2919.0,usd_per_day
+2023-01-23,vessel_class_rate,BHSI,Handysize Average TCE,,,Handysize,2982.0,usd_per_day
+2023-01-30,vessel_class_rate,BHSI,Handysize Average TCE,,,Handysize,2805.0,usd_per_day
+2023-02-06,vessel_class_rate,BHSI,Handysize Average TCE,,,Handysize,2729.0,usd_per_day
+2023-02-13,vessel_class_rate,BHSI,Handysize Average TCE,,,Handysize,3054.0,usd_per_day
+2023-02-20,vessel_class_rate,BHSI,Handysize Average TCE,,,Handysize,2732.0,usd_per_day
+2023-02-27,vessel_class_rate,BHSI,Handysize Average TCE,,,Handysize,2690.0,usd_per_day
+2023-03-06,vessel_class_rate,BHSI,Handysize Average TCE,,,Handysize,2593.0,usd_per_day
+2023-03-13,vessel_class_rate,BHSI,Handysize Average TCE,,,Handysize,2577.0,usd_per_day
+2023-03-20,vessel_class_rate,BHSI,Handysize Average TCE,,,Handysize,2518.0,usd_per_day
+2023-03-27,vessel_class_rate,BHSI,Handysize Average TCE,,,Handysize,2427.0,usd_per_day
+2023-04-03,vessel_class_rate,BHSI,Handysize Average TCE,,,Handysize,2647.0,usd_per_day
+2023-04-10,vessel_class_rate,BHSI,Handysize Average TCE,,,Handysize,2563.0,usd_per_day
+2023-04-17,vessel_class_rate,BHSI,Handysize Average TCE,,,Handysize,2758.0,usd_per_day
+2023-04-24,vessel_class_rate,BHSI,Handysize Average TCE,,,Handysize,2617.0,usd_per_day
+2023-05-01,vessel_class_rate,BHSI,Handysize Average TCE,,,Handysize,2676.0,usd_per_day
+2023-05-08,vessel_class_rate,BHSI,Handysize Average TCE,,,Handysize,2198.0,usd_per_day
+2023-05-15,vessel_class_rate,BHSI,Handysize Average TCE,,,Handysize,2293.0,usd_per_day
+2023-05-22,vessel_class_rate,BHSI,Handysize Average TCE,,,Handysize,2357.0,usd_per_day
+2023-05-29,vessel_class_rate,BHSI,Handysize Average TCE,,,Handysize,2422.0,usd_per_day
+2023-06-05,vessel_class_rate,BHSI,Handysize Average TCE,,,Handysize,2272.0,usd_per_day
+2023-06-12,vessel_class_rate,BHSI,Handysize Average TCE,,,Handysize,2162.0,usd_per_day
+2023-06-19,vessel_class_rate,BHSI,Handysize Average TCE,,,Handysize,2460.0,usd_per_day
+2023-06-26,vessel_class_rate,BHSI,Handysize Average TCE,,,Handysize,2448.0,usd_per_day
+2023-07-03,vessel_class_rate,BHSI,Handysize Average TCE,,,Handysize,2501.0,usd_per_day
+2023-07-10,vessel_class_rate,BHSI,Handysize Average TCE,,,Handysize,2685.0,usd_per_day
+2023-07-17,vessel_class_rate,BHSI,Handysize Average TCE,,,Handysize,2574.0,usd_per_day
+2023-07-24,vessel_class_rate,BHSI,Handysize Average TCE,,,Handysize,2445.0,usd_per_day
+2023-07-31,vessel_class_rate,BHSI,Handysize Average TCE,,,Handysize,2540.0,usd_per_day
+2023-08-07,vessel_class_rate,BHSI,Handysize Average TCE,,,Handysize,2765.0,usd_per_day
+2023-08-14,vessel_class_rate,BHSI,Handysize Average TCE,,,Handysize,2771.0,usd_per_day
+2023-08-21,vessel_class_rate,BHSI,Handysize Average TCE,,,Handysize,2679.0,usd_per_day
+2023-08-28,vessel_class_rate,BHSI,Handysize Average TCE,,,Handysize,2830.0,usd_per_day
+2023-09-04,vessel_class_rate,BHSI,Handysize Average TCE,,,Handysize,2896.0,usd_per_day
+2023-09-11,vessel_class_rate,BHSI,Handysize Average TCE,,,Handysize,3350.0,usd_per_day
+2023-09-18,vessel_class_rate,BHSI,Handysize Average TCE,,,Handysize,3366.0,usd_per_day
+2023-09-25,vessel_class_rate,BHSI,Handysize Average TCE,,,Handysize,3471.0,usd_per_day
+2023-10-02,vessel_class_rate,BHSI,Handysize Average TCE,,,Handysize,3506.0,usd_per_day
+2023-10-09,vessel_class_rate,BHSI,Handysize Average TCE,,,Handysize,3296.0,usd_per_day
+2023-10-16,vessel_class_rate,BHSI,Handysize Average TCE,,,Handysize,3424.0,usd_per_day
+2023-10-23,vessel_class_rate,BHSI,Handysize Average TCE,,,Handysize,3448.0,usd_per_day
+2023-10-30,vessel_class_rate,BHSI,Handysize Average TCE,,,Handysize,3702.0,usd_per_day
+2023-11-06,vessel_class_rate,BHSI,Handysize Average TCE,,,Handysize,3533.0,usd_per_day
+2023-11-13,vessel_class_rate,BHSI,Handysize Average TCE,,,Handysize,3445.0,usd_per_day
+2023-11-20,vessel_class_rate,BHSI,Handysize Average TCE,,,Handysize,3876.0,usd_per_day
+2023-11-27,vessel_class_rate,BHSI,Handysize Average TCE,,,Handysize,3507.0,usd_per_day
+2023-12-04,vessel_class_rate,BHSI,Handysize Average TCE,,,Handysize,3410.0,usd_per_day
+2023-12-11,vessel_class_rate,BHSI,Handysize Average TCE,,,Handysize,3517.0,usd_per_day
+2023-12-18,vessel_class_rate,BHSI,Handysize Average TCE,,,Handysize,3820.0,usd_per_day
+2023-12-25,vessel_class_rate,BHSI,Handysize Average TCE,,,Handysize,3595.0,usd_per_day
+2024-01-01,vessel_class_rate,BHSI,Handysize Average TCE,,,Handysize,3363.0,usd_per_day
+2024-01-08,vessel_class_rate,BHSI,Handysize Average TCE,,,Handysize,3501.0,usd_per_day
+2024-01-15,vessel_class_rate,BHSI,Handysize Average TCE,,,Handysize,3499.0,usd_per_day
+2024-01-22,vessel_class_rate,BHSI,Handysize Average TCE,,,Handysize,3424.0,usd_per_day
+2024-01-29,vessel_class_rate,BHSI,Handysize Average TCE,,,Handysize,3373.0,usd_per_day
+2024-02-05,vessel_class_rate,BHSI,Handysize Average TCE,,,Handysize,3374.0,usd_per_day
+2024-02-12,vessel_class_rate,BHSI,Handysize Average TCE,,,Handysize,3264.0,usd_per_day
+2024-02-19,vessel_class_rate,BHSI,Handysize Average TCE,,,Handysize,3219.0,usd_per_day
+2024-02-26,vessel_class_rate,BHSI,Handysize Average TCE,,,Handysize,3183.0,usd_per_day
+2024-03-04,vessel_class_rate,BHSI,Handysize Average TCE,,,Handysize,3117.0,usd_per_day
+2024-03-11,vessel_class_rate,BHSI,Handysize Average TCE,,,Handysize,3064.0,usd_per_day
+2024-03-18,vessel_class_rate,BHSI,Handysize Average TCE,,,Handysize,2919.0,usd_per_day
+2024-03-25,vessel_class_rate,BHSI,Handysize Average TCE,,,Handysize,2824.0,usd_per_day
+2024-04-01,vessel_class_rate,BHSI,Handysize Average TCE,,,Handysize,2460.0,usd_per_day
+2024-04-08,vessel_class_rate,BHSI,Handysize Average TCE,,,Handysize,2508.0,usd_per_day
+2024-04-15,vessel_class_rate,BHSI,Handysize Average TCE,,,Handysize,2841.0,usd_per_day
+2024-04-22,vessel_class_rate,BHSI,Handysize Average TCE,,,Handysize,2929.0,usd_per_day
+2024-04-29,vessel_class_rate,BHSI,Handysize Average TCE,,,Handysize,3053.0,usd_per_day
+2024-05-06,vessel_class_rate,BHSI,Handysize Average TCE,,,Handysize,3078.0,usd_per_day
+2024-05-13,vessel_class_rate,BHSI,Handysize Average TCE,,,Handysize,2986.0,usd_per_day
+2024-05-20,vessel_class_rate,BHSI,Handysize Average TCE,,,Handysize,3176.0,usd_per_day
+2024-05-27,vessel_class_rate,BHSI,Handysize Average TCE,,,Handysize,3042.0,usd_per_day
+2024-06-03,vessel_class_rate,BHSI,Handysize Average TCE,,,Handysize,3043.0,usd_per_day
+2024-06-10,vessel_class_rate,BHSI,Handysize Average TCE,,,Handysize,3155.0,usd_per_day
+2024-06-17,vessel_class_rate,BHSI,Handysize Average TCE,,,Handysize,3269.0,usd_per_day
+2024-06-24,vessel_class_rate,BHSI,Handysize Average TCE,,,Handysize,2939.0,usd_per_day
+2024-07-01,vessel_class_rate,BHSI,Handysize Average TCE,,,Handysize,2701.0,usd_per_day
+2024-07-08,vessel_class_rate,BHSI,Handysize Average TCE,,,Handysize,2837.0,usd_per_day
+2024-07-15,vessel_class_rate,BHSI,Handysize Average TCE,,,Handysize,2794.0,usd_per_day
+2024-07-22,vessel_class_rate,BHSI,Handysize Average TCE,,,Handysize,3064.0,usd_per_day
+2024-07-29,vessel_class_rate,BHSI,Handysize Average TCE,,,Handysize,3138.0,usd_per_day
+2024-08-05,vessel_class_rate,BHSI,Handysize Average TCE,,,Handysize,3081.0,usd_per_day
+2024-08-12,vessel_class_rate,BHSI,Handysize Average TCE,,,Handysize,3088.0,usd_per_day
+2024-08-19,vessel_class_rate,BHSI,Handysize Average TCE,,,Handysize,3455.0,usd_per_day
+2024-08-26,vessel_class_rate,BHSI,Handysize Average TCE,,,Handysize,3390.0,usd_per_day
+2024-09-02,vessel_class_rate,BHSI,Handysize Average TCE,,,Handysize,3293.0,usd_per_day
+2024-09-09,vessel_class_rate,BHSI,Handysize Average TCE,,,Handysize,3372.0,usd_per_day
+2024-09-16,vessel_class_rate,BHSI,Handysize Average TCE,,,Handysize,3393.0,usd_per_day
+2024-09-23,vessel_class_rate,BHSI,Handysize Average TCE,,,Handysize,3212.0,usd_per_day
+2024-09-30,vessel_class_rate,BHSI,Handysize Average TCE,,,Handysize,3424.0,usd_per_day
+2024-10-07,vessel_class_rate,BHSI,Handysize Average TCE,,,Handysize,3405.0,usd_per_day
+2024-10-14,vessel_class_rate,BHSI,Handysize Average TCE,,,Handysize,3279.0,usd_per_day
+2024-10-21,vessel_class_rate,BHSI,Handysize Average TCE,,,Handysize,3436.0,usd_per_day
+2024-10-28,vessel_class_rate,BHSI,Handysize Average TCE,,,Handysize,3458.0,usd_per_day
+2024-11-04,vessel_class_rate,BHSI,Handysize Average TCE,,,Handysize,3097.0,usd_per_day
+2024-11-11,vessel_class_rate,BHSI,Handysize Average TCE,,,Handysize,2946.0,usd_per_day
+2024-11-18,vessel_class_rate,BHSI,Handysize Average TCE,,,Handysize,3355.0,usd_per_day
+2024-11-25,vessel_class_rate,BHSI,Handysize Average TCE,,,Handysize,3450.0,usd_per_day
+2024-12-02,vessel_class_rate,BHSI,Handysize Average TCE,,,Handysize,3429.0,usd_per_day
+2024-12-09,vessel_class_rate,BHSI,Handysize Average TCE,,,Handysize,3400.0,usd_per_day
+2024-12-16,vessel_class_rate,BHSI,Handysize Average TCE,,,Handysize,3353.0,usd_per_day
+2024-12-23,vessel_class_rate,BHSI,Handysize Average TCE,,,Handysize,3671.0,usd_per_day
+2024-12-30,vessel_class_rate,BHSI,Handysize Average TCE,,,Handysize,3731.0,usd_per_day

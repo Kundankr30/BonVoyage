@@ -1,5 +1,5 @@
 import { useState, useEffect } from 'react'
-import { Settings, AlertCircle, TrendingDown, CheckCircle, Loader2 } from 'lucide-react'
+import { Settings,  CheckCircle, Loader2 } from 'lucide-react'
 import { Button } from '@/components/ui/button'
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from '@/components/ui/card'
 import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from '@/components/ui/select'
@@ -54,7 +54,7 @@ export default function CharterOptimizer() {
         demurrageCost: result.demurrageCost || 0,
         riskScore: result.riskScore || 0,
         risk: result.riskScore > 0.7 ? 'High' : result.riskScore > 0.4 ? 'Medium' : 'Low',
-        confidence: Math.round((1 - (result.riskScore || 0)) * 100),
+        confidence: Math.round((100 - (result.riskScore || 0))),
         recommendedCharterDate: result.recommendedCharterDate || '',
         recommendationReason: result.recommendationReason || '',
         originPort: result.originPort || '',
@@ -232,7 +232,7 @@ export default function CharterOptimizer() {
                   </label>
                   <div className="mt-1">
                     <Badge className={getRiskColor(recommendation.risk)}>
-                      {recommendation.risk} ({(recommendation.riskScore * 100).toFixed(0)}%)
+                      {recommendation.risk} ({recommendation.riskScore.toFixed(0)}%)
                     </Badge>
                   </div>
                 </div>
@@ -242,23 +242,6 @@ export default function CharterOptimizer() {
                   </label>
                   <div className="text-2xl font-bold text-blue-600 dark:text-blue-400 mt-1">
                     {recommendation.confidence}%
-                  </div>
-                </div>
-              </div>
-            </CardContent>
-          </Card>
-
-          {/* Insights */}
-          <Card>
-            <CardHeader>
-              <CardTitle>Optimization Insights</CardTitle>
-            </CardHeader>
-            <CardContent>
-              <div className="space-y-3">
-                <div className="flex items-start gap-3 p-3 bg-blue-50 dark:bg-blue-900/20 rounded-lg">
-                  <AlertCircle className="w-5 h-5 text-blue-600 dark:text-blue-400 flex-shrink-0 mt-0.5" />
-                  <div className="text-sm text-gray-700 dark:text-gray-300">
-                    {recommendation.recommendationReason || 'Optimization complete. The ML engine has evaluated all feasible vessels and selected the best option based on cost, risk, and timing.'}
                   </div>
                 </div>
               </div>

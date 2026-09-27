@@ -1,0 +1,21 @@
+port_id,port_name,country,region,trade_role,latitude,longitude,berth,max_draft_m,max_loa_m,max_beam_m,cargo_handling_rate_tpd,avg_waiting_time_hrs,congestion_index,berth_availability_pct
+PHE,Port Hedland,Australia,Oceania,export,-20.31,118.57,Berth 1-4 (Iron Ore/Bulk),19.5,365,65,120000,8,0.15,92
+NEW,Newcastle,Australia,Oceania,export,-32.93,151.78,Kooragang Coal Terminal,17.0,300,50,95000,24,0.3,85
+DBB,Dalrymple Bay,Australia,Oceania,export,-21.14,149.28,DBCT Berth 1-3,17.5,300,48,90000,30,0.32,83
+RIB,Richards Bay,South Africa,Africa,export,-28.79,32.09,RBCT Berth 1-4,21.0,340,55,85000,20,0.25,88
+QIN,Qingdao,China,Asia,import,36.08,120.38,Dongjiakou Bulk Terminal,20.0,340,57,75000,40,0.45,78
+RIZ,Rizhao,China,Asia,import,35.38,119.53,Shihua Coal Terminal,19.5,320,55,70000,36,0.4,80
+TIA,Tianjin,China,Asia,import,38.98,117.72,Nanjiang Bulk Terminal,18.0,300,50,65000,45,0.48,76
+NIN,Ningbo-Zhoushan,China,Asia,import,29.87,121.98,Beilun Bulk Terminal,20.5,350,58,80000,30,0.35,84
+PAR,Paradip,India,Asia,import,20.32,86.61,Coal Berth 1-2,18.5,300,48,55000,55,0.55,70
+MUN,Mundra,India,Asia,import,22.84,69.72,Adani Bulk Terminal,17.5,290,45,60000,42,0.42,79
+SAN,Santos,Brazil,South America,export,-23.96,-46.33,Terminal Graneleiro,14.5,260,43,40000,50,0.5,74
+TUB,Tubarao,Brazil,South America,export,-20.29,-40.24,Ponta da Praia Terminal,22.0,360,65,110000,15,0.2,90
+ITQ,Itaqui,Brazil,South America,export,-2.57,-44.36,Bulk Terminal 1,21.0,340,55,70000,18,0.22,87
+VAN,Vancouver,Canada,North America,export,49.29,-123.12,Westshore Terminal,17.0,300,48,60000,20,0.28,86
+BAL,Baltimore,USA,North America,export,39.27,-76.55,CNX Coal Terminal,14.0,275,45,45000,25,0.3,82
+HRV,Hampton Roads,USA,North America,export,36.95,-76.33,Norfolk Coal Pier,18.5,320,50,65000,22,0.27,85
+TAB,Taboneo (Kalimantan),Indonesia,Asia,export,-3.65,114.58,Anchorage Transshipment,12.5,230,38,25000,60,0.5,71
+SAM,Samarinda,Indonesia,Asia,export,-0.5,117.15,Coal Barge Terminal,11.0,200,32,18000,55,0.48,73
+GAN,Gangavaram,India,Asia,import,17.63,83.24,Deep Water Bulk Berth,18.5,310,50,58000,38,0.38,81
+ROT,Rotterdam,Netherlands,Europe,import,51.95,4.14,EMO/EECV Bulk Terminal,24.0,380,65,100000,12,0.18,91

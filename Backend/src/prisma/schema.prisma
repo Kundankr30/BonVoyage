@@ -1,0 +1,186 @@
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "postgresql"
+  url      = env("DATABASE_URL")
+}
+
+model bunker_prices {
+  id                BigInt   @id @default(autoincrement())
+  date              DateTime @db.Date
+  port_id           String   @db.VarChar(20)
+  fuel_type         String?  @db.VarChar(50)
+  price_usd_per_ton Decimal? @db.Decimal(12, 2)
+  ports             ports    @relation(fields: [port_id], references: [port_id], onDelete: NoAction, onUpdate: NoAction)
+
+  @@index([port_id, date], map: "idx_bunker_port_date")
+}
+
+model commodity_data {
+  id                      BigInt   @id @default(autoincrement())
+  date                    DateTime @db.Date
+  commodity               String?  @db.VarChar(100)
+  country                 String?  @db.VarChar(100)
+  flow_type               String?  @db.VarChar(50)
+  price_usd_per_ton       Decimal? @db.Decimal(12, 2)
+  volume_million_tons     Decimal? @db.Decimal(14, 4)
+  production_million_tons Decimal? @db.Decimal(14, 4)
+  demand_index            Decimal? @db.Decimal(10, 4)
+}
+
+/// The underlying table does not contain a valid unique identifier and can therefore currently not be handled by Prisma Client.
+model dry_bulk_freight_rates {
+  date                     DateTime @db.Date
+  origin_port              String   @db.VarChar(150)
+  destination_port         String   @db.VarChar(150)
+  vessel_class             String   @db.VarChar(50)
+  freight_rate_usd_per_ton Decimal  @db.Decimal(12, 4)
+
+  @@index([origin_port, destination_port, vessel_class, date], map: "idx_dry_bulk_freight_route_date")
+  @@id([origin_port, destination_port, vessel_class, date])
+}
+
+/// The underlying table does not contain a valid unique identifier and can therefore currently not be handled by Prisma Client.
+model freight_rates {
+  date                                           DateTime @db.Date
+  record_type                                    String?  @db.VarChar(50)
+  code                                           String?  @db.VarChar(50)
+  name                                           String?  @db.VarChar(150)
+  origin_port_id                                 String?  @db.VarChar(20)
+  destination_port_id                            String?  @db.VarChar(20)
+  vessel_class                                   String?  @db.VarChar(50)
+  value                                          Decimal? @db.Decimal(12, 4)
+  unit                                           String?  @db.VarChar(50)
+  destination_port ports?   @relation("freight_rates_destination_port_idToports", fields: [destination_port_id], references: [port_id], onDelete: NoAction, onUpdate: NoAction)
+  origin_port      ports?   @relation("freight_rates_origin_port_idToports", fields: [origin_port_id], references: [port_id], onDelete: NoAction, onUpdate: NoAction)
+
+  @@ignore
+}
+
+model optimization_results {
+  result_id                          BigInt    @id @default(autoincrement())
+  shipment_id                        BigInt
+  vessel_id                          String?   @db.VarChar(20)
+  route_code                         String?   @db.VarChar(20)
+  recommended_charter_date           DateTime? @db.Date
+  predicted_freight_rate_usd_per_ton Decimal?  @db.Decimal(12, 4)
+  freight_cost_usd                   Decimal?  @db.Decimal(16, 2)
+  fuel_cost_usd                      Decimal?  @db.Decimal(16, 2)
+  port_cost_usd                      Decimal?  @db.Decimal(16, 2)
+  demurrage_cost_usd                 Decimal?  @db.Decimal(16, 2)
+  total_cost_usd                     Decimal?  @db.Decimal(16, 2)
+  risk_score                         Decimal?  @db.Decimal(6, 3)
+  recommendation_reason              String?
+  created_at                         DateTime? @default(now()) @db.Timestamp(6)
+  routes                             routes?   @relation(fields: [route_code], references: [route_code], onDelete: NoAction, onUpdate: NoAction)
+  shipments                          shipments @relation(fields: [shipment_id], references: [shipment_id], onDelete: NoAction, onUpdate: NoAction)
+  vessels                            vessels?  @relation(fields: [vessel_id], references: [vessel_id], onDelete: NoAction, onUpdate: NoAction)
+
+  @@index([shipment_id], map: "idx_optimization_shipment")
+}
+
+model ports {
+  port_id                                                String          @id @db.VarChar(20)
+  port_name                                              String          @db.VarChar(150)
+  country                                                String?         @db.VarChar(100)
+  region                                                 String?         @db.VarChar(100)
+  trade_role                                             String?         @db.VarChar(50)
+  latitude                                               Decimal?        @db.Decimal(10, 6)
+  longitude                                              Decimal?        @db.Decimal(10, 6)
+  berth                                                  String?         @db.VarChar(100)
+  max_draft_m                                            Decimal?        @db.Decimal(8, 2)
+  max_loa_m                                              Decimal?        @db.Decimal(8, 2)
+  max_beam_m                                             Decimal?        @db.Decimal(8, 2)
+  cargo_handling_rate_tpd                                Decimal?        @db.Decimal(12, 2)
+  avg_waiting_time_hrs                                   Decimal?        @db.Decimal(10, 2)
+  congestion_index                                       Decimal?        @db.Decimal(6, 3)
+  berth_availability_pct                                 Decimal?        @db.Decimal(6, 2)
+  bunker_prices                                          bunker_prices[]
+  destination_freight_rates freight_rates[] @relation("freight_rates_destination_port_idToports") @ignore
+  origin_freight_rates      freight_rates[] @relation("freight_rates_origin_port_idToports") @ignore
+  destination_routes               routes[]        @relation("routes_destination_port_idToports")
+  origin_routes                    routes[]        @relation("routes_origin_port_idToports")
+  destination_shipments         shipments[]     @relation("shipments_destination_port_idToports")
+  origin_shipments              shipments[]     @relation("shipments_origin_port_idToports")
+  weather                                                weather[]
+}
+
+model routes {
+  route_code                              String                 @id @db.VarChar(20)
+  route_name                              String?                @db.VarChar(200)
+  origin_port_id                          String                 @db.VarChar(20)
+  destination_port_id                     String                 @db.VarChar(20)
+  vessel_class                            String?                @db.VarChar(50)
+  distance_nm                             Decimal?               @db.Decimal(10, 2)
+  optimization_results                    optimization_results[]
+  destination_port ports                  @relation("routes_destination_port_idToports", fields: [destination_port_id], references: [port_id], onDelete: NoAction, onUpdate: NoAction)
+  origin_port      ports                  @relation("routes_origin_port_idToports", fields: [origin_port_id], references: [port_id], onDelete: NoAction, onUpdate: NoAction)
+
+  @@index([origin_port_id, destination_port_id], map: "idx_routes_origin_destination")
+}
+
+model shipments {
+  shipment_id                                BigInt                 @id @default(autoincrement())
+  origin_port_id                             String                 @db.VarChar(20)
+  destination_port_id                        String                 @db.VarChar(20)
+  commodity                                  String?                @db.VarChar(100)
+  cargo_quantity_tons                        Decimal                @db.Decimal(14, 2)
+  earliest_charter_date                      DateTime?              @db.Date
+  required_arrival_date                      DateTime?              @db.Date
+  preferred_vessel_class                     String?                @db.VarChar(50)
+  optimization_results                       optimization_results[]
+  destination_port ports                  @relation("shipments_destination_port_idToports", fields: [destination_port_id], references: [port_id], onDelete: NoAction, onUpdate: NoAction)
+  origin_port      ports                  @relation("shipments_origin_port_idToports", fields: [origin_port_id], references: [port_id], onDelete: NoAction, onUpdate: NoAction)
+
+  @@index([origin_port_id, destination_port_id], map: "idx_shipments_route")
+}
+
+model vessels {
+  vessel_id            String                 @id @db.VarChar(20)
+  vessel_name          String                 @db.VarChar(150)
+  vessel_type          String?                @db.VarChar(50)
+  dwt                  Decimal?               @db.Decimal(12, 2)
+  loa_m                Decimal?               @db.Decimal(8, 2)
+  beam_m               Decimal?               @db.Decimal(8, 2)
+  draft_m              Decimal?               @db.Decimal(8, 2)
+  fuel_consumption_tpd Decimal?               @db.Decimal(10, 2)
+  speed_knots          Decimal?               @db.Decimal(6, 2)
+  availability_status  String?                @db.VarChar(50)
+  optimization_results optimization_results[]
+
+  @@index([vessel_type], map: "idx_vessels_type")
+}
+
+model weather {
+  id               BigInt   @id @default(autoincrement())
+  date             DateTime @db.Date
+  port_id          String   @db.VarChar(20)
+  wind_speed_knots Decimal? @db.Decimal(8, 2)
+  wave_height_m    Decimal? @db.Decimal(8, 2)
+  visibility_nm    Decimal? @db.Decimal(8, 2)
+  condition        String?  @db.VarChar(100)
+  storm_warning    Boolean?
+  ports            ports    @relation(fields: [port_id], references: [port_id], onDelete: NoAction, onUpdate: NoAction)
+
+  @@index([port_id, date], map: "idx_weather_port_date")
+}
+
+model enquiries {
+  enquiry_id          Int       @id @default(autoincrement())
+  enquiry_type        String    @db.VarChar(50)
+  status              String    @default("OPEN") @db.VarChar(50)
+  
+  commodity           String?   @db.VarChar(100)
+  cargo_quantity_tons Decimal?  @db.Decimal(10, 2)
+  
+  preferred_vessel    String?   @db.VarChar(50)
+  
+  origin_port         String?   @db.VarChar(100)
+  destination_port    String?   @db.VarChar(100)
+  laycan_start        DateTime? @db.Date
+  laycan_end          DateTime? @db.Date
+  
+  created_at          DateTime? @default(now()) @db.Timestamp(6)
+}

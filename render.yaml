@@ -1,0 +1,47 @@
+services:
+  - type: web
+    name: bonvoyage-frontend
+    env: static
+    rootDir: Frontend
+    buildCommand: npm install && npm run build
+    staticPublishPath: dist
+    envVars:
+      - key: VITE_API_URL
+        fromService:
+          type: web
+          name: bonvoyage-backend
+          envVarKey: RENDER_EXTERNAL_URL
+
+  - type: web
+    name: bonvoyage-backend
+    env: node
+    rootDir: Backend
+    buildCommand: npm install -g bun && bun install && bunx prisma generate
+    startCommand: bun run src/server.ts
+    envVars:
+      - key: DATABASE_URL
+        fromDatabase:
+          name: bonvoyage-db
+          property: connectionString
+      - key: ML_ENGINE_URL
+        fromService:
+          type: web
+          name: bonvoyage-ml-engine
+          envVarKey: RENDER_EXTERNAL_URL
+      - key: PORT
+        value: "8000"
+
+  - type: web
+    name: bonvoyage-ml-engine
+    env: python
+    rootDir: Backend/ML_Engine
+    buildCommand: pip install -r requirements.txt
+    startCommand: uvicorn api:app --host 0.0.0.0 --port $PORT
+    envVars:
+      - key: PYTHON_VERSION
+        value: "3.10.0"
+
+databases:
+  - name: bonvoyage-db
+    databaseName: bonvoyage
+    user: bonvoyage_user

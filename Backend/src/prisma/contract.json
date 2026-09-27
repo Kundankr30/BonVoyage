@@ -1,0 +1,2786 @@
+{
+  "schemaVersion": "1",
+  "targetFamily": "sql",
+  "target": "postgres",
+  "profileHash": "3916f444a8a17ad749191acf9e08dad97d1a327b88c2f1d45d12f240296aa8b2",
+  "roots": {
+    "bunker_prices": {
+      "model": "BunkerPrices",
+      "namespace": "public"
+    },
+    "commodity_data": {
+      "model": "CommodityData",
+      "namespace": "public"
+    },
+    "dry_bulk_freight_rates": {
+      "model": "DryBulkFreightRates",
+      "namespace": "public"
+    },
+    "freight_rates": {
+      "model": "FreightRates",
+      "namespace": "public"
+    },
+    "optimization_results": {
+      "model": "OptimizationResults",
+      "namespace": "public"
+    },
+    "ports": {
+      "model": "Ports",
+      "namespace": "public"
+    },
+    "routes": {
+      "model": "Routes",
+      "namespace": "public"
+    },
+    "shipments": {
+      "model": "Shipments",
+      "namespace": "public"
+    },
+    "vessels": {
+      "model": "Vessels",
+      "namespace": "public"
+    },
+    "weather": {
+      "model": "Weather",
+      "namespace": "public"
+    }
+  },
+  "domain": {
+    "namespaces": {
+      "public": {
+        "models": {
+          "BunkerPrices": {
+            "fields": {
+              "date": {
+                "nullable": false,
+                "type": {
+                  "codecId": "pg/date-temporal@1",
+                  "kind": "scalar"
+                }
+              },
+              "fuelType": {
+                "nullable": true,
+                "type": {
+                  "codecId": "sql/varchar@1",
+                  "kind": "scalar",
+                  "typeParams": {
+                    "length": 50
+                  }
+                }
+              },
+              "id": {
+                "nullable": false,
+                "type": {
+                  "codecId": "pg/int8@1",
+                  "kind": "scalar"
+                }
+              },
+              "portId": {
+                "nullable": false,
+                "type": {
+                  "codecId": "sql/varchar@1",
+                  "kind": "scalar",
+                  "typeParams": {
+                    "length": 20
+                  }
+                }
+              },
+              "priceUsdPerTon": {
+                "nullable": true,
+                "type": {
+                  "codecId": "pg/numeric@1",
+                  "kind": "scalar",
+                  "typeParams": {
+                    "precision": 12,
+                    "scale": 2
+                  }
+                }
+              }
+            },
+            "relations": {
+              "port": {
+                "cardinality": "N:1",
+                "nullable": false,
+                "on": {
+                  "localFields": [
+                    "portId"
+                  ],
+                  "targetFields": [
+                    "portId"
+                  ]
+                },
+                "to": {
+                  "model": "Ports",
+                  "namespace": "public"
+                }
+              }
+            },
+            "storage": {
+              "fields": {
+                "date": {
+                  "column": "date"
+                },
+                "fuelType": {
+                  "column": "fuel_type"
+                },
+                "id": {
+                  "column": "id"
+                },
+                "portId": {
+                  "column": "port_id"
+                },
+                "priceUsdPerTon": {
+                  "column": "price_usd_per_ton"
+                }
+              },
+              "namespaceId": "public",
+              "table": "bunker_prices"
+            }
+          },
+          "CommodityData": {
+            "fields": {
+              "commodity": {
+                "nullable": true,
+                "type": {
+                  "codecId": "sql/varchar@1",
+                  "kind": "scalar",
+                  "typeParams": {
+                    "length": 100
+                  }
+                }
+              },
+              "country": {
+                "nullable": true,
+                "type": {
+                  "codecId": "sql/varchar@1",
+                  "kind": "scalar",
+                  "typeParams": {
+                    "length": 100
+                  }
+                }
+              },
+              "date": {
+                "nullable": false,
+                "type": {
+                  "codecId": "pg/date-temporal@1",
+                  "kind": "scalar"
+                }
+              },
+              "demandIndex": {
+                "nullable": true,
+                "type": {
+                  "codecId": "pg/numeric@1",
+                  "kind": "scalar",
+                  "typeParams": {
+                    "precision": 10,
+                    "scale": 4
+                  }
+                }
+              },
+              "flowType": {
+                "nullable": true,
+                "type": {
+                  "codecId": "sql/varchar@1",
+                  "kind": "scalar",
+                  "typeParams": {
+                    "length": 50
+                  }
+                }
+              },
+              "id": {
+                "nullable": false,
+                "type": {
+                  "codecId": "pg/int8@1",
+                  "kind": "scalar"
+                }
+              },
+              "priceUsdPerTon": {
+                "nullable": true,
+                "type": {
+                  "codecId": "pg/numeric@1",
+                  "kind": "scalar",
+                  "typeParams": {
+                    "precision": 12,
+                    "scale": 2
+                  }
+                }
+              },
+              "productionMillionTons": {
+                "nullable": true,
+                "type": {
+                  "codecId": "pg/numeric@1",
+                  "kind": "scalar",
+                  "typeParams": {
+                    "precision": 14,
+                    "scale": 4
+                  }
+                }
+              },
+              "volumeMillionTons": {
+                "nullable": true,
+                "type": {
+                  "codecId": "pg/numeric@1",
+                  "kind": "scalar",
+                  "typeParams": {
+                    "precision": 14,
+                    "scale": 4
+                  }
+                }
+              }
+            },
+            "relations": {},
+            "storage": {
+              "fields": {
+                "commodity": {
+                  "column": "commodity"
+                },
+                "country": {
+                  "column": "country"
+                },
+                "date": {
+                  "column": "date"
+                },
+                "demandIndex": {
+                  "column": "demand_index"
+                },
+                "flowType": {
+                  "column": "flow_type"
+                },
+                "id": {
+                  "column": "id"
+                },
+                "priceUsdPerTon": {
+                  "column": "price_usd_per_ton"
+                },
+                "productionMillionTons": {
+                  "column": "production_million_tons"
+                },
+                "volumeMillionTons": {
+                  "column": "volume_million_tons"
+                }
+              },
+              "namespaceId": "public",
+              "table": "commodity_data"
+            }
+          },
+          "DryBulkFreightRates": {
+            "fields": {
+              "date": {
+                "nullable": false,
+                "type": {
+                  "codecId": "pg/date-temporal@1",
+                  "kind": "scalar"
+                }
+              },
+              "destinationPort": {
+                "nullable": false,
+                "type": {
+                  "codecId": "sql/varchar@1",
+                  "kind": "scalar",
+                  "typeParams": {
+                    "length": 150
+                  }
+                }
+              },
+              "freightRateUsdPerTon": {
+                "nullable": false,
+                "type": {
+                  "codecId": "pg/numeric@1",
+                  "kind": "scalar",
+                  "typeParams": {
+                    "precision": 12,
+                    "scale": 4
+                  }
+                }
+              },
+              "originPort": {
+                "nullable": false,
+                "type": {
+                  "codecId": "sql/varchar@1",
+                  "kind": "scalar",
+                  "typeParams": {
+                    "length": 150
+                  }
+                }
+              },
+              "vesselClass": {
+                "nullable": false,
+                "type": {
+                  "codecId": "sql/varchar@1",
+                  "kind": "scalar",
+                  "typeParams": {
+                    "length": 50
+                  }
+                }
+              }
+            },
+            "relations": {},
+            "storage": {
+              "fields": {
+                "date": {
+                  "column": "date"
+                },
+                "destinationPort": {
+                  "column": "destination_port"
+                },
+                "freightRateUsdPerTon": {
+                  "column": "freight_rate_usd_per_ton"
+                },
+                "originPort": {
+                  "column": "origin_port"
+                },
+                "vesselClass": {
+                  "column": "vessel_class"
+                }
+              },
+              "namespaceId": "public",
+              "table": "dry_bulk_freight_rates"
+            }
+          },
+          "FreightRates": {
+            "fields": {
+              "code": {
+                "nullable": true,
+                "type": {
+                  "codecId": "sql/varchar@1",
+                  "kind": "scalar",
+                  "typeParams": {
+                    "length": 50
+                  }
+                }
+              },
+              "date": {
+                "nullable": false,
+                "type": {
+                  "codecId": "pg/date-temporal@1",
+                  "kind": "scalar"
+                }
+              },
+              "destinationPortId": {
+                "nullable": true,
+                "type": {
+                  "codecId": "sql/varchar@1",
+                  "kind": "scalar",
+                  "typeParams": {
+                    "length": 20
+                  }
+                }
+              },
+              "name": {
+                "nullable": true,
+                "type": {
+                  "codecId": "sql/varchar@1",
+                  "kind": "scalar",
+                  "typeParams": {
+                    "length": 150
+                  }
+                }
+              },
+              "originPortId": {
+                "nullable": true,
+                "type": {
+                  "codecId": "sql/varchar@1",
+                  "kind": "scalar",
+                  "typeParams": {
+                    "length": 20
+                  }
+                }
+              },
+              "recordType": {
+                "nullable": true,
+                "type": {
+                  "codecId": "sql/varchar@1",
+                  "kind": "scalar",
+                  "typeParams": {
+                    "length": 50
+                  }
+                }
+              },
+              "unit": {
+                "nullable": true,
+                "type": {
+                  "codecId": "sql/varchar@1",
+                  "kind": "scalar",
+                  "typeParams": {
+                    "length": 50
+                  }
+                }
+              },
+              "value": {
+                "nullable": true,
+                "type": {
+                  "codecId": "pg/numeric@1",
+                  "kind": "scalar",
+                  "typeParams": {
+                    "precision": 12,
+                    "scale": 4
+                  }
+                }
+              },
+              "vesselClass": {
+                "nullable": true,
+                "type": {
+                  "codecId": "sql/varchar@1",
+                  "kind": "scalar",
+                  "typeParams": {
+                    "length": 50
+                  }
+                }
+              }
+            },
+            "relations": {
+              "destinationPort": {
+                "cardinality": "N:1",
+                "nullable": true,
+                "on": {
+                  "localFields": [
+                    "destinationPortId"
+                  ],
+                  "targetFields": [
+                    "portId"
+                  ]
+                },
+                "to": {
+                  "model": "Ports",
+                  "namespace": "public"
+                }
+              },
+              "originPort": {
+                "cardinality": "N:1",
+                "nullable": true,
+                "on": {
+                  "localFields": [
+                    "originPortId"
+                  ],
+                  "targetFields": [
+                    "portId"
+                  ]
+                },
+                "to": {
+                  "model": "Ports",
+                  "namespace": "public"
+                }
+              }
+            },
+            "storage": {
+              "fields": {
+                "code": {
+                  "column": "code"
+                },
+                "date": {
+                  "column": "date"
+                },
+                "destinationPortId": {
+                  "column": "destination_port_id"
+                },
+                "name": {
+                  "column": "name"
+                },
+                "originPortId": {
+                  "column": "origin_port_id"
+                },
+                "recordType": {
+                  "column": "record_type"
+                },
+                "unit": {
+                  "column": "unit"
+                },
+                "value": {
+                  "column": "value"
+                },
+                "vesselClass": {
+                  "column": "vessel_class"
+                }
+              },
+              "namespaceId": "public",
+              "table": "freight_rates"
+            }
+          },
+          "OptimizationResults": {
+            "fields": {
+              "createdAt": {
+                "nullable": true,
+                "type": {
+                  "codecId": "pg/timestamp-temporal@1",
+                  "kind": "scalar"
+                }
+              },
+              "demurrageCostUsd": {
+                "nullable": true,
+                "type": {
+                  "codecId": "pg/numeric@1",
+                  "kind": "scalar",
+                  "typeParams": {
+                    "precision": 16,
+                    "scale": 2
+                  }
+                }
+              },
+              "freightCostUsd": {
+                "nullable": true,
+                "type": {
+                  "codecId": "pg/numeric@1",
+                  "kind": "scalar",
+                  "typeParams": {
+                    "precision": 16,
+                    "scale": 2
+                  }
+                }
+              },
+              "fuelCostUsd": {
+                "nullable": true,
+                "type": {
+                  "codecId": "pg/numeric@1",
+                  "kind": "scalar",
+                  "typeParams": {
+                    "precision": 16,
+                    "scale": 2
+                  }
+                }
+              },
+              "portCostUsd": {
+                "nullable": true,
+                "type": {
+                  "codecId": "pg/numeric@1",
+                  "kind": "scalar",
+                  "typeParams": {
+                    "precision": 16,
+                    "scale": 2
+                  }
+                }
+              },
+              "predictedFreightRateUsdPerTon": {
+                "nullable": true,
+                "type": {
+                  "codecId": "pg/numeric@1",
+                  "kind": "scalar",
+                  "typeParams": {
+                    "precision": 12,
+                    "scale": 4
+                  }
+                }
+              },
+              "recommendationReason": {
+                "nullable": true,
+                "type": {
+                  "codecId": "pg/text@1",
+                  "kind": "scalar"
+                }
+              },
+              "recommendedCharterDate": {
+                "nullable": true,
+                "type": {
+                  "codecId": "pg/date-temporal@1",
+                  "kind": "scalar"
+                }
+              },
+              "resultId": {
+                "nullable": false,
+                "type": {
+                  "codecId": "pg/int8@1",
+                  "kind": "scalar"
+                }
+              },
+              "riskScore": {
+                "nullable": true,
+                "type": {
+                  "codecId": "pg/numeric@1",
+                  "kind": "scalar",
+                  "typeParams": {
+                    "precision": 6,
+                    "scale": 3
+                  }
+                }
+              },
+              "routeCode": {
+                "nullable": true,
+                "type": {
+                  "codecId": "sql/varchar@1",
+                  "kind": "scalar",
+                  "typeParams": {
+                    "length": 20
+                  }
+                }
+              },
+              "shipmentId": {
+                "nullable": false,
+                "type": {
+                  "codecId": "pg/int8@1",
+                  "kind": "scalar"
+                }
+              },
+              "totalCostUsd": {
+                "nullable": true,
+                "type": {
+                  "codecId": "pg/numeric@1",
+                  "kind": "scalar",
+                  "typeParams": {
+                    "precision": 16,
+                    "scale": 2
+                  }
+                }
+              },
+              "vesselId": {
+                "nullable": true,
+                "type": {
+                  "codecId": "sql/varchar@1",
+                  "kind": "scalar",
+                  "typeParams": {
+                    "length": 20
+                  }
+                }
+              }
+            },
+            "relations": {
+              "routes": {
+                "cardinality": "N:1",
+                "nullable": true,
+                "on": {
+                  "localFields": [
+                    "routeCode"
+                  ],
+                  "targetFields": [
+                    "routeCode"
+                  ]
+                },
+                "to": {
+                  "model": "Routes",
+                  "namespace": "public"
+                }
+              },
+              "shipment": {
+                "cardinality": "N:1",
+                "nullable": false,
+                "on": {
+                  "localFields": [
+                    "shipmentId"
+                  ],
+                  "targetFields": [
+                    "shipmentId"
+                  ]
+                },
+                "to": {
+                  "model": "Shipments",
+                  "namespace": "public"
+                }
+              },
+              "vessel": {
+                "cardinality": "N:1",
+                "nullable": true,
+                "on": {
+                  "localFields": [
+                    "vesselId"
+                  ],
+                  "targetFields": [
+                    "vesselId"
+                  ]
+                },
+                "to": {
+                  "model": "Vessels",
+                  "namespace": "public"
+                }
+              }
+            },
+            "storage": {
+              "fields": {
+                "createdAt": {
+                  "column": "created_at"
+                },
+                "demurrageCostUsd": {
+                  "column": "demurrage_cost_usd"
+                },
+                "freightCostUsd": {
+                  "column": "freight_cost_usd"
+                },
+                "fuelCostUsd": {
+                  "column": "fuel_cost_usd"
+                },
+                "portCostUsd": {
+                  "column": "port_cost_usd"
+                },
+                "predictedFreightRateUsdPerTon": {
+                  "column": "predicted_freight_rate_usd_per_ton"
+                },
+                "recommendationReason": {
+                  "column": "recommendation_reason"
+                },
+                "recommendedCharterDate": {
+                  "column": "recommended_charter_date"
+                },
+                "resultId": {
+                  "column": "result_id"
+                },
+                "riskScore": {
+                  "column": "risk_score"
+                },
+                "routeCode": {
+                  "column": "route_code"
+                },
+                "shipmentId": {
+                  "column": "shipment_id"
+                },
+                "totalCostUsd": {
+                  "column": "total_cost_usd"
+                },
+                "vesselId": {
+                  "column": "vessel_id"
+                }
+              },
+              "namespaceId": "public",
+              "table": "optimization_results"
+            }
+          },
+          "Ports": {
+            "fields": {
+              "avgWaitingTimeHrs": {
+                "nullable": true,
+                "type": {
+                  "codecId": "pg/numeric@1",
+                  "kind": "scalar",
+                  "typeParams": {
+                    "precision": 10,
+                    "scale": 2
+                  }
+                }
+              },
+              "berth": {
+                "nullable": true,
+                "type": {
+                  "codecId": "sql/varchar@1",
+                  "kind": "scalar",
+                  "typeParams": {
+                    "length": 100
+                  }
+                }
+              },
+              "berthAvailabilityPct": {
+                "nullable": true,
+                "type": {
+                  "codecId": "pg/numeric@1",
+                  "kind": "scalar",
+                  "typeParams": {
+                    "precision": 6,
+                    "scale": 2
+                  }
+                }
+              },
+              "cargoHandlingRateTpd": {
+                "nullable": true,
+                "type": {
+                  "codecId": "pg/numeric@1",
+                  "kind": "scalar",
+                  "typeParams": {
+                    "precision": 12,
+                    "scale": 2
+                  }
+                }
+              },
+              "congestionIndex": {
+                "nullable": true,
+                "type": {
+                  "codecId": "pg/numeric@1",
+                  "kind": "scalar",
+                  "typeParams": {
+                    "precision": 6,
+                    "scale": 3
+                  }
+                }
+              },
+              "country": {
+                "nullable": true,
+                "type": {
+                  "codecId": "sql/varchar@1",
+                  "kind": "scalar",
+                  "typeParams": {
+                    "length": 100
+                  }
+                }
+              },
+              "latitude": {
+                "nullable": true,
+                "type": {
+                  "codecId": "pg/numeric@1",
+                  "kind": "scalar",
+                  "typeParams": {
+                    "precision": 10,
+                    "scale": 6
+                  }
+                }
+              },
+              "longitude": {
+                "nullable": true,
+                "type": {
+                  "codecId": "pg/numeric@1",
+                  "kind": "scalar",
+                  "typeParams": {
+                    "precision": 10,
+                    "scale": 6
+                  }
+                }
+              },
+              "maxBeamM": {
+                "nullable": true,
+                "type": {
+                  "codecId": "pg/numeric@1",
+                  "kind": "scalar",
+                  "typeParams": {
+                    "precision": 8,
+                    "scale": 2
+                  }
+                }
+              },
+              "maxDraftM": {
+                "nullable": true,
+                "type": {
+                  "codecId": "pg/numeric@1",
+                  "kind": "scalar",
+                  "typeParams": {
+                    "precision": 8,
+                    "scale": 2
+                  }
+                }
+              },
+              "maxLoaM": {
+                "nullable": true,
+                "type": {
+                  "codecId": "pg/numeric@1",
+                  "kind": "scalar",
+                  "typeParams": {
+                    "precision": 8,
+                    "scale": 2
+                  }
+                }
+              },
+              "portId": {
+                "nullable": false,
+                "type": {
+                  "codecId": "sql/varchar@1",
+                  "kind": "scalar",
+                  "typeParams": {
+                    "length": 20
+                  }
+                }
+              },
+              "portName": {
+                "nullable": false,
+                "type": {
+                  "codecId": "sql/varchar@1",
+                  "kind": "scalar",
+                  "typeParams": {
+                    "length": 150
+                  }
+                }
+              },
+              "region": {
+                "nullable": true,
+                "type": {
+                  "codecId": "sql/varchar@1",
+                  "kind": "scalar",
+                  "typeParams": {
+                    "length": 100
+                  }
+                }
+              },
+              "tradeRole": {
+                "nullable": true,
+                "type": {
+                  "codecId": "sql/varchar@1",
+                  "kind": "scalar",
+                  "typeParams": {
+                    "length": 50
+                  }
+                }
+              }
+            },
+            "relations": {
+              "bunkerPrices": {
+                "cardinality": "1:N",
+                "on": {
+                  "localFields": [
+                    "portId"
+                  ],
+                  "targetFields": [
+                    "portId"
+                  ]
+                },
+                "to": {
+                  "model": "BunkerPrices",
+                  "namespace": "public"
+                }
+              },
+              "freightRates": {
+                "cardinality": "1:N",
+                "on": {
+                  "localFields": [
+                    "portId"
+                  ],
+                  "targetFields": [
+                    "destinationPortId"
+                  ]
+                },
+                "to": {
+                  "model": "FreightRates",
+                  "namespace": "public"
+                }
+              },
+              "freightRatesFreightRates": {
+                "cardinality": "1:N",
+                "on": {
+                  "localFields": [
+                    "portId"
+                  ],
+                  "targetFields": [
+                    "originPortId"
+                  ]
+                },
+                "to": {
+                  "model": "FreightRates",
+                  "namespace": "public"
+                }
+              },
+              "routes": {
+                "cardinality": "1:N",
+                "on": {
+                  "localFields": [
+                    "portId"
+                  ],
+                  "targetFields": [
+                    "destinationPortId"
+                  ]
+                },
+                "to": {
+                  "model": "Routes",
+                  "namespace": "public"
+                }
+              },
+              "routesRoutes": {
+                "cardinality": "1:N",
+                "on": {
+                  "localFields": [
+                    "portId"
+                  ],
+                  "targetFields": [
+                    "originPortId"
+                  ]
+                },
+                "to": {
+                  "model": "Routes",
+                  "namespace": "public"
+                }
+              },
+              "shipments": {
+                "cardinality": "1:N",
+                "on": {
+                  "localFields": [
+                    "portId"
+                  ],
+                  "targetFields": [
+                    "destinationPortId"
+                  ]
+                },
+                "to": {
+                  "model": "Shipments",
+                  "namespace": "public"
+                }
+              },
+              "shipmentsShipments": {
+                "cardinality": "1:N",
+                "on": {
+                  "localFields": [
+                    "portId"
+                  ],
+                  "targetFields": [
+                    "originPortId"
+                  ]
+                },
+                "to": {
+                  "model": "Shipments",
+                  "namespace": "public"
+                }
+              },
+              "weathers": {
+                "cardinality": "1:N",
+                "on": {
+                  "localFields": [
+                    "portId"
+                  ],
+                  "targetFields": [
+                    "portId"
+                  ]
+                },
+                "to": {
+                  "model": "Weather",
+                  "namespace": "public"
+                }
+              }
+            },
+            "storage": {
+              "fields": {
+                "avgWaitingTimeHrs": {
+                  "column": "avg_waiting_time_hrs"
+                },
+                "berth": {
+                  "column": "berth"
+                },
+                "berthAvailabilityPct": {
+                  "column": "berth_availability_pct"
+                },
+                "cargoHandlingRateTpd": {
+                  "column": "cargo_handling_rate_tpd"
+                },
+                "congestionIndex": {
+                  "column": "congestion_index"
+                },
+                "country": {
+                  "column": "country"
+                },
+                "latitude": {
+                  "column": "latitude"
+                },
+                "longitude": {
+                  "column": "longitude"
+                },
+                "maxBeamM": {
+                  "column": "max_beam_m"
+                },
+                "maxDraftM": {
+                  "column": "max_draft_m"
+                },
+                "maxLoaM": {
+                  "column": "max_loa_m"
+                },
+                "portId": {
+                  "column": "port_id"
+                },
+                "portName": {
+                  "column": "port_name"
+                },
+                "region": {
+                  "column": "region"
+                },
+                "tradeRole": {
+                  "column": "trade_role"
+                }
+              },
+              "namespaceId": "public",
+              "table": "ports"
+            }
+          },
+          "Routes": {
+            "fields": {
+              "destinationPortId": {
+                "nullable": false,
+                "type": {
+                  "codecId": "sql/varchar@1",
+                  "kind": "scalar",
+                  "typeParams": {
+                    "length": 20
+                  }
+                }
+              },
+              "distanceNm": {
+                "nullable": true,
+                "type": {
+                  "codecId": "pg/numeric@1",
+                  "kind": "scalar",
+                  "typeParams": {
+                    "precision": 10,
+                    "scale": 2
+                  }
+                }
+              },
+              "originPortId": {
+                "nullable": false,
+                "type": {
+                  "codecId": "sql/varchar@1",
+                  "kind": "scalar",
+                  "typeParams": {
+                    "length": 20
+                  }
+                }
+              },
+              "routeCode": {
+                "nullable": false,
+                "type": {
+                  "codecId": "sql/varchar@1",
+                  "kind": "scalar",
+                  "typeParams": {
+                    "length": 20
+                  }
+                }
+              },
+              "routeName": {
+                "nullable": true,
+                "type": {
+                  "codecId": "sql/varchar@1",
+                  "kind": "scalar",
+                  "typeParams": {
+                    "length": 200
+                  }
+                }
+              },
+              "vesselClass": {
+                "nullable": true,
+                "type": {
+                  "codecId": "sql/varchar@1",
+                  "kind": "scalar",
+                  "typeParams": {
+                    "length": 50
+                  }
+                }
+              }
+            },
+            "relations": {
+              "destinationPort": {
+                "cardinality": "N:1",
+                "nullable": false,
+                "on": {
+                  "localFields": [
+                    "destinationPortId"
+                  ],
+                  "targetFields": [
+                    "portId"
+                  ]
+                },
+                "to": {
+                  "model": "Ports",
+                  "namespace": "public"
+                }
+              },
+              "optimizationResults": {
+                "cardinality": "1:N",
+                "on": {
+                  "localFields": [
+                    "routeCode"
+                  ],
+                  "targetFields": [
+                    "routeCode"
+                  ]
+                },
+                "to": {
+                  "model": "OptimizationResults",
+                  "namespace": "public"
+                }
+              },
+              "originPort": {
+                "cardinality": "N:1",
+                "nullable": false,
+                "on": {
+                  "localFields": [
+                    "originPortId"
+                  ],
+                  "targetFields": [
+                    "portId"
+                  ]
+                },
+                "to": {
+                  "model": "Ports",
+                  "namespace": "public"
+                }
+              }
+            },
+            "storage": {
+              "fields": {
+                "destinationPortId": {
+                  "column": "destination_port_id"
+                },
+                "distanceNm": {
+                  "column": "distance_nm"
+                },
+                "originPortId": {
+                  "column": "origin_port_id"
+                },
+                "routeCode": {
+                  "column": "route_code"
+                },
+                "routeName": {
+                  "column": "route_name"
+                },
+                "vesselClass": {
+                  "column": "vessel_class"
+                }
+              },
+              "namespaceId": "public",
+              "table": "routes"
+            }
+          },
+          "Shipments": {
+            "fields": {
+              "cargoQuantityTons": {
+                "nullable": false,
+                "type": {
+                  "codecId": "pg/numeric@1",
+                  "kind": "scalar",
+                  "typeParams": {
+                    "precision": 14,
+                    "scale": 2
+                  }
+                }
+              },
+              "commodity": {
+                "nullable": true,
+                "type": {
+                  "codecId": "sql/varchar@1",
+                  "kind": "scalar",
+                  "typeParams": {
+                    "length": 100
+                  }
+                }
+              },
+              "destinationPortId": {
+                "nullable": false,
+                "type": {
+                  "codecId": "sql/varchar@1",
+                  "kind": "scalar",
+                  "typeParams": {
+                    "length": 20
+                  }
+                }
+              },
+              "earliestCharterDate": {
+                "nullable": true,
+                "type": {
+                  "codecId": "pg/date-temporal@1",
+                  "kind": "scalar"
+                }
+              },
+              "originPortId": {
+                "nullable": false,
+                "type": {
+                  "codecId": "sql/varchar@1",
+                  "kind": "scalar",
+                  "typeParams": {
+                    "length": 20
+                  }
+                }
+              },
+              "preferredVesselClass": {
+                "nullable": true,
+                "type": {
+                  "codecId": "sql/varchar@1",
+                  "kind": "scalar",
+                  "typeParams": {
+                    "length": 50
+                  }
+                }
+              },
+              "requiredArrivalDate": {
+                "nullable": true,
+                "type": {
+                  "codecId": "pg/date-temporal@1",
+                  "kind": "scalar"
+                }
+              },
+              "shipmentId": {
+                "nullable": false,
+                "type": {
+                  "codecId": "pg/int8@1",
+                  "kind": "scalar"
+                }
+              }
+            },
+            "relations": {
+              "destinationPort": {
+                "cardinality": "N:1",
+                "nullable": false,
+                "on": {
+                  "localFields": [
+                    "destinationPortId"
+                  ],
+                  "targetFields": [
+                    "portId"
+                  ]
+                },
+                "to": {
+                  "model": "Ports",
+                  "namespace": "public"
+                }
+              },
+              "optimizationResults": {
+                "cardinality": "1:N",
+                "on": {
+                  "localFields": [
+                    "shipmentId"
+                  ],
+                  "targetFields": [
+                    "shipmentId"
+                  ]
+                },
+                "to": {
+                  "model": "OptimizationResults",
+                  "namespace": "public"
+                }
+              },
+              "originPort": {
+                "cardinality": "N:1",
+                "nullable": false,
+                "on": {
+                  "localFields": [
+                    "originPortId"
+                  ],
+                  "targetFields": [
+                    "portId"
+                  ]
+                },
+                "to": {
+                  "model": "Ports",
+                  "namespace": "public"
+                }
+              }
+            },
+            "storage": {
+              "fields": {
+                "cargoQuantityTons": {
+                  "column": "cargo_quantity_tons"
+                },
+                "commodity": {
+                  "column": "commodity"
+                },
+                "destinationPortId": {
+                  "column": "destination_port_id"
+                },
+                "earliestCharterDate": {
+                  "column": "earliest_charter_date"
+                },
+                "originPortId": {
+                  "column": "origin_port_id"
+                },
+                "preferredVesselClass": {
+                  "column": "preferred_vessel_class"
+                },
+                "requiredArrivalDate": {
+                  "column": "required_arrival_date"
+                },
+                "shipmentId": {
+                  "column": "shipment_id"
+                }
+              },
+              "namespaceId": "public",
+              "table": "shipments"
+            }
+          },
+          "Vessels": {
+            "fields": {
+              "availabilityStatus": {
+                "nullable": true,
+                "type": {
+                  "codecId": "sql/varchar@1",
+                  "kind": "scalar",
+                  "typeParams": {
+                    "length": 50
+                  }
+                }
+              },
+              "beamM": {
+                "nullable": true,
+                "type": {
+                  "codecId": "pg/numeric@1",
+                  "kind": "scalar",
+                  "typeParams": {
+                    "precision": 8,
+                    "scale": 2
+                  }
+                }
+              },
+              "draftM": {
+                "nullable": true,
+                "type": {
+                  "codecId": "pg/numeric@1",
+                  "kind": "scalar",
+                  "typeParams": {
+                    "precision": 8,
+                    "scale": 2
+                  }
+                }
+              },
+              "dwt": {
+                "nullable": true,
+                "type": {
+                  "codecId": "pg/numeric@1",
+                  "kind": "scalar",
+                  "typeParams": {
+                    "precision": 12,
+                    "scale": 2
+                  }
+                }
+              },
+              "fuelConsumptionTpd": {
+                "nullable": true,
+                "type": {
+                  "codecId": "pg/numeric@1",
+                  "kind": "scalar",
+                  "typeParams": {
+                    "precision": 10,
+                    "scale": 2
+                  }
+                }
+              },
+              "loaM": {
+                "nullable": true,
+                "type": {
+                  "codecId": "pg/numeric@1",
+                  "kind": "scalar",
+                  "typeParams": {
+                    "precision": 8,
+                    "scale": 2
+                  }
+                }
+              },
+              "speedKnots": {
+                "nullable": true,
+                "type": {
+                  "codecId": "pg/numeric@1",
+                  "kind": "scalar",
+                  "typeParams": {
+                    "precision": 6,
+                    "scale": 2
+                  }
+                }
+              },
+              "vesselId": {
+                "nullable": false,
+                "type": {
+                  "codecId": "sql/varchar@1",
+                  "kind": "scalar",
+                  "typeParams": {
+                    "length": 20
+                  }
+                }
+              },
+              "vesselName": {
+                "nullable": false,
+                "type": {
+                  "codecId": "sql/varchar@1",
+                  "kind": "scalar",
+                  "typeParams": {
+                    "length": 150
+                  }
+                }
+              },
+              "vesselType": {
+                "nullable": true,
+                "type": {
+                  "codecId": "sql/varchar@1",
+                  "kind": "scalar",
+                  "typeParams": {
+                    "length": 50
+                  }
+                }
+              }
+            },
+            "relations": {
+              "optimizationResults": {
+                "cardinality": "1:N",
+                "on": {
+                  "localFields": [
+                    "vesselId"
+                  ],
+                  "targetFields": [
+                    "vesselId"
+                  ]
+                },
+                "to": {
+                  "model": "OptimizationResults",
+                  "namespace": "public"
+                }
+              }
+            },
+            "storage": {
+              "fields": {
+                "availabilityStatus": {
+                  "column": "availability_status"
+                },
+                "beamM": {
+                  "column": "beam_m"
+                },
+                "draftM": {
+                  "column": "draft_m"
+                },
+                "dwt": {
+                  "column": "dwt"
+                },
+                "fuelConsumptionTpd": {
+                  "column": "fuel_consumption_tpd"
+                },
+                "loaM": {
+                  "column": "loa_m"
+                },
+                "speedKnots": {
+                  "column": "speed_knots"
+                },
+                "vesselId": {
+                  "column": "vessel_id"
+                },
+                "vesselName": {
+                  "column": "vessel_name"
+                },
+                "vesselType": {
+                  "column": "vessel_type"
+                }
+              },
+              "namespaceId": "public",
+              "table": "vessels"
+            }
+          },
+          "Weather": {
+            "fields": {
+              "condition": {
+                "nullable": true,
+                "type": {
+                  "codecId": "sql/varchar@1",
+                  "kind": "scalar",
+                  "typeParams": {
+                    "length": 100
+                  }
+                }
+              },
+              "date": {
+                "nullable": false,
+                "type": {
+                  "codecId": "pg/date-temporal@1",
+                  "kind": "scalar"
+                }
+              },
+              "id": {
+                "nullable": false,
+                "type": {
+                  "codecId": "pg/int8@1",
+                  "kind": "scalar"
+                }
+              },
+              "portId": {
+                "nullable": false,
+                "type": {
+                  "codecId": "sql/varchar@1",
+                  "kind": "scalar",
+                  "typeParams": {
+                    "length": 20
+                  }
+                }
+              },
+              "stormWarning": {
+                "nullable": true,
+                "type": {
+                  "codecId": "pg/bool@1",
+                  "kind": "scalar"
+                }
+              },
+              "visibilityNm": {
+                "nullable": true,
+                "type": {
+                  "codecId": "pg/numeric@1",
+                  "kind": "scalar",
+                  "typeParams": {
+                    "precision": 8,
+                    "scale": 2
+                  }
+                }
+              },
+              "waveHeightM": {
+                "nullable": true,
+                "type": {
+                  "codecId": "pg/numeric@1",
+                  "kind": "scalar",
+                  "typeParams": {
+                    "precision": 8,
+                    "scale": 2
+                  }
+                }
+              },
+              "windSpeedKnots": {
+                "nullable": true,
+                "type": {
+                  "codecId": "pg/numeric@1",
+                  "kind": "scalar",
+                  "typeParams": {
+                    "precision": 8,
+                    "scale": 2
+                  }
+                }
+              }
+            },
+            "relations": {
+              "port": {
+                "cardinality": "N:1",
+                "nullable": false,
+                "on": {
+                  "localFields": [
+                    "portId"
+                  ],
+                  "targetFields": [
+                    "portId"
+                  ]
+                },
+                "to": {
+                  "model": "Ports",
+                  "namespace": "public"
+                }
+              }
+            },
+            "storage": {
+              "fields": {
+                "condition": {
+                  "column": "condition"
+                },
+                "date": {
+                  "column": "date"
+                },
+                "id": {
+                  "column": "id"
+                },
+                "portId": {
+                  "column": "port_id"
+                },
+                "stormWarning": {
+                  "column": "storm_warning"
+                },
+                "visibilityNm": {
+                  "column": "visibility_nm"
+                },
+                "waveHeightM": {
+                  "column": "wave_height_m"
+                },
+                "windSpeedKnots": {
+                  "column": "wind_speed_knots"
+                }
+              },
+              "namespaceId": "public",
+              "table": "weather"
+            }
+          }
+        }
+      }
+    }
+  },
+  "storage": {
+    "namespaces": {
+      "public": {
+        "entries": {
+          "table": {
+            "bunker_prices": {
+              "columns": {
+                "date": {
+                  "codecId": "pg/date-temporal@1",
+                  "nativeType": "date",
+                  "nullable": false
+                },
+                "fuel_type": {
+                  "codecId": "sql/varchar@1",
+                  "nativeType": "character varying",
+                  "nullable": true,
+                  "typeParams": {
+                    "length": 50
+                  }
+                },
+                "id": {
+                  "codecId": "pg/int8@1",
+                  "default": {
+                    "expression": "autoincrement()",
+                    "kind": "function"
+                  },
+                  "nativeType": "int8",
+                  "nullable": false
+                },
+                "port_id": {
+                  "codecId": "sql/varchar@1",
+                  "nativeType": "character varying",
+                  "nullable": false,
+                  "typeParams": {
+                    "length": 20
+                  }
+                },
+                "price_usd_per_ton": {
+                  "codecId": "pg/numeric@1",
+                  "nativeType": "numeric",
+                  "nullable": true,
+                  "typeParams": {
+                    "precision": 12,
+                    "scale": 2
+                  }
+                }
+              },
+              "foreignKeys": [
+                {
+                  "name": "bunker_prices_port_id_fkey",
+                  "source": {
+                    "columns": [
+                      "port_id"
+                    ],
+                    "namespaceId": "public",
+                    "tableName": "bunker_prices"
+                  },
+                  "target": {
+                    "columns": [
+                      "port_id"
+                    ],
+                    "namespaceId": "public",
+                    "tableName": "ports"
+                  }
+                }
+              ],
+              "indexes": [
+                {
+                  "columns": [
+                    "port_id",
+                    "date"
+                  ],
+                  "name": "idx_bunker_port_date",
+                  "unique": false
+                }
+              ],
+              "primaryKey": {
+                "columns": [
+                  "id"
+                ],
+                "name": "bunker_prices_pkey"
+              },
+              "uniques": []
+            },
+            "commodity_data": {
+              "columns": {
+                "commodity": {
+                  "codecId": "sql/varchar@1",
+                  "nativeType": "character varying",
+                  "nullable": true,
+                  "typeParams": {
+                    "length": 100
+                  }
+                },
+                "country": {
+                  "codecId": "sql/varchar@1",
+                  "nativeType": "character varying",
+                  "nullable": true,
+                  "typeParams": {
+                    "length": 100
+                  }
+                },
+                "date": {
+                  "codecId": "pg/date-temporal@1",
+                  "nativeType": "date",
+                  "nullable": false
+                },
+                "demand_index": {
+                  "codecId": "pg/numeric@1",
+                  "nativeType": "numeric",
+                  "nullable": true,
+                  "typeParams": {
+                    "precision": 10,
+                    "scale": 4
+                  }
+                },
+                "flow_type": {
+                  "codecId": "sql/varchar@1",
+                  "nativeType": "character varying",
+                  "nullable": true,
+                  "typeParams": {
+                    "length": 50
+                  }
+                },
+                "id": {
+                  "codecId": "pg/int8@1",
+                  "default": {
+                    "expression": "autoincrement()",
+                    "kind": "function"
+                  },
+                  "nativeType": "int8",
+                  "nullable": false
+                },
+                "price_usd_per_ton": {
+                  "codecId": "pg/numeric@1",
+                  "nativeType": "numeric",
+                  "nullable": true,
+                  "typeParams": {
+                    "precision": 12,
+                    "scale": 2
+                  }
+                },
+                "production_million_tons": {
+                  "codecId": "pg/numeric@1",
+                  "nativeType": "numeric",
+                  "nullable": true,
+                  "typeParams": {
+                    "precision": 14,
+                    "scale": 4
+                  }
+                },
+                "volume_million_tons": {
+                  "codecId": "pg/numeric@1",
+                  "nativeType": "numeric",
+                  "nullable": true,
+                  "typeParams": {
+                    "precision": 14,
+                    "scale": 4
+                  }
+                }
+              },
+              "foreignKeys": [],
+              "indexes": [],
+              "primaryKey": {
+                "columns": [
+                  "id"
+                ],
+                "name": "commodity_data_pkey"
+              },
+              "uniques": []
+            },
+            "dry_bulk_freight_rates": {
+              "columns": {
+                "date": {
+                  "codecId": "pg/date-temporal@1",
+                  "nativeType": "date",
+                  "nullable": false
+                },
+                "destination_port": {
+                  "codecId": "sql/varchar@1",
+                  "nativeType": "character varying",
+                  "nullable": false,
+                  "typeParams": {
+                    "length": 150
+                  }
+                },
+                "freight_rate_usd_per_ton": {
+                  "codecId": "pg/numeric@1",
+                  "nativeType": "numeric",
+                  "nullable": false,
+                  "typeParams": {
+                    "precision": 12,
+                    "scale": 4
+                  }
+                },
+                "origin_port": {
+                  "codecId": "sql/varchar@1",
+                  "nativeType": "character varying",
+                  "nullable": false,
+                  "typeParams": {
+                    "length": 150
+                  }
+                },
+                "vessel_class": {
+                  "codecId": "sql/varchar@1",
+                  "nativeType": "character varying",
+                  "nullable": false,
+                  "typeParams": {
+                    "length": 50
+                  }
+                }
+              },
+              "foreignKeys": [],
+              "indexes": [
+                {
+                  "columns": [
+                    "origin_port",
+                    "destination_port",
+                    "vessel_class",
+                    "date"
+                  ],
+                  "name": "idx_dry_bulk_freight_route_date",
+                  "unique": false
+                }
+              ],
+              "uniques": []
+            },
+            "freight_rates": {
+              "columns": {
+                "code": {
+                  "codecId": "sql/varchar@1",
+                  "nativeType": "character varying",
+                  "nullable": true,
+                  "typeParams": {
+                    "length": 50
+                  }
+                },
+                "date": {
+                  "codecId": "pg/date-temporal@1",
+                  "nativeType": "date",
+                  "nullable": false
+                },
+                "destination_port_id": {
+                  "codecId": "sql/varchar@1",
+                  "nativeType": "character varying",
+                  "nullable": true,
+                  "typeParams": {
+                    "length": 20
+                  }
+                },
+                "name": {
+                  "codecId": "sql/varchar@1",
+                  "nativeType": "character varying",
+                  "nullable": true,
+                  "typeParams": {
+                    "length": 150
+                  }
+                },
+                "origin_port_id": {
+                  "codecId": "sql/varchar@1",
+                  "nativeType": "character varying",
+                  "nullable": true,
+                  "typeParams": {
+                    "length": 20
+                  }
+                },
+                "record_type": {
+                  "codecId": "sql/varchar@1",
+                  "nativeType": "character varying",
+                  "nullable": true,
+                  "typeParams": {
+                    "length": 50
+                  }
+                },
+                "unit": {
+                  "codecId": "sql/varchar@1",
+                  "nativeType": "character varying",
+                  "nullable": true,
+                  "typeParams": {
+                    "length": 50
+                  }
+                },
+                "value": {
+                  "codecId": "pg/numeric@1",
+                  "nativeType": "numeric",
+                  "nullable": true,
+                  "typeParams": {
+                    "precision": 12,
+                    "scale": 4
+                  }
+                },
+                "vessel_class": {
+                  "codecId": "sql/varchar@1",
+                  "nativeType": "character varying",
+                  "nullable": true,
+                  "typeParams": {
+                    "length": 50
+                  }
+                }
+              },
+              "foreignKeys": [
+                {
+                  "name": "freight_rates_destination_port_id_fkey",
+                  "source": {
+                    "columns": [
+                      "destination_port_id"
+                    ],
+                    "namespaceId": "public",
+                    "tableName": "freight_rates"
+                  },
+                  "target": {
+                    "columns": [
+                      "port_id"
+                    ],
+                    "namespaceId": "public",
+                    "tableName": "ports"
+                  }
+                },
+                {
+                  "name": "freight_rates_origin_port_id_fkey",
+                  "source": {
+                    "columns": [
+                      "origin_port_id"
+                    ],
+                    "namespaceId": "public",
+                    "tableName": "freight_rates"
+                  },
+                  "target": {
+                    "columns": [
+                      "port_id"
+                    ],
+                    "namespaceId": "public",
+                    "tableName": "ports"
+                  }
+                }
+              ],
+              "indexes": [],
+              "uniques": []
+            },
+            "optimization_results": {
+              "columns": {
+                "created_at": {
+                  "codecId": "pg/timestamp-temporal@1",
+                  "default": {
+                    "expression": "now()",
+                    "kind": "function"
+                  },
+                  "nativeType": "timestamp",
+                  "nullable": true
+                },
+                "demurrage_cost_usd": {
+                  "codecId": "pg/numeric@1",
+                  "nativeType": "numeric",
+                  "nullable": true,
+                  "typeParams": {
+                    "precision": 16,
+                    "scale": 2
+                  }
+                },
+                "freight_cost_usd": {
+                  "codecId": "pg/numeric@1",
+                  "nativeType": "numeric",
+                  "nullable": true,
+                  "typeParams": {
+                    "precision": 16,
+                    "scale": 2
+                  }
+                },
+                "fuel_cost_usd": {
+                  "codecId": "pg/numeric@1",
+                  "nativeType": "numeric",
+                  "nullable": true,
+                  "typeParams": {
+                    "precision": 16,
+                    "scale": 2
+                  }
+                },
+                "port_cost_usd": {
+                  "codecId": "pg/numeric@1",
+                  "nativeType": "numeric",
+                  "nullable": true,
+                  "typeParams": {
+                    "precision": 16,
+                    "scale": 2
+                  }
+                },
+                "predicted_freight_rate_usd_per_ton": {
+                  "codecId": "pg/numeric@1",
+                  "nativeType": "numeric",
+                  "nullable": true,
+                  "typeParams": {
+                    "precision": 12,
+                    "scale": 4
+                  }
+                },
+                "recommendation_reason": {
+                  "codecId": "pg/text@1",
+                  "nativeType": "text",
+                  "nullable": true
+                },
+                "recommended_charter_date": {
+                  "codecId": "pg/date-temporal@1",
+                  "nativeType": "date",
+                  "nullable": true
+                },
+                "result_id": {
+                  "codecId": "pg/int8@1",
+                  "default": {
+                    "expression": "autoincrement()",
+                    "kind": "function"
+                  },
+                  "nativeType": "int8",
+                  "nullable": false
+                },
+                "risk_score": {
+                  "codecId": "pg/numeric@1",
+                  "nativeType": "numeric",
+                  "nullable": true,
+                  "typeParams": {
+                    "precision": 6,
+                    "scale": 3
+                  }
+                },
+                "route_code": {
+                  "codecId": "sql/varchar@1",
+                  "nativeType": "character varying",
+                  "nullable": true,
+                  "typeParams": {
+                    "length": 20
+                  }
+                },
+                "shipment_id": {
+                  "codecId": "pg/int8@1",
+                  "nativeType": "int8",
+                  "nullable": false
+                },
+                "total_cost_usd": {
+                  "codecId": "pg/numeric@1",
+                  "nativeType": "numeric",
+                  "nullable": true,
+                  "typeParams": {
+                    "precision": 16,
+                    "scale": 2
+                  }
+                },
+                "vessel_id": {
+                  "codecId": "sql/varchar@1",
+                  "nativeType": "character varying",
+                  "nullable": true,
+                  "typeParams": {
+                    "length": 20
+                  }
+                }
+              },
+              "foreignKeys": [
+                {
+                  "name": "optimization_results_route_code_fkey",
+                  "source": {
+                    "columns": [
+                      "route_code"
+                    ],
+                    "namespaceId": "public",
+                    "tableName": "optimization_results"
+                  },
+                  "target": {
+                    "columns": [
+                      "route_code"
+                    ],
+                    "namespaceId": "public",
+                    "tableName": "routes"
+                  }
+                },
+                {
+                  "name": "optimization_results_shipment_id_fkey",
+                  "source": {
+                    "columns": [
+                      "shipment_id"
+                    ],
+                    "namespaceId": "public",
+                    "tableName": "optimization_results"
+                  },
+                  "target": {
+                    "columns": [
+                      "shipment_id"
+                    ],
+                    "namespaceId": "public",
+                    "tableName": "shipments"
+                  }
+                },
+                {
+                  "name": "optimization_results_vessel_id_fkey",
+                  "source": {
+                    "columns": [
+                      "vessel_id"
+                    ],
+                    "namespaceId": "public",
+                    "tableName": "optimization_results"
+                  },
+                  "target": {
+                    "columns": [
+                      "vessel_id"
+                    ],
+                    "namespaceId": "public",
+                    "tableName": "vessels"
+                  }
+                }
+              ],
+              "indexes": [
+                {
+                  "columns": [
+                    "shipment_id"
+                  ],
+                  "name": "idx_optimization_shipment",
+                  "unique": false
+                }
+              ],
+              "primaryKey": {
+                "columns": [
+                  "result_id"
+                ],
+                "name": "optimization_results_pkey"
+              },
+              "uniques": []
+            },
+            "ports": {
+              "columns": {
+                "avg_waiting_time_hrs": {
+                  "codecId": "pg/numeric@1",
+                  "nativeType": "numeric",
+                  "nullable": true,
+                  "typeParams": {
+                    "precision": 10,
+                    "scale": 2
+                  }
+                },
+                "berth": {
+                  "codecId": "sql/varchar@1",
+                  "nativeType": "character varying",
+                  "nullable": true,
+                  "typeParams": {
+                    "length": 100
+                  }
+                },
+                "berth_availability_pct": {
+                  "codecId": "pg/numeric@1",
+                  "nativeType": "numeric",
+                  "nullable": true,
+                  "typeParams": {
+                    "precision": 6,
+                    "scale": 2
+                  }
+                },
+                "cargo_handling_rate_tpd": {
+                  "codecId": "pg/numeric@1",
+                  "nativeType": "numeric",
+                  "nullable": true,
+                  "typeParams": {
+                    "precision": 12,
+                    "scale": 2
+                  }
+                },
+                "congestion_index": {
+                  "codecId": "pg/numeric@1",
+                  "nativeType": "numeric",
+                  "nullable": true,
+                  "typeParams": {
+                    "precision": 6,
+                    "scale": 3
+                  }
+                },
+                "country": {
+                  "codecId": "sql/varchar@1",
+                  "nativeType": "character varying",
+                  "nullable": true,
+                  "typeParams": {
+                    "length": 100
+                  }
+                },
+                "latitude": {
+                  "codecId": "pg/numeric@1",
+                  "nativeType": "numeric",
+                  "nullable": true,
+                  "typeParams": {
+                    "precision": 10,
+                    "scale": 6
+                  }
+                },
+                "longitude": {
+                  "codecId": "pg/numeric@1",
+                  "nativeType": "numeric",
+                  "nullable": true,
+                  "typeParams": {
+                    "precision": 10,
+                    "scale": 6
+                  }
+                },
+                "max_beam_m": {
+                  "codecId": "pg/numeric@1",
+                  "nativeType": "numeric",
+                  "nullable": true,
+                  "typeParams": {
+                    "precision": 8,
+                    "scale": 2
+                  }
+                },
+                "max_draft_m": {
+                  "codecId": "pg/numeric@1",
+                  "nativeType": "numeric",
+                  "nullable": true,
+                  "typeParams": {
+                    "precision": 8,
+                    "scale": 2
+                  }
+                },
+                "max_loa_m": {
+                  "codecId": "pg/numeric@1",
+                  "nativeType": "numeric",
+                  "nullable": true,
+                  "typeParams": {
+                    "precision": 8,
+                    "scale": 2
+                  }
+                },
+                "port_id": {
+                  "codecId": "sql/varchar@1",
+                  "nativeType": "character varying",
+                  "nullable": false,
+                  "typeParams": {
+                    "length": 20
+                  }
+                },
+                "port_name": {
+                  "codecId": "sql/varchar@1",
+                  "nativeType": "character varying",
+                  "nullable": false,
+                  "typeParams": {
+                    "length": 150
+                  }
+                },
+                "region": {
+                  "codecId": "sql/varchar@1",
+                  "nativeType": "character varying",
+                  "nullable": true,
+                  "typeParams": {
+                    "length": 100
+                  }
+                },
+                "trade_role": {
+                  "codecId": "sql/varchar@1",
+                  "nativeType": "character varying",
+                  "nullable": true,
+                  "typeParams": {
+                    "length": 50
+                  }
+                }
+              },
+              "foreignKeys": [],
+              "indexes": [],
+              "primaryKey": {
+                "columns": [
+                  "port_id"
+                ],
+                "name": "ports_pkey"
+              },
+              "uniques": []
+            },
+            "routes": {
+              "columns": {
+                "destination_port_id": {
+                  "codecId": "sql/varchar@1",
+                  "nativeType": "character varying",
+                  "nullable": false,
+                  "typeParams": {
+                    "length": 20
+                  }
+                },
+                "distance_nm": {
+                  "codecId": "pg/numeric@1",
+                  "nativeType": "numeric",
+                  "nullable": true,
+                  "typeParams": {
+                    "precision": 10,
+                    "scale": 2
+                  }
+                },
+                "origin_port_id": {
+                  "codecId": "sql/varchar@1",
+                  "nativeType": "character varying",
+                  "nullable": false,
+                  "typeParams": {
+                    "length": 20
+                  }
+                },
+                "route_code": {
+                  "codecId": "sql/varchar@1",
+                  "nativeType": "character varying",
+                  "nullable": false,
+                  "typeParams": {
+                    "length": 20
+                  }
+                },
+                "route_name": {
+                  "codecId": "sql/varchar@1",
+                  "nativeType": "character varying",
+                  "nullable": true,
+                  "typeParams": {
+                    "length": 200
+                  }
+                },
+                "vessel_class": {
+                  "codecId": "sql/varchar@1",
+                  "nativeType": "character varying",
+                  "nullable": true,
+                  "typeParams": {
+                    "length": 50
+                  }
+                }
+              },
+              "foreignKeys": [
+                {
+                  "name": "routes_destination_port_id_fkey",
+                  "source": {
+                    "columns": [
+                      "destination_port_id"
+                    ],
+                    "namespaceId": "public",
+                    "tableName": "routes"
+                  },
+                  "target": {
+                    "columns": [
+                      "port_id"
+                    ],
+                    "namespaceId": "public",
+                    "tableName": "ports"
+                  }
+                },
+                {
+                  "name": "routes_origin_port_id_fkey",
+                  "source": {
+                    "columns": [
+                      "origin_port_id"
+                    ],
+                    "namespaceId": "public",
+                    "tableName": "routes"
+                  },
+                  "target": {
+                    "columns": [
+                      "port_id"
+                    ],
+                    "namespaceId": "public",
+                    "tableName": "ports"
+                  }
+                }
+              ],
+              "indexes": [
+                {
+                  "columns": [
+                    "origin_port_id",
+                    "destination_port_id"
+                  ],
+                  "name": "idx_routes_origin_destination",
+                  "unique": false
+                }
+              ],
+              "primaryKey": {
+                "columns": [
+                  "route_code"
+                ],
+                "name": "routes_pkey"
+              },
+              "uniques": []
+            },
+            "shipments": {
+              "columns": {
+                "cargo_quantity_tons": {
+                  "codecId": "pg/numeric@1",
+                  "nativeType": "numeric",
+                  "nullable": false,
+                  "typeParams": {
+                    "precision": 14,
+                    "scale": 2
+                  }
+                },
+                "commodity": {
+                  "codecId": "sql/varchar@1",
+                  "nativeType": "character varying",
+                  "nullable": true,
+                  "typeParams": {
+                    "length": 100
+                  }
+                },
+                "destination_port_id": {
+                  "codecId": "sql/varchar@1",
+                  "nativeType": "character varying",
+                  "nullable": false,
+                  "typeParams": {
+                    "length": 20
+                  }
+                },
+                "earliest_charter_date": {
+                  "codecId": "pg/date-temporal@1",
+                  "nativeType": "date",
+                  "nullable": true
+                },
+                "origin_port_id": {
+                  "codecId": "sql/varchar@1",
+                  "nativeType": "character varying",
+                  "nullable": false,
+                  "typeParams": {
+                    "length": 20
+                  }
+                },
+                "preferred_vessel_class": {
+                  "codecId": "sql/varchar@1",
+                  "nativeType": "character varying",
+                  "nullable": true,
+                  "typeParams": {
+                    "length": 50
+                  }
+                },
+                "required_arrival_date": {
+                  "codecId": "pg/date-temporal@1",
+                  "nativeType": "date",
+                  "nullable": true
+                },
+                "shipment_id": {
+                  "codecId": "pg/int8@1",
+                  "default": {
+                    "expression": "autoincrement()",
+                    "kind": "function"
+                  },
+                  "nativeType": "int8",
+                  "nullable": false
+                }
+              },
+              "foreignKeys": [
+                {
+                  "name": "shipments_destination_port_id_fkey",
+                  "source": {
+                    "columns": [
+                      "destination_port_id"
+                    ],
+                    "namespaceId": "public",
+                    "tableName": "shipments"
+                  },
+                  "target": {
+                    "columns": [
+                      "port_id"
+                    ],
+                    "namespaceId": "public",
+                    "tableName": "ports"
+                  }
+                },
+                {
+                  "name": "shipments_origin_port_id_fkey",
+                  "source": {
+                    "columns": [
+                      "origin_port_id"
+                    ],
+                    "namespaceId": "public",
+                    "tableName": "shipments"
+                  },
+                  "target": {
+                    "columns": [
+                      "port_id"
+                    ],
+                    "namespaceId": "public",
+                    "tableName": "ports"
+                  }
+                }
+              ],
+              "indexes": [
+                {
+                  "columns": [
+                    "origin_port_id",
+                    "destination_port_id"
+                  ],
+                  "name": "idx_shipments_route",
+                  "unique": false
+                }
+              ],
+              "primaryKey": {
+                "columns": [
+                  "shipment_id"
+                ],
+                "name": "shipments_pkey"
+              },
+              "uniques": []
+            },
+            "vessels": {
+              "columns": {
+                "availability_status": {
+                  "codecId": "sql/varchar@1",
+                  "nativeType": "character varying",
+                  "nullable": true,
+                  "typeParams": {
+                    "length": 50
+                  }
+                },
+                "beam_m": {
+                  "codecId": "pg/numeric@1",
+                  "nativeType": "numeric",
+                  "nullable": true,
+                  "typeParams": {
+                    "precision": 8,
+                    "scale": 2
+                  }
+                },
+                "draft_m": {
+                  "codecId": "pg/numeric@1",
+                  "nativeType": "numeric",
+                  "nullable": true,
+                  "typeParams": {
+                    "precision": 8,
+                    "scale": 2
+                  }
+                },
+                "dwt": {
+                  "codecId": "pg/numeric@1",
+                  "nativeType": "numeric",
+                  "nullable": true,
+                  "typeParams": {
+                    "precision": 12,
+                    "scale": 2
+                  }
+                },
+                "fuel_consumption_tpd": {
+                  "codecId": "pg/numeric@1",
+                  "nativeType": "numeric",
+                  "nullable": true,
+                  "typeParams": {
+                    "precision": 10,
+                    "scale": 2
+                  }
+                },
+                "loa_m": {
+                  "codecId": "pg/numeric@1",
+                  "nativeType": "numeric",
+                  "nullable": true,
+                  "typeParams": {
+                    "precision": 8,
+                    "scale": 2
+                  }
+                },
+                "speed_knots": {
+                  "codecId": "pg/numeric@1",
+                  "nativeType": "numeric",
+                  "nullable": true,
+                  "typeParams": {
+                    "precision": 6,
+                    "scale": 2
+                  }
+                },
+                "vessel_id": {
+                  "codecId": "sql/varchar@1",
+                  "nativeType": "character varying",
+                  "nullable": false,
+                  "typeParams": {
+                    "length": 20
+                  }
+                },
+                "vessel_name": {
+                  "codecId": "sql/varchar@1",
+                  "nativeType": "character varying",
+                  "nullable": false,
+                  "typeParams": {
+                    "length": 150
+                  }
+                },
+                "vessel_type": {
+                  "codecId": "sql/varchar@1",
+                  "nativeType": "character varying",
+                  "nullable": true,
+                  "typeParams": {
+                    "length": 50
+                  }
+                }
+              },
+              "foreignKeys": [],
+              "indexes": [
+                {
+                  "columns": [
+                    "vessel_type"
+                  ],
+                  "name": "idx_vessels_type",
+                  "unique": false
+                }
+              ],
+              "primaryKey": {
+                "columns": [
+                  "vessel_id"
+                ],
+                "name": "vessels_pkey"
+              },
+              "uniques": []
+            },
+            "weather": {
+              "columns": {
+                "condition": {
+                  "codecId": "sql/varchar@1",
+                  "nativeType": "character varying",
+                  "nullable": true,
+                  "typeParams": {
+                    "length": 100
+                  }
+                },
+                "date": {
+                  "codecId": "pg/date-temporal@1",
+                  "nativeType": "date",
+                  "nullable": false
+                },
+                "id": {
+                  "codecId": "pg/int8@1",
+                  "default": {
+                    "expression": "autoincrement()",
+                    "kind": "function"
+                  },
+                  "nativeType": "int8",
+                  "nullable": false
+                },
+                "port_id": {
+                  "codecId": "sql/varchar@1",
+                  "nativeType": "character varying",
+                  "nullable": false,
+                  "typeParams": {
+                    "length": 20
+                  }
+                },
+                "storm_warning": {
+                  "codecId": "pg/bool@1",
+                  "nativeType": "bool",
+                  "nullable": true
+                },
+                "visibility_nm": {
+                  "codecId": "pg/numeric@1",
+                  "nativeType": "numeric",
+                  "nullable": true,
+                  "typeParams": {
+                    "precision": 8,
+                    "scale": 2
+                  }
+                },
+                "wave_height_m": {
+                  "codecId": "pg/numeric@1",
+                  "nativeType": "numeric",
+                  "nullable": true,
+                  "typeParams": {
+                    "precision": 8,
+                    "scale": 2
+                  }
+                },
+                "wind_speed_knots": {
+                  "codecId": "pg/numeric@1",
+                  "nativeType": "numeric",
+                  "nullable": true,
+                  "typeParams": {
+                    "precision": 8,
+                    "scale": 2
+                  }
+                }
+              },
+              "foreignKeys": [
+                {
+                  "name": "weather_port_id_fkey",
+                  "source": {
+                    "columns": [
+                      "port_id"
+                    ],
+                    "namespaceId": "public",
+                    "tableName": "weather"
+                  },
+                  "target": {
+                    "columns": [
+                      "port_id"
+                    ],
+                    "namespaceId": "public",
+                    "tableName": "ports"
+                  }
+                }
+              ],
+              "indexes": [
+                {
+                  "columns": [
+                    "port_id",
+                    "date"
+                  ],
+                  "name": "idx_weather_port_date",
+                  "unique": false
+                }
+              ],
+              "primaryKey": {
+                "columns": [
+                  "id"
+                ],
+                "name": "weather_pkey"
+              },
+              "uniques": []
+            }
+          }
+        },
+        "id": "public",
+        "kind": "postgres-schema"
+      }
+    },
+    "storageHash": "c023d9f7f6ab0c052c896e795204f3e16fc6a168dc2145e6849ca0f068427e89"
+  },
+  "capabilities": {
+    "postgres": {
+      "distinctOn": true,
+      "jsonAgg": true,
+      "lateral": true,
+      "limit": true,
+      "orderBy": true,
+      "returning": true
+    },
+    "sql": {
+      "checkConstraint": true,
+      "defaultInInsert": true,
+      "enums": true,
+      "lateral": true,
+      "returning": true,
+      "scalarList": true
+    }
+  },
+  "extensions": {},
+  "meta": {},
+  "_generated": {
+    "warning": "⚠️  GENERATED FILE - DO NOT EDIT",
+    "message": "This file is automatically generated by \"prisma contract emit\".",
+    "regenerate": "To regenerate, run: prisma contract emit"
+  }
+}

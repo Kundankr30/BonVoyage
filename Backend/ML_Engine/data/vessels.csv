@@ -1,0 +1,41 @@
+vessel_id,vessel_name,vessel_type,dwt,loa_m,beam_m,draft_m,fuel_consumption_tpd,speed_knots,availability_status
+V0001,CAP Trader 1,Capesize,196437,288.8,49.0,18.0,35.9,14.4,On Voyage
+V0002,CAP Trader 2,Capesize,197163,282.6,46.2,17.6,44.3,13.6,On Voyage
+V0003,CAP Trader 3,Capesize,176604,284.5,46.9,17.1,43.3,13.6,On Voyage
+V0004,CAP Trader 4,Capesize,171271,299.4,49.3,18.2,36.9,13.2,Available
+V0005,CAP Trader 5,Capesize,159257,293.7,48.2,18.5,38.3,12.9,Available
+V0006,CAP Trader 6,Capesize,161368,282.6,46.3,17.3,41.7,13.1,On Voyage
+V0007,CAP Trader 7,Capesize,192015,286.2,48.8,18.2,38.9,12.7,On Voyage
+V0008,CAP Trader 8,Capesize,158385,284.0,43.1,18.2,41.6,13.8,On Voyage
+V0009,CAP Trader 9,Capesize,177534,291.4,44.0,17.2,41.7,13.2,On Voyage
+V0010,CAP Trader 10,Capesize,195899,292.7,46.9,17.8,38.0,12.1,Available
+V0011,PAN Trader 11,Panamax,68647,229.1,33.7,13.4,22.3,13.1,Available
+V0012,PAN Trader 12,Panamax,76252,230.6,33.6,14.0,24.4,14.1,Available
+V0013,PAN Trader 13,Panamax,65386,225.9,33.4,13.7,23.0,13.5,Available
+V0014,PAN Trader 14,Panamax,76837,229.5,32.8,13.5,25.8,13.2,Available
+V0015,PAN Trader 15,Panamax,67006,234.6,33.8,14.0,23.6,14.4,On Voyage
+V0016,PAN Trader 16,Panamax,77187,229.5,32.5,13.1,27.4,13.4,Available
+V0017,PAN Trader 17,Panamax,70201,230.8,32.4,14.3,26.6,13.9,Available
+V0018,PAN Trader 18,Panamax,75664,230.8,33.3,13.1,24.5,12.6,Available
+V0019,PAN Trader 19,Panamax,70607,226.4,32.2,13.9,23.0,14.4,On Voyage
+V0020,PAN Trader 20,Panamax,70896,230.9,32.0,14.4,24.9,14.1,Available
+V0021,SUP Trader 21,Supramax,54866,189.8,31.9,12.4,20.8,13.5,Available
+V0022,SUP Trader 22,Supramax,55206,188.8,30.0,12.7,23.4,13.3,On Voyage
+V0023,SUP Trader 23,Supramax,51085,193.4,30.6,12.5,22.4,14.5,Available
+V0024,SUP Trader 24,Supramax,59160,184.6,30.1,12.3,20.2,14.7,On Voyage
+V0025,SUP Trader 25,Supramax,53171,199.1,30.6,12.3,19.5,14.9,Available
+V0026,SUP Trader 26,Supramax,50449,188.7,32.0,12.8,22.5,14.8,On Voyage
+V0027,SUP Trader 27,Supramax,55188,186.3,31.5,12.5,20.2,13.2,On Voyage
+V0028,SUP Trader 28,Supramax,52624,198.7,30.5,11.7,23.0,13.3,Available
+V0029,SUP Trader 29,Supramax,55993,197.5,30.4,12.0,22.7,14.9,Available
+V0030,SUP Trader 30,Supramax,51438,180.3,30.5,11.7,22.1,13.2,Available
+V0031,HAN Trader 31,Handysize,36331,181.6,27.4,10.7,16.3,14.1,Available
+V0032,HAN Trader 32,Handysize,29485,188.6,27.8,10.0,14.9,14.0,Under Repair
+V0033,HAN Trader 33,Handysize,31437,188.5,27.0,10.3,15.8,13.2,Available
+V0034,HAN Trader 34,Handysize,33029,189.3,28.2,10.9,16.8,13.7,On Voyage
+V0035,HAN Trader 35,Handysize,28214,172.2,28.7,10.7,13.4,13.8,On Voyage
+V0036,HAN Trader 36,Handysize,38412,182.1,27.8,10.1,14.6,14.0,On Voyage
+V0037,HAN Trader 37,Handysize,33446,175.0,27.5,10.6,16.9,13.2,Available
+V0038,HAN Trader 38,Handysize,35133,172.9,28.6,10.0,12.9,14.4,Available
+V0039,HAN Trader 39,Handysize,31416,173.1,27.2,9.5,12.3,13.3,Available
+V0040,HAN Trader 40,Handysize,35093,183.6,27.8,10.0,15.0,14.3,On Voyage

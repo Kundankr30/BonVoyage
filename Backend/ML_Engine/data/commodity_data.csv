@@ -1,0 +1,2311 @@
+date,commodity,country,flow_type,price_usd_per_ton,volume_million_tons,production_million_tons,demand_index
+2023-01-02,Thermal Coal,Australia,export,135.0,9.556,10.5,
+2023-01-02,Thermal Coal,Indonesia,export,135.0,11.169,12.0,
+2023-01-02,Thermal Coal,South Africa,export,135.0,3.118,3.3,
+2023-01-02,Thermal Coal,Colombia,export,135.0,2.032,2.2,
+2023-01-02,Thermal Coal,Russia,export,135.0,4.988,5.0,
+2023-01-02,Thermal Coal,USA,export,135.0,2.484,2.8,
+2023-01-02,Thermal Coal,China,import,135.0,8.143,,100.0
+2023-01-02,Thermal Coal,India,import,135.0,6.013,,100.0
+2023-01-02,Thermal Coal,Japan,import,135.0,3.291,,100.0
+2023-01-02,Thermal Coal,South Korea,import,135.0,2.403,,100.0
+2023-01-02,Thermal Coal,Netherlands,import,135.0,1.579,,100.0
+2023-01-09,Thermal Coal,Australia,export,139.24,9.556,11.293,
+2023-01-09,Thermal Coal,Indonesia,export,139.24,11.169,11.329,
+2023-01-09,Thermal Coal,South Africa,export,139.24,3.118,3.287,
+2023-01-09,Thermal Coal,Colombia,export,139.24,2.032,2.211,
+2023-01-09,Thermal Coal,Russia,export,139.24,4.988,5.378,
+2023-01-09,Thermal Coal,USA,export,139.24,2.484,2.703,
+2023-01-09,Thermal Coal,China,import,139.24,8.143,,93.4
+2023-01-09,Thermal Coal,India,import,139.24,6.013,,97.6
+2023-01-09,Thermal Coal,Japan,import,139.24,3.291,,103.6
+2023-01-09,Thermal Coal,South Korea,import,139.24,2.403,,103.5
+2023-01-09,Thermal Coal,Netherlands,import,139.24,1.579,,99.5
+2023-01-16,Thermal Coal,Australia,export,151.8,9.556,10.696,
+2023-01-16,Thermal Coal,Indonesia,export,151.8,11.169,11.659,
+2023-01-16,Thermal Coal,South Africa,export,151.8,3.118,3.33,
+2023-01-16,Thermal Coal,Colombia,export,151.8,2.032,2.122,
+2023-01-16,Thermal Coal,Russia,export,151.8,4.988,5.659,
+2023-01-16,Thermal Coal,USA,export,151.8,2.484,2.414,
+2023-01-16,Thermal Coal,China,import,151.8,8.143,,95.0
+2023-01-16,Thermal Coal,India,import,151.8,6.013,,96.2
+2023-01-16,Thermal Coal,Japan,import,151.8,3.291,,103.2
+2023-01-16,Thermal Coal,South Korea,import,151.8,2.403,,98.6
+2023-01-16,Thermal Coal,Netherlands,import,151.8,1.579,,99.8
+2023-01-23,Thermal Coal,Australia,export,155.03,9.556,11.316,
+2023-01-23,Thermal Coal,Indonesia,export,155.03,11.169,10.479,
+2023-01-23,Thermal Coal,South Africa,export,155.03,3.118,3.482,
+2023-01-23,Thermal Coal,Colombia,export,155.03,2.032,2.152,
+2023-01-23,Thermal Coal,Russia,export,155.03,4.988,5.572,
+2023-01-23,Thermal Coal,USA,export,155.03,2.484,2.323,
+2023-01-23,Thermal Coal,China,import,155.03,8.143,,93.9
+2023-01-23,Thermal Coal,India,import,155.03,6.013,,94.1
+2023-01-23,Thermal Coal,Japan,import,155.03,3.291,,102.6
+2023-01-23,Thermal Coal,South Korea,import,155.03,2.403,,100.4
+2023-01-23,Thermal Coal,Netherlands,import,155.03,1.579,,95.3
+2023-01-30,Thermal Coal,Australia,export,174.08,9.556,10.788,
+2023-01-30,Thermal Coal,Indonesia,export,174.08,11.169,10.047,
+2023-01-30,Thermal Coal,South Africa,export,174.08,3.118,3.705,
+2023-01-30,Thermal Coal,Colombia,export,174.08,2.032,2.211,
+2023-01-30,Thermal Coal,Russia,export,174.08,4.988,5.156,
+2023-01-30,Thermal Coal,USA,export,174.08,2.484,2.477,
+2023-01-30,Thermal Coal,China,import,174.08,8.143,,93.3
+2023-01-30,Thermal Coal,India,import,174.08,6.013,,97.2
+2023-01-30,Thermal Coal,Japan,import,174.08,3.291,,105.2
+2023-01-30,Thermal Coal,South Korea,import,174.08,2.403,,103.2
+2023-01-30,Thermal Coal,Netherlands,import,174.08,1.579,,95.2
+2023-02-06,Thermal Coal,Australia,export,148.45,9.556,11.652,
+2023-02-06,Thermal Coal,Indonesia,export,148.45,11.169,10.792,
+2023-02-06,Thermal Coal,South Africa,export,148.45,3.118,3.862,
+2023-02-06,Thermal Coal,Colombia,export,148.45,2.032,2.204,
+2023-02-06,Thermal Coal,Russia,export,148.45,4.988,5.36,
+2023-02-06,Thermal Coal,USA,export,148.45,2.484,2.575,
+2023-02-06,Thermal Coal,China,import,148.45,8.143,,92.8
+2023-02-06,Thermal Coal,India,import,148.45,6.013,,91.2
+2023-02-06,Thermal Coal,Japan,import,148.45,3.291,,103.3
+2023-02-06,Thermal Coal,South Korea,import,148.45,2.403,,99.6
+2023-02-06,Thermal Coal,Netherlands,import,148.45,1.579,,98.6
+2023-02-13,Thermal Coal,Australia,export,162.85,9.556,10.981,
+2023-02-13,Thermal Coal,Indonesia,export,162.85,11.169,11.682,
+2023-02-13,Thermal Coal,South Africa,export,162.85,3.118,3.65,
+2023-02-13,Thermal Coal,Colombia,export,162.85,2.032,2.146,
+2023-02-13,Thermal Coal,Russia,export,162.85,4.988,5.665,
+2023-02-13,Thermal Coal,USA,export,162.85,2.484,2.684,
+2023-02-13,Thermal Coal,China,import,162.85,8.143,,92.5
+2023-02-13,Thermal Coal,India,import,162.85,6.013,,92.5
+2023-02-13,Thermal Coal,Japan,import,162.85,3.291,,94.4
+2023-02-13,Thermal Coal,South Korea,import,162.85,2.403,,96.8
+2023-02-13,Thermal Coal,Netherlands,import,162.85,1.579,,95.7
+2023-02-20,Thermal Coal,Australia,export,163.82,9.556,10.078,
+2023-02-20,Thermal Coal,Indonesia,export,163.82,11.169,11.695,
+2023-02-20,Thermal Coal,South Africa,export,163.82,3.118,3.622,
+2023-02-20,Thermal Coal,Colombia,export,163.82,2.032,2.164,
+2023-02-20,Thermal Coal,Russia,export,163.82,4.988,5.748,
+2023-02-20,Thermal Coal,USA,export,163.82,2.484,2.657,
+2023-02-20,Thermal Coal,China,import,163.82,8.143,,98.5
+2023-02-20,Thermal Coal,India,import,163.82,6.013,,89.0
+2023-02-20,Thermal Coal,Japan,import,163.82,3.291,,93.2
+2023-02-20,Thermal Coal,South Korea,import,163.82,2.403,,98.2
+2023-02-20,Thermal Coal,Netherlands,import,163.82,1.579,,98.1
+2023-02-27,Thermal Coal,Australia,export,158.17,9.556,10.382,
+2023-02-27,Thermal Coal,Indonesia,export,158.17,11.169,12.911,
+2023-02-27,Thermal Coal,South Africa,export,158.17,3.118,3.579,
+2023-02-27,Thermal Coal,Colombia,export,158.17,2.032,2.037,
+2023-02-27,Thermal Coal,Russia,export,158.17,4.988,5.572,
+2023-02-27,Thermal Coal,USA,export,158.17,2.484,2.681,
+2023-02-27,Thermal Coal,China,import,158.17,8.143,,91.9
+2023-02-27,Thermal Coal,India,import,158.17,6.013,,87.3
+2023-02-27,Thermal Coal,Japan,import,158.17,3.291,,95.6
+2023-02-27,Thermal Coal,South Korea,import,158.17,2.403,,100.8
+2023-02-27,Thermal Coal,Netherlands,import,158.17,1.579,,95.1
+2023-03-06,Thermal Coal,Australia,export,156.55,9.556,10.246,
+2023-03-06,Thermal Coal,Indonesia,export,156.55,11.169,13.888,
+2023-03-06,Thermal Coal,South Africa,export,156.55,3.118,3.59,
+2023-03-06,Thermal Coal,Colombia,export,156.55,2.032,2.209,
+2023-03-06,Thermal Coal,Russia,export,156.55,4.988,5.335,
+2023-03-06,Thermal Coal,USA,export,156.55,2.484,2.629,
+2023-03-06,Thermal Coal,China,import,156.55,8.143,,90.0
+2023-03-06,Thermal Coal,India,import,156.55,6.013,,82.7
+2023-03-06,Thermal Coal,Japan,import,156.55,3.291,,93.5
+2023-03-06,Thermal Coal,South Korea,import,156.55,2.403,,107.3
+2023-03-06,Thermal Coal,Netherlands,import,156.55,1.579,,100.7
+2023-03-13,Thermal Coal,Australia,export,152.2,9.556,9.609,
+2023-03-13,Thermal Coal,Indonesia,export,152.2,11.169,13.64,
+2023-03-13,Thermal Coal,South Africa,export,152.2,3.118,3.435,
+2023-03-13,Thermal Coal,Colombia,export,152.2,2.032,2.124,
+2023-03-13,Thermal Coal,Russia,export,152.2,4.988,5.531,
+2023-03-13,Thermal Coal,USA,export,152.2,2.484,2.56,
+2023-03-13,Thermal Coal,China,import,152.2,8.143,,85.4
+2023-03-13,Thermal Coal,India,import,152.2,6.013,,81.3
+2023-03-13,Thermal Coal,Japan,import,152.2,3.291,,99.9
+2023-03-13,Thermal Coal,South Korea,import,152.2,2.403,,107.8
+2023-03-13,Thermal Coal,Netherlands,import,152.2,1.579,,101.2
+2023-03-20,Thermal Coal,Australia,export,164.73,9.556,9.564,
+2023-03-20,Thermal Coal,Indonesia,export,164.73,11.169,13.803,
+2023-03-20,Thermal Coal,South Africa,export,164.73,3.118,3.613,
+2023-03-20,Thermal Coal,Colombia,export,164.73,2.032,2.302,
+2023-03-20,Thermal Coal,Russia,export,164.73,4.988,5.323,
+2023-03-20,Thermal Coal,USA,export,164.73,2.484,2.573,
+2023-03-20,Thermal Coal,China,import,164.73,8.143,,85.2
+2023-03-20,Thermal Coal,India,import,164.73,6.013,,84.0
+2023-03-20,Thermal Coal,Japan,import,164.73,3.291,,100.0
+2023-03-20,Thermal Coal,South Korea,import,164.73,2.403,,100.0
+2023-03-20,Thermal Coal,Netherlands,import,164.73,1.579,,106.9
+2023-03-27,Thermal Coal,Australia,export,165.65,9.556,9.944,
+2023-03-27,Thermal Coal,Indonesia,export,165.65,11.169,14.687,
+2023-03-27,Thermal Coal,South Africa,export,165.65,3.118,3.792,
+2023-03-27,Thermal Coal,Colombia,export,165.65,2.032,2.136,
+2023-03-27,Thermal Coal,Russia,export,165.65,4.988,5.483,
+2023-03-27,Thermal Coal,USA,export,165.65,2.484,2.514,
+2023-03-27,Thermal Coal,China,import,165.65,8.143,,92.1
+2023-03-27,Thermal Coal,India,import,165.65,6.013,,88.8
+2023-03-27,Thermal Coal,Japan,import,165.65,3.291,,98.5
+2023-03-27,Thermal Coal,South Korea,import,165.65,2.403,,101.3
+2023-03-27,Thermal Coal,Netherlands,import,165.65,1.579,,105.4
+2023-04-03,Thermal Coal,Australia,export,180.91,9.556,9.289,
+2023-04-03,Thermal Coal,Indonesia,export,180.91,11.169,15.05,
+2023-04-03,Thermal Coal,South Africa,export,180.91,3.118,3.842,
+2023-04-03,Thermal Coal,Colombia,export,180.91,2.032,2.071,
+2023-04-03,Thermal Coal,Russia,export,180.91,4.988,5.209,
+2023-04-03,Thermal Coal,USA,export,180.91,2.484,2.509,
+2023-04-03,Thermal Coal,China,import,180.91,8.143,,97.0
+2023-04-03,Thermal Coal,India,import,180.91,6.013,,88.3
+2023-04-03,Thermal Coal,Japan,import,180.91,3.291,,95.4
+2023-04-03,Thermal Coal,South Korea,import,180.91,2.403,,86.6
+2023-04-03,Thermal Coal,Netherlands,import,180.91,1.579,,103.3
+2023-04-10,Thermal Coal,Australia,export,183.88,9.556,8.766,
+2023-04-10,Thermal Coal,Indonesia,export,183.88,11.169,15.642,
+2023-04-10,Thermal Coal,South Africa,export,183.88,3.118,3.793,
+2023-04-10,Thermal Coal,Colombia,export,183.88,2.032,2.108,
+2023-04-10,Thermal Coal,Russia,export,183.88,4.988,4.989,
+2023-04-10,Thermal Coal,USA,export,183.88,2.484,2.589,
+2023-04-10,Thermal Coal,China,import,183.88,8.143,,95.4
+2023-04-10,Thermal Coal,India,import,183.88,6.013,,88.5
+2023-04-10,Thermal Coal,Japan,import,183.88,3.291,,95.0
+2023-04-10,Thermal Coal,South Korea,import,183.88,2.403,,85.2
+2023-04-10,Thermal Coal,Netherlands,import,183.88,1.579,,103.3
+2023-04-17,Thermal Coal,Australia,export,203.71,9.556,8.366,
+2023-04-17,Thermal Coal,Indonesia,export,203.71,11.169,15.523,
+2023-04-17,Thermal Coal,South Africa,export,203.71,3.118,3.809,
+2023-04-17,Thermal Coal,Colombia,export,203.71,2.032,2.047,
+2023-04-17,Thermal Coal,Russia,export,203.71,4.988,5.027,
+2023-04-17,Thermal Coal,USA,export,203.71,2.484,2.42,
+2023-04-17,Thermal Coal,China,import,203.71,8.143,,93.8
+2023-04-17,Thermal Coal,India,import,203.71,6.013,,89.6
+2023-04-17,Thermal Coal,Japan,import,203.71,3.291,,97.9
+2023-04-17,Thermal Coal,South Korea,import,203.71,2.403,,79.8
+2023-04-17,Thermal Coal,Netherlands,import,203.71,1.579,,101.6
+2023-04-24,Thermal Coal,Australia,export,212.45,9.556,9.344,
+2023-04-24,Thermal Coal,Indonesia,export,212.45,11.169,16.658,
+2023-04-24,Thermal Coal,South Africa,export,212.45,3.118,3.924,
+2023-04-24,Thermal Coal,Colombia,export,212.45,2.032,2.064,
+2023-04-24,Thermal Coal,Russia,export,212.45,4.988,4.51,
+2023-04-24,Thermal Coal,USA,export,212.45,2.484,2.302,
+2023-04-24,Thermal Coal,China,import,212.45,8.143,,91.9
+2023-04-24,Thermal Coal,India,import,212.45,6.013,,90.7
+2023-04-24,Thermal Coal,Japan,import,212.45,3.291,,95.0
+2023-04-24,Thermal Coal,South Korea,import,212.45,2.403,,86.6
+2023-04-24,Thermal Coal,Netherlands,import,212.45,1.579,,99.6
+2023-05-01,Thermal Coal,Australia,export,196.26,9.556,9.119,
+2023-05-01,Thermal Coal,Indonesia,export,196.26,11.169,16.027,
+2023-05-01,Thermal Coal,South Africa,export,196.26,3.118,3.939,
+2023-05-01,Thermal Coal,Colombia,export,196.26,2.032,2.085,
+2023-05-01,Thermal Coal,Russia,export,196.26,4.988,4.678,
+2023-05-01,Thermal Coal,USA,export,196.26,2.484,2.345,
+2023-05-01,Thermal Coal,China,import,196.26,8.143,,95.9
+2023-05-01,Thermal Coal,India,import,196.26,6.013,,95.3
+2023-05-01,Thermal Coal,Japan,import,196.26,3.291,,92.0
+2023-05-01,Thermal Coal,South Korea,import,196.26,2.403,,78.1
+2023-05-01,Thermal Coal,Netherlands,import,196.26,1.579,,96.2
+2023-05-08,Thermal Coal,Australia,export,181.87,9.556,8.62,
+2023-05-08,Thermal Coal,Indonesia,export,181.87,11.169,14.748,
+2023-05-08,Thermal Coal,South Africa,export,181.87,3.118,3.946,
+2023-05-08,Thermal Coal,Colombia,export,181.87,2.032,2.262,
+2023-05-08,Thermal Coal,Russia,export,181.87,4.988,4.745,
+2023-05-08,Thermal Coal,USA,export,181.87,2.484,2.288,
+2023-05-08,Thermal Coal,China,import,181.87,8.143,,98.0
+2023-05-08,Thermal Coal,India,import,181.87,6.013,,95.7
+2023-05-08,Thermal Coal,Japan,import,181.87,3.291,,92.5
+2023-05-08,Thermal Coal,South Korea,import,181.87,2.403,,84.2
+2023-05-08,Thermal Coal,Netherlands,import,181.87,1.579,,92.7
+2023-05-15,Thermal Coal,Australia,export,162.16,9.556,9.085,
+2023-05-15,Thermal Coal,Indonesia,export,162.16,11.169,14.772,
+2023-05-15,Thermal Coal,South Africa,export,162.16,3.118,4.182,
+2023-05-15,Thermal Coal,Colombia,export,162.16,2.032,2.23,
+2023-05-15,Thermal Coal,Russia,export,162.16,4.988,4.542,
+2023-05-15,Thermal Coal,USA,export,162.16,2.484,2.293,
+2023-05-15,Thermal Coal,China,import,162.16,8.143,,102.1
+2023-05-15,Thermal Coal,India,import,162.16,6.013,,92.0
+2023-05-15,Thermal Coal,Japan,import,162.16,3.291,,89.7
+2023-05-15,Thermal Coal,South Korea,import,162.16,2.403,,81.0
+2023-05-15,Thermal Coal,Netherlands,import,162.16,1.579,,101.5
+2023-05-22,Thermal Coal,Australia,export,167.86,9.556,9.226,
+2023-05-22,Thermal Coal,Indonesia,export,167.86,11.169,14.698,
+2023-05-22,Thermal Coal,South Africa,export,167.86,3.118,4.315,
+2023-05-22,Thermal Coal,Colombia,export,167.86,2.032,2.287,
+2023-05-22,Thermal Coal,Russia,export,167.86,4.988,4.384,
+2023-05-22,Thermal Coal,USA,export,167.86,2.484,2.357,
+2023-05-22,Thermal Coal,China,import,167.86,8.143,,98.4
+2023-05-22,Thermal Coal,India,import,167.86,6.013,,94.6
+2023-05-22,Thermal Coal,Japan,import,167.86,3.291,,90.1
+2023-05-22,Thermal Coal,South Korea,import,167.86,2.403,,84.0
+2023-05-22,Thermal Coal,Netherlands,import,167.86,1.579,,106.6
+2023-05-29,Thermal Coal,Australia,export,165.19,9.556,8.211,
+2023-05-29,Thermal Coal,Indonesia,export,165.19,11.169,15.194,
+2023-05-29,Thermal Coal,South Africa,export,165.19,3.118,4.432,
+2023-05-29,Thermal Coal,Colombia,export,165.19,2.032,2.301,
+2023-05-29,Thermal Coal,Russia,export,165.19,4.988,4.415,
+2023-05-29,Thermal Coal,USA,export,165.19,2.484,2.187,
+2023-05-29,Thermal Coal,China,import,165.19,8.143,,99.2
+2023-05-29,Thermal Coal,India,import,165.19,6.013,,86.0
+2023-05-29,Thermal Coal,Japan,import,165.19,3.291,,95.8
+2023-05-29,Thermal Coal,South Korea,import,165.19,2.403,,82.3
+2023-05-29,Thermal Coal,Netherlands,import,165.19,1.579,,106.2
+2023-06-05,Thermal Coal,Australia,export,154.1,9.556,7.922,
+2023-06-05,Thermal Coal,Indonesia,export,154.1,11.169,15.382,
+2023-06-05,Thermal Coal,South Africa,export,154.1,3.118,4.335,
+2023-06-05,Thermal Coal,Colombia,export,154.1,2.032,2.387,
+2023-06-05,Thermal Coal,Russia,export,154.1,4.988,4.676,
+2023-06-05,Thermal Coal,USA,export,154.1,2.484,2.314,
+2023-06-05,Thermal Coal,China,import,154.1,8.143,,97.8
+2023-06-05,Thermal Coal,India,import,154.1,6.013,,90.8
+2023-06-05,Thermal Coal,Japan,import,154.1,3.291,,91.2
+2023-06-05,Thermal Coal,South Korea,import,154.1,2.403,,87.5
+2023-06-05,Thermal Coal,Netherlands,import,154.1,1.579,,110.5
+2023-06-12,Thermal Coal,Australia,export,152.55,9.556,7.92,
+2023-06-12,Thermal Coal,Indonesia,export,152.55,11.169,15.967,
+2023-06-12,Thermal Coal,South Africa,export,152.55,3.118,4.266,
+2023-06-12,Thermal Coal,Colombia,export,152.55,2.032,2.438,
+2023-06-12,Thermal Coal,Russia,export,152.55,4.988,4.721,
+2023-06-12,Thermal Coal,USA,export,152.55,2.484,2.305,
+2023-06-12,Thermal Coal,China,import,152.55,8.143,,96.8
+2023-06-12,Thermal Coal,India,import,152.55,6.013,,89.4
+2023-06-12,Thermal Coal,Japan,import,152.55,3.291,,85.4
+2023-06-12,Thermal Coal,South Korea,import,152.55,2.403,,91.0
+2023-06-12,Thermal Coal,Netherlands,import,152.55,1.579,,106.8
+2023-06-19,Thermal Coal,Australia,export,149.9,9.556,7.731,
+2023-06-19,Thermal Coal,Indonesia,export,149.9,11.169,15.168,
+2023-06-19,Thermal Coal,South Africa,export,149.9,3.118,4.115,
+2023-06-19,Thermal Coal,Colombia,export,149.9,2.032,2.366,
+2023-06-19,Thermal Coal,Russia,export,149.9,4.988,4.86,
+2023-06-19,Thermal Coal,USA,export,149.9,2.484,2.222,
+2023-06-19,Thermal Coal,China,import,149.9,8.143,,103.5
+2023-06-19,Thermal Coal,India,import,149.9,6.013,,85.7
+2023-06-19,Thermal Coal,Japan,import,149.9,3.291,,93.9
+2023-06-19,Thermal Coal,South Korea,import,149.9,2.403,,86.1
+2023-06-19,Thermal Coal,Netherlands,import,149.9,1.579,,99.7
+2023-06-26,Thermal Coal,Australia,export,150.75,9.556,8.259,
+2023-06-26,Thermal Coal,Indonesia,export,150.75,11.169,14.932,
+2023-06-26,Thermal Coal,South Africa,export,150.75,3.118,4.224,
+2023-06-26,Thermal Coal,Colombia,export,150.75,2.032,2.348,
+2023-06-26,Thermal Coal,Russia,export,150.75,4.988,5.07,
+2023-06-26,Thermal Coal,USA,export,150.75,2.484,2.355,
+2023-06-26,Thermal Coal,China,import,150.75,8.143,,95.2
+2023-06-26,Thermal Coal,India,import,150.75,6.013,,89.0
+2023-06-26,Thermal Coal,Japan,import,150.75,3.291,,101.1
+2023-06-26,Thermal Coal,South Korea,import,150.75,2.403,,89.2
+2023-06-26,Thermal Coal,Netherlands,import,150.75,1.579,,90.2
+2023-07-03,Thermal Coal,Australia,export,154.43,9.556,7.73,
+2023-07-03,Thermal Coal,Indonesia,export,154.43,11.169,14.553,
+2023-07-03,Thermal Coal,South Africa,export,154.43,3.118,4.348,
+2023-07-03,Thermal Coal,Colombia,export,154.43,2.032,2.197,
+2023-07-03,Thermal Coal,Russia,export,154.43,4.988,5.477,
+2023-07-03,Thermal Coal,USA,export,154.43,2.484,2.57,
+2023-07-03,Thermal Coal,China,import,154.43,8.143,,91.3
+2023-07-03,Thermal Coal,India,import,154.43,6.013,,92.8
+2023-07-03,Thermal Coal,Japan,import,154.43,3.291,,100.4
+2023-07-03,Thermal Coal,South Korea,import,154.43,2.403,,95.4
+2023-07-03,Thermal Coal,Netherlands,import,154.43,1.579,,91.3
+2023-07-10,Thermal Coal,Australia,export,150.54,9.556,7.986,
+2023-07-10,Thermal Coal,Indonesia,export,150.54,11.169,14.328,
+2023-07-10,Thermal Coal,South Africa,export,150.54,3.118,4.484,
+2023-07-10,Thermal Coal,Colombia,export,150.54,2.032,2.146,
+2023-07-10,Thermal Coal,Russia,export,150.54,4.988,5.46,
+2023-07-10,Thermal Coal,USA,export,150.54,2.484,2.591,
+2023-07-10,Thermal Coal,China,import,150.54,8.143,,87.9
+2023-07-10,Thermal Coal,India,import,150.54,6.013,,93.7
+2023-07-10,Thermal Coal,Japan,import,150.54,3.291,,101.0
+2023-07-10,Thermal Coal,South Korea,import,150.54,2.403,,103.5
+2023-07-10,Thermal Coal,Netherlands,import,150.54,1.579,,90.3
+2023-07-17,Thermal Coal,Australia,export,162.27,9.556,8.028,
+2023-07-17,Thermal Coal,Indonesia,export,162.27,11.169,14.738,
+2023-07-17,Thermal Coal,South Africa,export,162.27,3.118,4.557,
+2023-07-17,Thermal Coal,Colombia,export,162.27,2.032,2.146,
+2023-07-17,Thermal Coal,Russia,export,162.27,4.988,5.304,
+2023-07-17,Thermal Coal,USA,export,162.27,2.484,2.583,
+2023-07-17,Thermal Coal,China,import,162.27,8.143,,90.8
+2023-07-17,Thermal Coal,India,import,162.27,6.013,,95.3
+2023-07-17,Thermal Coal,Japan,import,162.27,3.291,,108.9
+2023-07-17,Thermal Coal,South Korea,import,162.27,2.403,,104.2
+2023-07-17,Thermal Coal,Netherlands,import,162.27,1.579,,90.8
+2023-07-24,Thermal Coal,Australia,export,158.66,9.556,7.8,
+2023-07-24,Thermal Coal,Indonesia,export,158.66,11.169,13.341,
+2023-07-24,Thermal Coal,South Africa,export,158.66,3.118,4.591,
+2023-07-24,Thermal Coal,Colombia,export,158.66,2.032,2.175,
+2023-07-24,Thermal Coal,Russia,export,158.66,4.988,5.454,
+2023-07-24,Thermal Coal,USA,export,158.66,2.484,2.626,
+2023-07-24,Thermal Coal,China,import,158.66,8.143,,89.3
+2023-07-24,Thermal Coal,India,import,158.66,6.013,,99.2
+2023-07-24,Thermal Coal,Japan,import,158.66,3.291,,105.7
+2023-07-24,Thermal Coal,South Korea,import,158.66,2.403,,105.7
+2023-07-24,Thermal Coal,Netherlands,import,158.66,1.579,,91.8
+2023-07-31,Thermal Coal,Australia,export,158.22,9.556,7.659,
+2023-07-31,Thermal Coal,Indonesia,export,158.22,11.169,13.79,
+2023-07-31,Thermal Coal,South Africa,export,158.22,3.118,4.506,
+2023-07-31,Thermal Coal,Colombia,export,158.22,2.032,2.361,
+2023-07-31,Thermal Coal,Russia,export,158.22,4.988,5.01,
+2023-07-31,Thermal Coal,USA,export,158.22,2.484,2.92,
+2023-07-31,Thermal Coal,China,import,158.22,8.143,,95.0
+2023-07-31,Thermal Coal,India,import,158.22,6.013,,100.3
+2023-07-31,Thermal Coal,Japan,import,158.22,3.291,,105.5
+2023-07-31,Thermal Coal,South Korea,import,158.22,2.403,,111.4
+2023-07-31,Thermal Coal,Netherlands,import,158.22,1.579,,101.1
+2023-08-07,Thermal Coal,Australia,export,145.56,9.556,8.601,
+2023-08-07,Thermal Coal,Indonesia,export,145.56,11.169,14.373,
+2023-08-07,Thermal Coal,South Africa,export,145.56,3.118,4.55,
+2023-08-07,Thermal Coal,Colombia,export,145.56,2.032,2.341,
+2023-08-07,Thermal Coal,Russia,export,145.56,4.988,4.516,
+2023-08-07,Thermal Coal,USA,export,145.56,2.484,2.797,
+2023-08-07,Thermal Coal,China,import,145.56,8.143,,96.4
+2023-08-07,Thermal Coal,India,import,145.56,6.013,,96.2
+2023-08-07,Thermal Coal,Japan,import,145.56,3.291,,106.4
+2023-08-07,Thermal Coal,South Korea,import,145.56,2.403,,112.8
+2023-08-07,Thermal Coal,Netherlands,import,145.56,1.579,,100.8
+2023-08-14,Thermal Coal,Australia,export,126.68,9.556,9.335,
+2023-08-14,Thermal Coal,Indonesia,export,126.68,11.169,13.947,
+2023-08-14,Thermal Coal,South Africa,export,126.68,3.118,4.612,
+2023-08-14,Thermal Coal,Colombia,export,126.68,2.032,2.326,
+2023-08-14,Thermal Coal,Russia,export,126.68,4.988,4.638,
+2023-08-14,Thermal Coal,USA,export,126.68,2.484,2.655,
+2023-08-14,Thermal Coal,China,import,126.68,8.143,,97.8
+2023-08-14,Thermal Coal,India,import,126.68,6.013,,94.7
+2023-08-14,Thermal Coal,Japan,import,126.68,3.291,,106.5
+2023-08-14,Thermal Coal,South Korea,import,126.68,2.403,,106.9
+2023-08-14,Thermal Coal,Netherlands,import,126.68,1.579,,98.1
+2023-08-21,Thermal Coal,Australia,export,134.56,9.556,9.473,
+2023-08-21,Thermal Coal,Indonesia,export,134.56,11.169,13.902,
+2023-08-21,Thermal Coal,South Africa,export,134.56,3.118,4.487,
+2023-08-21,Thermal Coal,Colombia,export,134.56,2.032,2.246,
+2023-08-21,Thermal Coal,Russia,export,134.56,4.988,4.911,
+2023-08-21,Thermal Coal,USA,export,134.56,2.484,2.646,
+2023-08-21,Thermal Coal,China,import,134.56,8.143,,97.5
+2023-08-21,Thermal Coal,India,import,134.56,6.013,,96.9
+2023-08-21,Thermal Coal,Japan,import,134.56,3.291,,110.8
+2023-08-21,Thermal Coal,South Korea,import,134.56,2.403,,110.5
+2023-08-21,Thermal Coal,Netherlands,import,134.56,1.579,,104.4
+2023-08-28,Thermal Coal,Australia,export,114.71,9.556,8.86,
+2023-08-28,Thermal Coal,Indonesia,export,114.71,11.169,13.457,
+2023-08-28,Thermal Coal,South Africa,export,114.71,3.118,4.587,
+2023-08-28,Thermal Coal,Colombia,export,114.71,2.032,2.152,
+2023-08-28,Thermal Coal,Russia,export,114.71,4.988,5.274,
+2023-08-28,Thermal Coal,USA,export,114.71,2.484,2.663,
+2023-08-28,Thermal Coal,China,import,114.71,8.143,,100.5
+2023-08-28,Thermal Coal,India,import,114.71,6.013,,99.6
+2023-08-28,Thermal Coal,Japan,import,114.71,3.291,,106.1
+2023-08-28,Thermal Coal,South Korea,import,114.71,2.403,,110.0
+2023-08-28,Thermal Coal,Netherlands,import,114.71,1.579,,104.0
+2023-09-04,Thermal Coal,Australia,export,109.38,9.556,8.74,
+2023-09-04,Thermal Coal,Indonesia,export,109.38,11.169,12.932,
+2023-09-04,Thermal Coal,South Africa,export,109.38,3.118,4.436,
+2023-09-04,Thermal Coal,Colombia,export,109.38,2.032,2.372,
+2023-09-04,Thermal Coal,Russia,export,109.38,4.988,5.444,
+2023-09-04,Thermal Coal,USA,export,109.38,2.484,2.871,
+2023-09-04,Thermal Coal,China,import,109.38,8.143,,94.1
+2023-09-04,Thermal Coal,India,import,109.38,6.013,,95.7
+2023-09-04,Thermal Coal,Japan,import,109.38,3.291,,104.7
+2023-09-04,Thermal Coal,South Korea,import,109.38,2.403,,113.1
+2023-09-04,Thermal Coal,Netherlands,import,109.38,1.579,,109.1
+2023-09-11,Thermal Coal,Australia,export,97.82,9.556,8.356,
+2023-09-11,Thermal Coal,Indonesia,export,97.82,11.169,13.258,
+2023-09-11,Thermal Coal,South Africa,export,97.82,3.118,4.319,
+2023-09-11,Thermal Coal,Colombia,export,97.82,2.032,2.429,
+2023-09-11,Thermal Coal,Russia,export,97.82,4.988,5.664,
+2023-09-11,Thermal Coal,USA,export,97.82,2.484,2.824,
+2023-09-11,Thermal Coal,China,import,97.82,8.143,,96.6
+2023-09-11,Thermal Coal,India,import,97.82,6.013,,94.8
+2023-09-11,Thermal Coal,Japan,import,97.82,3.291,,103.7
+2023-09-11,Thermal Coal,South Korea,import,97.82,2.403,,115.7
+2023-09-11,Thermal Coal,Netherlands,import,97.82,1.579,,115.5
+2023-09-18,Thermal Coal,Australia,export,97.11,9.556,8.736,
+2023-09-18,Thermal Coal,Indonesia,export,97.11,11.169,12.888,
+2023-09-18,Thermal Coal,South Africa,export,97.11,3.118,4.53,
+2023-09-18,Thermal Coal,Colombia,export,97.11,2.032,2.291,
+2023-09-18,Thermal Coal,Russia,export,97.11,4.988,5.571,
+2023-09-18,Thermal Coal,USA,export,97.11,2.484,2.946,
+2023-09-18,Thermal Coal,China,import,97.11,8.143,,101.2
+2023-09-18,Thermal Coal,India,import,97.11,6.013,,97.2
+2023-09-18,Thermal Coal,Japan,import,97.11,3.291,,97.7
+2023-09-18,Thermal Coal,South Korea,import,97.11,2.403,,114.4
+2023-09-18,Thermal Coal,Netherlands,import,97.11,1.579,,112.2
+2023-09-25,Thermal Coal,Australia,export,104.07,9.556,8.991,
+2023-09-25,Thermal Coal,Indonesia,export,104.07,11.169,13.672,
+2023-09-25,Thermal Coal,South Africa,export,104.07,3.118,4.27,
+2023-09-25,Thermal Coal,Colombia,export,104.07,2.032,2.169,
+2023-09-25,Thermal Coal,Russia,export,104.07,4.988,5.621,
+2023-09-25,Thermal Coal,USA,export,104.07,2.484,2.843,
+2023-09-25,Thermal Coal,China,import,104.07,8.143,,106.3
+2023-09-25,Thermal Coal,India,import,104.07,6.013,,98.5
+2023-09-25,Thermal Coal,Japan,import,104.07,3.291,,93.9
+2023-09-25,Thermal Coal,South Korea,import,104.07,2.403,,114.4
+2023-09-25,Thermal Coal,Netherlands,import,104.07,1.579,,104.5
+2023-10-02,Thermal Coal,Australia,export,103.19,9.556,9.39,
+2023-10-02,Thermal Coal,Indonesia,export,103.19,11.169,13.72,
+2023-10-02,Thermal Coal,South Africa,export,103.19,3.118,4.121,
+2023-10-02,Thermal Coal,Colombia,export,103.19,2.032,2.424,
+2023-10-02,Thermal Coal,Russia,export,103.19,4.988,5.279,
+2023-10-02,Thermal Coal,USA,export,103.19,2.484,2.953,
+2023-10-02,Thermal Coal,China,import,103.19,8.143,,116.5
+2023-10-02,Thermal Coal,India,import,103.19,6.013,,97.1
+2023-10-02,Thermal Coal,Japan,import,103.19,3.291,,101.0
+2023-10-02,Thermal Coal,South Korea,import,103.19,2.403,,115.5
+2023-10-02,Thermal Coal,Netherlands,import,103.19,1.579,,105.5
+2023-10-09,Thermal Coal,Australia,export,106.06,9.556,9.679,
+2023-10-09,Thermal Coal,Indonesia,export,106.06,11.169,12.872,
+2023-10-09,Thermal Coal,South Africa,export,106.06,3.118,4.045,
+2023-10-09,Thermal Coal,Colombia,export,106.06,2.032,2.393,
+2023-10-09,Thermal Coal,Russia,export,106.06,4.988,5.524,
+2023-10-09,Thermal Coal,USA,export,106.06,2.484,2.878,
+2023-10-09,Thermal Coal,China,import,106.06,8.143,,116.5
+2023-10-09,Thermal Coal,India,import,106.06,6.013,,104.0
+2023-10-09,Thermal Coal,Japan,import,106.06,3.291,,99.5
+2023-10-09,Thermal Coal,South Korea,import,106.06,2.403,,108.9
+2023-10-09,Thermal Coal,Netherlands,import,106.06,1.579,,104.3
+2023-10-16,Thermal Coal,Australia,export,111.73,9.556,9.91,
+2023-10-16,Thermal Coal,Indonesia,export,111.73,11.169,13.051,
+2023-10-16,Thermal Coal,South Africa,export,111.73,3.118,3.697,
+2023-10-16,Thermal Coal,Colombia,export,111.73,2.032,2.499,
+2023-10-16,Thermal Coal,Russia,export,111.73,4.988,5.434,
+2023-10-16,Thermal Coal,USA,export,111.73,2.484,2.832,
+2023-10-16,Thermal Coal,China,import,111.73,8.143,,115.1
+2023-10-16,Thermal Coal,India,import,111.73,6.013,,105.4
+2023-10-16,Thermal Coal,Japan,import,111.73,3.291,,100.9
+2023-10-16,Thermal Coal,South Korea,import,111.73,2.403,,106.3
+2023-10-16,Thermal Coal,Netherlands,import,111.73,1.579,,100.1
+2023-10-23,Thermal Coal,Australia,export,104.76,9.556,9.851,
+2023-10-23,Thermal Coal,Indonesia,export,104.76,11.169,13.794,
+2023-10-23,Thermal Coal,South Africa,export,104.76,3.118,3.56,
+2023-10-23,Thermal Coal,Colombia,export,104.76,2.032,2.324,
+2023-10-23,Thermal Coal,Russia,export,104.76,4.988,5.133,
+2023-10-23,Thermal Coal,USA,export,104.76,2.484,3.027,
+2023-10-23,Thermal Coal,China,import,104.76,8.143,,115.8
+2023-10-23,Thermal Coal,India,import,104.76,6.013,,101.8
+2023-10-23,Thermal Coal,Japan,import,104.76,3.291,,104.5
+2023-10-23,Thermal Coal,South Korea,import,104.76,2.403,,107.9
+2023-10-23,Thermal Coal,Netherlands,import,104.76,1.579,,99.9
+2023-10-30,Thermal Coal,Australia,export,98.76,9.556,9.11,
+2023-10-30,Thermal Coal,Indonesia,export,98.76,11.169,13.541,
+2023-10-30,Thermal Coal,South Africa,export,98.76,3.118,3.296,
+2023-10-30,Thermal Coal,Colombia,export,98.76,2.032,2.148,
+2023-10-30,Thermal Coal,Russia,export,98.76,4.988,5.43,
+2023-10-30,Thermal Coal,USA,export,98.76,2.484,2.872,
+2023-10-30,Thermal Coal,China,import,98.76,8.143,,117.7
+2023-10-30,Thermal Coal,India,import,98.76,6.013,,106.6
+2023-10-30,Thermal Coal,Japan,import,98.76,3.291,,105.3
+2023-10-30,Thermal Coal,South Korea,import,98.76,2.403,,113.4
+2023-10-30,Thermal Coal,Netherlands,import,98.76,1.579,,106.2
+2023-11-06,Thermal Coal,Australia,export,92.72,9.556,8.122,
+2023-11-06,Thermal Coal,Indonesia,export,92.72,11.169,13.112,
+2023-11-06,Thermal Coal,South Africa,export,92.72,3.118,3.132,
+2023-11-06,Thermal Coal,Colombia,export,92.72,2.032,2.278,
+2023-11-06,Thermal Coal,Russia,export,92.72,4.988,5.363,
+2023-11-06,Thermal Coal,USA,export,92.72,2.484,2.883,
+2023-11-06,Thermal Coal,China,import,92.72,8.143,,115.8
+2023-11-06,Thermal Coal,India,import,92.72,6.013,,108.1
+2023-11-06,Thermal Coal,Japan,import,92.72,3.291,,104.9
+2023-11-06,Thermal Coal,South Korea,import,92.72,2.403,,118.1
+2023-11-06,Thermal Coal,Netherlands,import,92.72,1.579,,104.0
+2023-11-13,Thermal Coal,Australia,export,89.25,9.556,7.548,
+2023-11-13,Thermal Coal,Indonesia,export,89.25,11.169,13.665,
+2023-11-13,Thermal Coal,South Africa,export,89.25,3.118,3.174,
+2023-11-13,Thermal Coal,Colombia,export,89.25,2.032,2.174,
+2023-11-13,Thermal Coal,Russia,export,89.25,4.988,5.42,
+2023-11-13,Thermal Coal,USA,export,89.25,2.484,2.776,
+2023-11-13,Thermal Coal,China,import,89.25,8.143,,119.2
+2023-11-13,Thermal Coal,India,import,89.25,6.013,,102.2
+2023-11-13,Thermal Coal,Japan,import,89.25,3.291,,101.6
+2023-11-13,Thermal Coal,South Korea,import,89.25,2.403,,118.7
+2023-11-13,Thermal Coal,Netherlands,import,89.25,1.579,,103.0
+2023-11-20,Thermal Coal,Australia,export,84.4,9.556,7.598,
+2023-11-20,Thermal Coal,Indonesia,export,84.4,11.169,12.533,
+2023-11-20,Thermal Coal,South Africa,export,84.4,3.118,3.412,
+2023-11-20,Thermal Coal,Colombia,export,84.4,2.032,1.979,
+2023-11-20,Thermal Coal,Russia,export,84.4,4.988,5.193,
+2023-11-20,Thermal Coal,USA,export,84.4,2.484,2.697,
+2023-11-20,Thermal Coal,China,import,84.4,8.143,,124.3
+2023-11-20,Thermal Coal,India,import,84.4,6.013,,108.7
+2023-11-20,Thermal Coal,Japan,import,84.4,3.291,,100.2
+2023-11-20,Thermal Coal,South Korea,import,84.4,2.403,,122.4
+2023-11-20,Thermal Coal,Netherlands,import,84.4,1.579,,105.4
+2023-11-27,Thermal Coal,Australia,export,78.75,9.556,7.348,
+2023-11-27,Thermal Coal,Indonesia,export,78.75,11.169,12.957,
+2023-11-27,Thermal Coal,South Africa,export,78.75,3.118,3.606,
+2023-11-27,Thermal Coal,Colombia,export,78.75,2.032,2.107,
+2023-11-27,Thermal Coal,Russia,export,78.75,4.988,5.217,
+2023-11-27,Thermal Coal,USA,export,78.75,2.484,2.841,
+2023-11-27,Thermal Coal,China,import,78.75,8.143,,127.1
+2023-11-27,Thermal Coal,India,import,78.75,6.013,,104.2
+2023-11-27,Thermal Coal,Japan,import,78.75,3.291,,103.0
+2023-11-27,Thermal Coal,South Korea,import,78.75,2.403,,113.6
+2023-11-27,Thermal Coal,Netherlands,import,78.75,1.579,,106.3
+2023-12-04,Thermal Coal,Australia,export,78.58,9.556,7.794,
+2023-12-04,Thermal Coal,Indonesia,export,78.58,11.169,12.57,
+2023-12-04,Thermal Coal,South Africa,export,78.58,3.118,3.788,
+2023-12-04,Thermal Coal,Colombia,export,78.58,2.032,2.017,
+2023-12-04,Thermal Coal,Russia,export,78.58,4.988,5.216,
+2023-12-04,Thermal Coal,USA,export,78.58,2.484,2.904,
+2023-12-04,Thermal Coal,China,import,78.58,8.143,,126.7
+2023-12-04,Thermal Coal,India,import,78.58,6.013,,103.2
+2023-12-04,Thermal Coal,Japan,import,78.58,3.291,,103.7
+2023-12-04,Thermal Coal,South Korea,import,78.58,2.403,,112.1
+2023-12-04,Thermal Coal,Netherlands,import,78.58,1.579,,106.1
+2023-12-11,Thermal Coal,Australia,export,68.22,9.556,7.563,
+2023-12-11,Thermal Coal,Indonesia,export,68.22,11.169,13.596,
+2023-12-11,Thermal Coal,South Africa,export,68.22,3.118,3.679,
+2023-12-11,Thermal Coal,Colombia,export,68.22,2.032,1.897,
+2023-12-11,Thermal Coal,Russia,export,68.22,4.988,5.141,
+2023-12-11,Thermal Coal,USA,export,68.22,2.484,2.762,
+2023-12-11,Thermal Coal,China,import,68.22,8.143,,123.5
+2023-12-11,Thermal Coal,India,import,68.22,6.013,,106.1
+2023-12-11,Thermal Coal,Japan,import,68.22,3.291,,103.1
+2023-12-11,Thermal Coal,South Korea,import,68.22,2.403,,111.0
+2023-12-11,Thermal Coal,Netherlands,import,68.22,1.579,,104.2
+2023-12-18,Thermal Coal,Australia,export,73.93,9.556,7.634,
+2023-12-18,Thermal Coal,Indonesia,export,73.93,11.169,13.857,
+2023-12-18,Thermal Coal,South Africa,export,73.93,3.118,3.684,
+2023-12-18,Thermal Coal,Colombia,export,73.93,2.032,1.973,
+2023-12-18,Thermal Coal,Russia,export,73.93,4.988,5.13,
+2023-12-18,Thermal Coal,USA,export,73.93,2.484,2.715,
+2023-12-18,Thermal Coal,China,import,73.93,8.143,,124.8
+2023-12-18,Thermal Coal,India,import,73.93,6.013,,107.1
+2023-12-18,Thermal Coal,Japan,import,73.93,3.291,,98.6
+2023-12-18,Thermal Coal,South Korea,import,73.93,2.403,,114.3
+2023-12-18,Thermal Coal,Netherlands,import,73.93,1.579,,107.8
+2023-12-25,Thermal Coal,Australia,export,74.95,9.556,8.084,
+2023-12-25,Thermal Coal,Indonesia,export,74.95,11.169,14.309,
+2023-12-25,Thermal Coal,South Africa,export,74.95,3.118,3.725,
+2023-12-25,Thermal Coal,Colombia,export,74.95,2.032,1.973,
+2023-12-25,Thermal Coal,Russia,export,74.95,4.988,5.084,
+2023-12-25,Thermal Coal,USA,export,74.95,2.484,2.536,
+2023-12-25,Thermal Coal,China,import,74.95,8.143,,123.9
+2023-12-25,Thermal Coal,India,import,74.95,6.013,,103.2
+2023-12-25,Thermal Coal,Japan,import,74.95,3.291,,103.9
+2023-12-25,Thermal Coal,South Korea,import,74.95,2.403,,118.0
+2023-12-25,Thermal Coal,Netherlands,import,74.95,1.579,,109.3
+2024-01-01,Thermal Coal,Australia,export,81.27,9.556,8.44,
+2024-01-01,Thermal Coal,Indonesia,export,81.27,11.169,13.614,
+2024-01-01,Thermal Coal,South Africa,export,81.27,3.118,3.611,
+2024-01-01,Thermal Coal,Colombia,export,81.27,2.032,2.127,
+2024-01-01,Thermal Coal,Russia,export,81.27,4.988,5.291,
+2024-01-01,Thermal Coal,USA,export,81.27,2.484,2.284,
+2024-01-01,Thermal Coal,China,import,81.27,8.143,,126.2
+2024-01-01,Thermal Coal,India,import,81.27,6.013,,101.5
+2024-01-01,Thermal Coal,Japan,import,81.27,3.291,,107.4
+2024-01-01,Thermal Coal,South Korea,import,81.27,2.403,,121.1
+2024-01-01,Thermal Coal,Netherlands,import,81.27,1.579,,110.1
+2024-01-08,Thermal Coal,Australia,export,78.54,9.556,7.876,
+2024-01-08,Thermal Coal,Indonesia,export,78.54,11.169,13.699,
+2024-01-08,Thermal Coal,South Africa,export,78.54,3.118,3.993,
+2024-01-08,Thermal Coal,Colombia,export,78.54,2.032,2.136,
+2024-01-08,Thermal Coal,Russia,export,78.54,4.988,5.35,
+2024-01-08,Thermal Coal,USA,export,78.54,2.484,2.324,
+2024-01-08,Thermal Coal,China,import,78.54,8.143,,127.1
+2024-01-08,Thermal Coal,India,import,78.54,6.013,,102.5
+2024-01-08,Thermal Coal,Japan,import,78.54,3.291,,108.5
+2024-01-08,Thermal Coal,South Korea,import,78.54,2.403,,117.5
+2024-01-08,Thermal Coal,Netherlands,import,78.54,1.579,,112.3
+2024-01-15,Thermal Coal,Australia,export,81.17,9.556,8.011,
+2024-01-15,Thermal Coal,Indonesia,export,81.17,11.169,14.245,
+2024-01-15,Thermal Coal,South Africa,export,81.17,3.118,3.804,
+2024-01-15,Thermal Coal,Colombia,export,81.17,2.032,2.111,
+2024-01-15,Thermal Coal,Russia,export,81.17,4.988,4.984,
+2024-01-15,Thermal Coal,USA,export,81.17,2.484,2.509,
+2024-01-15,Thermal Coal,China,import,81.17,8.143,,125.1
+2024-01-15,Thermal Coal,India,import,81.17,6.013,,97.8
+2024-01-15,Thermal Coal,Japan,import,81.17,3.291,,106.6
+2024-01-15,Thermal Coal,South Korea,import,81.17,2.403,,108.6
+2024-01-15,Thermal Coal,Netherlands,import,81.17,1.579,,114.7
+2024-01-22,Thermal Coal,Australia,export,86.55,9.556,8.06,
+2024-01-22,Thermal Coal,Indonesia,export,86.55,11.169,14.425,
+2024-01-22,Thermal Coal,South Africa,export,86.55,3.118,3.655,
+2024-01-22,Thermal Coal,Colombia,export,86.55,2.032,2.005,
+2024-01-22,Thermal Coal,Russia,export,86.55,4.988,4.787,
+2024-01-22,Thermal Coal,USA,export,86.55,2.484,2.598,
+2024-01-22,Thermal Coal,China,import,86.55,8.143,,120.9
+2024-01-22,Thermal Coal,India,import,86.55,6.013,,97.2
+2024-01-22,Thermal Coal,Japan,import,86.55,3.291,,103.3
+2024-01-22,Thermal Coal,South Korea,import,86.55,2.403,,106.1
+2024-01-22,Thermal Coal,Netherlands,import,86.55,1.579,,108.9
+2024-01-29,Thermal Coal,Australia,export,82.36,9.556,8.806,
+2024-01-29,Thermal Coal,Indonesia,export,82.36,11.169,13.714,
+2024-01-29,Thermal Coal,South Africa,export,82.36,3.118,3.663,
+2024-01-29,Thermal Coal,Colombia,export,82.36,2.032,2.001,
+2024-01-29,Thermal Coal,Russia,export,82.36,4.988,5.136,
+2024-01-29,Thermal Coal,USA,export,82.36,2.484,2.877,
+2024-01-29,Thermal Coal,China,import,82.36,8.143,,120.4
+2024-01-29,Thermal Coal,India,import,82.36,6.013,,94.3
+2024-01-29,Thermal Coal,Japan,import,82.36,3.291,,100.7
+2024-01-29,Thermal Coal,South Korea,import,82.36,2.403,,105.5
+2024-01-29,Thermal Coal,Netherlands,import,82.36,1.579,,108.5
+2024-02-05,Thermal Coal,Australia,export,100.31,9.556,9.175,
+2024-02-05,Thermal Coal,Indonesia,export,100.31,11.169,14.058,
+2024-02-05,Thermal Coal,South Africa,export,100.31,3.118,3.287,
+2024-02-05,Thermal Coal,Colombia,export,100.31,2.032,1.865,
+2024-02-05,Thermal Coal,Russia,export,100.31,4.988,5.517,
+2024-02-05,Thermal Coal,USA,export,100.31,2.484,2.873,
+2024-02-05,Thermal Coal,China,import,100.31,8.143,,122.6
+2024-02-05,Thermal Coal,India,import,100.31,6.013,,91.9
+2024-02-05,Thermal Coal,Japan,import,100.31,3.291,,108.6
+2024-02-05,Thermal Coal,South Korea,import,100.31,2.403,,104.5
+2024-02-05,Thermal Coal,Netherlands,import,100.31,1.579,,109.5
+2024-02-12,Thermal Coal,Australia,export,101.79,9.556,8.815,
+2024-02-12,Thermal Coal,Indonesia,export,101.79,11.169,13.632,
+2024-02-12,Thermal Coal,South Africa,export,101.79,3.118,3.352,
+2024-02-12,Thermal Coal,Colombia,export,101.79,2.032,1.904,
+2024-02-12,Thermal Coal,Russia,export,101.79,4.988,6.012,
+2024-02-12,Thermal Coal,USA,export,101.79,2.484,2.922,
+2024-02-12,Thermal Coal,China,import,101.79,8.143,,118.8
+2024-02-12,Thermal Coal,India,import,101.79,6.013,,98.4
+2024-02-12,Thermal Coal,Japan,import,101.79,3.291,,110.6
+2024-02-12,Thermal Coal,South Korea,import,101.79,2.403,,101.1
+2024-02-12,Thermal Coal,Netherlands,import,101.79,1.579,,100.9
+2024-02-19,Thermal Coal,Australia,export,110.03,9.556,9.487,
+2024-02-19,Thermal Coal,Indonesia,export,110.03,11.169,13.879,
+2024-02-19,Thermal Coal,South Africa,export,110.03,3.118,3.365,
+2024-02-19,Thermal Coal,Colombia,export,110.03,2.032,1.872,
+2024-02-19,Thermal Coal,Russia,export,110.03,4.988,5.898,
+2024-02-19,Thermal Coal,USA,export,110.03,2.484,3.08,
+2024-02-19,Thermal Coal,China,import,110.03,8.143,,118.5
+2024-02-19,Thermal Coal,India,import,110.03,6.013,,95.3
+2024-02-19,Thermal Coal,Japan,import,110.03,3.291,,115.2
+2024-02-19,Thermal Coal,South Korea,import,110.03,2.403,,101.3
+2024-02-19,Thermal Coal,Netherlands,import,110.03,1.579,,106.3
+2024-02-26,Thermal Coal,Australia,export,121.82,9.556,9.104,
+2024-02-26,Thermal Coal,Indonesia,export,121.82,11.169,14.465,
+2024-02-26,Thermal Coal,South Africa,export,121.82,3.118,3.453,
+2024-02-26,Thermal Coal,Colombia,export,121.82,2.032,1.906,
+2024-02-26,Thermal Coal,Russia,export,121.82,4.988,5.699,
+2024-02-26,Thermal Coal,USA,export,121.82,2.484,3.239,
+2024-02-26,Thermal Coal,China,import,121.82,8.143,,123.4
+2024-02-26,Thermal Coal,India,import,121.82,6.013,,97.4
+2024-02-26,Thermal Coal,Japan,import,121.82,3.291,,117.6
+2024-02-26,Thermal Coal,South Korea,import,121.82,2.403,,96.8
+2024-02-26,Thermal Coal,Netherlands,import,121.82,1.579,,108.4
+2024-03-04,Thermal Coal,Australia,export,121.39,9.556,9.073,
+2024-03-04,Thermal Coal,Indonesia,export,121.39,11.169,13.673,
+2024-03-04,Thermal Coal,South Africa,export,121.39,3.118,3.612,
+2024-03-04,Thermal Coal,Colombia,export,121.39,2.032,1.898,
+2024-03-04,Thermal Coal,Russia,export,121.39,4.988,6.193,
+2024-03-04,Thermal Coal,USA,export,121.39,2.484,3.097,
+2024-03-04,Thermal Coal,China,import,121.39,8.143,,120.9
+2024-03-04,Thermal Coal,India,import,121.39,6.013,,96.1
+2024-03-04,Thermal Coal,Japan,import,121.39,3.291,,114.1
+2024-03-04,Thermal Coal,South Korea,import,121.39,2.403,,94.7
+2024-03-04,Thermal Coal,Netherlands,import,121.39,1.579,,107.7
+2024-03-11,Thermal Coal,Australia,export,131.97,9.556,8.427,
+2024-03-11,Thermal Coal,Indonesia,export,131.97,11.169,13.812,
+2024-03-11,Thermal Coal,South Africa,export,131.97,3.118,3.873,
+2024-03-11,Thermal Coal,Colombia,export,131.97,2.032,1.899,
+2024-03-11,Thermal Coal,Russia,export,131.97,4.988,6.065,
+2024-03-11,Thermal Coal,USA,export,131.97,2.484,2.945,
+2024-03-11,Thermal Coal,China,import,131.97,8.143,,115.2
+2024-03-11,Thermal Coal,India,import,131.97,6.013,,95.5
+2024-03-11,Thermal Coal,Japan,import,131.97,3.291,,103.8
+2024-03-11,Thermal Coal,South Korea,import,131.97,2.403,,97.6
+2024-03-11,Thermal Coal,Netherlands,import,131.97,1.579,,103.8
+2024-03-18,Thermal Coal,Australia,export,105.18,9.556,8.097,
+2024-03-18,Thermal Coal,Indonesia,export,105.18,11.169,13.362,
+2024-03-18,Thermal Coal,South Africa,export,105.18,3.118,3.785,
+2024-03-18,Thermal Coal,Colombia,export,105.18,2.032,1.813,
+2024-03-18,Thermal Coal,Russia,export,105.18,4.988,5.871,
+2024-03-18,Thermal Coal,USA,export,105.18,2.484,3.046,
+2024-03-18,Thermal Coal,China,import,105.18,8.143,,100.2
+2024-03-18,Thermal Coal,India,import,105.18,6.013,,95.2
+2024-03-18,Thermal Coal,Japan,import,105.18,3.291,,96.0
+2024-03-18,Thermal Coal,South Korea,import,105.18,2.403,,96.0
+2024-03-18,Thermal Coal,Netherlands,import,105.18,1.579,,100.4
+2024-03-25,Thermal Coal,Australia,export,115.77,9.556,7.208,
+2024-03-25,Thermal Coal,Indonesia,export,115.77,11.169,13.429,
+2024-03-25,Thermal Coal,South Africa,export,115.77,3.118,3.55,
+2024-03-25,Thermal Coal,Colombia,export,115.77,2.032,1.74,
+2024-03-25,Thermal Coal,Russia,export,115.77,4.988,6.382,
+2024-03-25,Thermal Coal,USA,export,115.77,2.484,3.033,
+2024-03-25,Thermal Coal,China,import,115.77,8.143,,93.3
+2024-03-25,Thermal Coal,India,import,115.77,6.013,,101.4
+2024-03-25,Thermal Coal,Japan,import,115.77,3.291,,92.0
+2024-03-25,Thermal Coal,South Korea,import,115.77,2.403,,90.6
+2024-03-25,Thermal Coal,Netherlands,import,115.77,1.579,,103.3
+2024-04-01,Thermal Coal,Australia,export,106.3,9.556,8.269,
+2024-04-01,Thermal Coal,Indonesia,export,106.3,11.169,12.682,
+2024-04-01,Thermal Coal,South Africa,export,106.3,3.118,3.11,
+2024-04-01,Thermal Coal,Colombia,export,106.3,2.032,1.746,
+2024-04-01,Thermal Coal,Russia,export,106.3,4.988,6.624,
+2024-04-01,Thermal Coal,USA,export,106.3,2.484,2.911,
+2024-04-01,Thermal Coal,China,import,106.3,8.143,,97.2
+2024-04-01,Thermal Coal,India,import,106.3,6.013,,106.9
+2024-04-01,Thermal Coal,Japan,import,106.3,3.291,,91.6
+2024-04-01,Thermal Coal,South Korea,import,106.3,2.403,,93.2
+2024-04-01,Thermal Coal,Netherlands,import,106.3,1.579,,101.3
+2024-04-08,Thermal Coal,Australia,export,99.48,9.556,7.946,
+2024-04-08,Thermal Coal,Indonesia,export,99.48,11.169,13.311,
+2024-04-08,Thermal Coal,South Africa,export,99.48,3.118,3.111,
+2024-04-08,Thermal Coal,Colombia,export,99.48,2.032,1.579,
+2024-04-08,Thermal Coal,Russia,export,99.48,4.988,6.478,
+2024-04-08,Thermal Coal,USA,export,99.48,2.484,2.978,
+2024-04-08,Thermal Coal,China,import,99.48,8.143,,98.9
+2024-04-08,Thermal Coal,India,import,99.48,6.013,,110.7
+2024-04-08,Thermal Coal,Japan,import,99.48,3.291,,91.9
+2024-04-08,Thermal Coal,South Korea,import,99.48,2.403,,98.8
+2024-04-08,Thermal Coal,Netherlands,import,99.48,1.579,,102.7
+2024-04-15,Thermal Coal,Australia,export,100.52,9.556,8.813,
+2024-04-15,Thermal Coal,Indonesia,export,100.52,11.169,13.154,
+2024-04-15,Thermal Coal,South Africa,export,100.52,3.118,3.232,
+2024-04-15,Thermal Coal,Colombia,export,100.52,2.032,1.5,
+2024-04-15,Thermal Coal,Russia,export,100.52,4.988,6.414,
+2024-04-15,Thermal Coal,USA,export,100.52,2.484,2.909,
+2024-04-15,Thermal Coal,China,import,100.52,8.143,,92.7
+2024-04-15,Thermal Coal,India,import,100.52,6.013,,106.1
+2024-04-15,Thermal Coal,Japan,import,100.52,3.291,,93.4
+2024-04-15,Thermal Coal,South Korea,import,100.52,2.403,,92.4
+2024-04-15,Thermal Coal,Netherlands,import,100.52,1.579,,104.1
+2024-04-22,Thermal Coal,Australia,export,81.05,9.556,8.087,
+2024-04-22,Thermal Coal,Indonesia,export,81.05,11.169,12.162,
+2024-04-22,Thermal Coal,South Africa,export,81.05,3.118,3.299,
+2024-04-22,Thermal Coal,Colombia,export,81.05,2.032,1.487,
+2024-04-22,Thermal Coal,Russia,export,81.05,4.988,6.409,
+2024-04-22,Thermal Coal,USA,export,81.05,2.484,2.822,
+2024-04-22,Thermal Coal,China,import,81.05,8.143,,94.3
+2024-04-22,Thermal Coal,India,import,81.05,6.013,,107.1
+2024-04-22,Thermal Coal,Japan,import,81.05,3.291,,88.7
+2024-04-22,Thermal Coal,South Korea,import,81.05,2.403,,90.0
+2024-04-22,Thermal Coal,Netherlands,import,81.05,1.579,,102.6
+2024-04-29,Thermal Coal,Australia,export,79.11,9.556,7.45,
+2024-04-29,Thermal Coal,Indonesia,export,79.11,11.169,12.115,
+2024-04-29,Thermal Coal,South Africa,export,79.11,3.118,3.255,
+2024-04-29,Thermal Coal,Colombia,export,79.11,2.032,1.559,
+2024-04-29,Thermal Coal,Russia,export,79.11,4.988,6.419,
+2024-04-29,Thermal Coal,USA,export,79.11,2.484,2.646,
+2024-04-29,Thermal Coal,China,import,79.11,8.143,,100.3
+2024-04-29,Thermal Coal,India,import,79.11,6.013,,103.4
+2024-04-29,Thermal Coal,Japan,import,79.11,3.291,,85.9
+2024-04-29,Thermal Coal,South Korea,import,79.11,2.403,,90.7
+2024-04-29,Thermal Coal,Netherlands,import,79.11,1.579,,107.8
+2024-05-06,Thermal Coal,Australia,export,96.1,9.556,7.688,
+2024-05-06,Thermal Coal,Indonesia,export,96.1,11.169,11.134,
+2024-05-06,Thermal Coal,South Africa,export,96.1,3.118,3.052,
+2024-05-06,Thermal Coal,Colombia,export,96.1,2.032,1.736,
+2024-05-06,Thermal Coal,Russia,export,96.1,4.988,6.293,
+2024-05-06,Thermal Coal,USA,export,96.1,2.484,2.611,
+2024-05-06,Thermal Coal,China,import,96.1,8.143,,100.0
+2024-05-06,Thermal Coal,India,import,96.1,6.013,,103.4
+2024-05-06,Thermal Coal,Japan,import,96.1,3.291,,94.1
+2024-05-06,Thermal Coal,South Korea,import,96.1,2.403,,91.5
+2024-05-06,Thermal Coal,Netherlands,import,96.1,1.579,,107.7
+2024-05-13,Thermal Coal,Australia,export,82.27,9.556,8.282,
+2024-05-13,Thermal Coal,Indonesia,export,82.27,11.169,11.502,
+2024-05-13,Thermal Coal,South Africa,export,82.27,3.118,3.1,
+2024-05-13,Thermal Coal,Colombia,export,82.27,2.032,1.865,
+2024-05-13,Thermal Coal,Russia,export,82.27,4.988,6.248,
+2024-05-13,Thermal Coal,USA,export,82.27,2.484,2.635,
+2024-05-13,Thermal Coal,China,import,82.27,8.143,,95.3
+2024-05-13,Thermal Coal,India,import,82.27,6.013,,110.1
+2024-05-13,Thermal Coal,Japan,import,82.27,3.291,,98.1
+2024-05-13,Thermal Coal,South Korea,import,82.27,2.403,,91.3
+2024-05-13,Thermal Coal,Netherlands,import,82.27,1.579,,107.8
+2024-05-20,Thermal Coal,Australia,export,101.96,9.556,8.782,
+2024-05-20,Thermal Coal,Indonesia,export,101.96,11.169,12.011,
+2024-05-20,Thermal Coal,South Africa,export,101.96,3.118,2.897,
+2024-05-20,Thermal Coal,Colombia,export,101.96,2.032,2.021,
+2024-05-20,Thermal Coal,Russia,export,101.96,4.988,5.978,
+2024-05-20,Thermal Coal,USA,export,101.96,2.484,2.701,
+2024-05-20,Thermal Coal,China,import,101.96,8.143,,95.0
+2024-05-20,Thermal Coal,India,import,101.96,6.013,,112.1
+2024-05-20,Thermal Coal,Japan,import,101.96,3.291,,103.5
+2024-05-20,Thermal Coal,South Korea,import,101.96,2.403,,102.7
+2024-05-20,Thermal Coal,Netherlands,import,101.96,1.579,,109.7
+2024-05-27,Thermal Coal,Australia,export,80.39,9.556,9.411,
+2024-05-27,Thermal Coal,Indonesia,export,80.39,11.169,11.678,
+2024-05-27,Thermal Coal,South Africa,export,80.39,3.118,3.37,
+2024-05-27,Thermal Coal,Colombia,export,80.39,2.032,1.948,
+2024-05-27,Thermal Coal,Russia,export,80.39,4.988,5.909,
+2024-05-27,Thermal Coal,USA,export,80.39,2.484,2.584,
+2024-05-27,Thermal Coal,China,import,80.39,8.143,,93.2
+2024-05-27,Thermal Coal,India,import,80.39,6.013,,107.7
+2024-05-27,Thermal Coal,Japan,import,80.39,3.291,,106.9
+2024-05-27,Thermal Coal,South Korea,import,80.39,2.403,,100.9
+2024-05-27,Thermal Coal,Netherlands,import,80.39,1.579,,109.2
+2024-06-03,Thermal Coal,Australia,export,83.51,9.556,9.592,
+2024-06-03,Thermal Coal,Indonesia,export,83.51,11.169,11.474,
+2024-06-03,Thermal Coal,South Africa,export,83.51,3.118,3.374,
+2024-06-03,Thermal Coal,Colombia,export,83.51,2.032,1.962,
+2024-06-03,Thermal Coal,Russia,export,83.51,4.988,5.85,
+2024-06-03,Thermal Coal,USA,export,83.51,2.484,2.678,
+2024-06-03,Thermal Coal,China,import,83.51,8.143,,87.8
+2024-06-03,Thermal Coal,India,import,83.51,6.013,,107.8
+2024-06-03,Thermal Coal,Japan,import,83.51,3.291,,115.0
+2024-06-03,Thermal Coal,South Korea,import,83.51,2.403,,102.5
+2024-06-03,Thermal Coal,Netherlands,import,83.51,1.579,,101.4
+2024-06-10,Thermal Coal,Australia,export,75.09,9.556,9.77,
+2024-06-10,Thermal Coal,Indonesia,export,75.09,11.169,12.004,
+2024-06-10,Thermal Coal,South Africa,export,75.09,3.118,3.541,
+2024-06-10,Thermal Coal,Colombia,export,75.09,2.032,2.043,
+2024-06-10,Thermal Coal,Russia,export,75.09,4.988,5.644,
+2024-06-10,Thermal Coal,USA,export,75.09,2.484,2.794,
+2024-06-10,Thermal Coal,China,import,75.09,8.143,,91.4
+2024-06-10,Thermal Coal,India,import,75.09,6.013,,108.4
+2024-06-10,Thermal Coal,Japan,import,75.09,3.291,,107.9
+2024-06-10,Thermal Coal,South Korea,import,75.09,2.403,,109.2
+2024-06-10,Thermal Coal,Netherlands,import,75.09,1.579,,108.3
+2024-06-17,Thermal Coal,Australia,export,87.82,9.556,9.947,
+2024-06-17,Thermal Coal,Indonesia,export,87.82,11.169,12.338,
+2024-06-17,Thermal Coal,South Africa,export,87.82,3.118,3.637,
+2024-06-17,Thermal Coal,Colombia,export,87.82,2.032,2.031,
+2024-06-17,Thermal Coal,Russia,export,87.82,4.988,5.285,
+2024-06-17,Thermal Coal,USA,export,87.82,2.484,2.699,
+2024-06-17,Thermal Coal,China,import,87.82,8.143,,91.7
+2024-06-17,Thermal Coal,India,import,87.82,6.013,,106.8
+2024-06-17,Thermal Coal,Japan,import,87.82,3.291,,114.1
+2024-06-17,Thermal Coal,South Korea,import,87.82,2.403,,107.0
+2024-06-17,Thermal Coal,Netherlands,import,87.82,1.579,,108.9
+2024-06-24,Thermal Coal,Australia,export,89.28,9.556,10.418,
+2024-06-24,Thermal Coal,Indonesia,export,89.28,11.169,12.577,
+2024-06-24,Thermal Coal,South Africa,export,89.28,3.118,3.406,
+2024-06-24,Thermal Coal,Colombia,export,89.28,2.032,1.868,
+2024-06-24,Thermal Coal,Russia,export,89.28,4.988,5.073,
+2024-06-24,Thermal Coal,USA,export,89.28,2.484,2.735,
+2024-06-24,Thermal Coal,China,import,89.28,8.143,,91.1
+2024-06-24,Thermal Coal,India,import,89.28,6.013,,101.8
+2024-06-24,Thermal Coal,Japan,import,89.28,3.291,,117.1
+2024-06-24,Thermal Coal,South Korea,import,89.28,2.403,,110.2
+2024-06-24,Thermal Coal,Netherlands,import,89.28,1.579,,104.0
+2024-07-01,Thermal Coal,Australia,export,94.14,9.556,10.053,
+2024-07-01,Thermal Coal,Indonesia,export,94.14,11.169,11.622,
+2024-07-01,Thermal Coal,South Africa,export,94.14,3.118,3.202,
+2024-07-01,Thermal Coal,Colombia,export,94.14,2.032,1.801,
+2024-07-01,Thermal Coal,Russia,export,94.14,4.988,5.316,
+2024-07-01,Thermal Coal,USA,export,94.14,2.484,2.623,
+2024-07-01,Thermal Coal,China,import,94.14,8.143,,94.1
+2024-07-01,Thermal Coal,India,import,94.14,6.013,,99.4
+2024-07-01,Thermal Coal,Japan,import,94.14,3.291,,115.4
+2024-07-01,Thermal Coal,South Korea,import,94.14,2.403,,103.0
+2024-07-01,Thermal Coal,Netherlands,import,94.14,1.579,,96.4
+2024-07-08,Thermal Coal,Australia,export,80.9,9.556,10.662,
+2024-07-08,Thermal Coal,Indonesia,export,80.9,11.169,11.866,
+2024-07-08,Thermal Coal,South Africa,export,80.9,3.118,3.58,
+2024-07-08,Thermal Coal,Colombia,export,80.9,2.032,1.864,
+2024-07-08,Thermal Coal,Russia,export,80.9,4.988,5.05,
+2024-07-08,Thermal Coal,USA,export,80.9,2.484,2.457,
+2024-07-08,Thermal Coal,China,import,80.9,8.143,,96.0
+2024-07-08,Thermal Coal,India,import,80.9,6.013,,93.5
+2024-07-08,Thermal Coal,Japan,import,80.9,3.291,,109.1
+2024-07-08,Thermal Coal,South Korea,import,80.9,2.403,,105.1
+2024-07-08,Thermal Coal,Netherlands,import,80.9,1.579,,94.0
+2024-07-15,Thermal Coal,Australia,export,88.8,9.556,10.157,
+2024-07-15,Thermal Coal,Indonesia,export,88.8,11.169,11.781,
+2024-07-15,Thermal Coal,South Africa,export,88.8,3.118,3.535,
+2024-07-15,Thermal Coal,Colombia,export,88.8,2.032,1.892,
+2024-07-15,Thermal Coal,Russia,export,88.8,4.988,4.904,
+2024-07-15,Thermal Coal,USA,export,88.8,2.484,2.478,
+2024-07-15,Thermal Coal,China,import,88.8,8.143,,94.4
+2024-07-15,Thermal Coal,India,import,88.8,6.013,,96.0
+2024-07-15,Thermal Coal,Japan,import,88.8,3.291,,109.9
+2024-07-15,Thermal Coal,South Korea,import,88.8,2.403,,108.1
+2024-07-15,Thermal Coal,Netherlands,import,88.8,1.579,,96.2
+2024-07-22,Thermal Coal,Australia,export,83.1,9.556,10.354,
+2024-07-22,Thermal Coal,Indonesia,export,83.1,11.169,11.757,
+2024-07-22,Thermal Coal,South Africa,export,83.1,3.118,3.677,
+2024-07-22,Thermal Coal,Colombia,export,83.1,2.032,1.856,
+2024-07-22,Thermal Coal,Russia,export,83.1,4.988,4.802,
+2024-07-22,Thermal Coal,USA,export,83.1,2.484,2.588,
+2024-07-22,Thermal Coal,China,import,83.1,8.143,,96.8
+2024-07-22,Thermal Coal,India,import,83.1,6.013,,97.1
+2024-07-22,Thermal Coal,Japan,import,83.1,3.291,,100.0
+2024-07-22,Thermal Coal,South Korea,import,83.1,2.403,,104.8
+2024-07-22,Thermal Coal,Netherlands,import,83.1,1.579,,94.2
+2024-07-29,Thermal Coal,Australia,export,98.6,9.556,9.974,
+2024-07-29,Thermal Coal,Indonesia,export,98.6,11.169,11.771,
+2024-07-29,Thermal Coal,South Africa,export,98.6,3.118,3.786,
+2024-07-29,Thermal Coal,Colombia,export,98.6,2.032,1.859,
+2024-07-29,Thermal Coal,Russia,export,98.6,4.988,4.86,
+2024-07-29,Thermal Coal,USA,export,98.6,2.484,2.579,
+2024-07-29,Thermal Coal,China,import,98.6,8.143,,110.0
+2024-07-29,Thermal Coal,India,import,98.6,6.013,,104.5
+2024-07-29,Thermal Coal,Japan,import,98.6,3.291,,103.9
+2024-07-29,Thermal Coal,South Korea,import,98.6,2.403,,106.9
+2024-07-29,Thermal Coal,Netherlands,import,98.6,1.579,,97.2
+2024-08-05,Thermal Coal,Australia,export,99.18,9.556,9.565,
+2024-08-05,Thermal Coal,Indonesia,export,99.18,11.169,11.687,
+2024-08-05,Thermal Coal,South Africa,export,99.18,3.118,3.785,
+2024-08-05,Thermal Coal,Colombia,export,99.18,2.032,2.046,
+2024-08-05,Thermal Coal,Russia,export,99.18,4.988,4.892,
+2024-08-05,Thermal Coal,USA,export,99.18,2.484,2.378,
+2024-08-05,Thermal Coal,China,import,99.18,8.143,,106.6
+2024-08-05,Thermal Coal,India,import,99.18,6.013,,99.0
+2024-08-05,Thermal Coal,Japan,import,99.18,3.291,,103.0
+2024-08-05,Thermal Coal,South Korea,import,99.18,2.403,,106.6
+2024-08-05,Thermal Coal,Netherlands,import,99.18,1.579,,92.5
+2024-08-12,Thermal Coal,Australia,export,112.76,9.556,10.362,
+2024-08-12,Thermal Coal,Indonesia,export,112.76,11.169,12.079,
+2024-08-12,Thermal Coal,South Africa,export,112.76,3.118,3.965,
+2024-08-12,Thermal Coal,Colombia,export,112.76,2.032,2.144,
+2024-08-12,Thermal Coal,Russia,export,112.76,4.988,4.387,
+2024-08-12,Thermal Coal,USA,export,112.76,2.484,2.268,
+2024-08-12,Thermal Coal,China,import,112.76,8.143,,109.8
+2024-08-12,Thermal Coal,India,import,112.76,6.013,,96.2
+2024-08-12,Thermal Coal,Japan,import,112.76,3.291,,101.9
+2024-08-12,Thermal Coal,South Korea,import,112.76,2.403,,102.9
+2024-08-12,Thermal Coal,Netherlands,import,112.76,1.579,,94.7
+2024-08-19,Thermal Coal,Australia,export,108.08,9.556,10.522,
+2024-08-19,Thermal Coal,Indonesia,export,108.08,11.169,12.673,
+2024-08-19,Thermal Coal,South Africa,export,108.08,3.118,3.997,
+2024-08-19,Thermal Coal,Colombia,export,108.08,2.032,2.259,
+2024-08-19,Thermal Coal,Russia,export,108.08,4.988,4.137,
+2024-08-19,Thermal Coal,USA,export,108.08,2.484,2.412,
+2024-08-19,Thermal Coal,China,import,108.08,8.143,,111.2
+2024-08-19,Thermal Coal,India,import,108.08,6.013,,92.6
+2024-08-19,Thermal Coal,Japan,import,108.08,3.291,,105.6
+2024-08-19,Thermal Coal,South Korea,import,108.08,2.403,,106.7
+2024-08-19,Thermal Coal,Netherlands,import,108.08,1.579,,94.2
+2024-08-26,Thermal Coal,Australia,export,128.58,9.556,10.944,
+2024-08-26,Thermal Coal,Indonesia,export,128.58,11.169,12.842,
+2024-08-26,Thermal Coal,South Africa,export,128.58,3.118,3.586,
+2024-08-26,Thermal Coal,Colombia,export,128.58,2.032,2.237,
+2024-08-26,Thermal Coal,Russia,export,128.58,4.988,4.001,
+2024-08-26,Thermal Coal,USA,export,128.58,2.484,2.368,
+2024-08-26,Thermal Coal,China,import,128.58,8.143,,108.1
+2024-08-26,Thermal Coal,India,import,128.58,6.013,,93.9
+2024-08-26,Thermal Coal,Japan,import,128.58,3.291,,103.5
+2024-08-26,Thermal Coal,South Korea,import,128.58,2.403,,109.8
+2024-08-26,Thermal Coal,Netherlands,import,128.58,1.579,,92.6
+2024-09-02,Thermal Coal,Australia,export,141.2,9.556,10.586,
+2024-09-02,Thermal Coal,Indonesia,export,141.2,11.169,12.599,
+2024-09-02,Thermal Coal,South Africa,export,141.2,3.118,3.705,
+2024-09-02,Thermal Coal,Colombia,export,141.2,2.032,1.986,
+2024-09-02,Thermal Coal,Russia,export,141.2,4.988,3.829,
+2024-09-02,Thermal Coal,USA,export,141.2,2.484,2.632,
+2024-09-02,Thermal Coal,China,import,141.2,8.143,,106.1
+2024-09-02,Thermal Coal,India,import,141.2,6.013,,87.5
+2024-09-02,Thermal Coal,Japan,import,141.2,3.291,,98.4
+2024-09-02,Thermal Coal,South Korea,import,141.2,2.403,,110.3
+2024-09-02,Thermal Coal,Netherlands,import,141.2,1.579,,85.9
+2024-09-09,Thermal Coal,Australia,export,127.0,9.556,8.996,
+2024-09-09,Thermal Coal,Indonesia,export,127.0,11.169,13.107,
+2024-09-09,Thermal Coal,South Africa,export,127.0,3.118,3.452,
+2024-09-09,Thermal Coal,Colombia,export,127.0,2.032,2.097,
+2024-09-09,Thermal Coal,Russia,export,127.0,4.988,3.991,
+2024-09-09,Thermal Coal,USA,export,127.0,2.484,2.511,
+2024-09-09,Thermal Coal,China,import,127.0,8.143,,99.8
+2024-09-09,Thermal Coal,India,import,127.0,6.013,,88.6
+2024-09-09,Thermal Coal,Japan,import,127.0,3.291,,104.4
+2024-09-09,Thermal Coal,South Korea,import,127.0,2.403,,112.0
+2024-09-09,Thermal Coal,Netherlands,import,127.0,1.579,,83.1
+2024-09-16,Thermal Coal,Australia,export,131.94,9.556,9.546,
+2024-09-16,Thermal Coal,Indonesia,export,131.94,11.169,12.488,
+2024-09-16,Thermal Coal,South Africa,export,131.94,3.118,3.361,
+2024-09-16,Thermal Coal,Colombia,export,131.94,2.032,1.99,
+2024-09-16,Thermal Coal,Russia,export,131.94,4.988,3.808,
+2024-09-16,Thermal Coal,USA,export,131.94,2.484,2.406,
+2024-09-16,Thermal Coal,China,import,131.94,8.143,,96.4
+2024-09-16,Thermal Coal,India,import,131.94,6.013,,87.0
+2024-09-16,Thermal Coal,Japan,import,131.94,3.291,,104.5
+2024-09-16,Thermal Coal,South Korea,import,131.94,2.403,,108.1
+2024-09-16,Thermal Coal,Netherlands,import,131.94,1.579,,85.3
+2024-09-23,Thermal Coal,Australia,export,132.67,9.556,9.561,
+2024-09-23,Thermal Coal,Indonesia,export,132.67,11.169,12.023,
+2024-09-23,Thermal Coal,South Africa,export,132.67,3.118,3.116,
+2024-09-23,Thermal Coal,Colombia,export,132.67,2.032,1.932,
+2024-09-23,Thermal Coal,Russia,export,132.67,4.988,3.337,
+2024-09-23,Thermal Coal,USA,export,132.67,2.484,2.33,
+2024-09-23,Thermal Coal,China,import,132.67,8.143,,96.8
+2024-09-23,Thermal Coal,India,import,132.67,6.013,,87.6
+2024-09-23,Thermal Coal,Japan,import,132.67,3.291,,104.5
+2024-09-23,Thermal Coal,South Korea,import,132.67,2.403,,109.3
+2024-09-23,Thermal Coal,Netherlands,import,132.67,1.579,,82.4
+2024-09-30,Thermal Coal,Australia,export,126.62,9.556,8.635,
+2024-09-30,Thermal Coal,Indonesia,export,126.62,11.169,12.079,
+2024-09-30,Thermal Coal,South Africa,export,126.62,3.118,3.121,
+2024-09-30,Thermal Coal,Colombia,export,126.62,2.032,2.032,
+2024-09-30,Thermal Coal,Russia,export,126.62,4.988,3.56,
+2024-09-30,Thermal Coal,USA,export,126.62,2.484,2.341,
+2024-09-30,Thermal Coal,China,import,126.62,8.143,,93.7
+2024-09-30,Thermal Coal,India,import,126.62,6.013,,92.3
+2024-09-30,Thermal Coal,Japan,import,126.62,3.291,,105.1
+2024-09-30,Thermal Coal,South Korea,import,126.62,2.403,,96.3
+2024-09-30,Thermal Coal,Netherlands,import,126.62,1.579,,81.6
+2024-10-07,Thermal Coal,Australia,export,123.0,9.556,9.02,
+2024-10-07,Thermal Coal,Indonesia,export,123.0,11.169,11.88,
+2024-10-07,Thermal Coal,South Africa,export,123.0,3.118,2.942,
+2024-10-07,Thermal Coal,Colombia,export,123.0,2.032,1.96,
+2024-10-07,Thermal Coal,Russia,export,123.0,4.988,3.497,
+2024-10-07,Thermal Coal,USA,export,123.0,2.484,2.324,
+2024-10-07,Thermal Coal,China,import,123.0,8.143,,86.6
+2024-10-07,Thermal Coal,India,import,123.0,6.013,,95.2
+2024-10-07,Thermal Coal,Japan,import,123.0,3.291,,104.9
+2024-10-07,Thermal Coal,South Korea,import,123.0,2.403,,102.6
+2024-10-07,Thermal Coal,Netherlands,import,123.0,1.579,,89.9
+2024-10-14,Thermal Coal,Australia,export,133.08,9.556,9.45,
+2024-10-14,Thermal Coal,Indonesia,export,133.08,11.169,10.702,
+2024-10-14,Thermal Coal,South Africa,export,133.08,3.118,3.019,
+2024-10-14,Thermal Coal,Colombia,export,133.08,2.032,1.931,
+2024-10-14,Thermal Coal,Russia,export,133.08,4.988,3.548,
+2024-10-14,Thermal Coal,USA,export,133.08,2.484,2.423,
+2024-10-14,Thermal Coal,China,import,133.08,8.143,,84.3
+2024-10-14,Thermal Coal,India,import,133.08,6.013,,92.2
+2024-10-14,Thermal Coal,Japan,import,133.08,3.291,,110.7
+2024-10-14,Thermal Coal,South Korea,import,133.08,2.403,,97.2
+2024-10-14,Thermal Coal,Netherlands,import,133.08,1.579,,88.8
+2024-10-21,Thermal Coal,Australia,export,143.66,9.556,10.007,
+2024-10-21,Thermal Coal,Indonesia,export,143.66,11.169,11.958,
+2024-10-21,Thermal Coal,South Africa,export,143.66,3.118,2.963,
+2024-10-21,Thermal Coal,Colombia,export,143.66,2.032,2.174,
+2024-10-21,Thermal Coal,Russia,export,143.66,4.988,3.469,
+2024-10-21,Thermal Coal,USA,export,143.66,2.484,2.598,
+2024-10-21,Thermal Coal,China,import,143.66,8.143,,87.5
+2024-10-21,Thermal Coal,India,import,143.66,6.013,,97.6
+2024-10-21,Thermal Coal,Japan,import,143.66,3.291,,114.3
+2024-10-21,Thermal Coal,South Korea,import,143.66,2.403,,96.3
+2024-10-21,Thermal Coal,Netherlands,import,143.66,1.579,,84.4
+2024-10-28,Thermal Coal,Australia,export,150.46,9.556,9.91,
+2024-10-28,Thermal Coal,Indonesia,export,150.46,11.169,11.376,
+2024-10-28,Thermal Coal,South Africa,export,150.46,3.118,3.016,
+2024-10-28,Thermal Coal,Colombia,export,150.46,2.032,2.121,
+2024-10-28,Thermal Coal,Russia,export,150.46,4.988,3.115,
+2024-10-28,Thermal Coal,USA,export,150.46,2.484,2.402,
+2024-10-28,Thermal Coal,China,import,150.46,8.143,,84.7
+2024-10-28,Thermal Coal,India,import,150.46,6.013,,102.1
+2024-10-28,Thermal Coal,Japan,import,150.46,3.291,,114.3
+2024-10-28,Thermal Coal,South Korea,import,150.46,2.403,,95.5
+2024-10-28,Thermal Coal,Netherlands,import,150.46,1.579,,88.0
+2024-11-04,Thermal Coal,Australia,export,155.08,9.556,9.193,
+2024-11-04,Thermal Coal,Indonesia,export,155.08,11.169,11.216,
+2024-11-04,Thermal Coal,South Africa,export,155.08,3.118,3.004,
+2024-11-04,Thermal Coal,Colombia,export,155.08,2.032,2.109,
+2024-11-04,Thermal Coal,Russia,export,155.08,4.988,3.143,
+2024-11-04,Thermal Coal,USA,export,155.08,2.484,2.262,
+2024-11-04,Thermal Coal,China,import,155.08,8.143,,86.2
+2024-11-04,Thermal Coal,India,import,155.08,6.013,,100.1
+2024-11-04,Thermal Coal,Japan,import,155.08,3.291,,110.5
+2024-11-04,Thermal Coal,South Korea,import,155.08,2.403,,95.6
+2024-11-04,Thermal Coal,Netherlands,import,155.08,1.579,,90.8
+2024-11-11,Thermal Coal,Australia,export,155.43,9.556,9.232,
+2024-11-11,Thermal Coal,Indonesia,export,155.43,11.169,11.029,
+2024-11-11,Thermal Coal,South Africa,export,155.43,3.118,3.157,
+2024-11-11,Thermal Coal,Colombia,export,155.43,2.032,2.302,
+2024-11-11,Thermal Coal,Russia,export,155.43,4.988,3.086,
+2024-11-11,Thermal Coal,USA,export,155.43,2.484,2.244,
+2024-11-11,Thermal Coal,China,import,155.43,8.143,,90.1
+2024-11-11,Thermal Coal,India,import,155.43,6.013,,103.3
+2024-11-11,Thermal Coal,Japan,import,155.43,3.291,,108.5
+2024-11-11,Thermal Coal,South Korea,import,155.43,2.403,,92.0
+2024-11-11,Thermal Coal,Netherlands,import,155.43,1.579,,85.0
+2024-11-18,Thermal Coal,Australia,export,164.85,9.556,9.668,
+2024-11-18,Thermal Coal,Indonesia,export,164.85,11.169,10.648,
+2024-11-18,Thermal Coal,South Africa,export,164.85,3.118,3.049,
+2024-11-18,Thermal Coal,Colombia,export,164.85,2.032,2.323,
+2024-11-18,Thermal Coal,Russia,export,164.85,4.988,3.292,
+2024-11-18,Thermal Coal,USA,export,164.85,2.484,2.38,
+2024-11-18,Thermal Coal,China,import,164.85,8.143,,89.4
+2024-11-18,Thermal Coal,India,import,164.85,6.013,,103.2
+2024-11-18,Thermal Coal,Japan,import,164.85,3.291,,112.3
+2024-11-18,Thermal Coal,South Korea,import,164.85,2.403,,95.7
+2024-11-18,Thermal Coal,Netherlands,import,164.85,1.579,,86.6
+2024-11-25,Thermal Coal,Australia,export,164.09,9.556,10.394,
+2024-11-25,Thermal Coal,Indonesia,export,164.09,11.169,9.808,
+2024-11-25,Thermal Coal,South Africa,export,164.09,3.118,3.134,
+2024-11-25,Thermal Coal,Colombia,export,164.09,2.032,2.222,
+2024-11-25,Thermal Coal,Russia,export,164.09,4.988,3.058,
+2024-11-25,Thermal Coal,USA,export,164.09,2.484,2.258,
+2024-11-25,Thermal Coal,China,import,164.09,8.143,,92.6
+2024-11-25,Thermal Coal,India,import,164.09,6.013,,107.9
+2024-11-25,Thermal Coal,Japan,import,164.09,3.291,,110.6
+2024-11-25,Thermal Coal,South Korea,import,164.09,2.403,,100.4
+2024-11-25,Thermal Coal,Netherlands,import,164.09,1.579,,89.3
+2024-12-02,Thermal Coal,Australia,export,173.07,9.556,10.399,
+2024-12-02,Thermal Coal,Indonesia,export,173.07,11.169,10.309,
+2024-12-02,Thermal Coal,South Africa,export,173.07,3.118,3.238,
+2024-12-02,Thermal Coal,Colombia,export,173.07,2.032,2.318,
+2024-12-02,Thermal Coal,Russia,export,173.07,4.988,3.469,
+2024-12-02,Thermal Coal,USA,export,173.07,2.484,2.431,
+2024-12-02,Thermal Coal,China,import,173.07,8.143,,95.5
+2024-12-02,Thermal Coal,India,import,173.07,6.013,,103.2
+2024-12-02,Thermal Coal,Japan,import,173.07,3.291,,114.7
+2024-12-02,Thermal Coal,South Korea,import,173.07,2.403,,97.5
+2024-12-02,Thermal Coal,Netherlands,import,173.07,1.579,,87.9
+2024-12-09,Thermal Coal,Australia,export,163.01,9.556,10.63,
+2024-12-09,Thermal Coal,Indonesia,export,163.01,11.169,10.55,
+2024-12-09,Thermal Coal,South Africa,export,163.01,3.118,3.202,
+2024-12-09,Thermal Coal,Colombia,export,163.01,2.032,2.177,
+2024-12-09,Thermal Coal,Russia,export,163.01,4.988,3.901,
+2024-12-09,Thermal Coal,USA,export,163.01,2.484,2.508,
+2024-12-09,Thermal Coal,China,import,163.01,8.143,,93.2
+2024-12-09,Thermal Coal,India,import,163.01,6.013,,107.3
+2024-12-09,Thermal Coal,Japan,import,163.01,3.291,,116.5
+2024-12-09,Thermal Coal,South Korea,import,163.01,2.403,,99.2
+2024-12-09,Thermal Coal,Netherlands,import,163.01,1.579,,94.5
+2024-12-16,Thermal Coal,Australia,export,163.03,9.556,10.554,
+2024-12-16,Thermal Coal,Indonesia,export,163.03,11.169,10.874,
+2024-12-16,Thermal Coal,South Africa,export,163.03,3.118,3.112,
+2024-12-16,Thermal Coal,Colombia,export,163.03,2.032,2.082,
+2024-12-16,Thermal Coal,Russia,export,163.03,4.988,4.099,
+2024-12-16,Thermal Coal,USA,export,163.03,2.484,2.367,
+2024-12-16,Thermal Coal,China,import,163.03,8.143,,96.4
+2024-12-16,Thermal Coal,India,import,163.03,6.013,,109.5
+2024-12-16,Thermal Coal,Japan,import,163.03,3.291,,112.0
+2024-12-16,Thermal Coal,South Korea,import,163.03,2.403,,97.9
+2024-12-16,Thermal Coal,Netherlands,import,163.03,1.579,,96.2
+2024-12-23,Thermal Coal,Australia,export,140.59,9.556,11.183,
+2024-12-23,Thermal Coal,Indonesia,export,140.59,11.169,10.647,
+2024-12-23,Thermal Coal,South Africa,export,140.59,3.118,2.942,
+2024-12-23,Thermal Coal,Colombia,export,140.59,2.032,2.029,
+2024-12-23,Thermal Coal,Russia,export,140.59,4.988,4.205,
+2024-12-23,Thermal Coal,USA,export,140.59,2.484,2.488,
+2024-12-23,Thermal Coal,China,import,140.59,8.143,,96.0
+2024-12-23,Thermal Coal,India,import,140.59,6.013,,116.3
+2024-12-23,Thermal Coal,Japan,import,140.59,3.291,,107.2
+2024-12-23,Thermal Coal,South Korea,import,140.59,2.403,,98.0
+2024-12-23,Thermal Coal,Netherlands,import,140.59,1.579,,91.0
+2024-12-30,Thermal Coal,Australia,export,139.77,9.556,11.872,
+2024-12-30,Thermal Coal,Indonesia,export,139.77,11.169,10.938,
+2024-12-30,Thermal Coal,South Africa,export,139.77,3.118,3.104,
+2024-12-30,Thermal Coal,Colombia,export,139.77,2.032,1.937,
+2024-12-30,Thermal Coal,Russia,export,139.77,4.988,3.904,
+2024-12-30,Thermal Coal,USA,export,139.77,2.484,2.45,
+2024-12-30,Thermal Coal,China,import,139.77,8.143,,90.0
+2024-12-30,Thermal Coal,India,import,139.77,6.013,,114.0
+2024-12-30,Thermal Coal,Japan,import,139.77,3.291,,114.9
+2024-12-30,Thermal Coal,South Korea,import,139.77,2.403,,91.7
+2024-12-30,Thermal Coal,Netherlands,import,139.77,1.579,,90.4
+2023-01-02,Coking Coal,Australia,export,220.0,9.056,10.5,
+2023-01-02,Coking Coal,Indonesia,export,220.0,12.043,12.0,
+2023-01-02,Coking Coal,South Africa,export,220.0,2.958,3.3,
+2023-01-02,Coking Coal,Colombia,export,220.0,1.947,2.2,
+2023-01-02,Coking Coal,Russia,export,220.0,4.527,5.0,
+2023-01-02,Coking Coal,USA,export,220.0,2.563,2.8,
+2023-01-02,Coking Coal,China,import,220.0,9.49,,100.0
+2023-01-02,Coking Coal,India,import,220.0,5.3,,100.0
+2023-01-02,Coking Coal,Japan,import,220.0,2.775,,100.0
+2023-01-02,Coking Coal,South Korea,import,220.0,2.583,,100.0
+2023-01-02,Coking Coal,Netherlands,import,220.0,1.372,,100.0
+2023-01-09,Coking Coal,Australia,export,201.46,9.056,10.305,
+2023-01-09,Coking Coal,Indonesia,export,201.46,12.043,12.35,
+2023-01-09,Coking Coal,South Africa,export,201.46,2.958,3.39,
+2023-01-09,Coking Coal,Colombia,export,201.46,1.947,2.343,
+2023-01-09,Coking Coal,Russia,export,201.46,4.527,5.016,
+2023-01-09,Coking Coal,USA,export,201.46,2.563,2.479,
+2023-01-09,Coking Coal,China,import,201.46,9.49,,99.0
+2023-01-09,Coking Coal,India,import,201.46,5.3,,99.1
+2023-01-09,Coking Coal,Japan,import,201.46,2.775,,98.3
+2023-01-09,Coking Coal,South Korea,import,201.46,2.583,,97.0
+2023-01-09,Coking Coal,Netherlands,import,201.46,1.372,,97.8
+2023-01-16,Coking Coal,Australia,export,200.96,9.056,10.565,
+2023-01-16,Coking Coal,Indonesia,export,200.96,12.043,11.933,
+2023-01-16,Coking Coal,South Africa,export,200.96,2.958,3.226,
+2023-01-16,Coking Coal,Colombia,export,200.96,1.947,2.201,
+2023-01-16,Coking Coal,Russia,export,200.96,4.527,5.139,
+2023-01-16,Coking Coal,USA,export,200.96,2.563,2.576,
+2023-01-16,Coking Coal,China,import,200.96,9.49,,107.5
+2023-01-16,Coking Coal,India,import,200.96,5.3,,94.2
+2023-01-16,Coking Coal,Japan,import,200.96,2.775,,102.7
+2023-01-16,Coking Coal,South Korea,import,200.96,2.583,,95.6
+2023-01-16,Coking Coal,Netherlands,import,200.96,1.372,,101.6
+2023-01-23,Coking Coal,Australia,export,193.62,9.056,10.38,
+2023-01-23,Coking Coal,Indonesia,export,193.62,12.043,11.329,
+2023-01-23,Coking Coal,South Africa,export,193.62,2.958,3.263,
+2023-01-23,Coking Coal,Colombia,export,193.62,1.947,2.101,
+2023-01-23,Coking Coal,Russia,export,193.62,4.527,5.636,
+2023-01-23,Coking Coal,USA,export,193.62,2.563,2.564,
+2023-01-23,Coking Coal,China,import,193.62,9.49,,94.5
+2023-01-23,Coking Coal,India,import,193.62,5.3,,96.9
+2023-01-23,Coking Coal,Japan,import,193.62,2.775,,100.2
+2023-01-23,Coking Coal,South Korea,import,193.62,2.583,,88.5
+2023-01-23,Coking Coal,Netherlands,import,193.62,1.372,,99.3
+2023-01-30,Coking Coal,Australia,export,157.69,9.056,10.459,
+2023-01-30,Coking Coal,Indonesia,export,157.69,12.043,11.134,
+2023-01-30,Coking Coal,South Africa,export,157.69,2.958,3.306,
+2023-01-30,Coking Coal,Colombia,export,157.69,1.947,1.978,
+2023-01-30,Coking Coal,Russia,export,157.69,4.527,5.826,
+2023-01-30,Coking Coal,USA,export,157.69,2.563,2.573,
+2023-01-30,Coking Coal,China,import,157.69,9.49,,101.5
+2023-01-30,Coking Coal,India,import,157.69,5.3,,95.5
+2023-01-30,Coking Coal,Japan,import,157.69,2.775,,99.2
+2023-01-30,Coking Coal,South Korea,import,157.69,2.583,,86.9
+2023-01-30,Coking Coal,Netherlands,import,157.69,1.372,,100.8
+2023-02-06,Coking Coal,Australia,export,156.68,9.056,9.841,
+2023-02-06,Coking Coal,Indonesia,export,156.68,12.043,10.584,
+2023-02-06,Coking Coal,South Africa,export,156.68,2.958,3.22,
+2023-02-06,Coking Coal,Colombia,export,156.68,1.947,1.891,
+2023-02-06,Coking Coal,Russia,export,156.68,4.527,5.668,
+2023-02-06,Coking Coal,USA,export,156.68,2.563,2.759,
+2023-02-06,Coking Coal,China,import,156.68,9.49,,102.1
+2023-02-06,Coking Coal,India,import,156.68,5.3,,99.2
+2023-02-06,Coking Coal,Japan,import,156.68,2.775,,107.1
+2023-02-06,Coking Coal,South Korea,import,156.68,2.583,,80.9
+2023-02-06,Coking Coal,Netherlands,import,156.68,1.372,,100.2
+2023-02-13,Coking Coal,Australia,export,184.21,9.056,10.234,
+2023-02-13,Coking Coal,Indonesia,export,184.21,12.043,10.884,
+2023-02-13,Coking Coal,South Africa,export,184.21,2.958,3.131,
+2023-02-13,Coking Coal,Colombia,export,184.21,1.947,2.048,
+2023-02-13,Coking Coal,Russia,export,184.21,4.527,5.645,
+2023-02-13,Coking Coal,USA,export,184.21,2.563,2.845,
+2023-02-13,Coking Coal,China,import,184.21,9.49,,100.2
+2023-02-13,Coking Coal,India,import,184.21,5.3,,102.0
+2023-02-13,Coking Coal,Japan,import,184.21,2.775,,102.5
+2023-02-13,Coking Coal,South Korea,import,184.21,2.583,,79.8
+2023-02-13,Coking Coal,Netherlands,import,184.21,1.372,,100.2
+2023-02-20,Coking Coal,Australia,export,169.37,9.056,11.413,
+2023-02-20,Coking Coal,Indonesia,export,169.37,12.043,10.625,
+2023-02-20,Coking Coal,South Africa,export,169.37,2.958,3.223,
+2023-02-20,Coking Coal,Colombia,export,169.37,1.947,1.968,
+2023-02-20,Coking Coal,Russia,export,169.37,4.527,5.217,
+2023-02-20,Coking Coal,USA,export,169.37,2.563,2.851,
+2023-02-20,Coking Coal,China,import,169.37,9.49,,99.1
+2023-02-20,Coking Coal,India,import,169.37,5.3,,105.4
+2023-02-20,Coking Coal,Japan,import,169.37,2.775,,105.2
+2023-02-20,Coking Coal,South Korea,import,169.37,2.583,,79.2
+2023-02-20,Coking Coal,Netherlands,import,169.37,1.372,,98.0
+2023-02-27,Coking Coal,Australia,export,194.08,9.056,11.036,
+2023-02-27,Coking Coal,Indonesia,export,194.08,12.043,9.31,
+2023-02-27,Coking Coal,South Africa,export,194.08,2.958,2.94,
+2023-02-27,Coking Coal,Colombia,export,194.08,1.947,2.008,
+2023-02-27,Coking Coal,Russia,export,194.08,4.527,5.069,
+2023-02-27,Coking Coal,USA,export,194.08,2.563,2.788,
+2023-02-27,Coking Coal,China,import,194.08,9.49,,97.3
+2023-02-27,Coking Coal,India,import,194.08,5.3,,105.4
+2023-02-27,Coking Coal,Japan,import,194.08,2.775,,100.2
+2023-02-27,Coking Coal,South Korea,import,194.08,2.583,,82.1
+2023-02-27,Coking Coal,Netherlands,import,194.08,1.372,,98.0
+2023-03-06,Coking Coal,Australia,export,188.73,9.056,10.512,
+2023-03-06,Coking Coal,Indonesia,export,188.73,12.043,9.42,
+2023-03-06,Coking Coal,South Africa,export,188.73,2.958,2.735,
+2023-03-06,Coking Coal,Colombia,export,188.73,1.947,1.97,
+2023-03-06,Coking Coal,Russia,export,188.73,4.527,5.364,
+2023-03-06,Coking Coal,USA,export,188.73,2.563,2.812,
+2023-03-06,Coking Coal,China,import,188.73,9.49,,99.6
+2023-03-06,Coking Coal,India,import,188.73,5.3,,106.3
+2023-03-06,Coking Coal,Japan,import,188.73,2.775,,103.6
+2023-03-06,Coking Coal,South Korea,import,188.73,2.583,,76.4
+2023-03-06,Coking Coal,Netherlands,import,188.73,1.372,,101.1
+2023-03-13,Coking Coal,Australia,export,180.58,9.056,10.883,
+2023-03-13,Coking Coal,Indonesia,export,180.58,12.043,9.999,
+2023-03-13,Coking Coal,South Africa,export,180.58,2.958,2.794,
+2023-03-13,Coking Coal,Colombia,export,180.58,1.947,1.97,
+2023-03-13,Coking Coal,Russia,export,180.58,4.527,5.642,
+2023-03-13,Coking Coal,USA,export,180.58,2.563,2.803,
+2023-03-13,Coking Coal,China,import,180.58,9.49,,101.7
+2023-03-13,Coking Coal,India,import,180.58,5.3,,104.6
+2023-03-13,Coking Coal,Japan,import,180.58,2.775,,97.2
+2023-03-13,Coking Coal,South Korea,import,180.58,2.583,,81.3
+2023-03-13,Coking Coal,Netherlands,import,180.58,1.372,,104.8
+2023-03-20,Coking Coal,Australia,export,241.12,9.056,10.137,
+2023-03-20,Coking Coal,Indonesia,export,241.12,12.043,10.477,
+2023-03-20,Coking Coal,South Africa,export,241.12,2.958,2.948,
+2023-03-20,Coking Coal,Colombia,export,241.12,1.947,1.908,
+2023-03-20,Coking Coal,Russia,export,241.12,4.527,5.409,
+2023-03-20,Coking Coal,USA,export,241.12,2.563,2.73,
+2023-03-20,Coking Coal,China,import,241.12,9.49,,105.4
+2023-03-20,Coking Coal,India,import,241.12,5.3,,111.8
+2023-03-20,Coking Coal,Japan,import,241.12,2.775,,96.4
+2023-03-20,Coking Coal,South Korea,import,241.12,2.583,,75.7
+2023-03-20,Coking Coal,Netherlands,import,241.12,1.372,,105.7
+2023-03-27,Coking Coal,Australia,export,239.36,9.056,9.995,
+2023-03-27,Coking Coal,Indonesia,export,239.36,12.043,10.832,
+2023-03-27,Coking Coal,South Africa,export,239.36,2.958,3.073,
+2023-03-27,Coking Coal,Colombia,export,239.36,1.947,1.949,
+2023-03-27,Coking Coal,Russia,export,239.36,4.527,5.639,
+2023-03-27,Coking Coal,USA,export,239.36,2.563,2.982,
+2023-03-27,Coking Coal,China,import,239.36,9.49,,105.5
+2023-03-27,Coking Coal,India,import,239.36,5.3,,106.7
+2023-03-27,Coking Coal,Japan,import,239.36,2.775,,103.0
+2023-03-27,Coking Coal,South Korea,import,239.36,2.583,,73.1
+2023-03-27,Coking Coal,Netherlands,import,239.36,1.372,,108.3
+2023-04-03,Coking Coal,Australia,export,247.03,9.056,9.578,
+2023-04-03,Coking Coal,Indonesia,export,247.03,12.043,10.839,
+2023-04-03,Coking Coal,South Africa,export,247.03,2.958,3.048,
+2023-04-03,Coking Coal,Colombia,export,247.03,1.947,1.919,
+2023-04-03,Coking Coal,Russia,export,247.03,4.527,5.569,
+2023-04-03,Coking Coal,USA,export,247.03,2.563,3.089,
+2023-04-03,Coking Coal,China,import,247.03,9.49,,106.3
+2023-04-03,Coking Coal,India,import,247.03,5.3,,108.7
+2023-04-03,Coking Coal,Japan,import,247.03,2.775,,101.7
+2023-04-03,Coking Coal,South Korea,import,247.03,2.583,,70.5
+2023-04-03,Coking Coal,Netherlands,import,247.03,1.372,,112.4
+2023-04-10,Coking Coal,Australia,export,246.94,9.056,9.922,
+2023-04-10,Coking Coal,Indonesia,export,246.94,12.043,10.19,
+2023-04-10,Coking Coal,South Africa,export,246.94,2.958,2.953,
+2023-04-10,Coking Coal,Colombia,export,246.94,1.947,2.007,
+2023-04-10,Coking Coal,Russia,export,246.94,4.527,5.331,
+2023-04-10,Coking Coal,USA,export,246.94,2.563,2.927,
+2023-04-10,Coking Coal,China,import,246.94,9.49,,108.7
+2023-04-10,Coking Coal,India,import,246.94,5.3,,108.7
+2023-04-10,Coking Coal,Japan,import,246.94,2.775,,102.1
+2023-04-10,Coking Coal,South Korea,import,246.94,2.583,,72.8
+2023-04-10,Coking Coal,Netherlands,import,246.94,1.372,,117.0
+2023-04-17,Coking Coal,Australia,export,232.05,9.056,10.753,
+2023-04-17,Coking Coal,Indonesia,export,232.05,12.043,9.517,
+2023-04-17,Coking Coal,South Africa,export,232.05,2.958,2.941,
+2023-04-17,Coking Coal,Colombia,export,232.05,1.947,1.94,
+2023-04-17,Coking Coal,Russia,export,232.05,4.527,4.806,
+2023-04-17,Coking Coal,USA,export,232.05,2.563,3.216,
+2023-04-17,Coking Coal,China,import,232.05,9.49,,108.1
+2023-04-17,Coking Coal,India,import,232.05,5.3,,117.4
+2023-04-17,Coking Coal,Japan,import,232.05,2.775,,100.3
+2023-04-17,Coking Coal,South Korea,import,232.05,2.583,,72.8
+2023-04-17,Coking Coal,Netherlands,import,232.05,1.372,,115.3
+2023-04-24,Coking Coal,Australia,export,223.75,9.056,10.504,
+2023-04-24,Coking Coal,Indonesia,export,223.75,12.043,10.247,
+2023-04-24,Coking Coal,South Africa,export,223.75,2.958,3.041,
+2023-04-24,Coking Coal,Colombia,export,223.75,1.947,1.856,
+2023-04-24,Coking Coal,Russia,export,223.75,4.527,4.476,
+2023-04-24,Coking Coal,USA,export,223.75,2.563,3.112,
+2023-04-24,Coking Coal,China,import,223.75,9.49,,101.6
+2023-04-24,Coking Coal,India,import,223.75,5.3,,121.1
+2023-04-24,Coking Coal,Japan,import,223.75,2.775,,93.6
+2023-04-24,Coking Coal,South Korea,import,223.75,2.583,,79.1
+2023-04-24,Coking Coal,Netherlands,import,223.75,1.372,,117.7
+2023-05-01,Coking Coal,Australia,export,228.03,9.056,10.575,
+2023-05-01,Coking Coal,Indonesia,export,228.03,12.043,10.11,
+2023-05-01,Coking Coal,South Africa,export,228.03,2.958,2.956,
+2023-05-01,Coking Coal,Colombia,export,228.03,1.947,1.885,
+2023-05-01,Coking Coal,Russia,export,228.03,4.527,4.524,
+2023-05-01,Coking Coal,USA,export,228.03,2.563,3.078,
+2023-05-01,Coking Coal,China,import,228.03,9.49,,99.9
+2023-05-01,Coking Coal,India,import,228.03,5.3,,116.7
+2023-05-01,Coking Coal,Japan,import,228.03,2.775,,98.9
+2023-05-01,Coking Coal,South Korea,import,228.03,2.583,,84.9
+2023-05-01,Coking Coal,Netherlands,import,228.03,1.372,,121.5
+2023-05-08,Coking Coal,Australia,export,250.2,9.056,10.285,
+2023-05-08,Coking Coal,Indonesia,export,250.2,12.043,11.688,
+2023-05-08,Coking Coal,South Africa,export,250.2,2.958,2.934,
+2023-05-08,Coking Coal,Colombia,export,250.2,1.947,2.079,
+2023-05-08,Coking Coal,Russia,export,250.2,4.527,4.707,
+2023-05-08,Coking Coal,USA,export,250.2,2.563,3.1,
+2023-05-08,Coking Coal,China,import,250.2,9.49,,105.3
+2023-05-08,Coking Coal,India,import,250.2,5.3,,108.0
+2023-05-08,Coking Coal,Japan,import,250.2,2.775,,93.7
+2023-05-08,Coking Coal,South Korea,import,250.2,2.583,,83.5
+2023-05-08,Coking Coal,Netherlands,import,250.2,1.372,,119.8
+2023-05-15,Coking Coal,Australia,export,248.45,9.056,10.842,
+2023-05-15,Coking Coal,Indonesia,export,248.45,12.043,10.917,
+2023-05-15,Coking Coal,South Africa,export,248.45,2.958,3.016,
+2023-05-15,Coking Coal,Colombia,export,248.45,1.947,1.904,
+2023-05-15,Coking Coal,Russia,export,248.45,4.527,4.465,
+2023-05-15,Coking Coal,USA,export,248.45,2.563,3.106,
+2023-05-15,Coking Coal,China,import,248.45,9.49,,106.0
+2023-05-15,Coking Coal,India,import,248.45,5.3,,106.1
+2023-05-15,Coking Coal,Japan,import,248.45,2.775,,86.9
+2023-05-15,Coking Coal,South Korea,import,248.45,2.583,,84.5
+2023-05-15,Coking Coal,Netherlands,import,248.45,1.372,,118.1
+2023-05-22,Coking Coal,Australia,export,205.87,9.056,10.207,
+2023-05-22,Coking Coal,Indonesia,export,205.87,12.043,11.337,
+2023-05-22,Coking Coal,South Africa,export,205.87,2.958,2.849,
+2023-05-22,Coking Coal,Colombia,export,205.87,1.947,1.977,
+2023-05-22,Coking Coal,Russia,export,205.87,4.527,4.665,
+2023-05-22,Coking Coal,USA,export,205.87,2.563,3.152,
+2023-05-22,Coking Coal,China,import,205.87,9.49,,109.0
+2023-05-22,Coking Coal,India,import,205.87,5.3,,109.9
+2023-05-22,Coking Coal,Japan,import,205.87,2.775,,88.2
+2023-05-22,Coking Coal,South Korea,import,205.87,2.583,,86.2
+2023-05-22,Coking Coal,Netherlands,import,205.87,1.372,,117.2
+2023-05-29,Coking Coal,Australia,export,188.29,9.056,9.784,
+2023-05-29,Coking Coal,Indonesia,export,188.29,12.043,11.356,
+2023-05-29,Coking Coal,South Africa,export,188.29,2.958,2.919,
+2023-05-29,Coking Coal,Colombia,export,188.29,1.947,1.919,
+2023-05-29,Coking Coal,Russia,export,188.29,4.527,4.329,
+2023-05-29,Coking Coal,USA,export,188.29,2.563,3.256,
+2023-05-29,Coking Coal,China,import,188.29,9.49,,112.0
+2023-05-29,Coking Coal,India,import,188.29,5.3,,107.4
+2023-05-29,Coking Coal,Japan,import,188.29,2.775,,88.8
+2023-05-29,Coking Coal,South Korea,import,188.29,2.583,,88.4
+2023-05-29,Coking Coal,Netherlands,import,188.29,1.372,,115.0
+2023-06-05,Coking Coal,Australia,export,238.64,9.056,10.299,
+2023-06-05,Coking Coal,Indonesia,export,238.64,12.043,10.84,
+2023-06-05,Coking Coal,South Africa,export,238.64,2.958,3.062,
+2023-06-05,Coking Coal,Colombia,export,238.64,1.947,1.972,
+2023-06-05,Coking Coal,Russia,export,238.64,4.527,4.409,
+2023-06-05,Coking Coal,USA,export,238.64,2.563,3.421,
+2023-06-05,Coking Coal,China,import,238.64,9.49,,110.7
+2023-06-05,Coking Coal,India,import,238.64,5.3,,110.3
+2023-06-05,Coking Coal,Japan,import,238.64,2.775,,89.4
+2023-06-05,Coking Coal,South Korea,import,238.64,2.583,,96.4
+2023-06-05,Coking Coal,Netherlands,import,238.64,1.372,,113.0
+2023-06-12,Coking Coal,Australia,export,231.74,9.056,9.962,
+2023-06-12,Coking Coal,Indonesia,export,231.74,12.043,11.236,
+2023-06-12,Coking Coal,South Africa,export,231.74,2.958,2.817,
+2023-06-12,Coking Coal,Colombia,export,231.74,1.947,1.89,
+2023-06-12,Coking Coal,Russia,export,231.74,4.527,4.213,
+2023-06-12,Coking Coal,USA,export,231.74,2.563,3.449,
+2023-06-12,Coking Coal,China,import,231.74,9.49,,108.7
+2023-06-12,Coking Coal,India,import,231.74,5.3,,111.2
+2023-06-12,Coking Coal,Japan,import,231.74,2.775,,88.6
+2023-06-12,Coking Coal,South Korea,import,231.74,2.583,,103.8
+2023-06-12,Coking Coal,Netherlands,import,231.74,1.372,,105.0
+2023-06-19,Coking Coal,Australia,export,251.21,9.056,9.962,
+2023-06-19,Coking Coal,Indonesia,export,251.21,12.043,11.491,
+2023-06-19,Coking Coal,South Africa,export,251.21,2.958,2.86,
+2023-06-19,Coking Coal,Colombia,export,251.21,1.947,1.926,
+2023-06-19,Coking Coal,Russia,export,251.21,4.527,4.374,
+2023-06-19,Coking Coal,USA,export,251.21,2.563,3.695,
+2023-06-19,Coking Coal,China,import,251.21,9.49,,116.5
+2023-06-19,Coking Coal,India,import,251.21,5.3,,113.3
+2023-06-19,Coking Coal,Japan,import,251.21,2.775,,87.8
+2023-06-19,Coking Coal,South Korea,import,251.21,2.583,,92.1
+2023-06-19,Coking Coal,Netherlands,import,251.21,1.372,,104.1
+2023-06-26,Coking Coal,Australia,export,265.88,9.056,9.823,
+2023-06-26,Coking Coal,Indonesia,export,265.88,12.043,11.149,
+2023-06-26,Coking Coal,South Africa,export,265.88,2.958,2.925,
+2023-06-26,Coking Coal,Colombia,export,265.88,1.947,1.865,
+2023-06-26,Coking Coal,Russia,export,265.88,4.527,4.66,
+2023-06-26,Coking Coal,USA,export,265.88,2.563,3.792,
+2023-06-26,Coking Coal,China,import,265.88,9.49,,117.3
+2023-06-26,Coking Coal,India,import,265.88,5.3,,111.7
+2023-06-26,Coking Coal,Japan,import,265.88,2.775,,82.0
+2023-06-26,Coking Coal,South Korea,import,265.88,2.583,,88.4
+2023-06-26,Coking Coal,Netherlands,import,265.88,1.372,,104.7
+2023-07-03,Coking Coal,Australia,export,244.77,9.056,10.557,
+2023-07-03,Coking Coal,Indonesia,export,244.77,12.043,11.096,
+2023-07-03,Coking Coal,South Africa,export,244.77,2.958,2.97,
+2023-07-03,Coking Coal,Colombia,export,244.77,1.947,1.79,
+2023-07-03,Coking Coal,Russia,export,244.77,4.527,4.688,
+2023-07-03,Coking Coal,USA,export,244.77,2.563,3.759,
+2023-07-03,Coking Coal,China,import,244.77,9.49,,118.1
+2023-07-03,Coking Coal,India,import,244.77,5.3,,108.5
+2023-07-03,Coking Coal,Japan,import,244.77,2.775,,81.9
+2023-07-03,Coking Coal,South Korea,import,244.77,2.583,,87.2
+2023-07-03,Coking Coal,Netherlands,import,244.77,1.372,,104.4
+2023-07-10,Coking Coal,Australia,export,273.86,9.056,10.492,
+2023-07-10,Coking Coal,Indonesia,export,273.86,12.043,11.524,
+2023-07-10,Coking Coal,South Africa,export,273.86,2.958,2.895,
+2023-07-10,Coking Coal,Colombia,export,273.86,1.947,1.873,
+2023-07-10,Coking Coal,Russia,export,273.86,4.527,4.924,
+2023-07-10,Coking Coal,USA,export,273.86,2.563,3.696,
+2023-07-10,Coking Coal,China,import,273.86,9.49,,112.3
+2023-07-10,Coking Coal,India,import,273.86,5.3,,102.8
+2023-07-10,Coking Coal,Japan,import,273.86,2.775,,88.8
+2023-07-10,Coking Coal,South Korea,import,273.86,2.583,,90.9
+2023-07-10,Coking Coal,Netherlands,import,273.86,1.372,,106.5
+2023-07-17,Coking Coal,Australia,export,272.91,9.056,10.716,
+2023-07-17,Coking Coal,Indonesia,export,272.91,12.043,11.509,
+2023-07-17,Coking Coal,South Africa,export,272.91,2.958,2.976,
+2023-07-17,Coking Coal,Colombia,export,272.91,1.947,1.762,
+2023-07-17,Coking Coal,Russia,export,272.91,4.527,4.78,
+2023-07-17,Coking Coal,USA,export,272.91,2.563,3.793,
+2023-07-17,Coking Coal,China,import,272.91,9.49,,110.4
+2023-07-17,Coking Coal,India,import,272.91,5.3,,103.3
+2023-07-17,Coking Coal,Japan,import,272.91,2.775,,95.0
+2023-07-17,Coking Coal,South Korea,import,272.91,2.583,,95.0
+2023-07-17,Coking Coal,Netherlands,import,272.91,1.372,,99.8
+2023-07-24,Coking Coal,Australia,export,248.16,9.056,10.769,
+2023-07-24,Coking Coal,Indonesia,export,248.16,12.043,11.017,
+2023-07-24,Coking Coal,South Africa,export,248.16,2.958,2.891,
+2023-07-24,Coking Coal,Colombia,export,248.16,1.947,1.842,
+2023-07-24,Coking Coal,Russia,export,248.16,4.527,4.447,
+2023-07-24,Coking Coal,USA,export,248.16,2.563,3.803,
+2023-07-24,Coking Coal,China,import,248.16,9.49,,111.5
+2023-07-24,Coking Coal,India,import,248.16,5.3,,98.2
+2023-07-24,Coking Coal,Japan,import,248.16,2.775,,89.8
+2023-07-24,Coking Coal,South Korea,import,248.16,2.583,,100.2
+2023-07-24,Coking Coal,Netherlands,import,248.16,1.372,,101.8
+2023-07-31,Coking Coal,Australia,export,265.18,9.056,11.037,
+2023-07-31,Coking Coal,Indonesia,export,265.18,12.043,10.884,
+2023-07-31,Coking Coal,South Africa,export,265.18,2.958,2.988,
+2023-07-31,Coking Coal,Colombia,export,265.18,1.947,1.929,
+2023-07-31,Coking Coal,Russia,export,265.18,4.527,4.419,
+2023-07-31,Coking Coal,USA,export,265.18,2.563,3.669,
+2023-07-31,Coking Coal,China,import,265.18,9.49,,105.5
+2023-07-31,Coking Coal,India,import,265.18,5.3,,96.1
+2023-07-31,Coking Coal,Japan,import,265.18,2.775,,87.8
+2023-07-31,Coking Coal,South Korea,import,265.18,2.583,,105.8
+2023-07-31,Coking Coal,Netherlands,import,265.18,1.372,,108.8
+2023-08-07,Coking Coal,Australia,export,261.82,9.056,10.814,
+2023-08-07,Coking Coal,Indonesia,export,261.82,12.043,10.152,
+2023-08-07,Coking Coal,South Africa,export,261.82,2.958,3.138,
+2023-08-07,Coking Coal,Colombia,export,261.82,1.947,1.871,
+2023-08-07,Coking Coal,Russia,export,261.82,4.527,4.802,
+2023-08-07,Coking Coal,USA,export,261.82,2.563,3.511,
+2023-08-07,Coking Coal,China,import,261.82,9.49,,102.5
+2023-08-07,Coking Coal,India,import,261.82,5.3,,96.1
+2023-08-07,Coking Coal,Japan,import,261.82,2.775,,81.3
+2023-08-07,Coking Coal,South Korea,import,261.82,2.583,,103.3
+2023-08-07,Coking Coal,Netherlands,import,261.82,1.372,,110.4
+2023-08-14,Coking Coal,Australia,export,228.27,9.056,10.839,
+2023-08-14,Coking Coal,Indonesia,export,228.27,12.043,10.637,
+2023-08-14,Coking Coal,South Africa,export,228.27,2.958,2.994,
+2023-08-14,Coking Coal,Colombia,export,228.27,1.947,2.014,
+2023-08-14,Coking Coal,Russia,export,228.27,4.527,5.175,
+2023-08-14,Coking Coal,USA,export,228.27,2.563,3.315,
+2023-08-14,Coking Coal,China,import,228.27,9.49,,102.0
+2023-08-14,Coking Coal,India,import,228.27,5.3,,95.4
+2023-08-14,Coking Coal,Japan,import,228.27,2.775,,81.3
+2023-08-14,Coking Coal,South Korea,import,228.27,2.583,,112.3
+2023-08-14,Coking Coal,Netherlands,import,228.27,1.372,,114.1
+2023-08-21,Coking Coal,Australia,export,227.72,9.056,10.494,
+2023-08-21,Coking Coal,Indonesia,export,227.72,12.043,10.734,
+2023-08-21,Coking Coal,South Africa,export,227.72,2.958,2.817,
+2023-08-21,Coking Coal,Colombia,export,227.72,1.947,1.848,
+2023-08-21,Coking Coal,Russia,export,227.72,4.527,5.104,
+2023-08-21,Coking Coal,USA,export,227.72,2.563,3.49,
+2023-08-21,Coking Coal,China,import,227.72,9.49,,102.0
+2023-08-21,Coking Coal,India,import,227.72,5.3,,93.9
+2023-08-21,Coking Coal,Japan,import,227.72,2.775,,77.5
+2023-08-21,Coking Coal,South Korea,import,227.72,2.583,,117.4
+2023-08-21,Coking Coal,Netherlands,import,227.72,1.372,,114.8
+2023-08-28,Coking Coal,Australia,export,250.36,9.056,9.776,
+2023-08-28,Coking Coal,Indonesia,export,250.36,12.043,10.269,
+2023-08-28,Coking Coal,South Africa,export,250.36,2.958,2.823,
+2023-08-28,Coking Coal,Colombia,export,250.36,1.947,1.87,
+2023-08-28,Coking Coal,Russia,export,250.36,4.527,5.096,
+2023-08-28,Coking Coal,USA,export,250.36,2.563,3.691,
+2023-08-28,Coking Coal,China,import,250.36,9.49,,96.3
+2023-08-28,Coking Coal,India,import,250.36,5.3,,89.4
+2023-08-28,Coking Coal,Japan,import,250.36,2.775,,80.0
+2023-08-28,Coking Coal,South Korea,import,250.36,2.583,,115.2
+2023-08-28,Coking Coal,Netherlands,import,250.36,1.372,,117.0
+2023-09-04,Coking Coal,Australia,export,248.5,9.056,9.566,
+2023-09-04,Coking Coal,Indonesia,export,248.5,12.043,9.425,
+2023-09-04,Coking Coal,South Africa,export,248.5,2.958,2.718,
+2023-09-04,Coking Coal,Colombia,export,248.5,1.947,1.84,
+2023-09-04,Coking Coal,Russia,export,248.5,4.527,5.225,
+2023-09-04,Coking Coal,USA,export,248.5,2.563,3.682,
+2023-09-04,Coking Coal,China,import,248.5,9.49,,96.7
+2023-09-04,Coking Coal,India,import,248.5,5.3,,85.4
+2023-09-04,Coking Coal,Japan,import,248.5,2.775,,85.3
+2023-09-04,Coking Coal,South Korea,import,248.5,2.583,,114.8
+2023-09-04,Coking Coal,Netherlands,import,248.5,1.372,,118.2
+2023-09-11,Coking Coal,Australia,export,244.89,9.056,9.712,
+2023-09-11,Coking Coal,Indonesia,export,244.89,12.043,8.467,
+2023-09-11,Coking Coal,South Africa,export,244.89,2.958,2.745,
+2023-09-11,Coking Coal,Colombia,export,244.89,1.947,2.058,
+2023-09-11,Coking Coal,Russia,export,244.89,4.527,5.169,
+2023-09-11,Coking Coal,USA,export,244.89,2.563,3.701,
+2023-09-11,Coking Coal,China,import,244.89,9.49,,99.6
+2023-09-11,Coking Coal,India,import,244.89,5.3,,91.9
+2023-09-11,Coking Coal,Japan,import,244.89,2.775,,90.8
+2023-09-11,Coking Coal,South Korea,import,244.89,2.583,,113.3
+2023-09-11,Coking Coal,Netherlands,import,244.89,1.372,,113.2
+2023-09-18,Coking Coal,Australia,export,235.22,9.056,9.753,
+2023-09-18,Coking Coal,Indonesia,export,235.22,12.043,8.826,
+2023-09-18,Coking Coal,South Africa,export,235.22,2.958,2.832,
+2023-09-18,Coking Coal,Colombia,export,235.22,1.947,2.007,
+2023-09-18,Coking Coal,Russia,export,235.22,4.527,5.384,
+2023-09-18,Coking Coal,USA,export,235.22,2.563,3.469,
+2023-09-18,Coking Coal,China,import,235.22,9.49,,99.7
+2023-09-18,Coking Coal,India,import,235.22,5.3,,87.8
+2023-09-18,Coking Coal,Japan,import,235.22,2.775,,88.7
+2023-09-18,Coking Coal,South Korea,import,235.22,2.583,,118.8
+2023-09-18,Coking Coal,Netherlands,import,235.22,1.372,,114.0
+2023-09-25,Coking Coal,Australia,export,197.92,9.056,9.506,
+2023-09-25,Coking Coal,Indonesia,export,197.92,12.043,9.202,
+2023-09-25,Coking Coal,South Africa,export,197.92,2.958,2.938,
+2023-09-25,Coking Coal,Colombia,export,197.92,1.947,2.2,
+2023-09-25,Coking Coal,Russia,export,197.92,4.527,5.107,
+2023-09-25,Coking Coal,USA,export,197.92,2.563,3.379,
+2023-09-25,Coking Coal,China,import,197.92,9.49,,101.8
+2023-09-25,Coking Coal,India,import,197.92,5.3,,90.4
+2023-09-25,Coking Coal,Japan,import,197.92,2.775,,88.9
+2023-09-25,Coking Coal,South Korea,import,197.92,2.583,,125.1
+2023-09-25,Coking Coal,Netherlands,import,197.92,1.372,,111.8
+2023-10-02,Coking Coal,Australia,export,206.5,9.056,9.265,
+2023-10-02,Coking Coal,Indonesia,export,206.5,12.043,9.388,
+2023-10-02,Coking Coal,South Africa,export,206.5,2.958,2.677,
+2023-10-02,Coking Coal,Colombia,export,206.5,1.947,2.182,
+2023-10-02,Coking Coal,Russia,export,206.5,4.527,4.773,
+2023-10-02,Coking Coal,USA,export,206.5,2.563,3.461,
+2023-10-02,Coking Coal,China,import,206.5,9.49,,103.5
+2023-10-02,Coking Coal,India,import,206.5,5.3,,89.1
+2023-10-02,Coking Coal,Japan,import,206.5,2.775,,87.6
+2023-10-02,Coking Coal,South Korea,import,206.5,2.583,,122.5
+2023-10-02,Coking Coal,Netherlands,import,206.5,1.372,,108.9
+2023-10-09,Coking Coal,Australia,export,228.53,9.056,9.396,
+2023-10-09,Coking Coal,Indonesia,export,228.53,12.043,10.696,
+2023-10-09,Coking Coal,South Africa,export,228.53,2.958,2.688,
+2023-10-09,Coking Coal,Colombia,export,228.53,1.947,2.23,
+2023-10-09,Coking Coal,Russia,export,228.53,4.527,5.1,
+2023-10-09,Coking Coal,USA,export,228.53,2.563,3.138,
+2023-10-09,Coking Coal,China,import,228.53,9.49,,104.1
+2023-10-09,Coking Coal,India,import,228.53,5.3,,89.8
+2023-10-09,Coking Coal,Japan,import,228.53,2.775,,95.8
+2023-10-09,Coking Coal,South Korea,import,228.53,2.583,,126.2
+2023-10-09,Coking Coal,Netherlands,import,228.53,1.372,,110.2
+2023-10-16,Coking Coal,Australia,export,197.36,9.056,9.749,
+2023-10-16,Coking Coal,Indonesia,export,197.36,12.043,10.007,
+2023-10-16,Coking Coal,South Africa,export,197.36,2.958,2.616,
+2023-10-16,Coking Coal,Colombia,export,197.36,1.947,2.252,
+2023-10-16,Coking Coal,Russia,export,197.36,4.527,5.288,
+2023-10-16,Coking Coal,USA,export,197.36,2.563,3.243,
+2023-10-16,Coking Coal,China,import,197.36,9.49,,109.3
+2023-10-16,Coking Coal,India,import,197.36,5.3,,89.6
+2023-10-16,Coking Coal,Japan,import,197.36,2.775,,102.9
+2023-10-16,Coking Coal,South Korea,import,197.36,2.583,,122.6
+2023-10-16,Coking Coal,Netherlands,import,197.36,1.372,,109.8
+2023-10-23,Coking Coal,Australia,export,243.84,9.056,9.256,
+2023-10-23,Coking Coal,Indonesia,export,243.84,12.043,9.727,
+2023-10-23,Coking Coal,South Africa,export,243.84,2.958,2.978,
+2023-10-23,Coking Coal,Colombia,export,243.84,1.947,2.236,
+2023-10-23,Coking Coal,Russia,export,243.84,4.527,5.385,
+2023-10-23,Coking Coal,USA,export,243.84,2.563,2.925,
+2023-10-23,Coking Coal,China,import,243.84,9.49,,115.0
+2023-10-23,Coking Coal,India,import,243.84,5.3,,90.8
+2023-10-23,Coking Coal,Japan,import,243.84,2.775,,100.5
+2023-10-23,Coking Coal,South Korea,import,243.84,2.583,,123.9
+2023-10-23,Coking Coal,Netherlands,import,243.84,1.372,,111.8
+2023-10-30,Coking Coal,Australia,export,260.88,9.056,9.259,
+2023-10-30,Coking Coal,Indonesia,export,260.88,12.043,9.752,
+2023-10-30,Coking Coal,South Africa,export,260.88,2.958,3.192,
+2023-10-30,Coking Coal,Colombia,export,260.88,1.947,2.173,
+2023-10-30,Coking Coal,Russia,export,260.88,4.527,5.149,
+2023-10-30,Coking Coal,USA,export,260.88,2.563,2.873,
+2023-10-30,Coking Coal,China,import,260.88,9.49,,114.4
+2023-10-30,Coking Coal,India,import,260.88,5.3,,93.9
+2023-10-30,Coking Coal,Japan,import,260.88,2.775,,105.9
+2023-10-30,Coking Coal,South Korea,import,260.88,2.583,,124.2
+2023-10-30,Coking Coal,Netherlands,import,260.88,1.372,,106.8
+2023-11-06,Coking Coal,Australia,export,272.49,9.056,9.926,
+2023-11-06,Coking Coal,Indonesia,export,272.49,12.043,10.068,
+2023-11-06,Coking Coal,South Africa,export,272.49,2.958,3.267,
+2023-11-06,Coking Coal,Colombia,export,272.49,1.947,2.301,
+2023-11-06,Coking Coal,Russia,export,272.49,4.527,4.655,
+2023-11-06,Coking Coal,USA,export,272.49,2.563,2.94,
+2023-11-06,Coking Coal,China,import,272.49,9.49,,111.5
+2023-11-06,Coking Coal,India,import,272.49,5.3,,87.9
+2023-11-06,Coking Coal,Japan,import,272.49,2.775,,109.2
+2023-11-06,Coking Coal,South Korea,import,272.49,2.583,,126.4
+2023-11-06,Coking Coal,Netherlands,import,272.49,1.372,,108.6
+2023-11-13,Coking Coal,Australia,export,257.3,9.056,10.083,
+2023-11-13,Coking Coal,Indonesia,export,257.3,12.043,9.861,
+2023-11-13,Coking Coal,South Africa,export,257.3,2.958,3.527,
+2023-11-13,Coking Coal,Colombia,export,257.3,1.947,2.421,
+2023-11-13,Coking Coal,Russia,export,257.3,4.527,4.621,
+2023-11-13,Coking Coal,USA,export,257.3,2.563,2.902,
+2023-11-13,Coking Coal,China,import,257.3,9.49,,113.3
+2023-11-13,Coking Coal,India,import,257.3,5.3,,86.4
+2023-11-13,Coking Coal,Japan,import,257.3,2.775,,112.2
+2023-11-13,Coking Coal,South Korea,import,257.3,2.583,,114.2
+2023-11-13,Coking Coal,Netherlands,import,257.3,1.372,,102.3
+2023-11-20,Coking Coal,Australia,export,264.13,9.056,9.384,
+2023-11-20,Coking Coal,Indonesia,export,264.13,12.043,10.96,
+2023-11-20,Coking Coal,South Africa,export,264.13,2.958,3.234,
+2023-11-20,Coking Coal,Colombia,export,264.13,1.947,2.305,
+2023-11-20,Coking Coal,Russia,export,264.13,4.527,4.299,
+2023-11-20,Coking Coal,USA,export,264.13,2.563,2.732,
+2023-11-20,Coking Coal,China,import,264.13,9.49,,109.0
+2023-11-20,Coking Coal,India,import,264.13,5.3,,88.3
+2023-11-20,Coking Coal,Japan,import,264.13,2.775,,105.0
+2023-11-20,Coking Coal,South Korea,import,264.13,2.583,,117.0
+2023-11-20,Coking Coal,Netherlands,import,264.13,1.372,,101.0
+2023-11-27,Coking Coal,Australia,export,263.97,9.056,8.637,
+2023-11-27,Coking Coal,Indonesia,export,263.97,12.043,11.149,
+2023-11-27,Coking Coal,South Africa,export,263.97,2.958,3.511,
+2023-11-27,Coking Coal,Colombia,export,263.97,1.947,2.068,
+2023-11-27,Coking Coal,Russia,export,263.97,4.527,4.679,
+2023-11-27,Coking Coal,USA,export,263.97,2.563,2.7,
+2023-11-27,Coking Coal,China,import,263.97,9.49,,103.7
+2023-11-27,Coking Coal,India,import,263.97,5.3,,85.4
+2023-11-27,Coking Coal,Japan,import,263.97,2.775,,108.6
+2023-11-27,Coking Coal,South Korea,import,263.97,2.583,,117.3
+2023-11-27,Coking Coal,Netherlands,import,263.97,1.372,,98.4
+2023-12-04,Coking Coal,Australia,export,271.24,9.056,8.589,
+2023-12-04,Coking Coal,Indonesia,export,271.24,12.043,9.942,
+2023-12-04,Coking Coal,South Africa,export,271.24,2.958,3.636,
+2023-12-04,Coking Coal,Colombia,export,271.24,1.947,2.045,
+2023-12-04,Coking Coal,Russia,export,271.24,4.527,4.87,
+2023-12-04,Coking Coal,USA,export,271.24,2.563,2.813,
+2023-12-04,Coking Coal,China,import,271.24,9.49,,101.2
+2023-12-04,Coking Coal,India,import,271.24,5.3,,85.0
+2023-12-04,Coking Coal,Japan,import,271.24,2.775,,111.9
+2023-12-04,Coking Coal,South Korea,import,271.24,2.583,,119.5
+2023-12-04,Coking Coal,Netherlands,import,271.24,1.372,,95.3
+2023-12-11,Coking Coal,Australia,export,253.23,9.056,9.596,
+2023-12-11,Coking Coal,Indonesia,export,253.23,12.043,10.242,
+2023-12-11,Coking Coal,South Africa,export,253.23,2.958,3.73,
+2023-12-11,Coking Coal,Colombia,export,253.23,1.947,1.908,
+2023-12-11,Coking Coal,Russia,export,253.23,4.527,5.031,
+2023-12-11,Coking Coal,USA,export,253.23,2.563,2.794,
+2023-12-11,Coking Coal,China,import,253.23,9.49,,107.4
+2023-12-11,Coking Coal,India,import,253.23,5.3,,85.3
+2023-12-11,Coking Coal,Japan,import,253.23,2.775,,115.3
+2023-12-11,Coking Coal,South Korea,import,253.23,2.583,,126.2
+2023-12-11,Coking Coal,Netherlands,import,253.23,1.372,,98.7
+2023-12-18,Coking Coal,Australia,export,279.78,9.056,9.808,
+2023-12-18,Coking Coal,Indonesia,export,279.78,12.043,11.422,
+2023-12-18,Coking Coal,South Africa,export,279.78,2.958,3.689,
+2023-12-18,Coking Coal,Colombia,export,279.78,1.947,1.803,
+2023-12-18,Coking Coal,Russia,export,279.78,4.527,5.009,
+2023-12-18,Coking Coal,USA,export,279.78,2.563,2.719,
+2023-12-18,Coking Coal,China,import,279.78,9.49,,108.9
+2023-12-18,Coking Coal,India,import,279.78,5.3,,92.6
+2023-12-18,Coking Coal,Japan,import,279.78,2.775,,114.3
+2023-12-18,Coking Coal,South Korea,import,279.78,2.583,,122.5
+2023-12-18,Coking Coal,Netherlands,import,279.78,1.372,,103.4
+2023-12-25,Coking Coal,Australia,export,276.47,9.056,10.893,
+2023-12-25,Coking Coal,Indonesia,export,276.47,12.043,11.13,
+2023-12-25,Coking Coal,South Africa,export,276.47,2.958,3.709,
+2023-12-25,Coking Coal,Colombia,export,276.47,1.947,1.815,
+2023-12-25,Coking Coal,Russia,export,276.47,4.527,4.94,
+2023-12-25,Coking Coal,USA,export,276.47,2.563,2.902,
+2023-12-25,Coking Coal,China,import,276.47,9.49,,96.9
+2023-12-25,Coking Coal,India,import,276.47,5.3,,95.1
+2023-12-25,Coking Coal,Japan,import,276.47,2.775,,108.6
+2023-12-25,Coking Coal,South Korea,import,276.47,2.583,,123.2
+2023-12-25,Coking Coal,Netherlands,import,276.47,1.372,,109.2
+2024-01-01,Coking Coal,Australia,export,253.32,9.056,10.194,
+2024-01-01,Coking Coal,Indonesia,export,253.32,12.043,11.371,
+2024-01-01,Coking Coal,South Africa,export,253.32,2.958,3.75,
+2024-01-01,Coking Coal,Colombia,export,253.32,1.947,2.007,
+2024-01-01,Coking Coal,Russia,export,253.32,4.527,4.503,
+2024-01-01,Coking Coal,USA,export,253.32,2.563,2.676,
+2024-01-01,Coking Coal,China,import,253.32,9.49,,91.5
+2024-01-01,Coking Coal,India,import,253.32,5.3,,94.3
+2024-01-01,Coking Coal,Japan,import,253.32,2.775,,106.7
+2024-01-01,Coking Coal,South Korea,import,253.32,2.583,,124.8
+2024-01-01,Coking Coal,Netherlands,import,253.32,1.372,,106.5
+2024-01-08,Coking Coal,Australia,export,252.25,9.056,11.205,
+2024-01-08,Coking Coal,Indonesia,export,252.25,12.043,11.437,
+2024-01-08,Coking Coal,South Africa,export,252.25,2.958,3.64,
+2024-01-08,Coking Coal,Colombia,export,252.25,1.947,1.974,
+2024-01-08,Coking Coal,Russia,export,252.25,4.527,4.761,
+2024-01-08,Coking Coal,USA,export,252.25,2.563,2.587,
+2024-01-08,Coking Coal,China,import,252.25,9.49,,86.4
+2024-01-08,Coking Coal,India,import,252.25,5.3,,91.4
+2024-01-08,Coking Coal,Japan,import,252.25,2.775,,102.9
+2024-01-08,Coking Coal,South Korea,import,252.25,2.583,,125.7
+2024-01-08,Coking Coal,Netherlands,import,252.25,1.372,,97.2
+2024-01-15,Coking Coal,Australia,export,259.17,9.056,11.313,
+2024-01-15,Coking Coal,Indonesia,export,259.17,12.043,11.613,
+2024-01-15,Coking Coal,South Africa,export,259.17,2.958,3.361,
+2024-01-15,Coking Coal,Colombia,export,259.17,1.947,1.833,
+2024-01-15,Coking Coal,Russia,export,259.17,4.527,4.768,
+2024-01-15,Coking Coal,USA,export,259.17,2.563,2.322,
+2024-01-15,Coking Coal,China,import,259.17,9.49,,86.4
+2024-01-15,Coking Coal,India,import,259.17,5.3,,89.3
+2024-01-15,Coking Coal,Japan,import,259.17,2.775,,98.5
+2024-01-15,Coking Coal,South Korea,import,259.17,2.583,,124.6
+2024-01-15,Coking Coal,Netherlands,import,259.17,1.372,,106.1
+2024-01-22,Coking Coal,Australia,export,256.9,9.056,11.961,
+2024-01-22,Coking Coal,Indonesia,export,256.9,12.043,11.754,
+2024-01-22,Coking Coal,South Africa,export,256.9,2.958,3.35,
+2024-01-22,Coking Coal,Colombia,export,256.9,1.947,2.071,
+2024-01-22,Coking Coal,Russia,export,256.9,4.527,4.657,
+2024-01-22,Coking Coal,USA,export,256.9,2.563,2.553,
+2024-01-22,Coking Coal,China,import,256.9,9.49,,82.4
+2024-01-22,Coking Coal,India,import,256.9,5.3,,91.7
+2024-01-22,Coking Coal,Japan,import,256.9,2.775,,93.8
+2024-01-22,Coking Coal,South Korea,import,256.9,2.583,,119.6
+2024-01-22,Coking Coal,Netherlands,import,256.9,1.372,,103.1
+2024-01-29,Coking Coal,Australia,export,244.81,9.056,11.591,
+2024-01-29,Coking Coal,Indonesia,export,244.81,12.043,11.252,
+2024-01-29,Coking Coal,South Africa,export,244.81,2.958,3.071,
+2024-01-29,Coking Coal,Colombia,export,244.81,1.947,1.954,
+2024-01-29,Coking Coal,Russia,export,244.81,4.527,4.498,
+2024-01-29,Coking Coal,USA,export,244.81,2.563,2.721,
+2024-01-29,Coking Coal,China,import,244.81,9.49,,78.0
+2024-01-29,Coking Coal,India,import,244.81,5.3,,92.9
+2024-01-29,Coking Coal,Japan,import,244.81,2.775,,90.3
+2024-01-29,Coking Coal,South Korea,import,244.81,2.583,,118.7
+2024-01-29,Coking Coal,Netherlands,import,244.81,1.372,,106.7
+2024-02-05,Coking Coal,Australia,export,264.87,9.056,11.693,
+2024-02-05,Coking Coal,Indonesia,export,264.87,12.043,11.027,
+2024-02-05,Coking Coal,South Africa,export,264.87,2.958,3.136,
+2024-02-05,Coking Coal,Colombia,export,264.87,1.947,1.916,
+2024-02-05,Coking Coal,Russia,export,264.87,4.527,4.927,
+2024-02-05,Coking Coal,USA,export,264.87,2.563,2.796,
+2024-02-05,Coking Coal,China,import,264.87,9.49,,84.7
+2024-02-05,Coking Coal,India,import,264.87,5.3,,94.7
+2024-02-05,Coking Coal,Japan,import,264.87,2.775,,97.5
+2024-02-05,Coking Coal,South Korea,import,264.87,2.583,,120.1
+2024-02-05,Coking Coal,Netherlands,import,264.87,1.372,,105.1
+2024-02-12,Coking Coal,Australia,export,250.71,9.056,13.032,
+2024-02-12,Coking Coal,Indonesia,export,250.71,12.043,10.888,
+2024-02-12,Coking Coal,South Africa,export,250.71,2.958,3.179,
+2024-02-12,Coking Coal,Colombia,export,250.71,1.947,1.957,
+2024-02-12,Coking Coal,Russia,export,250.71,4.527,4.942,
+2024-02-12,Coking Coal,USA,export,250.71,2.563,2.726,
+2024-02-12,Coking Coal,China,import,250.71,9.49,,89.9
+2024-02-12,Coking Coal,India,import,250.71,5.3,,99.7
+2024-02-12,Coking Coal,Japan,import,250.71,2.775,,100.4
+2024-02-12,Coking Coal,South Korea,import,250.71,2.583,,122.1
+2024-02-12,Coking Coal,Netherlands,import,250.71,1.372,,105.4
+2024-02-19,Coking Coal,Australia,export,256.93,9.056,13.629,
+2024-02-19,Coking Coal,Indonesia,export,256.93,12.043,10.812,
+2024-02-19,Coking Coal,South Africa,export,256.93,2.958,3.306,
+2024-02-19,Coking Coal,Colombia,export,256.93,1.947,1.923,
+2024-02-19,Coking Coal,Russia,export,256.93,4.527,4.852,
+2024-02-19,Coking Coal,USA,export,256.93,2.563,2.655,
+2024-02-19,Coking Coal,China,import,256.93,9.49,,95.7
+2024-02-19,Coking Coal,India,import,256.93,5.3,,99.5
+2024-02-19,Coking Coal,Japan,import,256.93,2.775,,101.3
+2024-02-19,Coking Coal,South Korea,import,256.93,2.583,,118.1
+2024-02-19,Coking Coal,Netherlands,import,256.93,1.372,,103.6
+2024-02-26,Coking Coal,Australia,export,253.11,9.056,13.779,
+2024-02-26,Coking Coal,Indonesia,export,253.11,12.043,11.058,
+2024-02-26,Coking Coal,South Africa,export,253.11,2.958,3.242,
+2024-02-26,Coking Coal,Colombia,export,253.11,1.947,1.776,
+2024-02-26,Coking Coal,Russia,export,253.11,4.527,4.903,
+2024-02-26,Coking Coal,USA,export,253.11,2.563,2.562,
+2024-02-26,Coking Coal,China,import,253.11,9.49,,92.7
+2024-02-26,Coking Coal,India,import,253.11,5.3,,95.9
+2024-02-26,Coking Coal,Japan,import,253.11,2.775,,103.7
+2024-02-26,Coking Coal,South Korea,import,253.11,2.583,,113.8
+2024-02-26,Coking Coal,Netherlands,import,253.11,1.372,,101.3
+2024-03-04,Coking Coal,Australia,export,248.65,9.056,13.49,
+2024-03-04,Coking Coal,Indonesia,export,248.65,12.043,11.123,
+2024-03-04,Coking Coal,South Africa,export,248.65,2.958,3.231,
+2024-03-04,Coking Coal,Colombia,export,248.65,1.947,2.079,
+2024-03-04,Coking Coal,Russia,export,248.65,4.527,4.578,
+2024-03-04,Coking Coal,USA,export,248.65,2.563,2.604,
+2024-03-04,Coking Coal,China,import,248.65,9.49,,94.7
+2024-03-04,Coking Coal,India,import,248.65,5.3,,96.1
+2024-03-04,Coking Coal,Japan,import,248.65,2.775,,106.2
+2024-03-04,Coking Coal,South Korea,import,248.65,2.583,,117.2
+2024-03-04,Coking Coal,Netherlands,import,248.65,1.372,,100.8
+2024-03-11,Coking Coal,Australia,export,272.11,9.056,12.682,
+2024-03-11,Coking Coal,Indonesia,export,272.11,12.043,10.572,
+2024-03-11,Coking Coal,South Africa,export,272.11,2.958,2.949,
+2024-03-11,Coking Coal,Colombia,export,272.11,1.947,2.104,
+2024-03-11,Coking Coal,Russia,export,272.11,4.527,4.278,
+2024-03-11,Coking Coal,USA,export,272.11,2.563,2.754,
+2024-03-11,Coking Coal,China,import,272.11,9.49,,101.3
+2024-03-11,Coking Coal,India,import,272.11,5.3,,94.8
+2024-03-11,Coking Coal,Japan,import,272.11,2.775,,101.6
+2024-03-11,Coking Coal,South Korea,import,272.11,2.583,,114.9
+2024-03-11,Coking Coal,Netherlands,import,272.11,1.372,,96.7
+2024-03-18,Coking Coal,Australia,export,240.22,9.056,12.709,
+2024-03-18,Coking Coal,Indonesia,export,240.22,12.043,10.614,
+2024-03-18,Coking Coal,South Africa,export,240.22,2.958,3.2,
+2024-03-18,Coking Coal,Colombia,export,240.22,1.947,2.141,
+2024-03-18,Coking Coal,Russia,export,240.22,4.527,4.297,
+2024-03-18,Coking Coal,USA,export,240.22,2.563,2.698,
+2024-03-18,Coking Coal,China,import,240.22,9.49,,108.4
+2024-03-18,Coking Coal,India,import,240.22,5.3,,96.7
+2024-03-18,Coking Coal,Japan,import,240.22,2.775,,104.8
+2024-03-18,Coking Coal,South Korea,import,240.22,2.583,,116.6
+2024-03-18,Coking Coal,Netherlands,import,240.22,1.372,,100.1
+2024-03-25,Coking Coal,Australia,export,235.97,9.056,11.645,
+2024-03-25,Coking Coal,Indonesia,export,235.97,12.043,10.649,
+2024-03-25,Coking Coal,South Africa,export,235.97,2.958,3.084,
+2024-03-25,Coking Coal,Colombia,export,235.97,1.947,2.116,
+2024-03-25,Coking Coal,Russia,export,235.97,4.527,4.086,
+2024-03-25,Coking Coal,USA,export,235.97,2.563,2.687,
+2024-03-25,Coking Coal,China,import,235.97,9.49,,110.2
+2024-03-25,Coking Coal,India,import,235.97,5.3,,98.8
+2024-03-25,Coking Coal,Japan,import,235.97,2.775,,114.3
+2024-03-25,Coking Coal,South Korea,import,235.97,2.583,,117.2
+2024-03-25,Coking Coal,Netherlands,import,235.97,1.372,,95.7
+2024-04-01,Coking Coal,Australia,export,248.65,9.056,10.673,
+2024-04-01,Coking Coal,Indonesia,export,248.65,12.043,10.844,
+2024-04-01,Coking Coal,South Africa,export,248.65,2.958,3.321,
+2024-04-01,Coking Coal,Colombia,export,248.65,1.947,2.059,
+2024-04-01,Coking Coal,Russia,export,248.65,4.527,4.032,
+2024-04-01,Coking Coal,USA,export,248.65,2.563,2.83,
+2024-04-01,Coking Coal,China,import,248.65,9.49,,110.7
+2024-04-01,Coking Coal,India,import,248.65,5.3,,89.7
+2024-04-01,Coking Coal,Japan,import,248.65,2.775,,110.7
+2024-04-01,Coking Coal,South Korea,import,248.65,2.583,,120.3
+2024-04-01,Coking Coal,Netherlands,import,248.65,1.372,,100.5
+2024-04-08,Coking Coal,Australia,export,265.44,9.056,10.897,
+2024-04-08,Coking Coal,Indonesia,export,265.44,12.043,9.98,
+2024-04-08,Coking Coal,South Africa,export,265.44,2.958,3.441,
+2024-04-08,Coking Coal,Colombia,export,265.44,1.947,2.23,
+2024-04-08,Coking Coal,Russia,export,265.44,4.527,3.899,
+2024-04-08,Coking Coal,USA,export,265.44,2.563,2.835,
+2024-04-08,Coking Coal,China,import,265.44,9.49,,106.4
+2024-04-08,Coking Coal,India,import,265.44,5.3,,90.8
+2024-04-08,Coking Coal,Japan,import,265.44,2.775,,110.1
+2024-04-08,Coking Coal,South Korea,import,265.44,2.583,,110.6
+2024-04-08,Coking Coal,Netherlands,import,265.44,1.372,,96.1
+2024-04-15,Coking Coal,Australia,export,259.22,9.056,11.239,
+2024-04-15,Coking Coal,Indonesia,export,259.22,12.043,11.021,
+2024-04-15,Coking Coal,South Africa,export,259.22,2.958,3.516,
+2024-04-15,Coking Coal,Colombia,export,259.22,1.947,2.072,
+2024-04-15,Coking Coal,Russia,export,259.22,4.527,4.267,
+2024-04-15,Coking Coal,USA,export,259.22,2.563,2.637,
+2024-04-15,Coking Coal,China,import,259.22,9.49,,104.8
+2024-04-15,Coking Coal,India,import,259.22,5.3,,91.8
+2024-04-15,Coking Coal,Japan,import,259.22,2.775,,111.8
+2024-04-15,Coking Coal,South Korea,import,259.22,2.583,,108.8
+2024-04-15,Coking Coal,Netherlands,import,259.22,1.372,,94.8
+2024-04-22,Coking Coal,Australia,export,252.29,9.056,11.797,
+2024-04-22,Coking Coal,Indonesia,export,252.29,12.043,10.757,
+2024-04-22,Coking Coal,South Africa,export,252.29,2.958,3.733,
+2024-04-22,Coking Coal,Colombia,export,252.29,1.947,2.162,
+2024-04-22,Coking Coal,Russia,export,252.29,4.527,4.626,
+2024-04-22,Coking Coal,USA,export,252.29,2.563,2.587,
+2024-04-22,Coking Coal,China,import,252.29,9.49,,108.5
+2024-04-22,Coking Coal,India,import,252.29,5.3,,91.1
+2024-04-22,Coking Coal,Japan,import,252.29,2.775,,111.8
+2024-04-22,Coking Coal,South Korea,import,252.29,2.583,,107.6
+2024-04-22,Coking Coal,Netherlands,import,252.29,1.372,,103.3
+2024-04-29,Coking Coal,Australia,export,253.22,9.056,12.241,
+2024-04-29,Coking Coal,Indonesia,export,253.22,12.043,11.208,
+2024-04-29,Coking Coal,South Africa,export,253.22,2.958,3.596,
+2024-04-29,Coking Coal,Colombia,export,253.22,1.947,2.148,
+2024-04-29,Coking Coal,Russia,export,253.22,4.527,4.498,
+2024-04-29,Coking Coal,USA,export,253.22,2.563,2.422,
+2024-04-29,Coking Coal,China,import,253.22,9.49,,104.4
+2024-04-29,Coking Coal,India,import,253.22,5.3,,95.0
+2024-04-29,Coking Coal,Japan,import,253.22,2.775,,107.0
+2024-04-29,Coking Coal,South Korea,import,253.22,2.583,,98.5
+2024-04-29,Coking Coal,Netherlands,import,253.22,1.372,,95.3
+2024-05-06,Coking Coal,Australia,export,239.54,9.056,12.259,
+2024-05-06,Coking Coal,Indonesia,export,239.54,12.043,11.223,
+2024-05-06,Coking Coal,South Africa,export,239.54,2.958,3.667,
+2024-05-06,Coking Coal,Colombia,export,239.54,1.947,2.176,
+2024-05-06,Coking Coal,Russia,export,239.54,4.527,4.777,
+2024-05-06,Coking Coal,USA,export,239.54,2.563,2.568,
+2024-05-06,Coking Coal,China,import,239.54,9.49,,106.7
+2024-05-06,Coking Coal,India,import,239.54,5.3,,90.3
+2024-05-06,Coking Coal,Japan,import,239.54,2.775,,105.1
+2024-05-06,Coking Coal,South Korea,import,239.54,2.583,,97.5
+2024-05-06,Coking Coal,Netherlands,import,239.54,1.372,,93.1
+2024-05-13,Coking Coal,Australia,export,249.57,9.056,12.493,
+2024-05-13,Coking Coal,Indonesia,export,249.57,12.043,11.26,
+2024-05-13,Coking Coal,South Africa,export,249.57,2.958,3.595,
+2024-05-13,Coking Coal,Colombia,export,249.57,1.947,1.989,
+2024-05-13,Coking Coal,Russia,export,249.57,4.527,4.445,
+2024-05-13,Coking Coal,USA,export,249.57,2.563,2.461,
+2024-05-13,Coking Coal,China,import,249.57,9.49,,102.5
+2024-05-13,Coking Coal,India,import,249.57,5.3,,91.5
+2024-05-13,Coking Coal,Japan,import,249.57,2.775,,98.3
+2024-05-13,Coking Coal,South Korea,import,249.57,2.583,,96.7
+2024-05-13,Coking Coal,Netherlands,import,249.57,1.372,,99.6
+2024-05-20,Coking Coal,Australia,export,254.97,9.056,11.504,
+2024-05-20,Coking Coal,Indonesia,export,254.97,12.043,11.601,
+2024-05-20,Coking Coal,South Africa,export,254.97,2.958,3.439,
+2024-05-20,Coking Coal,Colombia,export,254.97,1.947,1.941,
+2024-05-20,Coking Coal,Russia,export,254.97,4.527,4.542,
+2024-05-20,Coking Coal,USA,export,254.97,2.563,2.356,
+2024-05-20,Coking Coal,China,import,254.97,9.49,,99.7
+2024-05-20,Coking Coal,India,import,254.97,5.3,,85.6
+2024-05-20,Coking Coal,Japan,import,254.97,2.775,,95.2
+2024-05-20,Coking Coal,South Korea,import,254.97,2.583,,94.9
+2024-05-20,Coking Coal,Netherlands,import,254.97,1.372,,99.6
+2024-05-27,Coking Coal,Australia,export,289.86,9.056,11.1,
+2024-05-27,Coking Coal,Indonesia,export,289.86,12.043,11.777,
+2024-05-27,Coking Coal,South Africa,export,289.86,2.958,3.712,
+2024-05-27,Coking Coal,Colombia,export,289.86,1.947,2.04,
+2024-05-27,Coking Coal,Russia,export,289.86,4.527,4.92,
+2024-05-27,Coking Coal,USA,export,289.86,2.563,2.572,
+2024-05-27,Coking Coal,China,import,289.86,9.49,,86.6
+2024-05-27,Coking Coal,India,import,289.86,5.3,,85.0
+2024-05-27,Coking Coal,Japan,import,289.86,2.775,,97.6
+2024-05-27,Coking Coal,South Korea,import,289.86,2.583,,90.9
+2024-05-27,Coking Coal,Netherlands,import,289.86,1.372,,102.6
+2024-06-03,Coking Coal,Australia,export,330.81,9.056,11.656,
+2024-06-03,Coking Coal,Indonesia,export,330.81,12.043,10.908,
+2024-06-03,Coking Coal,South Africa,export,330.81,2.958,3.812,
+2024-06-03,Coking Coal,Colombia,export,330.81,1.947,2.087,
+2024-06-03,Coking Coal,Russia,export,330.81,4.527,4.967,
+2024-06-03,Coking Coal,USA,export,330.81,2.563,2.576,
+2024-06-03,Coking Coal,China,import,330.81,9.49,,84.4
+2024-06-03,Coking Coal,India,import,330.81,5.3,,82.4
+2024-06-03,Coking Coal,Japan,import,330.81,2.775,,101.5
+2024-06-03,Coking Coal,South Korea,import,330.81,2.583,,84.8
+2024-06-03,Coking Coal,Netherlands,import,330.81,1.372,,103.0
+2024-06-10,Coking Coal,Australia,export,351.74,9.056,11.273,
+2024-06-10,Coking Coal,Indonesia,export,351.74,12.043,11.136,
+2024-06-10,Coking Coal,South Africa,export,351.74,2.958,3.895,
+2024-06-10,Coking Coal,Colombia,export,351.74,1.947,2.242,
+2024-06-10,Coking Coal,Russia,export,351.74,4.527,4.95,
+2024-06-10,Coking Coal,USA,export,351.74,2.563,2.509,
+2024-06-10,Coking Coal,China,import,351.74,9.49,,81.8
+2024-06-10,Coking Coal,India,import,351.74,5.3,,82.0
+2024-06-10,Coking Coal,Japan,import,351.74,2.775,,101.9
+2024-06-10,Coking Coal,South Korea,import,351.74,2.583,,79.7
+2024-06-10,Coking Coal,Netherlands,import,351.74,1.372,,96.0
+2024-06-17,Coking Coal,Australia,export,338.15,9.056,11.669,
+2024-06-17,Coking Coal,Indonesia,export,338.15,12.043,10.686,
+2024-06-17,Coking Coal,South Africa,export,338.15,2.958,3.759,
+2024-06-17,Coking Coal,Colombia,export,338.15,1.947,2.288,
+2024-06-17,Coking Coal,Russia,export,338.15,4.527,5.103,
+2024-06-17,Coking Coal,USA,export,338.15,2.563,2.497,
+2024-06-17,Coking Coal,China,import,338.15,9.49,,79.9
+2024-06-17,Coking Coal,India,import,338.15,5.3,,84.1
+2024-06-17,Coking Coal,Japan,import,338.15,2.775,,102.8
+2024-06-17,Coking Coal,South Korea,import,338.15,2.583,,83.7
+2024-06-17,Coking Coal,Netherlands,import,338.15,1.372,,93.3
+2024-06-24,Coking Coal,Australia,export,322.08,9.056,11.857,
+2024-06-24,Coking Coal,Indonesia,export,322.08,12.043,10.469,
+2024-06-24,Coking Coal,South Africa,export,322.08,2.958,3.965,
+2024-06-24,Coking Coal,Colombia,export,322.08,1.947,2.262,
+2024-06-24,Coking Coal,Russia,export,322.08,4.527,5.052,
+2024-06-24,Coking Coal,USA,export,322.08,2.563,2.588,
+2024-06-24,Coking Coal,China,import,322.08,9.49,,79.8
+2024-06-24,Coking Coal,India,import,322.08,5.3,,77.2
+2024-06-24,Coking Coal,Japan,import,322.08,2.775,,102.9
+2024-06-24,Coking Coal,South Korea,import,322.08,2.583,,82.7
+2024-06-24,Coking Coal,Netherlands,import,322.08,1.372,,91.8
+2024-07-01,Coking Coal,Australia,export,312.15,9.056,11.578,
+2024-07-01,Coking Coal,Indonesia,export,312.15,12.043,10.049,
+2024-07-01,Coking Coal,South Africa,export,312.15,2.958,3.954,
+2024-07-01,Coking Coal,Colombia,export,312.15,1.947,2.207,
+2024-07-01,Coking Coal,Russia,export,312.15,4.527,5.25,
+2024-07-01,Coking Coal,USA,export,312.15,2.563,2.706,
+2024-07-01,Coking Coal,China,import,312.15,9.49,,79.5
+2024-07-01,Coking Coal,India,import,312.15,5.3,,79.0
+2024-07-01,Coking Coal,Japan,import,312.15,2.775,,99.6
+2024-07-01,Coking Coal,South Korea,import,312.15,2.583,,85.0
+2024-07-01,Coking Coal,Netherlands,import,312.15,1.372,,93.5
+2024-07-08,Coking Coal,Australia,export,333.07,9.056,11.251,
+2024-07-08,Coking Coal,Indonesia,export,333.07,12.043,10.101,
+2024-07-08,Coking Coal,South Africa,export,333.07,2.958,3.918,
+2024-07-08,Coking Coal,Colombia,export,333.07,1.947,2.352,
+2024-07-08,Coking Coal,Russia,export,333.07,4.527,5.818,
+2024-07-08,Coking Coal,USA,export,333.07,2.563,2.623,
+2024-07-08,Coking Coal,China,import,333.07,9.49,,75.6
+2024-07-08,Coking Coal,India,import,333.07,5.3,,83.8
+2024-07-08,Coking Coal,Japan,import,333.07,2.775,,101.3
+2024-07-08,Coking Coal,South Korea,import,333.07,2.583,,83.3
+2024-07-08,Coking Coal,Netherlands,import,333.07,1.372,,93.4
+2024-07-15,Coking Coal,Australia,export,314.09,9.056,11.879,
+2024-07-15,Coking Coal,Indonesia,export,314.09,12.043,10.173,
+2024-07-15,Coking Coal,South Africa,export,314.09,2.958,3.707,
+2024-07-15,Coking Coal,Colombia,export,314.09,1.947,2.239,
+2024-07-15,Coking Coal,Russia,export,314.09,4.527,5.455,
+2024-07-15,Coking Coal,USA,export,314.09,2.563,2.56,
+2024-07-15,Coking Coal,China,import,314.09,9.49,,75.4
+2024-07-15,Coking Coal,India,import,314.09,5.3,,86.8
+2024-07-15,Coking Coal,Japan,import,314.09,2.775,,105.2
+2024-07-15,Coking Coal,South Korea,import,314.09,2.583,,88.4
+2024-07-15,Coking Coal,Netherlands,import,314.09,1.372,,91.7
+2024-07-22,Coking Coal,Australia,export,329.08,9.056,11.875,
+2024-07-22,Coking Coal,Indonesia,export,329.08,12.043,10.505,
+2024-07-22,Coking Coal,South Africa,export,329.08,2.958,3.632,
+2024-07-22,Coking Coal,Colombia,export,329.08,1.947,2.38,
+2024-07-22,Coking Coal,Russia,export,329.08,4.527,5.677,
+2024-07-22,Coking Coal,USA,export,329.08,2.563,2.507,
+2024-07-22,Coking Coal,China,import,329.08,9.49,,81.8
+2024-07-22,Coking Coal,India,import,329.08,5.3,,85.8
+2024-07-22,Coking Coal,Japan,import,329.08,2.775,,108.6
+2024-07-22,Coking Coal,South Korea,import,329.08,2.583,,86.5
+2024-07-22,Coking Coal,Netherlands,import,329.08,1.372,,88.4
+2024-07-29,Coking Coal,Australia,export,322.62,9.056,11.57,
+2024-07-29,Coking Coal,Indonesia,export,322.62,12.043,11.475,
+2024-07-29,Coking Coal,South Africa,export,322.62,2.958,3.891,
+2024-07-29,Coking Coal,Colombia,export,322.62,1.947,2.407,
+2024-07-29,Coking Coal,Russia,export,322.62,4.527,5.621,
+2024-07-29,Coking Coal,USA,export,322.62,2.563,2.66,
+2024-07-29,Coking Coal,China,import,322.62,9.49,,75.8
+2024-07-29,Coking Coal,India,import,322.62,5.3,,82.5
+2024-07-29,Coking Coal,Japan,import,322.62,2.775,,108.6
+2024-07-29,Coking Coal,South Korea,import,322.62,2.583,,85.5
+2024-07-29,Coking Coal,Netherlands,import,322.62,1.372,,92.3
+2024-08-05,Coking Coal,Australia,export,354.79,9.056,12.233,
+2024-08-05,Coking Coal,Indonesia,export,354.79,12.043,10.289,
+2024-08-05,Coking Coal,South Africa,export,354.79,2.958,3.945,
+2024-08-05,Coking Coal,Colombia,export,354.79,1.947,2.421,
+2024-08-05,Coking Coal,Russia,export,354.79,4.527,5.443,
+2024-08-05,Coking Coal,USA,export,354.79,2.563,2.877,
+2024-08-05,Coking Coal,China,import,354.79,9.49,,76.3
+2024-08-05,Coking Coal,India,import,354.79,5.3,,79.6
+2024-08-05,Coking Coal,Japan,import,354.79,2.775,,107.5
+2024-08-05,Coking Coal,South Korea,import,354.79,2.583,,87.8
+2024-08-05,Coking Coal,Netherlands,import,354.79,1.372,,87.1
+2024-08-12,Coking Coal,Australia,export,347.57,9.056,11.622,
+2024-08-12,Coking Coal,Indonesia,export,347.57,12.043,10.784,
+2024-08-12,Coking Coal,South Africa,export,347.57,2.958,4.1,
+2024-08-12,Coking Coal,Colombia,export,347.57,1.947,2.428,
+2024-08-12,Coking Coal,Russia,export,347.57,4.527,5.467,
+2024-08-12,Coking Coal,USA,export,347.57,2.563,3.105,
+2024-08-12,Coking Coal,China,import,347.57,9.49,,78.8
+2024-08-12,Coking Coal,India,import,347.57,5.3,,77.6
+2024-08-12,Coking Coal,Japan,import,347.57,2.775,,107.1
+2024-08-12,Coking Coal,South Korea,import,347.57,2.583,,87.1
+2024-08-12,Coking Coal,Netherlands,import,347.57,1.372,,90.8
+2024-08-19,Coking Coal,Australia,export,328.86,9.056,11.957,
+2024-08-19,Coking Coal,Indonesia,export,328.86,12.043,9.64,
+2024-08-19,Coking Coal,South Africa,export,328.86,2.958,4.175,
+2024-08-19,Coking Coal,Colombia,export,328.86,1.947,2.598,
+2024-08-19,Coking Coal,Russia,export,328.86,4.527,5.829,
+2024-08-19,Coking Coal,USA,export,328.86,2.563,3.361,
+2024-08-19,Coking Coal,China,import,328.86,9.49,,85.1
+2024-08-19,Coking Coal,India,import,328.86,5.3,,80.2
+2024-08-19,Coking Coal,Japan,import,328.86,2.775,,110.5
+2024-08-19,Coking Coal,South Korea,import,328.86,2.583,,82.7
+2024-08-19,Coking Coal,Netherlands,import,328.86,1.372,,100.2
+2024-08-26,Coking Coal,Australia,export,315.87,9.056,11.992,
+2024-08-26,Coking Coal,Indonesia,export,315.87,12.043,10.43,
+2024-08-26,Coking Coal,South Africa,export,315.87,2.958,4.11,
+2024-08-26,Coking Coal,Colombia,export,315.87,1.947,2.592,
+2024-08-26,Coking Coal,Russia,export,315.87,4.527,5.561,
+2024-08-26,Coking Coal,USA,export,315.87,2.563,3.387,
+2024-08-26,Coking Coal,China,import,315.87,9.49,,91.2
+2024-08-26,Coking Coal,India,import,315.87,5.3,,81.3
+2024-08-26,Coking Coal,Japan,import,315.87,2.775,,103.4
+2024-08-26,Coking Coal,South Korea,import,315.87,2.583,,80.8
+2024-08-26,Coking Coal,Netherlands,import,315.87,1.372,,103.4
+2024-09-02,Coking Coal,Australia,export,384.94,9.056,11.545,
+2024-09-02,Coking Coal,Indonesia,export,384.94,12.043,10.56,
+2024-09-02,Coking Coal,South Africa,export,384.94,2.958,3.936,
+2024-09-02,Coking Coal,Colombia,export,384.94,1.947,2.582,
+2024-09-02,Coking Coal,Russia,export,384.94,4.527,5.507,
+2024-09-02,Coking Coal,USA,export,384.94,2.563,3.267,
+2024-09-02,Coking Coal,China,import,384.94,9.49,,88.0
+2024-09-02,Coking Coal,India,import,384.94,5.3,,81.4
+2024-09-02,Coking Coal,Japan,import,384.94,2.775,,102.9
+2024-09-02,Coking Coal,South Korea,import,384.94,2.583,,84.8
+2024-09-02,Coking Coal,Netherlands,import,384.94,1.372,,100.8
+2024-09-09,Coking Coal,Australia,export,347.07,9.056,11.813,
+2024-09-09,Coking Coal,Indonesia,export,347.07,12.043,10.562,
+2024-09-09,Coking Coal,South Africa,export,347.07,2.958,3.734,
+2024-09-09,Coking Coal,Colombia,export,347.07,1.947,2.523,
+2024-09-09,Coking Coal,Russia,export,347.07,4.527,5.471,
+2024-09-09,Coking Coal,USA,export,347.07,2.563,3.197,
+2024-09-09,Coking Coal,China,import,347.07,9.49,,96.5
+2024-09-09,Coking Coal,India,import,347.07,5.3,,81.5
+2024-09-09,Coking Coal,Japan,import,347.07,2.775,,101.6
+2024-09-09,Coking Coal,South Korea,import,347.07,2.583,,94.4
+2024-09-09,Coking Coal,Netherlands,import,347.07,1.372,,104.5
+2024-09-16,Coking Coal,Australia,export,363.19,9.056,11.298,
+2024-09-16,Coking Coal,Indonesia,export,363.19,12.043,11.183,
+2024-09-16,Coking Coal,South Africa,export,363.19,2.958,3.828,
+2024-09-16,Coking Coal,Colombia,export,363.19,1.947,2.542,
+2024-09-16,Coking Coal,Russia,export,363.19,4.527,4.971,
+2024-09-16,Coking Coal,USA,export,363.19,2.563,3.216,
+2024-09-16,Coking Coal,China,import,363.19,9.49,,96.4
+2024-09-16,Coking Coal,India,import,363.19,5.3,,88.8
+2024-09-16,Coking Coal,Japan,import,363.19,2.775,,102.9
+2024-09-16,Coking Coal,South Korea,import,363.19,2.583,,91.8
+2024-09-16,Coking Coal,Netherlands,import,363.19,1.372,,111.0
+2024-09-23,Coking Coal,Australia,export,343.52,9.056,9.526,
+2024-09-23,Coking Coal,Indonesia,export,343.52,12.043,11.178,
+2024-09-23,Coking Coal,South Africa,export,343.52,2.958,3.899,
+2024-09-23,Coking Coal,Colombia,export,343.52,1.947,2.666,
+2024-09-23,Coking Coal,Russia,export,343.52,4.527,4.746,
+2024-09-23,Coking Coal,USA,export,343.52,2.563,3.175,
+2024-09-23,Coking Coal,China,import,343.52,9.49,,102.3
+2024-09-23,Coking Coal,India,import,343.52,5.3,,83.7
+2024-09-23,Coking Coal,Japan,import,343.52,2.775,,108.9
+2024-09-23,Coking Coal,South Korea,import,343.52,2.583,,91.9
+2024-09-23,Coking Coal,Netherlands,import,343.52,1.372,,118.0
+2024-09-30,Coking Coal,Australia,export,347.85,9.056,8.902,
+2024-09-30,Coking Coal,Indonesia,export,347.85,12.043,11.259,
+2024-09-30,Coking Coal,South Africa,export,347.85,2.958,3.629,
+2024-09-30,Coking Coal,Colombia,export,347.85,1.947,2.518,
+2024-09-30,Coking Coal,Russia,export,347.85,4.527,4.665,
+2024-09-30,Coking Coal,USA,export,347.85,2.563,3.109,
+2024-09-30,Coking Coal,China,import,347.85,9.49,,103.5
+2024-09-30,Coking Coal,India,import,347.85,5.3,,80.5
+2024-09-30,Coking Coal,Japan,import,347.85,2.775,,115.5
+2024-09-30,Coking Coal,South Korea,import,347.85,2.583,,96.5
+2024-09-30,Coking Coal,Netherlands,import,347.85,1.372,,120.5
+2024-10-07,Coking Coal,Australia,export,327.56,9.056,10.074,
+2024-10-07,Coking Coal,Indonesia,export,327.56,12.043,11.407,
+2024-10-07,Coking Coal,South Africa,export,327.56,2.958,3.625,
+2024-10-07,Coking Coal,Colombia,export,327.56,1.947,2.509,
+2024-10-07,Coking Coal,Russia,export,327.56,4.527,4.285,
+2024-10-07,Coking Coal,USA,export,327.56,2.563,3.046,
+2024-10-07,Coking Coal,China,import,327.56,9.49,,104.7
+2024-10-07,Coking Coal,India,import,327.56,5.3,,83.4
+2024-10-07,Coking Coal,Japan,import,327.56,2.775,,113.1
+2024-10-07,Coking Coal,South Korea,import,327.56,2.583,,95.0
+2024-10-07,Coking Coal,Netherlands,import,327.56,1.372,,116.3
+2024-10-14,Coking Coal,Australia,export,330.05,9.056,8.916,
+2024-10-14,Coking Coal,Indonesia,export,330.05,12.043,11.034,
+2024-10-14,Coking Coal,South Africa,export,330.05,2.958,3.637,
+2024-10-14,Coking Coal,Colombia,export,330.05,1.947,2.625,
+2024-10-14,Coking Coal,Russia,export,330.05,4.527,4.562,
+2024-10-14,Coking Coal,USA,export,330.05,2.563,2.881,
+2024-10-14,Coking Coal,China,import,330.05,9.49,,104.6
+2024-10-14,Coking Coal,India,import,330.05,5.3,,87.6
+2024-10-14,Coking Coal,Japan,import,330.05,2.775,,113.6
+2024-10-14,Coking Coal,South Korea,import,330.05,2.583,,104.5
+2024-10-14,Coking Coal,Netherlands,import,330.05,1.372,,120.4
+2024-10-21,Coking Coal,Australia,export,342.83,9.056,8.944,
+2024-10-21,Coking Coal,Indonesia,export,342.83,12.043,11.3,
+2024-10-21,Coking Coal,South Africa,export,342.83,2.958,3.512,
+2024-10-21,Coking Coal,Colombia,export,342.83,1.947,2.637,
+2024-10-21,Coking Coal,Russia,export,342.83,4.527,4.576,
+2024-10-21,Coking Coal,USA,export,342.83,2.563,2.805,
+2024-10-21,Coking Coal,China,import,342.83,9.49,,96.3
+2024-10-21,Coking Coal,India,import,342.83,5.3,,84.0
+2024-10-21,Coking Coal,Japan,import,342.83,2.775,,117.6
+2024-10-21,Coking Coal,South Korea,import,342.83,2.583,,101.8
+2024-10-21,Coking Coal,Netherlands,import,342.83,1.372,,112.9
+2024-10-28,Coking Coal,Australia,export,344.89,9.056,9.373,
+2024-10-28,Coking Coal,Indonesia,export,344.89,12.043,11.987,
+2024-10-28,Coking Coal,South Africa,export,344.89,2.958,3.446,
+2024-10-28,Coking Coal,Colombia,export,344.89,1.947,2.497,
+2024-10-28,Coking Coal,Russia,export,344.89,4.527,4.817,
+2024-10-28,Coking Coal,USA,export,344.89,2.563,3.041,
+2024-10-28,Coking Coal,China,import,344.89,9.49,,103.2
+2024-10-28,Coking Coal,India,import,344.89,5.3,,83.5
+2024-10-28,Coking Coal,Japan,import,344.89,2.775,,118.2
+2024-10-28,Coking Coal,South Korea,import,344.89,2.583,,105.4
+2024-10-28,Coking Coal,Netherlands,import,344.89,1.372,,110.9
+2024-11-04,Coking Coal,Australia,export,356.44,9.056,9.392,
+2024-11-04,Coking Coal,Indonesia,export,356.44,12.043,10.499,
+2024-11-04,Coking Coal,South Africa,export,356.44,2.958,3.474,
+2024-11-04,Coking Coal,Colombia,export,356.44,1.947,2.407,
+2024-11-04,Coking Coal,Russia,export,356.44,4.527,4.581,
+2024-11-04,Coking Coal,USA,export,356.44,2.563,3.003,
+2024-11-04,Coking Coal,China,import,356.44,9.49,,108.7
+2024-11-04,Coking Coal,India,import,356.44,5.3,,79.5
+2024-11-04,Coking Coal,Japan,import,356.44,2.775,,115.2
+2024-11-04,Coking Coal,South Korea,import,356.44,2.583,,107.6
+2024-11-04,Coking Coal,Netherlands,import,356.44,1.372,,112.8
+2024-11-11,Coking Coal,Australia,export,334.88,9.056,9.662,
+2024-11-11,Coking Coal,Indonesia,export,334.88,12.043,11.158,
+2024-11-11,Coking Coal,South Africa,export,334.88,2.958,3.532,
+2024-11-11,Coking Coal,Colombia,export,334.88,1.947,2.374,
+2024-11-11,Coking Coal,Russia,export,334.88,4.527,4.343,
+2024-11-11,Coking Coal,USA,export,334.88,2.563,3.106,
+2024-11-11,Coking Coal,China,import,334.88,9.49,,110.0
+2024-11-11,Coking Coal,India,import,334.88,5.3,,78.3
+2024-11-11,Coking Coal,Japan,import,334.88,2.775,,110.7
+2024-11-11,Coking Coal,South Korea,import,334.88,2.583,,108.0
+2024-11-11,Coking Coal,Netherlands,import,334.88,1.372,,104.5
+2024-11-18,Coking Coal,Australia,export,312.09,9.056,8.8,
+2024-11-18,Coking Coal,Indonesia,export,312.09,12.043,11.023,
+2024-11-18,Coking Coal,South Africa,export,312.09,2.958,3.461,
+2024-11-18,Coking Coal,Colombia,export,312.09,1.947,2.208,
+2024-11-18,Coking Coal,Russia,export,312.09,4.527,4.444,
+2024-11-18,Coking Coal,USA,export,312.09,2.563,3.273,
+2024-11-18,Coking Coal,China,import,312.09,9.49,,114.8
+2024-11-18,Coking Coal,India,import,312.09,5.3,,81.1
+2024-11-18,Coking Coal,Japan,import,312.09,2.775,,111.3
+2024-11-18,Coking Coal,South Korea,import,312.09,2.583,,113.1
+2024-11-18,Coking Coal,Netherlands,import,312.09,1.372,,110.3
+2024-11-25,Coking Coal,Australia,export,301.22,9.056,9.744,
+2024-11-25,Coking Coal,Indonesia,export,301.22,12.043,11.426,
+2024-11-25,Coking Coal,South Africa,export,301.22,2.958,3.525,
+2024-11-25,Coking Coal,Colombia,export,301.22,1.947,2.206,
+2024-11-25,Coking Coal,Russia,export,301.22,4.527,4.461,
+2024-11-25,Coking Coal,USA,export,301.22,2.563,3.499,
+2024-11-25,Coking Coal,China,import,301.22,9.49,,119.0
+2024-11-25,Coking Coal,India,import,301.22,5.3,,79.0
+2024-11-25,Coking Coal,Japan,import,301.22,2.775,,117.1
+2024-11-25,Coking Coal,South Korea,import,301.22,2.583,,115.1
+2024-11-25,Coking Coal,Netherlands,import,301.22,1.372,,111.3
+2024-12-02,Coking Coal,Australia,export,285.95,9.056,10.01,
+2024-12-02,Coking Coal,Indonesia,export,285.95,12.043,11.235,
+2024-12-02,Coking Coal,South Africa,export,285.95,2.958,3.497,
+2024-12-02,Coking Coal,Colombia,export,285.95,1.947,2.155,
+2024-12-02,Coking Coal,Russia,export,285.95,4.527,4.115,
+2024-12-02,Coking Coal,USA,export,285.95,2.563,3.602,
+2024-12-02,Coking Coal,China,import,285.95,9.49,,113.9
+2024-12-02,Coking Coal,India,import,285.95,5.3,,89.3
+2024-12-02,Coking Coal,Japan,import,285.95,2.775,,114.4
+2024-12-02,Coking Coal,South Korea,import,285.95,2.583,,114.5
+2024-12-02,Coking Coal,Netherlands,import,285.95,1.372,,108.9
+2024-12-09,Coking Coal,Australia,export,244.27,9.056,10.127,
+2024-12-09,Coking Coal,Indonesia,export,244.27,12.043,11.678,
+2024-12-09,Coking Coal,South Africa,export,244.27,2.958,3.379,
+2024-12-09,Coking Coal,Colombia,export,244.27,1.947,2.226,
+2024-12-09,Coking Coal,Russia,export,244.27,4.527,4.056,
+2024-12-09,Coking Coal,USA,export,244.27,2.563,3.565,
+2024-12-09,Coking Coal,China,import,244.27,9.49,,105.1
+2024-12-09,Coking Coal,India,import,244.27,5.3,,91.8
+2024-12-09,Coking Coal,Japan,import,244.27,2.775,,114.1
+2024-12-09,Coking Coal,South Korea,import,244.27,2.583,,119.0
+2024-12-09,Coking Coal,Netherlands,import,244.27,1.372,,115.4
+2024-12-16,Coking Coal,Australia,export,207.29,9.056,10.144,
+2024-12-16,Coking Coal,Indonesia,export,207.29,12.043,11.438,
+2024-12-16,Coking Coal,South Africa,export,207.29,2.958,3.404,
+2024-12-16,Coking Coal,Colombia,export,207.29,1.947,2.259,
+2024-12-16,Coking Coal,Russia,export,207.29,4.527,3.85,
+2024-12-16,Coking Coal,USA,export,207.29,2.563,3.496,
+2024-12-16,Coking Coal,China,import,207.29,9.49,,101.6
+2024-12-16,Coking Coal,India,import,207.29,5.3,,98.0
+2024-12-16,Coking Coal,Japan,import,207.29,2.775,,114.7
+2024-12-16,Coking Coal,South Korea,import,207.29,2.583,,120.3
+2024-12-16,Coking Coal,Netherlands,import,207.29,1.372,,113.8
+2024-12-23,Coking Coal,Australia,export,221.01,9.056,11.646,
+2024-12-23,Coking Coal,Indonesia,export,221.01,12.043,11.899,
+2024-12-23,Coking Coal,South Africa,export,221.01,2.958,3.577,
+2024-12-23,Coking Coal,Colombia,export,221.01,1.947,2.193,
+2024-12-23,Coking Coal,Russia,export,221.01,4.527,3.759,
+2024-12-23,Coking Coal,USA,export,221.01,2.563,3.501,
+2024-12-23,Coking Coal,China,import,221.01,9.49,,98.5
+2024-12-23,Coking Coal,India,import,221.01,5.3,,95.7
+2024-12-23,Coking Coal,Japan,import,221.01,2.775,,109.7
+2024-12-23,Coking Coal,South Korea,import,221.01,2.583,,126.0
+2024-12-23,Coking Coal,Netherlands,import,221.01,1.372,,111.7
+2024-12-30,Coking Coal,Australia,export,192.25,9.056,11.384,
+2024-12-30,Coking Coal,Indonesia,export,192.25,12.043,10.988,
+2024-12-30,Coking Coal,South Africa,export,192.25,2.958,3.509,
+2024-12-30,Coking Coal,Colombia,export,192.25,1.947,2.174,
+2024-12-30,Coking Coal,Russia,export,192.25,4.527,3.794,
+2024-12-30,Coking Coal,USA,export,192.25,2.563,3.29,
+2024-12-30,Coking Coal,China,import,192.25,9.49,,101.5
+2024-12-30,Coking Coal,India,import,192.25,5.3,,96.1
+2024-12-30,Coking Coal,Japan,import,192.25,2.775,,107.1
+2024-12-30,Coking Coal,South Korea,import,192.25,2.583,,119.2
+2024-12-30,Coking Coal,Netherlands,import,192.25,1.372,,109.9

@@ -1,0 +1,11 @@
+route_code,route_name,origin_port_id,destination_port_id,vessel_class,distance_nm
+C5,W. Australia - Qingdao,PHE,QIN,Capesize,3900
+C3,Tubarao - Qingdao,TUB,QIN,Capesize,11600
+C10,Pacific RV (Newcastle-Qingdao),NEW,QIN,Capesize,4200
+P1A,Transatlantic RV,VAN,ROT,Panamax,5200
+P3A,Australia - Japan/China RV,NEW,RIZ,Panamax,4300
+S1B,S.Africa - China,RIB,NIN,Supramax,6800
+S4A,US Gulf/Baltimore - China,BAL,QIN,Supramax,9800
+HS1,Indonesia - India,TAB,PAR,Handysize,2600
+HS2,Indonesia - China,SAM,RIZ,Handysize,2100
+P2A,Continent - Far East,ROT,GAN,Panamax,7100
